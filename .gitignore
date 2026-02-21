@@ -1,0 +1,6 @@
+﻿config.json
+*.pyc
+__pycache__/
+.env
+*.log
+.DS_Store

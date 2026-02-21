@@ -1,0 +1,26 @@
+{
+  "updated_at": "초기 플레이스홀더 – GitHub Actions 첫 실행 후 자동 업데이트됩니다",
+  "indices": {
+    "kospi":  { "value": null, "change_pct": null },
+    "kosdaq": { "value": null, "change_pct": null },
+    "sp500":  { "value": null, "change_pct": null },
+    "nasdaq": { "value": null, "change_pct": null },
+    "dow":    { "value": null, "change_pct": null },
+    "usdkrw": { "value": null, "change_pct": null }
+  },
+  "kr": {
+    "sectors": [],
+    "top_stocks": []
+  },
+  "us": {
+    "sectors": [],
+    "top_stocks": []
+  },
+  "strategy": {
+    "overview":  "GitHub Actions 설정 후 첫 실행 시 자동으로 업데이트됩니다.",
+    "action":    "setup_github.ps1 실행 → Secrets 등록 → Actions 수동 트리거 순서로 진행하세요.",
+    "risk":      "ANTHROPIC_API_KEY Secret이 없으면 전략 생성이 스킵됩니다.",
+    "watchlist": "데이터 수집 완료 후 표시됩니다.",
+    "date":      "2026년 02월 21일 (초기값)"
+  }
+}

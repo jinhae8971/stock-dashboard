@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Dashboard — Personal Trading Terminal</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-primary:   #080c18;
+    --bg-secondary: #0d1526;
+    --bg-card:      #111927;
+    --bg-card2:     #0f1d2e;
+    --border:       #1e3050;
+    --border-glow:  #1e4a7a;
+    --kr-accent:    #00c6ff;
+    --us-accent:    #ff8c42;
+    --green:        #00e676;
+    --red:          #ff1744;
+    --yellow:       #ffd740;
+    --text-primary: #e8f4ff;
+    --text-muted:   #5a7a9a;
+    --text-dim:     #3a5a7a;
+    --strategy-bg:  #0a1628;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+    font-size: 13px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(180deg, #060a14 0%, var(--bg-secondary) 100%);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .header-logo {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--kr-accent);
+    text-shadow: 0 0 20px rgba(0,198,255,0.5);
+  }
+
+  .header-time {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .header-time span { color: var(--yellow); font-weight: 600; }
+
+  .next-update {
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+
+  /* ── INDEX BAR ── */
+  .index-bar {
+    display: flex;
+    gap: 0;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+  }
+
+  .index-item {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 18px;
+    border-right: 1px solid var(--border);
+    min-width: 130px;
+    cursor: default;
+  }
+
+  .index-name { font-size: 10px; color: var(--text-muted); letter-spacing: 1px; margin-bottom: 2px; }
+  .index-val  { font-size: 15px; font-weight: 700; }
+  .index-chg  { font-size: 11px; font-weight: 600; }
+
+  /* ── STRATEGY PANEL ── */
+  .strategy-panel {
+    background: var(--strategy-bg);
+    border-bottom: 1px solid var(--border-glow);
+    padding: 12px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .strategy-panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--kr-accent), var(--us-accent), transparent);
+  }
+
+  .strategy-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .strategy-badge {
+    background: linear-gradient(135deg, #1a3a5c, #0f2540);
+    border: 1px solid var(--kr-accent);
+    border-radius: 4px;
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--kr-accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .strategy-date { font-size: 11px; color: var(--text-muted); }
+
+  .strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+
+  .strategy-block {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+  }
+
+  .strategy-block-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--yellow);
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .strategy-text {
+    font-size: 12px;
+    color: #c0d8f0;
+    line-height: 1.6;
+  }
+
+  /* ── MARKET SPLIT ── */
+  .market-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 190px);
+    min-height: 600px;
+  }
+
+  .market-panel {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .market-panel.kr { border-right: 1px solid var(--border); }
+
+  .market-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .market-panel.kr .market-panel-header { background: linear-gradient(135deg, #061828, #0a1e30); }
+  .market-panel.us .market-panel-header { background: linear-gradient(135deg, #1a0e06, #2a1608); }
+
+  .market-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .market-panel.kr .market-title { color: var(--kr-accent); }
+  .market-panel.us .market-title { color: var(--us-accent); }
+
+  .market-subtitle { font-size: 10px; color: var(--text-muted); }
+
+  /* ── PANEL BODY ── */
+  .panel-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .chart-section {
+    padding: 10px 14px 6px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .section-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    flex-shrink: 0;
+  }
+
+  .chart-wrapper {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ── STOCK TABLE ── */
+  .stocks-section {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .stocks-table {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .stocks-table::-webkit-scrollbar { width: 4px; }
+  .stocks-table::-webkit-scrollbar-track { background: transparent; }
+  .stocks-table::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 4px 6px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg-card);
+    z-index: 1;
+  }
+
+  thead th.num { text-align: right; }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(30,48,80,0.4);
+    transition: background 0.15s;
+  }
+
+  tbody tr:hover { background: rgba(0,198,255,0.04); }
+
+  tbody td {
+    padding: 5px 6px;
+    font-size: 11px;
+  }
+
+  td.rank {
+    color: var(--text-dim);
+    font-size: 10px;
+    width: 20px;
+  }
+
+  td.stock-name { font-weight: 600; color: var(--text-primary); }
+  td.sector-tag { color: var(--text-muted); font-size: 10px; }
+
+  td.price, td.chg-pct, td.volume { text-align: right; }
+
+  td.price { font-family: 'Courier New', monospace; color: #a8c8e8; }
+
+  td.up   { color: var(--green); font-weight: 700; }
+  td.down { color: var(--red);   font-weight: 700; }
+  td.flat { color: var(--text-muted); }
+
+  td.volume { color: var(--text-muted); font-size: 10px; }
+
+  /* ── SECTOR LEGEND ── */
+  .sector-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 9px;
+    color: var(--text-muted);
+  }
+
+  .legend-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── LOADING / ERROR ── */
+  .loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(8,12,24,0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    gap: 16px;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--kr-accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .loading-text { color: var(--text-muted); font-size: 13px; letter-spacing: 1px; }
+
+  .error-msg {
+    background: rgba(255,23,68,0.1);
+    border: 1px solid rgba(255,23,68,0.3);
+    border-radius: 6px;
+    padding: 8px 14px;
+    color: var(--red);
+    font-size: 11px;
+    margin: 4px 14px;
+    display: none;
+  }
+
+  /* ── VOLUME BAR ── */
+  .vol-bar-wrap { display: flex; align-items: center; gap: 4px; }
+  .vol-bar {
+    height: 3px;
+    border-radius: 2px;
+    background: var(--text-dim);
+    max-width: 50px;
+    min-width: 4px;
+  }
+
+  /* ── PULSE ── */
+  @keyframes pulse-glow {
+    0%,100% { opacity: 1; }
+    50%      { opacity: 0.4; }
+  }
+  .live-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse-glow 2s ease-in-out infinite;
+    display: inline-block;
+    margin-right: 4px;
+  }
+</style>
+</head>
+<body>
+
+<!-- LOADING -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="spinner"></div>
+  <div class="loading-text">데이터 로딩 중...</div>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-logo">⬛ MARKET TERMINAL</div>
+  <div style="text-align:center">
+    <div class="header-time">업데이트: <span id="lastUpdate">—</span></div>
+    <div class="next-update" id="nextUpdate"></div>
+  </div>
+  <div style="text-align:right; font-size:11px; color:var(--text-dim)">
+    <span class="live-dot"></span>AUTO REFRESH 1H
+  </div>
+</div>
+
+<!-- INDEX BAR -->
+<div class="index-bar" id="indexBar">
+  <div class="index-item">
+    <span class="index-name">KOSPI</span>
+    <span class="index-val" id="kospi-val">—</span>
+    <span class="index-chg" id="kospi-chg">—</span>
+  </div>
+  <div class="index-item">
+    <span class="index-name">KOSDAQ</span>
+    <span class="index-val" id="kosdaq-val">—</span>
+    <span class="index-chg" id="kosdaq-chg">—</span>
+  </div>
+  <div class="index-item">
+    <span class="index-name">S&amp;P 500</span>
+    <span class="index-val" id="sp500-val">—</span>
+    <span class="index-chg" id="sp500-chg">—</span>
+  </div>
+  <div class="index-item">
+    <span class="index-name">NASDAQ</span>
+    <span class="index-val" id="nasdaq-val">—</span>
+    <span class="index-chg" id="nasdaq-chg">—</span>
+  </div>
+  <div class="index-item">
+    <span class="index-name">DOW JONES</span>
+    <span class="index-val" id="dow-val">—</span>
+    <span class="index-chg" id="dow-chg">—</span>
+  </div>
+  <div class="index-item">
+    <span class="index-name">USD/KRW</span>
+    <span class="index-val" id="usdkrw-val">—</span>
+    <span class="index-chg" id="usdkrw-chg">—</span>
+  </div>
+</div>
+
+<!-- STRATEGY PANEL -->
+<div class="strategy-panel">
+  <div class="strategy-header">
+    <span class="strategy-badge">🧠 Pro Trading Strategy</span>
+    <span class="strategy-date" id="strategyDate">—</span>
+  </div>
+  <div class="strategy-grid" id="strategyGrid">
+    <div class="strategy-block">
+      <div class="strategy-block-title">📊 시장 종합 전망</div>
+      <div class="strategy-text" id="strat-overview">데이터 로딩 중...</div>
+    </div>
+    <div class="strategy-block">
+      <div class="strategy-block-title">🎯 핵심 매매 전략</div>
+      <div class="strategy-text" id="strat-action">데이터 로딩 중...</div>
+    </div>
+    <div class="strategy-block">
+      <div class="strategy-block-title">⚠️ 리스크 관리</div>
+      <div class="strategy-text" id="strat-risk">데이터 로딩 중...</div>
+    </div>
+    <div class="strategy-block">
+      <div class="strategy-block-title">📌 주목 종목</div>
+      <div class="strategy-text" id="strat-watchlist">데이터 로딩 중...</div>
+    </div>
+  </div>
+</div>
+
+<!-- MARKET CONTAINER -->
+<div class="market-container">
+
+  <!-- KR PANEL -->
+  <div class="market-panel kr">
+    <div class="market-panel-header">
+      <div>
+        <div class="market-title">🇰🇷 한국 증시</div>
+        <div class="market-subtitle">KOSPI · KOSDAQ 주도 섹터/주도주</div>
+      </div>
+      <div id="kr-sentiment" style="font-size:11px; color:var(--text-muted)">—</div>
+    </div>
+    <div class="error-msg" id="kr-error"></div>
+    <div class="panel-body">
+      <div class="chart-section">
+        <div class="section-title">📈 섹터 등락률 (당일 %)</div>
+        <div class="chart-wrapper">
+          <canvas id="krSectorChart"></canvas>
+        </div>
+      </div>
+      <div class="stocks-section">
+        <div class="section-title">🔥 주도주 TOP 10</div>
+        <div class="stocks-table">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>종목명</th>
+                <th>섹터</th>
+                <th class="num">현재가</th>
+                <th class="num">등락률</th>
+                <th class="num">거래대금</th>
+                <th class="num">거래량↑</th>
+              </tr>
+            </thead>
+            <tbody id="krStockTable">
+              <tr><td colspan="6" style="text-align:center;color:var(--text-dim);padding:20px">로딩 중...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- US PANEL -->
+  <div class="market-panel us">
+    <div class="market-panel-header">
+      <div>
+        <div class="market-title">🇺🇸 미국 증시</div>
+        <div class="market-subtitle">S&P 500 · NASDAQ 주도 섹터/주도주</div>
+      </div>
+      <div id="us-sentiment" style="font-size:11px; color:var(--text-muted)">—</div>
+    </div>
+    <div class="error-msg" id="us-error"></div>
+    <div class="panel-body">
+      <div class="chart-section">
+        <div class="section-title">📈 섹터 ETF 등락률 (당일 %)</div>
+        <div class="chart-wrapper">
+          <canvas id="usSectorChart"></canvas>
+        </div>
+      </div>
+      <div class="stocks-section">
+        <div class="section-title">🔥 주도주 TOP 10</div>
+        <div class="stocks-table">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>종목명</th>
+                <th>섹터</th>
+                <th class="num">현재가</th>
+                <th class="num">등락률</th>
+                <th class="num">거래대금</th>
+                <th class="num">거래량↑</th>
+              </tr>
+            </thead>
+            <tbody id="usStockTable">
+              <tr><td colspan="6" style="text-align:center;color:var(--text-dim);padding:20px">로딩 중...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /market-container -->
+
+<script>
+// ════════════════════════════════════════════════
+//  Config
+// ════════════════════════════════════════════════
+const DATA_URL      = './data/market_data.json';
+const REFRESH_MS    = 60 * 60 * 1000; // 1시간
+
+const KR_COLORS = [
+  '#00c6ff','#0ea5e9','#38bdf8','#7dd3fc','#93c5fd',
+  '#60a5fa','#818cf8','#a78bfa','#c084fc','#e879f9'
+];
+const US_COLORS = [
+  '#ff8c42','#fb923c','#f97316','#ea580c','#ff6b35',
+  '#fbbf24','#f59e0b','#d97706','#92400e','#ffb347'
+];
+
+// ════════════════════════════════════════════════
+//  Helpers
+// ════════════════════════════════════════════════
+function fmtChg(v) {
+  if (v === null || v === undefined) return { text: '—', cls: 'flat' };
+  const n = parseFloat(v);
+  if (isNaN(n)) return { text: '—', cls: 'flat' };
+  const sign = n >= 0 ? '+' : '';
+  return { text: `${sign}${n.toFixed(2)}%`, cls: n > 0 ? 'up' : n < 0 ? 'down' : 'flat' };
+}
+
+function fmtNum(v, decimals = 0) {
+  if (v === null || v === undefined) return '—';
+  return parseFloat(v).toLocaleString('ko-KR', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+}
+
+function fmtVol(v) {
+  if (!v) return '—';
+  if (v >= 1e8) return (v / 1e8).toFixed(1) + '억';
+  if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+  if (v >= 1e4) return (v / 1e4).toFixed(0) + '만';
+  return v.toString();
+}
+
+function fmtTrading(v, isKr) {
+  if (!v) return '—';
+  if (isKr) {
+    if (v >= 1e12) return (v / 1e12).toFixed(1) + '조';
+    if (v >= 1e8)  return (v / 1e8).toFixed(0) + '억';
+    return (v / 1e4).toFixed(0) + '만';
+  } else {
+    if (v >= 1e9) return '$' + (v / 1e9).toFixed(2) + 'B';
+    if (v >= 1e6) return '$' + (v / 1e6).toFixed(0) + 'M';
+    return '$' + v.toFixed(0);
+  }
+}
+
+function setIndexCell(idVal, idChg, val, chg, decimals = 2) {
+  const ve = document.getElementById(idVal);
+  const ce = document.getElementById(idChg);
+  if (!ve || !ce) return;
+  ve.textContent = fmtNum(val, decimals);
+  const { text, cls } = fmtChg(chg);
+  ce.textContent = text;
+  ce.className = 'index-chg ' + cls;
+}
+
+// ════════════════════════════════════════════════
+//  Chart Builder
+// ════════════════════════════════════════════════
+function buildSectorChart(canvasId, labels, values, colors, accentColor) {
+  const ctx = document.getElementById(canvasId);
+  if (!ctx) return;
+
+  // destroy existing
+  if (Chart.getChart(canvasId)) Chart.getChart(canvasId).destroy();
+
+  const sorted = labels.map((l, i) => ({ l, v: parseFloat(values[i]) }))
+                       .sort((a, b) => b.v - a.v);
+
+  const bgColors = sorted.map(d =>
+    d.v > 0 ? 'rgba(0,230,118,0.75)' :
+    d.v < 0 ? 'rgba(255,23,68,0.75)' : 'rgba(90,122,154,0.5)'
+  );
+  const borderColors = sorted.map(d =>
+    d.v > 0 ? '#00e676' :
+    d.v < 0 ? '#ff1744' : '#5a7a9a'
+  );
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: sorted.map(d => d.l),
+      datasets: [{
+        data: sorted.map(d => d.v),
+        backgroundColor: bgColors,
+        borderColor: borderColors,
+        borderWidth: 1,
+        borderRadius: 3,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: { duration: 600, easing: 'easeOutQuart' },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#0d1526',
+          borderColor: accentColor,
+          borderWidth: 1,
+          titleColor: accentColor,
+          bodyColor: '#c0d8f0',
+          callbacks: {
+            label: ctx => ` ${ctx.parsed.x >= 0 ? '+' : ''}${ctx.parsed.x.toFixed(2)}%`
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: 'rgba(30,48,80,0.5)', drawBorder: false },
+          ticks: { color: '#5a7a9a', font: { size: 10 },
+            callback: v => `${v >= 0 ? '+' : ''}${v.toFixed(1)}%` },
+          border: { display: false }
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: '#a0c0e0', font: { size: 10 }, padding: 4 },
+          border: { display: false }
+        }
+      }
+    }
+  });
+}
+
+// ════════════════════════════════════════════════
+//  Stock Table
+// ════════════════════════════════════════════════
+function getChartUrl(ticker, isKr) {
+  if (isKr) {
+    const code = ticker.replace(/\.(KS|KQ)$/, '');
+    return `https://finance.naver.com/item/main.naver?code=${code}`;
+  }
+  return `https://www.tradingview.com/chart/?symbol=${ticker}`;
+}
+
+function buildStockTable(tbodyId, stocks, isKr) {
+  const tbody = document.getElementById(tbodyId);
+  if (!tbody) return;
+
+  if (!stocks || stocks.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--text-dim);padding:20px">데이터 없음</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = stocks.slice(0, 10).map((s, i) => {
+    const { text, cls } = fmtChg(s.change_pct);
+    const decimals  = s.price >= 1000 ? 0 : s.price >= 10 ? 1 : 2;
+    const surge     = s.vol_surge || 0;
+    const surgeCol  = surge >= 3 ? 'var(--yellow)' : surge >= 1.5 ? 'var(--green)' : 'var(--text-muted)';
+    const surgeText = surge > 0 ? surge.toFixed(1) + 'x' : '—';
+    const chartUrl  = getChartUrl(s.ticker, isKr);
+
+    return `
+    <tr>
+      <td class="rank">${i + 1}</td>
+      <td class="stock-name">
+        <a href="${chartUrl}" target="_blank" rel="noopener"
+           style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--border-glow)"
+           title="${isKr ? '네이버금융' : 'TradingView'} 차트 열기">
+          ${s.name || s.ticker}
+        </a>
+      </td>
+      <td class="sector-tag">${s.sector || '—'}</td>
+      <td class="price">${fmtNum(s.price, decimals)}</td>
+      <td class="${cls}">${text}</td>
+      <td class="volume" style="text-align:right">${fmtTrading(s.trading_value, isKr)}</td>
+      <td class="volume" style="text-align:right;color:${surgeCol};font-weight:${surge>=2?'700':'400'}">${surgeText}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ════════════════════════════════════════════════
+//  Strategy
+// ════════════════════════════════════════════════
+function nl2br(str) {
+  if (str === null || str === undefined || str === '' || str === '—') return '정보 없음';
+  // 배열: ["종목: 이유", ...] → 줄바꿈 결합
+  if (Array.isArray(str)) str = str.join('\n');
+  // 객체: {"삼성전자": "이유", ...} → "종목: 이유" 형식으로 변환
+  else if (typeof str === 'object') {
+    str = Object.entries(str).map(([k, v]) => `${k}: ${v}`).join('\n');
+  }
+  str = String(str).trim();
+  if (!str) return '정보 없음';
+  return str
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/\n/g, '<br>')
+    .replace(/^([^:\n]{1,30}):/gm, '<span style="color:var(--yellow);font-weight:700">$1</span>:');
+}
+
+function renderStrategy(strategy) {
+  if (!strategy) return;
+  document.getElementById('strat-overview').innerHTML  = nl2br(strategy.overview);
+  document.getElementById('strat-action').innerHTML    = nl2br(strategy.action);
+  document.getElementById('strat-risk').innerHTML      = nl2br(strategy.risk);
+  document.getElementById('strat-watchlist').innerHTML = nl2br(strategy.watchlist);
+  document.getElementById('strategyDate').textContent  = strategy.date || '';
+}
+
+// ════════════════════════════════════════════════
+//  Main Render
+// ════════════════════════════════════════════════
+function renderDashboard(data) {
+  // ── Indices ──
+  const idx = data.indices || {};
+  setIndexCell('kospi-val',  'kospi-chg',  idx.kospi?.value,  idx.kospi?.change_pct,  2);
+  setIndexCell('kosdaq-val', 'kosdaq-chg', idx.kosdaq?.value, idx.kosdaq?.change_pct, 2);
+  setIndexCell('sp500-val',  'sp500-chg',  idx.sp500?.value,  idx.sp500?.change_pct,  2);
+  setIndexCell('nasdaq-val', 'nasdaq-chg', idx.nasdaq?.value, idx.nasdaq?.change_pct, 2);
+  setIndexCell('dow-val',    'dow-chg',    idx.dow?.value,    idx.dow?.change_pct,    0);
+  setIndexCell('usdkrw-val', 'usdkrw-chg',idx.usdkrw?.value, idx.usdkrw?.change_pct, 1);
+
+  // ── KR Chart ──
+  const kr = data.kr || {};
+  if (kr.sectors && kr.sectors.length > 0) {
+    const labels = kr.sectors.map(s => s.name);
+    const values = kr.sectors.map(s => s.change_pct);
+    buildSectorChart('krSectorChart', labels, values, KR_COLORS, '#00c6ff');
+  }
+  buildStockTable('krStockTable', kr.top_stocks, true);
+
+  const krUp = (kr.sectors || []).filter(s => s.change_pct > 0).length;
+  const krTot = (kr.sectors || []).length;
+  document.getElementById('kr-sentiment').textContent =
+    krTot > 0 ? `${krUp}/${krTot} 섹터 상승` : '';
+
+  // ── US Chart ──
+  const us = data.us || {};
+  if (us.sectors && us.sectors.length > 0) {
+    const labels = us.sectors.map(s => s.name);
+    const values = us.sectors.map(s => s.change_pct);
+    buildSectorChart('usSectorChart', labels, values, US_COLORS, '#ff8c42');
+  }
+  buildStockTable('usStockTable', us.top_stocks, false);
+
+  const usUp = (us.sectors || []).filter(s => s.change_pct > 0).length;
+  const usTot = (us.sectors || []).length;
+  document.getElementById('us-sentiment').textContent =
+    usTot > 0 ? `${usUp}/${usTot} 섹터 상승` : '';
+
+  // ── Strategy ──
+  renderStrategy(data.strategy);
+
+  // ── Timestamp ──
+  document.getElementById('lastUpdate').textContent = data.updated_at || '—';
+
+  // next refresh countdown
+  startCountdown(REFRESH_MS);
+}
+
+// ════════════════════════════════════════════════
+//  Countdown
+// ════════════════════════════════════════════════
+let countdownTimer = null;
+function startCountdown(ms) {
+  clearInterval(countdownTimer);
+  let remaining = ms;
+  const el = document.getElementById('nextUpdate');
+  countdownTimer = setInterval(() => {
+    remaining -= 1000;
+    if (remaining <= 0) { clearInterval(countdownTimer); return; }
+    const m = Math.floor(remaining / 60000);
+    const s = Math.floor((remaining % 60000) / 1000);
+    el.textContent = `다음 갱신까지 ${m}분 ${s < 10 ? '0' + s : s}초`;
+  }, 1000);
+}
+
+// ════════════════════════════════════════════════
+//  Fetch & Init
+// ════════════════════════════════════════════════
+async function loadData() {
+  try {
+    const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    document.getElementById('loadingOverlay').style.display = 'none';
+    renderDashboard(data);
+  } catch (e) {
+    console.error('Data load error:', e);
+    document.getElementById('loadingOverlay').style.display = 'none';
+    document.getElementById('kr-error').style.display = 'block';
+    document.getElementById('kr-error').textContent = '데이터 로드 실패: ' + e.message;
+    document.getElementById('us-error').style.display = 'block';
+    document.getElementById('us-error').textContent = 'GitHub Actions가 아직 실행 중이거나 data/market_data.json이 없습니다.';
+  }
+}
+
+// Auto-refresh every hour
+setInterval(loadData, REFRESH_MS);
+
+// Initial load
+loadData();
+</script>
+</body>
+</html>
