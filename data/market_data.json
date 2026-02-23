@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 24일 03:02 KST",
+  "updated_at": "2026년 02월 24일 04:12 KST",
   "indices": {
     "kospi": {
       "value": 5846.09,
@@ -10,19 +10,19 @@
       "change_pct": -0.17
     },
     "sp500": {
-      "value": 6838.77,
-      "change_pct": -1.03
+      "value": 6835.8,
+      "change_pct": -1.08
     },
     "nasdaq": {
-      "value": 22629.21,
-      "change_pct": -1.12
+      "value": 22620.25,
+      "change_pct": -1.16
     },
     "dow": {
-      "value": 48888.42,
-      "change_pct": -1.49
+      "value": 48845.72,
+      "change_pct": -1.58
     },
     "usdkrw": {
-      "value": 1442.78,
+      "value": 1442.79,
       "change_pct": -0.22
     }
   },
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.48
+        "change_pct": -1.8
       },
       {
         "name": "금융",
-        "change_pct": -3.21
+        "change_pct": -3.16
       },
       {
         "name": "에너지",
-        "change_pct": 0.1
+        "change_pct": 0.09
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.64
+        "change_pct": 0.72
       },
       {
         "name": "산업재",
-        "change_pct": -1.45
+        "change_pct": -1.39
       },
       {
         "name": "임의소비재",
-        "change_pct": -2.69
+        "change_pct": -2.44
       },
       {
         "name": "필수소비재",
-        "change_pct": 1.06
+        "change_pct": 1.41
       },
       {
         "name": "소재",
-        "change_pct": 0.08
+        "change_pct": 0.43
       },
       {
         "name": "부동산",
-        "change_pct": 0.08
+        "change_pct": 0.05
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.19
+        "change_pct": 0.28
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.97
+        "change_pct": -1.16
       }
     ],
     "top_stocks": [
@@ -226,119 +226,119 @@
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 1055.44,
-        "change_pct": 4.32,
-        "volume": 2258451,
-        "trading_value": 2383659391,
-        "vol_surge": 0.69,
-        "score": 27.8768
+        "price": 1049.78,
+        "change_pct": 3.76,
+        "volume": 2561769,
+        "trading_value": 2689293935,
+        "vol_surge": 0.78,
+        "score": 27.6755
       },
       {
         "ticker": "PG",
         "name": "Procter & Gamble C",
         "sector": "필수소비재",
-        "price": 164.54,
-        "change_pct": 2.65,
-        "volume": 5545764,
-        "trading_value": 912499971,
-        "vol_surge": 0.49,
-        "score": 11.5681
+        "price": 164.72,
+        "change_pct": 2.76,
+        "volume": 7312787,
+        "trading_value": 1204560832,
+        "vol_surge": 0.64,
+        "score": 16.101
       },
       {
         "ticker": "WMT",
         "name": "Walmart Inc.",
         "sector": "필수소비재",
-        "price": 125.71,
-        "change_pct": 2.17,
-        "volume": 12221924,
-        "trading_value": 1536479130,
-        "vol_surge": 0.39,
-        "score": 7.7696
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 150.29,
-        "change_pct": 1.69,
-        "volume": 6799914,
-        "trading_value": 1021959029,
-        "vol_surge": 0.36,
-        "score": 5.5247
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 228.41,
-        "change_pct": 1.88,
-        "volume": 2106656,
-        "trading_value": 481181304,
-        "vol_surge": 0.32,
-        "score": 5.2346
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 245.24,
-        "change_pct": 1.05,
-        "volume": 3726839,
-        "trading_value": 913970016,
-        "vol_surge": 0.41,
-        "score": 3.8787
-      },
-      {
-        "ticker": "SO",
-        "name": "Southern Company (",
-        "sector": "유틸리티",
-        "price": 95.07,
-        "change_pct": 0.9,
-        "volume": 2913606,
-        "trading_value": 276981961,
+        "price": 126.72,
+        "change_pct": 2.98,
+        "volume": 14779262,
+        "trading_value": 1872828098,
         "vol_surge": 0.47,
-        "score": 3.5624
+        "score": 13.0231
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 123.28,
-        "change_pct": 0.84,
-        "volume": 4405620,
-        "trading_value": 543102812,
-        "vol_surge": 0.46,
-        "score": 3.3895
+        "price": 124.16,
+        "change_pct": 1.56,
+        "volume": 5306704,
+        "trading_value": 658880388,
+        "vol_surge": 0.56,
+        "score": 7.6552
       },
       {
-        "ticker": "SHW",
-        "name": "Sherwin-Williams C",
-        "sector": "소재",
-        "price": 363.98,
-        "change_pct": 1.37,
-        "volume": 458077,
-        "trading_value": 166730871,
-        "vol_surge": 0.26,
-        "score": 2.9335
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 150.31,
+        "change_pct": 1.71,
+        "volume": 8427655,
+        "trading_value": 1266760802,
+        "vol_surge": 0.45,
+        "score": 6.9999
       },
       {
         "ticker": "PEP",
         "name": "Pepsico, Inc.",
         "sector": "필수소비재",
-        "price": 166.97,
-        "change_pct": 1.21,
-        "volume": 2313048,
-        "trading_value": 386209627,
-        "vol_surge": 0.27,
-        "score": 2.8376
+        "price": 167.7,
+        "change_pct": 1.65,
+        "volume": 2973598,
+        "trading_value": 498657538,
+        "vol_surge": 0.35,
+        "score": 5.0387
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 227.63,
+        "change_pct": 1.53,
+        "volume": 2454959,
+        "trading_value": 558822329,
+        "vol_surge": 0.37,
+        "score": 5.0016
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 245.32,
+        "change_pct": 1.08,
+        "volume": 4476962,
+        "trading_value": 1098265943,
+        "vol_surge": 0.5,
+        "score": 4.8352
+      },
+      {
+        "ticker": "SO",
+        "name": "Southern Company (",
+        "sector": "유틸리티",
+        "price": 95.1,
+        "change_pct": 0.94,
+        "volume": 3555366,
+        "trading_value": 338115301,
+        "vol_surge": 0.57,
+        "score": 4.5868
+      },
+      {
+        "ticker": "SHW",
+        "name": "Sherwin-Williams C",
+        "sector": "소재",
+        "price": 364.88,
+        "change_pct": 1.62,
+        "volume": 583463,
+        "trading_value": 212891062,
+        "vol_surge": 0.33,
+        "score": 4.4753
       }
     ]
   },
   "strategy": {
-    "overview": "한미 시장 혼조세로 디커플링 심화. 미국은 기술·금융 약세 속 방어주(헬스케어, 필수소비재) 강세, 한국은 반도체 섹터가 +10.97%로 압도적 강세를 보이며 KOSPI 상승 견인. 리노공업 +120% 급등이 반도체 테마 과열 신호일 수 있어 선별적 접근 필요.",
-    "action": "한국 반도체 대형주(삼성전자, 한미반도체) 롱 포지션 유지하되, 리노공업 등 급등주는 추격매수 금지. 미국 나스닥 약세 지속시 장중 KOSPI 갭상승분 일부 익절 권고. IT/플랫폼 섹터 숏 헤지 고려, 진입가 대비 -2% 손절 설정.",
-    "risk": "리노공업 +120% 급등 후 차익실현 매물 출회시 반도체 섹터 전체 연쇄 조정 가능성. 미국 기술주 추가 하락(-2% 이상)시 외국인 매도 전환 경계. 원/달러 1,440원대 안정적이나 1,450원 돌파시 외국인 수급 악화 리스크.",
-    "watchlist": "삼성전자: 반도체 대장주, 외국인 수급 확인 후 19만원 지지 여부 체크\n한미반도체: HBM 테마 수혜주, 20만원 지지시 추가 매수 기회\nLG전자: IT섹터 약세 속 역행 상승, 13만원 돌파시 단기 모멘텀\n리노공업: 급등 과열 종목, 매수 금지하고 조정폭 모니터링용",
-    "date": "2026년 02월 24일 03:02 KST"
+    "overview": "미국 증시 기술주 약세(-1.16%)에도 불구하고 한국 반도체 섹터가 +10.97%로 강한 디커플링을 보이며 KOSPI 상승을 견인하는 혼조장세. 미국은 필수소비재·헬스케어 방어주로 로테이션 중이며, 한국은 반도체 단일 섹터 쏠림이 심화되어 주의 필요.",
+    "action": "반도체 섹터 추격 매수는 자제하고, 삼성전자·한미반도체 등 상승폭이 상대적으로 낮은 대형주 눌림목에서 분할 롱 진입 고려. KOSDAQ 약세 지속 시 IT/플랫폼 섹터 숏 헤지 병행하며, 미국 선물 야간 흐름 확인 후 오전 10시 이후 본격 진입 권장.",
+    "risk": "리노공업 +119% 급등 후 차익실현 매물 출회 시 반도체 섹터 전체 연쇄 조정 가능성 경계. 미국 기술주 추가 하락 시 외국인 수급 이탈 리스크 존재하며, 손절 기준은 KOSPI 5,790 이탈 또는 개별 종목 -3% 하회 시 즉시 청산.",
+    "watchlist": "삼성전자: 반도체 대장주로 상승폭 제한적(+1.53%), 갭 메우기 상승 여력 존재\n한미반도체: HBM 수혜주로 섹터 강세 시 추가 상승 모멘텀 기대\nLG전자: IT섹터 약세 속 역행 상승(+7.28%), 실적 모멘텀 확인 필요\n리노공업: 급등 후 변동성 극대화 예상, 단기 트레이딩 기회 또는 조정 신호 관찰",
+    "date": "2026년 02월 24일 04:12 KST"
   }
 }
