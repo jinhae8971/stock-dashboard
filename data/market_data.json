@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 24일 05:47 KST",
+  "updated_at": "2026년 02월 24일 06:49 KST",
   "indices": {
     "kospi": {
       "value": 5846.09,
@@ -10,20 +10,20 @@
       "change_pct": -0.17
     },
     "sp500": {
-      "value": 6831.06,
-      "change_pct": -1.15
+      "value": 6837.75,
+      "change_pct": -1.04
     },
     "nasdaq": {
-      "value": 22590.88,
-      "change_pct": -1.29
+      "value": 22627.27,
+      "change_pct": -1.13
     },
     "dow": {
-      "value": 48792.83,
-      "change_pct": -1.68
+      "value": 48804.06,
+      "change_pct": -1.66
     },
     "usdkrw": {
-      "value": 1443.75,
-      "change_pct": -0.15
+      "value": 1444.78,
+      "change_pct": -0.08
     }
   },
   "kr": {
@@ -42,7 +42,7 @@
       },
       {
         "name": "자동차",
-        "change_pct": 0.96
+        "change_pct": 1.02
       },
       {
         "name": "헬스케어",
@@ -78,11 +78,11 @@
         "name": "현대차",
         "sector": "자동차",
         "price": 523000.0,
-        "change_pct": 2.55,
+        "change_pct": 2.75,
         "volume": 2094265,
         "trading_value": 1095300595000,
         "vol_surge": 0.91,
-        "score": 27.997
+        "score": 30.1929
       },
       {
         "ticker": "011170.KS",
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.83
+        "change_pct": -1.68
       },
       {
         "name": "금융",
-        "change_pct": -3.3
+        "change_pct": -3.36
       },
       {
         "name": "에너지",
-        "change_pct": 0.31
+        "change_pct": 0.29
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.73
+        "change_pct": 0.86
       },
       {
         "name": "산업재",
-        "change_pct": -1.35
+        "change_pct": -1.42
       },
       {
         "name": "임의소비재",
-        "change_pct": -2.29
+        "change_pct": -2.03
       },
       {
         "name": "필수소비재",
-        "change_pct": 1.34
+        "change_pct": 1.29
       },
       {
         "name": "소재",
-        "change_pct": 0.61
+        "change_pct": 0.63
       },
       {
         "name": "부동산",
-        "change_pct": 0.3
+        "change_pct": 0.25
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.59
+        "change_pct": 0.8
       },
       {
         "name": "통신서비스",
-        "change_pct": -1.29
+        "change_pct": -1.23
       }
     ],
     "top_stocks": [
@@ -226,119 +226,119 @@
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 1050.67,
-        "change_pct": 3.85,
-        "volume": 3208195,
-        "trading_value": 3370754381,
-        "vol_surge": 0.98,
-        "score": 35.8578
+        "price": 1058.56,
+        "change_pct": 4.63,
+        "volume": 3706710,
+        "trading_value": 3923775154,
+        "vol_surge": 1.13,
+        "score": 50.1682
       },
       {
         "ticker": "PG",
         "name": "Procter & Gamble C",
         "sector": "필수소비재",
-        "price": 165.03,
-        "change_pct": 2.96,
-        "volume": 10187683,
-        "trading_value": 1681273313,
-        "vol_surge": 0.89,
-        "score": 24.4399
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart Inc.",
-        "sector": "필수소비재",
-        "price": 125.75,
-        "change_pct": 2.19,
-        "volume": 18999933,
-        "trading_value": 2389241574,
-        "vol_surge": 0.61,
-        "score": 12.4442
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 150.6,
-        "change_pct": 1.9,
-        "volume": 10711700,
-        "trading_value": 1613182085,
-        "vol_surge": 0.57,
-        "score": 9.9996
+        "price": 165.17,
+        "change_pct": 3.04,
+        "volume": 11495140,
+        "trading_value": 1898652252,
+        "vol_surge": 1.01,
+        "score": 28.4839
       },
       {
         "ticker": "ABBV",
         "name": "AbbVie Inc.",
         "sector": "헬스케어",
-        "price": 228.79,
-        "change_pct": 2.05,
-        "volume": 3526669,
-        "trading_value": 806866576,
-        "vol_surge": 0.54,
-        "score": 9.8025
+        "price": 229.48,
+        "change_pct": 2.36,
+        "volume": 5459916,
+        "trading_value": 1252941500,
+        "vol_surge": 0.83,
+        "score": 17.8459
       },
       {
-        "ticker": "FCX",
-        "name": "Freeport-McMoRan, ",
-        "sector": "소재",
-        "price": 65.51,
-        "change_pct": 1.73,
-        "volume": 12055696,
-        "trading_value": 789828916,
-        "vol_surge": 0.64,
-        "score": 9.7771
+        "ticker": "WMT",
+        "name": "Walmart Inc.",
+        "sector": "필수소비재",
+        "price": 125.81,
+        "change_pct": 2.24,
+        "volume": 25238308,
+        "trading_value": 3175231467,
+        "vol_surge": 0.8,
+        "score": 17.1302
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 132.03,
+        "change_pct": 1.56,
+        "volume": 3289078,
+        "trading_value": 434256964,
+        "vol_surge": 0.96,
+        "score": 12.996
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 150.76,
+        "change_pct": 2.01,
+        "volume": 12720838,
+        "trading_value": 1917793467,
+        "vol_surge": 0.68,
+        "score": 12.6651
       },
       {
         "ticker": "PEP",
         "name": "Pepsico, Inc.",
         "sector": "필수소비재",
-        "price": 168.49,
-        "change_pct": 2.12,
-        "volume": 3954356,
-        "trading_value": 666249673,
-        "vol_surge": 0.47,
-        "score": 8.7338
+        "price": 168.32,
+        "change_pct": 2.02,
+        "volume": 5833450,
+        "trading_value": 981886346,
+        "vol_surge": 0.69,
+        "score": 12.5107
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 123.82,
-        "change_pct": 1.29,
-        "volume": 6664253,
-        "trading_value": 825201107,
-        "vol_surge": 0.7,
-        "score": 8.0377
+        "price": 124.25,
+        "change_pct": 1.64,
+        "volume": 7462739,
+        "trading_value": 927245320,
+        "vol_surge": 0.78,
+        "score": 11.5078
+      },
+      {
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan, ",
+        "sector": "소재",
+        "price": 65.55,
+        "change_pct": 1.79,
+        "volume": 13522125,
+        "trading_value": 886375335,
+        "vol_surge": 0.71,
+        "score": 11.4106
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 93.94,
-        "change_pct": 1.74,
-        "volume": 4626766,
-        "trading_value": 434638409,
-        "vol_surge": 0.49,
-        "score": 7.3529
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 245.5,
-        "change_pct": 1.15,
-        "volume": 6249703,
-        "trading_value": 1534302754,
-        "vol_surge": 0.69,
-        "score": 7.3027
+        "price": 94.06,
+        "change_pct": 1.87,
+        "volume": 5572852,
+        "trading_value": 524182445,
+        "vol_surge": 0.59,
+        "score": 9.6078
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술/금융 섹터 급락에도 KOSPI는 견조한 상승세로 디커플링 양상. 미국은 방어주(헬스케어·필수소비재)로 자금 이동 중이며, 한국은 IT/플랫폼과 내수 대형주 중심의 선별적 강세장. 글로벌 위험회피 심리 속 원화 강세는 외국인 수급 개선 기대감 반영.",
-    "action": "한국 대형 가치주 롱 포지션 유지, LG전자·현대차 등 갭상승 종목은 장초반 눌림목 분할 매수 접근(5일선 지지 확인 후). 반도체는 약세 지속 가능성으로 삼성전자 19만원 지지 여부 확인 후 단기 트레이딩만 권고. 코스닥 약세 감안해 중소형주 숏 헤지 병행.",
-    "risk": "나스닥 추가 하락 시 외국인 선물 매도 전환 가능성 주의. KOSPI 5,800 이탈 시 포지션 50% 축소, 손절 기준은 진입가 대비 -2% 엄수. 미국 장 마감 후 빅테크 실적 발표 일정 및 연준 인사 발언 모니터링 필수.",
-    "watchlist": "LG전자: 7%대 급등 후 차익실현 압력 vs 외국인 수급 모멘텀, 13만원 지지 여부 관찰\n삼성전자: 반도체 섹터 약세 속 홀로 상승, 19만원 돌파 안착 시 추세 전환 신호\n현대차: 자동차 섹터 강세 지속, 52만원 지지 확인 후 추가 매수 기회 탐색\n유한양행: 미국 헬스케어 강세 수혜 기대, 11.5만원 돌파 시 단기 모멘텀 가속",
-    "date": "2026년 02월 24일 05:47 KST"
+    "overview": "미국 기술·금융 섹터 급락(-1~3%)에도 코스피는 강보합 마감하며 디커플링 조짐. 글로벌 위험회피 심리로 헬스케어·필수소비재·유틸리티 등 방어주 선호 뚜렷하며, 국내는 IT/플랫폼 중심 개별종목 장세 전개 중.",
+    "action": "미국 약세 영향으로 코스피 갭다운 출발 예상되나, 전일 강세 업종 중심 눌림목 매수 전략 유효. LG전자·현대차 등 실적주는 -2% 이내 조정 시 분할 매수, 반도체는 삼성전자 19만원 지지 확인 후 진입. 코스닥 약세 지속으로 숏 헷지 병행 권장.",
+    "risk": "미국 기술주 추가 하락 시 외국인 매도 압력 확대 가능성 주의. 환율 1,440원대 안정적이나 1,450원 돌파 시 외국인 이탈 가속 우려. 손절 기준: 개별 종목 -3%, 지수 선물 코스피 5,780pt 이탈 시.",
+    "watchlist": "LG전자: 전일 +7.28% 급등, 갭다운 후 12.5만원 지지 여부 확인 필요\n삼성전자: 19만원 심리적 지지선, 외국인 수급 방향성 바로미터\n현대차: 방어적 자동차 섹터 강세 지속 시 52만원 돌파 모멘텀 기대\n유한양행: 글로벌 헬스케어 강세 수혜, 11만원대 지지 시 중기 매수 관점",
+    "date": "2026년 02월 24일 06:49 KST"
   }
 }
