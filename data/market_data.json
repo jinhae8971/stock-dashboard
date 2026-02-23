@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026년 02월 23일 08:28 KST",
+  "updated_at": "2026년 02월 23일 11:26 KST",
   "indices": {
     "kospi": {
-      "value": 5808.53,
-      "change_pct": 2.31
+      "value": 5854.84,
+      "change_pct": 0.83
     },
     "kosdaq": {
-      "value": 1154.0,
-      "change_pct": -0.58
+      "value": 1160.31,
+      "change_pct": 0.58
     },
     "sp500": {
       "value": 6909.51,
@@ -22,155 +22,155 @@
       "change_pct": 0.47
     },
     "usdkrw": {
-      "value": 1444.69,
-      "change_pct": -0.26
+      "value": 1442.86,
+      "change_pct": -0.22
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 0.89
+        "change_pct": 11.06
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 0.6
+        "change_pct": -4.35
       },
       {
         "name": "금융",
-        "change_pct": 2.57
+        "change_pct": -0.76
       },
       {
         "name": "자동차",
-        "change_pct": 0.3
+        "change_pct": 1.06
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.63
+        "change_pct": -3.44
       },
       {
         "name": "화학/에너지",
-        "change_pct": 5.68
+        "change_pct": -0.27
       },
       {
         "name": "철강/소재",
-        "change_pct": 3.85
+        "change_pct": -2.59
       },
       {
         "name": "통신",
-        "change_pct": 1.69
+        "change_pct": -1.01
       }
     ],
     "top_stocks": [
       {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 38950.0,
-        "change_pct": 11.76,
-        "volume": 3651894,
-        "trading_value": 142241271300,
-        "vol_surge": 4.93,
-        "score": 647.1761
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "sector": "IT/플랫폼",
+        "price": 134700.0,
+        "change_pct": 9.16,
+        "volume": 3944413,
+        "trading_value": 531312431100,
+        "vol_surge": 2.86,
+        "score": 307.5054
       },
       {
-        "ticker": "005940.KS",
-        "name": "NH투자증권",
-        "sector": "화학/에너지",
-        "price": 39200.0,
-        "change_pct": 6.67,
-        "volume": 4574149,
-        "trading_value": 179306640800,
-        "vol_surge": 4.57,
-        "score": 343.0635
-      },
-      {
-        "ticker": "096770.KS",
-        "name": "SK이노베이션",
-        "sector": "화학/에너지",
-        "price": 127600.0,
-        "change_pct": 7.59,
-        "volume": 1148636,
-        "trading_value": 146565953600,
-        "vol_surge": 3.09,
-        "score": 262.0874
-      },
-      {
-        "ticker": "012450.KS",
-        "name": "한화에어로스페이스",
-        "sector": "헬스케어",
-        "price": 1242000.0,
-        "change_pct": 8.09,
-        "volume": 443593,
-        "trading_value": 550942506000,
-        "vol_surge": 1.88,
-        "score": 178.6499
-      },
-      {
-        "ticker": "010950.KS",
-        "name": "S-Oil",
-        "sector": "화학/에너지",
-        "price": 120000.0,
-        "change_pct": 8.21,
-        "volume": 386103,
-        "trading_value": 46332360000,
-        "vol_surge": 1.22,
-        "score": 106.6876
-      },
-      {
-        "ticker": "000660.KS",
-        "name": "SK하이닉스",
+        "ticker": "058470.KS",
+        "name": "리노공업",
         "sector": "반도체",
-        "price": 949000.0,
-        "change_pct": 6.15,
-        "volume": 5054333,
-        "trading_value": 4796562017000,
-        "vol_surge": 1.23,
-        "score": 95.8973
+        "price": 219500.0,
+        "change_pct": 119.94,
+        "volume": 0,
+        "trading_value": 0,
+        "vol_surge": 0.0,
+        "score": 119.94
+      },
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "sector": "자동차",
+        "price": 525000.0,
+        "change_pct": 2.94,
+        "volume": 1380797,
+        "trading_value": 724918425000,
+        "vol_surge": 0.61,
+        "score": 21.2048
       },
       {
         "ticker": "011170.KS",
         "name": "롯데케미칼",
         "sector": "화학/에너지",
-        "price": 85200.0,
-        "change_pct": 5.19,
-        "volume": 271350,
-        "trading_value": 23119020000,
-        "vol_surge": 1.49,
-        "score": 80.3119
+        "price": 86600.0,
+        "change_pct": 1.88,
+        "volume": 193890,
+        "trading_value": 16790874000,
+        "vol_surge": 1.07,
+        "score": 20.5086
       },
       {
-        "ticker": "030200.KS",
-        "name": "KT",
-        "sector": "통신",
-        "price": 68900.0,
-        "change_pct": 4.55,
-        "volume": 669370,
-        "trading_value": 46119593000,
-        "vol_surge": 1.45,
-        "score": 70.119
+        "ticker": "005940.KS",
+        "name": "NH투자증권",
+        "sector": "화학/에너지",
+        "price": 39300.0,
+        "change_pct": 1.03,
+        "volume": 1276343,
+        "trading_value": 50160279900,
+        "vol_surge": 1.28,
+        "score": 14.0556
       },
       {
-        "ticker": "086790.KS",
-        "name": "하나금융지주",
-        "sector": "금융",
-        "price": 131300.0,
-        "change_pct": 3.96,
-        "volume": 1186291,
-        "trading_value": 155760008300,
-        "vol_surge": 1.56,
-        "score": 69.1942
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "sector": "반도체",
+        "price": 193200.0,
+        "change_pct": 1.68,
+        "volume": 10475206,
+        "trading_value": 2023809799200,
+        "vol_surge": 0.41,
+        "score": 8.4585
       },
       {
-        "ticker": "316140.KS",
-        "name": "우리금융지주",
-        "sector": "금융",
-        "price": 40800.0,
-        "change_pct": 3.55,
-        "volume": 2382913,
-        "trading_value": 97222850400,
-        "vol_surge": 1.21,
-        "score": 47.3749
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "sector": "반도체",
+        "price": 204000.0,
+        "change_pct": 1.49,
+        "volume": 554953,
+        "trading_value": 113210412000,
+        "vol_surge": 0.3,
+        "score": 4.9936
+      },
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 446500.0,
+        "change_pct": 1.02,
+        "volume": 153000,
+        "trading_value": 68314500000,
+        "vol_surge": 0.36,
+        "score": 3.9594
+      },
+      {
+        "ticker": "000660.KS",
+        "name": "SK하이닉스",
+        "sector": "반도체",
+        "price": 957000.0,
+        "change_pct": 0.74,
+        "volume": 1528504,
+        "trading_value": 1462778328000,
+        "vol_surge": 0.37,
+        "score": 3.3476
+      },
+      {
+        "ticker": "000100.KS",
+        "name": "유한양행",
+        "sector": "헬스케어",
+        "price": 112700.0,
+        "change_pct": 0.62,
+        "volume": 150029,
+        "trading_value": 16908268300,
+        "vol_surge": 0.41,
+        "score": 2.6127
       }
     ]
   },
@@ -335,10 +335,10 @@
     ]
   },
   "strategy": {
-    "overview": "KOSPI가 2.31% 급등하며 강세장을 보이는 반면 KOSDAQ은 소폭 약세로 대형주 중심의 차별화 장세가 전개 중입니다. 금융(+2.57%)과 화학/에너지 섹터로의 뚜렷한 로테이션이 관찰되며, 미국 빅테크(Alphabet, Amazon) 강세가 국내 IT 센티먼트에 우호적 환경을 조성하고 있습니다.",
-    "action": "금융섹터 롱 포지션을 오전 갭 조정 시 분할 진입하고, 화학/에너지(S-Oil, SK이노베이션) 강세 모멘텀 추종 매매를 권장합니다. KOSDAQ 약세 지속 시 소형주 숏 헤지를 병행하며, 오후 2시 이후 차익실현 물량 출회에 대비해 수익 포지션은 3시 전 50% 청산을 고려하세요.",
-    "risk": "KOSPI 급등에 따른 단기 과열 리스크와 프로그램 매도 전환 가능성에 유의해야 합니다. 원/달러 1,440원 하향 이탈 시 외국인 차익실현 압력이 커질 수 있으며, 손절 기준은 진입가 대비 -1.5%로 타이트하게 설정하세요.",
-    "watchlist": "NH투자증권: 금융섹터 주도주, 거래량 동반 상승으로 추가 모멘텀 기대\nSK이노베이션: 에너지 강세 수혜, 미국 에너지 약세(-0.66%) 대비 디커플링 관찰 필요\n한화에어로스페이스: 방산 테마 지속성 확인, 120만원 지지선 이탈 여부 모니터링\n삼성전자: 반도체 섹터 +0.89% 상승에도 지수 기여도 확인 필요, 외국인 수급 체크",
-    "date": "2026년 02월 23일 08:28 KST"
+    "overview": "한미 증시 동반 강세 속 반도체 섹터가 +11% 급등하며 시장을 주도하는 강세장. 리노공업 +120% 폭등이 반도체 테마 과열 신호일 수 있으며, IT/플랫폼 -4.35% 약세로 섹터 로테이션 진행 중. 원화 강세(-0.22%)와 미국 빅테크 상승이 외국인 수급에 긍정적 환경 조성.",
+    "action": "반도체 섹터 모멘텀 추종 롱 포지션 유지하되, 리노공업 등 급등주는 신규 진입 자제하고 눌림목 대기. LG전자는 +9% 상승 후 134,000원 지지 확인 시 분할 매수 고려. IT/플랫폼 섹터 약세 지속 시 반등 타이밍에 역발상 롱 진입 검토, 청산은 당일 고점 대비 -3% 이탈 시 실행.",
+    "risk": "리노공업 120% 급등은 단기 과열로 되돌림 리스크 높음, 추격 매수 금지. 반도체 섹터 장중 급락 시 연쇄 차익실현 가능성 대비 필요. 손절 기준은 KOSPI 5,800선 이탈 또는 개별 종목 -5% 손실 시 즉시 청산.",
+    "watchlist": "리노공업: 120% 급등 후 차익실현 매물 출회 여부 모니터링, 숏 타이밍 관찰\nLG전자: +9% 상승 모멘텀 지속 여부, 130,000원 지지선 확인 후 추가 매수 판단\n현대차: 자동차 섹터 상승 동참, 520,000원 지지 시 안정적 롱 후보\nAlphabet: 미국 빅테크 강세 주도, 한국 IT/플랫폼 반등 트리거 역할 주시",
+    "date": "2026년 02월 23일 11:26 KST"
   }
 }
