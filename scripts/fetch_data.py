@@ -56,10 +56,10 @@ def load_config() -> dict:
 KR_SECTORS: dict[str, list[str]] = {
     "반도체":   ["005930.KS", "000660.KS", "042700.KS", "058470.KS", "240810.KS"],
     "IT/플랫폼": ["035420.KS", "035720.KS", "066570.KS", "251270.KS", "005290.KS"],
-    "금융":     ["105560.KS", "055550.KS", "086790.KS", "316140.KS", "138930.KS"],
+    "금융":     ["105560.KS", "055550.KS", "086790.KS", "316140.KS", "138930.KS", "005940.KS"],
     "자동차":   ["005380.KS", "000270.KS", "012330.KS", "011210.KS"],
     "헬스케어": ["068270.KS", "207940.KS", "000100.KS", "012450.KS", "145020.KS"],
-    "화학/에너지": ["051910.KS", "096770.KS", "011170.KS", "010950.KS", "005940.KS"],
+    "화학/에너지": ["051910.KS", "096770.KS", "011170.KS", "010950.KS"],
     "철강/소재": ["005490.KS", "004020.KS", "010140.KS", "001430.KS"],
     "통신":     ["017670.KS", "030200.KS", "032640.KS"],
 }
@@ -146,7 +146,9 @@ def calc_score(change_pct: float, price: float,
 
     trading_value = price * volume          # 거래대금 (원 or $)
     if trading_value < 1:
-        return change_pct
+        # 거래량·거래대금이 없으면 0점 → TOP 10 경합에서 자동 배제
+        # (기존: change_pct를 그대로 반환 → 거래 없는 이상치가 상위 랭크되는 버그)
+        return 0.0
 
     log_value  = math.log10(trading_value)
     vol_surge  = (volume / avg_volume) if avg_volume > 0 else 1.0
@@ -178,6 +180,30 @@ def safe_pct_change(ticker_obj) -> float | None:
     except Exception as e:
         log.debug(f"pct_change error: {e}")
         return None
+
+
+# 한국 주식 법정 가격제한폭 ±30% / 미국 이상치 임계 ±50%
+_CHANGE_LIMITS: dict[str, float] = {"KR": 30.0, "US": 50.0}
+
+
+def validate_change_pct(chg: float, market: str = "KR",
+                        ticker: str = "") -> float | None:
+    """
+    등락률 이상치 검증 — 가격제한폭 또는 임계값 초과 시 None 반환
+
+    KR: KOSPI·KOSDAQ 법정 가격제한폭 ±30%
+        → 초과 시 권리락·액면분할·yfinance 데이터 오류 등 가능성 → 무효화
+    US: 대형주 기준 일일 ±50% 초과는 데이터 오류로 간주
+    """
+    limit = _CHANGE_LIMITS.get(market, 30.0)
+    if abs(chg) > limit:
+        hint = f" [{ticker}]" if ticker else ""
+        log.warning(
+            f"⚠ 등락률 이상치 감지{hint}: {chg:+.2f}%  "
+            f"→ ±{limit:.0f}% 제한폭 초과, 해당 데이터 무효화"
+        )
+        return None
+    return chg
 
 
 def fetch_indices() -> dict:
@@ -220,7 +246,14 @@ def fetch_kr_data() -> dict:
                 vol_avg  = getattr(info, "three_month_average_volume", None) or 0  # 평균 거래량
 
                 if last and prev and prev != 0:
-                    chg           = round((last - prev) / prev * 100, 2)
+                    chg = round((last - prev) / prev * 100, 2)
+
+                    # ── 검증: KR 가격제한폭 ±30% 초과 시 이상치 → 스킵 ──
+                    chg = validate_change_pct(chg, "KR", ticker)
+                    if chg is None:
+                        time.sleep(0.15)
+                        continue
+
                     trading_value = last * vol_day
                     vol_surge     = round(vol_day / vol_avg, 2) if vol_avg > 0 else 1.0
                     score         = calc_score(chg, last, vol_day, vol_avg)
@@ -246,8 +279,13 @@ def fetch_kr_data() -> dict:
             sector_results.append({"name": sector_name, "change_pct": avg_chg})
             log.info(f"  {sector_name}: {avg_chg:+.2f}%")
 
-    # 주도주: 복합 스코어 상위 10개
-    top_stocks = sorted(all_stocks, key=lambda x: x["score"], reverse=True)[:10]
+    # 주도주: 거래량 > 0 종목만 대상으로 복합 스코어 상위 10개
+    # (거래량 0인 종목은 시장 참여 없는 유령 데이터 → 완전 배제)
+    valid_stocks = [s for s in all_stocks if s["volume"] > 0]
+    excluded = len(all_stocks) - len(valid_stocks)
+    if excluded:
+        log.warning(f"  KR 거래량 0 종목 {excluded}개 TOP10 후보에서 제외")
+    top_stocks = sorted(valid_stocks, key=lambda x: x["score"], reverse=True)[:10]
     log.info("  [KR 주도주 스코어 TOP5]")
     for s in top_stocks[:5]:
         log.info(f"    {s['name']}: 등락 {s['change_pct']:+.2f}% | "
@@ -295,7 +333,14 @@ def fetch_us_data() -> dict:
                 vol_avg = getattr(info, "three_month_average_volume", None) or 0
 
                 if last and prev and prev != 0:
-                    chg           = round((last - prev) / prev * 100, 2)
+                    chg = round((last - prev) / prev * 100, 2)
+
+                    # ── 검증: US 이상치 ±50% 초과 시 → 스킵 ──
+                    chg = validate_change_pct(chg, "US", ticker)
+                    if chg is None:
+                        time.sleep(0.15)
+                        continue
+
                     trading_value = last * vol_day
                     vol_surge     = round(vol_day / vol_avg, 2) if vol_avg > 0 else 1.0
                     score         = calc_score(chg, last, vol_day, vol_avg)
@@ -318,8 +363,12 @@ def fetch_us_data() -> dict:
             except Exception as e:
                 log.debug(f"  US {ticker} 실패: {e}")
 
-    # 주도주: 복합 스코어 상위 10개
-    top_stocks = sorted(all_stocks, key=lambda x: x["score"], reverse=True)[:10]
+    # 주도주: 거래량 > 0 종목만 대상으로 복합 스코어 상위 10개
+    valid_stocks = [s for s in all_stocks if s["volume"] > 0]
+    excluded = len(all_stocks) - len(valid_stocks)
+    if excluded:
+        log.warning(f"  US 거래량 0 종목 {excluded}개 TOP10 후보에서 제외")
+    top_stocks = sorted(valid_stocks, key=lambda x: x["score"], reverse=True)[:10]
     log.info("  [US 주도주 스코어 TOP5]")
     for s in top_stocks[:5]:
         log.info(f"    {s['name']}: 등락 {s['change_pct']:+.2f}% | "
