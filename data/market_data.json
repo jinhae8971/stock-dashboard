@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026년 02월 25일 07:36 KST",
+  "updated_at": "2026년 02월 25일 08:35 KST",
   "indices": {
     "kospi": {
       "value": 5969.64,
-      "change_pct": 2.97
+      "change_pct": 2.11
     },
     "kosdaq": {
       "value": 1165.0,
@@ -15,11 +15,11 @@
     },
     "nasdaq": {
       "value": 22863.68,
-      "change_pct": 0.8
+      "change_pct": 1.04
     },
     "dow": {
       "value": 49174.5,
-      "change_pct": -0.45
+      "change_pct": 0.76
     },
     "usdkrw": {
       "value": 1440.96,
@@ -34,7 +34,7 @@
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 2.34
+        "change_pct": 0.88
       },
       {
         "name": "금융",
@@ -42,7 +42,7 @@
       },
       {
         "name": "자동차",
-        "change_pct": 0.57
+        "change_pct": 0.62
       },
       {
         "name": "헬스케어",
@@ -58,7 +58,7 @@
       },
       {
         "name": "통신",
-        "change_pct": -0.76
+        "change_pct": -0.52
       }
     ],
     "top_stocks": [
@@ -83,17 +83,6 @@
         "trading_value": 200259175500,
         "vol_surge": 3.63,
         "score": 296.7888
-      },
-      {
-        "ticker": "066570.KS",
-        "name": "LG전자",
-        "sector": "IT/플랫폼",
-        "price": 134500.0,
-        "change_pct": 8.73,
-        "volume": 1918668,
-        "trading_value": 258060846000,
-        "vol_surge": 1.29,
-        "score": 128.8219
       },
       {
         "ticker": "051910.KS",
@@ -162,6 +151,17 @@
         "score": 22.5985
       },
       {
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "sector": "IT/플랫폼",
+        "price": 134500.0,
+        "change_pct": 1.43,
+        "volume": 1918668,
+        "trading_value": 258060846000,
+        "vol_surge": 1.29,
+        "score": 21.1014
+      },
+      {
         "ticker": "145020.KS",
         "name": "휴젤",
         "sector": "헬스케어",
@@ -202,7 +202,7 @@
       },
       {
         "name": "필수소비재",
-        "change_pct": 2.05
+        "change_pct": 0.84
       },
       {
         "name": "소재",
@@ -232,17 +232,6 @@
         "trading_value": 17077711171,
         "vol_surge": 2.25,
         "score": 207.9567
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
-        "sector": "기술",
-        "price": 192.85,
-        "change_pct": 2.91,
-        "volume": 160005644,
-        "trading_value": 30857089421,
-        "vol_surge": 0.93,
-        "score": 28.5053
       },
       {
         "ticker": "TSLA",
@@ -331,6 +320,17 @@
         "trading_value": 487375972,
         "vol_surge": 0.82,
         "score": 11.9312
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 389.0,
+        "change_pct": 1.03,
+        "volume": 32741944,
+        "trading_value": 12736616216,
+        "vol_surge": 1.04,
+        "score": 10.8263
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 07:36 KST"
+    "date": "2026년 02월 25일 08:35 KST"
   }
 }
