@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 24일 18:27 KST",
+  "updated_at": "2026년 02월 24일 18:56 KST",
   "indices": {
     "kospi": {
       "value": 5969.64,
@@ -22,7 +22,7 @@
       "change_pct": -1.66
     },
     "usdkrw": {
-      "value": 1442.88,
+      "value": 1442.84,
       "change_pct": -0.01
     }
   },
@@ -30,11 +30,11 @@
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 4.08
+        "change_pct": 4.68
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 0.53
+        "change_pct": 2.4
       },
       {
         "name": "금융",
@@ -50,11 +50,11 @@
       },
       {
         "name": "화학/에너지",
-        "change_pct": 4.61
+        "change_pct": 3.65
       },
       {
         "name": "철강/소재",
-        "change_pct": 0.39
+        "change_pct": 0.18
       },
       {
         "name": "통신",
@@ -63,26 +63,37 @@
     ],
     "top_stocks": [
       {
-        "ticker": "096770.KS",
-        "name": "SK이노베이션",
-        "sector": "화학/에너지",
-        "price": 137700.0,
-        "change_pct": 7.24,
-        "volume": 1483486,
-        "trading_value": 204276022200,
-        "vol_surge": 3.88,
-        "score": 317.9785
-      },
-      {
         "ticker": "011170.KS",
         "name": "롯데케미칼",
         "sector": "화학/에너지",
         "price": 91500.0,
         "change_pct": 6.15,
-        "volume": 881915,
-        "trading_value": 80695222500,
-        "vol_surge": 4.73,
-        "score": 317.1495
+        "volume": 897151,
+        "trading_value": 82089316500,
+        "vol_surge": 4.81,
+        "score": 322.8486
+      },
+      {
+        "ticker": "096770.KS",
+        "name": "SK이노베이션",
+        "sector": "화학/에너지",
+        "price": 137700.0,
+        "change_pct": 7.24,
+        "volume": 1454315,
+        "trading_value": 200259175500,
+        "vol_surge": 3.81,
+        "score": 311.4881
+      },
+      {
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "sector": "IT/플랫폼",
+        "price": 134500.0,
+        "change_pct": 8.73,
+        "volume": 2001228,
+        "trading_value": 269165166000,
+        "vol_surge": 1.37,
+        "score": 136.3561
       },
       {
         "ticker": "051910.KS",
@@ -101,10 +112,10 @@
         "sector": "반도체",
         "price": 1005000.0,
         "change_pct": 5.68,
-        "volume": 4000155,
-        "trading_value": 4020155775000,
-        "vol_surge": 0.99,
-        "score": 70.5655
+        "volume": 4491716,
+        "trading_value": 4514174580000,
+        "vol_surge": 1.11,
+        "score": 79.5535
       },
       {
         "ticker": "005930.KS",
@@ -112,10 +123,21 @@
         "sector": "반도체",
         "price": 200000.0,
         "change_pct": 3.63,
-        "volume": 28534462,
-        "trading_value": 5706892400000,
-        "vol_surge": 1.11,
-        "score": 51.4969
+        "volume": 30358468,
+        "trading_value": 6071693600000,
+        "vol_surge": 1.18,
+        "score": 54.9044
+      },
+      {
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "sector": "반도체",
+        "price": 210000.0,
+        "change_pct": 4.74,
+        "volume": 1689945,
+        "trading_value": 354888450000,
+        "vol_surge": 0.92,
+        "score": 50.5674
       },
       {
         "ticker": "005490.KS",
@@ -129,17 +151,6 @@
         "score": 35.7549
       },
       {
-        "ticker": "042700.KS",
-        "name": "한미반도체",
-        "sector": "반도체",
-        "price": 210000.0,
-        "change_pct": 2.94,
-        "volume": 1689945,
-        "trading_value": 354888450000,
-        "vol_surge": 0.92,
-        "score": 31.3646
-      },
-      {
         "ticker": "068270.KS",
         "name": "셀트리온",
         "sector": "헬스케어",
@@ -149,17 +160,6 @@
         "trading_value": 174671147000,
         "vol_surge": 0.93,
         "score": 23.6372
-      },
-      {
-        "ticker": "066570.KS",
-        "name": "LG전자",
-        "sector": "IT/플랫폼",
-        "price": 134500.0,
-        "change_pct": 1.43,
-        "volume": 1918668,
-        "trading_value": 258060846000,
-        "vol_surge": 1.31,
-        "score": 21.3798
       },
       {
         "ticker": "012330.KS",
@@ -198,7 +198,7 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -2.03
+        "change_pct": 0.03
       },
       {
         "name": "필수소비재",
@@ -223,48 +223,15 @@
     ],
     "top_stocks": [
       {
-        "ticker": "AMT",
-        "name": "American Tower Cor",
-        "sector": "부동산",
-        "price": 190.05,
-        "change_pct": 2.89,
-        "volume": 2965800,
-        "trading_value": 563650299,
-        "vol_surge": 0.92,
-        "score": 23.2697
-      },
-      {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 945.64,
-        "change_pct": 1.82,
-        "volume": 665100,
-        "trading_value": 628945173,
-        "vol_surge": 1.06,
-        "score": 17.0318
-      },
-      {
         "ticker": "PEP",
         "name": "Pepsico, Inc.",
         "sector": "필수소비재",
         "price": 168.32,
-        "change_pct": 2.02,
+        "change_pct": 2.63,
         "volume": 6800800,
         "trading_value": 1144710705,
         "vol_surge": 0.8,
-        "score": 14.7251
-      },
-      {
-        "ticker": "AEP",
-        "name": "American Electric ",
-        "sector": "유틸리티",
-        "price": 132.03,
-        "change_pct": 1.56,
-        "volume": 3592500,
-        "trading_value": 474317770,
-        "vol_surge": 1.05,
-        "score": 14.2332
+        "score": 19.1718
       },
       {
         "ticker": "DUK",
@@ -278,15 +245,26 @@
         "score": 12.9045
       },
       {
-        "ticker": "SO",
-        "name": "Southern Company (",
-        "sector": "유틸리티",
-        "price": 95.18,
-        "change_pct": 1.03,
-        "volume": 6950600,
-        "trading_value": 661558110,
-        "vol_surge": 1.12,
-        "score": 10.1476
+        "ticker": "HD",
+        "name": "Home Depot, Inc. (",
+        "sector": "임의소비재",
+        "price": 376.99,
+        "change_pct": 0.39,
+        "volume": 5491600,
+        "trading_value": 2070278230,
+        "vol_surge": 1.24,
+        "score": 4.5105
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 399.83,
+        "change_pct": 0.09,
+        "volume": 69480900,
+        "trading_value": 27780547314,
+        "vol_surge": 1.04,
+        "score": 0.9767
       },
       {
         "ticker": "COP",
@@ -331,14 +309,36 @@
         "trading_value": 600845383,
         "vol_surge": 0.64,
         "score": 0.1123
+      },
+      {
+        "ticker": "D",
+        "name": "Dominion Energy, I",
+        "sector": "유틸리티",
+        "price": 64.23,
+        "change_pct": 0.0,
+        "volume": 10616600,
+        "trading_value": 681904253,
+        "vol_surge": 1.64,
+        "score": 0.0
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporatio",
+        "sector": "에너지",
+        "price": 184.91,
+        "change_pct": -0.01,
+        "volume": 7045900,
+        "trading_value": 1302857394,
+        "vol_surge": 0.66,
+        "score": -0.01
       }
     ]
   },
   "strategy": {
-    "overview": "한미 시장 디커플링 장세로 한국은 강세, 미국은 약세 흐름. 한국은 화학/에너지와 반도체가 주도하며 KOSPI +2% 강한 상승, 반면 미국은 방어주(부동산/유틸리티)로 자금 이동하는 리스크오프 분위기. 원화 안정 속 외국인 순매수 유입 가능성 높음.",
-    "action": "한국 반도체·화학 섹터 롱 포지션 유지, SK하이닉스 100만원 돌파 모멘텀 추격매수 고려. 미국 나스닥 선물 약세 지속 시 한국 기술주 일부 차익실현 권고. 장 초반 갭상승 시 추격보다는 10시 이후 눌림목 분할 진입 전략.",
-    "risk": "미국 기술주 약세 지속 시 내일 한국 시장 동반 하락 리스크 존재. SK하이닉스 100만원, 삼성전자 20만원 심리적 저항선 돌파 실패 시 단기 조정 가능. 손절 기준은 진입가 대비 -2.5% 설정.",
-    "watchlist": "SK하이닉스: 100만원 돌파 안착 여부, HBM 수요 모멘텀 지속 확인\nLG화학: 화학 섹터 동반 강세 속 +5% 상승, 배터리 밸류체인 연계 주목\n삼성전자: 20만원 심리적 저항선 돌파 시 추가 상승 여력 확인\nSK이노베이션: 섹터 최강세 +7%, 단기 과열 여부 및 차익실현 타이밍 관찰",
-    "date": "2026년 02월 24일 18:27 KST"
+    "overview": "API 오류: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, ",
+    "action": "—",
+    "risk": "—",
+    "watchlist": "—",
+    "date": "2026년 02월 24일 18:56 KST"
   }
 }
