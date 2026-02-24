@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 24일 16:57 KST",
+  "updated_at": "2026년 02월 24일 17:53 KST",
   "indices": {
     "kospi": {
       "value": 5969.64,
@@ -22,15 +22,15 @@
       "change_pct": -1.66
     },
     "usdkrw": {
-      "value": 1445.62,
-      "change_pct": 0.18
+      "value": 1445.73,
+      "change_pct": 0.19
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 14.1
+        "change_pct": 14.26
       },
       {
         "name": "IT/플랫폼",
@@ -42,7 +42,7 @@
       },
       {
         "name": "자동차",
-        "change_pct": 0.57
+        "change_pct": 0.8
       },
       {
         "name": "헬스케어",
@@ -50,11 +50,11 @@
       },
       {
         "name": "화학/에너지",
-        "change_pct": 2.67
+        "change_pct": 2.9
       },
       {
         "name": "철강/소재",
-        "change_pct": 0.39
+        "change_pct": 0.0
       },
       {
         "name": "통신",
@@ -67,11 +67,11 @@
         "name": "롯데케미칼",
         "sector": "화학/에너지",
         "price": 91500.0,
-        "change_pct": 6.15,
+        "change_pct": 7.27,
         "volume": 897151,
         "trading_value": 82089316500,
         "vol_surge": 4.81,
-        "score": 322.8486
+        "score": 381.6438
       },
       {
         "ticker": "096770.KS",
@@ -111,11 +111,11 @@
         "name": "SK하이닉스",
         "sector": "반도체",
         "price": 1005000.0,
-        "change_pct": 5.68,
+        "change_pct": 6.46,
         "volume": 4389489,
         "trading_value": 4411436445000,
         "vol_surge": 1.08,
-        "score": 77.6815
+        "score": 88.349
       },
       {
         "ticker": "005930.KS",
@@ -127,17 +127,6 @@
         "trading_value": 5247322200000,
         "vol_surge": 1.02,
         "score": 47.2146
-      },
-      {
-        "ticker": "005490.KS",
-        "name": "POSCO홀딩스",
-        "sector": "철강/소재",
-        "price": 399500.0,
-        "change_pct": 2.96,
-        "volume": 557616,
-        "trading_value": 222767592000,
-        "vol_surge": 1.01,
-        "score": 34.0237
       },
       {
         "ticker": "042700.KS",
@@ -171,6 +160,17 @@
         "trading_value": 162636789000,
         "vol_surge": 0.87,
         "score": 21.948
+      },
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 453000.0,
+        "change_pct": 2.6,
+        "volume": 297925,
+        "trading_value": 134960025000,
+        "vol_surge": 0.69,
+        "score": 20.0775
       }
     ]
   },
@@ -194,7 +194,7 @@
       },
       {
         "name": "산업재",
-        "change_pct": -1.42
+        "change_pct": -0.93
       },
       {
         "name": "임의소비재",
@@ -202,7 +202,7 @@
       },
       {
         "name": "필수소비재",
-        "change_pct": 1.29
+        "change_pct": 1.17
       },
       {
         "name": "소재",
@@ -335,10 +335,10 @@
     ]
   },
   "strategy": {
-    "overview": "한미 시장 간 뚜렷한 디커플링 장세로, 한국은 반도체 중심 강세(+14.1%), 미국은 기술·금융 약세로 방어주 선호 현상이 나타남. 리노공업의 +127% 급등은 반도체 테스트 장비 관련 특수 호재 유입을 시사하며, 화학/에너지 섹터로 수급 로테이션이 진행 중.",
-    "action": "반도체 모멘텀 추세 추종 전략으로 SK하이닉스 롱 포지션 유지하되, 1,030,000원 돌파 시 추가 매수, 980,000원 이탈 시 절반 청산. 리노공업은 급등 피로감 감안해 신규 진입 자제하고 170,000원대 조정 시 분할 매수 검토. IT/플랫폼 섹터는 숏 헷지 유효.",
-    "risk": "미국 기술주 약세(-1.68%)가 내일 한국 시장 개장 시 반도체 차익실현 압력으로 전이될 가능성 주시 필요. 환율 1,445원대 고착은 외국인 수급 변동성 확대 요인. 손절 기준은 KOSPI 5,900선 이탈 시 전체 롱 포지션 50% 축소.",
-    "watchlist": "SK하이닉스: 100만원 심리적 저항 돌파 후 안착 여부 확인, HBM 수요 모멘텀 지속\n리노공업: 급등 후 거래량 및 조정 폭 모니터링, 단기 과열 해소 시점 포착\nLG화학: 화학 섹터 동반 강세 중 배터리 모멘텀 연결 가능성 체크\nEli Lilly: 미국 방어주 강세 대표주로 글로벌 리스크오프 시 상관관계 참고",
-    "date": "2026년 02월 24일 16:57 KST"
+    "overview": "API 오류: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, ",
+    "action": "—",
+    "risk": "—",
+    "watchlist": "—",
+    "date": "2026년 02월 24일 17:53 KST"
   }
 }
