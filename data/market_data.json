@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026년 02월 25일 06:38 KST",
+  "updated_at": "2026년 02월 25일 07:36 KST",
   "indices": {
     "kospi": {
       "value": 5969.64,
-      "change_pct": 2.11
+      "change_pct": 2.97
     },
     "kosdaq": {
       "value": 1165.0,
@@ -19,11 +19,11 @@
     },
     "dow": {
       "value": 49174.5,
-      "change_pct": 0.76
+      "change_pct": -0.45
     },
     "usdkrw": {
-      "value": 1441.74,
-      "change_pct": -0.09
+      "value": 1440.96,
+      "change_pct": -0.14
     }
   },
   "kr": {
@@ -38,7 +38,7 @@
       },
       {
         "name": "금융",
-        "change_pct": -2.79
+        "change_pct": -2.59
       },
       {
         "name": "자동차",
@@ -58,7 +58,7 @@
       },
       {
         "name": "통신",
-        "change_pct": -0.52
+        "change_pct": -0.76
       }
     ],
     "top_stocks": [
@@ -202,7 +202,7 @@
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.84
+        "change_pct": 2.05
       },
       {
         "name": "소재",
@@ -214,7 +214,7 @@
       },
       {
         "name": "유틸리티",
-        "change_pct": 2.21
+        "change_pct": 1.29
       },
       {
         "name": "통신서비스",
@@ -232,6 +232,17 @@
         "trading_value": 17077711171,
         "vol_surge": 2.25,
         "score": 207.9567
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 192.85,
+        "change_pct": 2.91,
+        "volume": 160005644,
+        "trading_value": 30857089421,
+        "vol_surge": 0.93,
+        "score": 28.5053
       },
       {
         "ticker": "TSLA",
@@ -261,10 +272,21 @@
         "sector": "기술",
         "price": 272.14,
         "change_pct": 1.93,
-        "volume": 46167708,
-        "trading_value": 12564080731,
-        "vol_surge": 0.96,
-        "score": 18.7084
+        "volume": 46710423,
+        "trading_value": 12711775199,
+        "vol_surge": 0.97,
+        "score": 18.9378
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 95.68,
+        "change_pct": 1.56,
+        "volume": 11586901,
+        "trading_value": 1108634691,
+        "vol_surge": 1.24,
+        "score": 17.4526
       },
       {
         "ticker": "GE",
@@ -276,17 +298,6 @@
         "trading_value": 1475648172,
         "vol_surge": 0.8,
         "score": 14.0646
-      },
-      {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 95.68,
-        "change_pct": 1.56,
-        "volume": 8711506,
-        "trading_value": 833516896,
-        "vol_surge": 0.93,
-        "score": 12.9419
       },
       {
         "ticker": "AMZN",
@@ -305,21 +316,10 @@
         "sector": "산업재",
         "price": 768.23,
         "change_pct": 1.48,
-        "volume": 2567362,
-        "trading_value": 1972324459,
+        "volume": 2568487,
+        "trading_value": 1973188717,
         "vol_surge": 0.93,
-        "score": 12.806
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 389.0,
-        "change_pct": 1.03,
-        "volume": 32741944,
-        "trading_value": 12736616216,
-        "vol_surge": 1.04,
-        "score": 10.8263
+        "score": 12.8119
       },
       {
         "ticker": "SO",
@@ -327,10 +327,10 @@
         "sector": "유틸리티",
         "price": 95.81,
         "change_pct": 1.68,
-        "volume": 4063339,
-        "trading_value": 389308499,
-        "vol_surge": 0.65,
-        "score": 9.4234
+        "volume": 5086901,
+        "trading_value": 487375972,
+        "vol_surge": 0.82,
+        "score": 11.9312
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 06:38 KST"
+    "date": "2026년 02월 25일 07:36 KST"
   }
 }
