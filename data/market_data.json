@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 24일 18:56 KST",
+  "updated_at": "2026년 02월 24일 19:52 KST",
   "indices": {
     "kospi": {
       "value": 5969.64,
@@ -22,19 +22,19 @@
       "change_pct": -1.66
     },
     "usdkrw": {
-      "value": 1442.84,
-      "change_pct": -0.01
+      "value": 1442.78,
+      "change_pct": -0.02
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 4.68
+        "change_pct": 4.08
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 2.4
+        "change_pct": 0.53
       },
       {
         "name": "금융",
@@ -50,11 +50,11 @@
       },
       {
         "name": "화학/에너지",
-        "change_pct": 3.65
+        "change_pct": 4.61
       },
       {
         "name": "철강/소재",
-        "change_pct": 0.18
+        "change_pct": 0.39
       },
       {
         "name": "통신",
@@ -83,17 +83,6 @@
         "trading_value": 200259175500,
         "vol_surge": 3.81,
         "score": 311.4881
-      },
-      {
-        "ticker": "066570.KS",
-        "name": "LG전자",
-        "sector": "IT/플랫폼",
-        "price": 134500.0,
-        "change_pct": 8.73,
-        "volume": 2001228,
-        "trading_value": 269165166000,
-        "vol_surge": 1.37,
-        "score": 136.3561
       },
       {
         "ticker": "051910.KS",
@@ -129,17 +118,6 @@
         "score": 54.9044
       },
       {
-        "ticker": "042700.KS",
-        "name": "한미반도체",
-        "sector": "반도체",
-        "price": 210000.0,
-        "change_pct": 4.74,
-        "volume": 1689945,
-        "trading_value": 354888450000,
-        "vol_surge": 0.92,
-        "score": 50.5674
-      },
-      {
         "ticker": "005490.KS",
         "name": "POSCO홀딩스",
         "sector": "철강/소재",
@@ -151,6 +129,17 @@
         "score": 35.7549
       },
       {
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "sector": "반도체",
+        "price": 210000.0,
+        "change_pct": 2.94,
+        "volume": 1689945,
+        "trading_value": 354888450000,
+        "vol_surge": 0.92,
+        "score": 31.3646
+      },
+      {
         "ticker": "068270.KS",
         "name": "셀트리온",
         "sector": "헬스케어",
@@ -160,6 +149,17 @@
         "trading_value": 174671147000,
         "vol_surge": 0.93,
         "score": 23.6372
+      },
+      {
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "sector": "IT/플랫폼",
+        "price": 134500.0,
+        "change_pct": 1.43,
+        "volume": 2001228,
+        "trading_value": 269165166000,
+        "vol_surge": 1.37,
+        "score": 22.3355
       },
       {
         "ticker": "012330.KS",
@@ -218,21 +218,10 @@
       },
       {
         "name": "통신서비스",
-        "change_pct": -1.23
+        "change_pct": -0.19
       }
     ],
     "top_stocks": [
-      {
-        "ticker": "PEP",
-        "name": "Pepsico, Inc.",
-        "sector": "필수소비재",
-        "price": 168.32,
-        "change_pct": 2.63,
-        "volume": 6800800,
-        "trading_value": 1144710705,
-        "vol_surge": 0.8,
-        "score": 19.1718
-      },
       {
         "ticker": "DUK",
         "name": "Duke Energy Corpor",
@@ -289,6 +278,17 @@
         "score": 0.5184
       },
       {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 986.02,
+        "change_pct": 0.1,
+        "volume": 1488600,
+        "trading_value": 1467789401,
+        "vol_surge": 0.56,
+        "score": 0.5159
+      },
+      {
         "ticker": "PG",
         "name": "Procter & Gamble C",
         "sector": "필수소비재",
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 24일 18:56 KST"
+    "date": "2026년 02월 24일 19:52 KST"
   }
 }
