@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 16:13 KST",
+  "updated_at": "2026년 02월 25일 17:53 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1429.75,
-      "change_pct": -0.78
+      "value": 1433.48,
+      "change_pct": -0.52
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "화학/에너지",
         "price": 387500.0,
         "change_pct": 10.56,
-        "volume": 1148172,
-        "trading_value": 444916650000,
-        "vol_surge": 3.62,
-        "score": 445.4013
+        "volume": 1099978,
+        "trading_value": 426241475000,
+        "vol_surge": 3.47,
+        "score": 426.0235
       },
       {
         "ticker": "000270.KS",
@@ -79,10 +79,10 @@
         "sector": "자동차",
         "price": 196100.0,
         "change_pct": 12.7,
-        "volume": 4075069,
-        "trading_value": 799121030900,
+        "volume": 4075070,
+        "trading_value": 799121227000,
         "vol_surge": 2.77,
-        "score": 419.3172
+        "score": 419.3173
       },
       {
         "ticker": "005380.KS",
@@ -90,10 +90,10 @@
         "sector": "자동차",
         "price": 572000.0,
         "change_pct": 9.16,
-        "volume": 4217020,
-        "trading_value": 2412135440000,
-        "vol_surge": 1.82,
-        "score": 206.9524
+        "volume": 4149248,
+        "trading_value": 2373369856000,
+        "vol_surge": 1.8,
+        "score": 203.5108
       },
       {
         "ticker": "011210.KS",
@@ -101,21 +101,10 @@
         "sector": "자동차",
         "price": 92200.0,
         "change_pct": 6.84,
-        "volume": 683175,
-        "trading_value": 62988735000,
-        "vol_surge": 1.96,
-        "score": 144.9255
-      },
-      {
-        "ticker": "012330.KS",
-        "name": "현대모비스",
-        "sector": "자동차",
-        "price": 469500.0,
-        "change_pct": 3.64,
-        "volume": 735307,
-        "trading_value": 345226636500,
-        "vol_surge": 1.71,
-        "score": 71.647
+        "volume": 670364,
+        "trading_value": 61807560800,
+        "vol_surge": 1.93,
+        "score": 142.0995
       },
       {
         "ticker": "004020.KS",
@@ -123,10 +112,21 @@
         "sector": "철강/소재",
         "price": 38150.0,
         "change_pct": 3.53,
-        "volume": 1416103,
-        "trading_value": 54024329450,
+        "volume": 1416133,
+        "trading_value": 54025473950,
         "vol_surge": 1.85,
-        "score": 70.1501
+        "score": 70.1517
+      },
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 469500.0,
+        "change_pct": 3.64,
+        "volume": 711264,
+        "trading_value": 333938448000,
+        "vol_surge": 1.65,
+        "score": 69.2176
       },
       {
         "ticker": "005930.KS",
@@ -134,10 +134,10 @@
         "sector": "반도체",
         "price": 203500.0,
         "change_pct": 1.75,
-        "volume": 27730197,
-        "trading_value": 5643095089500,
+        "volume": 27730565,
+        "trading_value": 5643169977500,
         "vol_surge": 1.08,
-        "score": 24.1451
+        "score": 24.1455
       },
       {
         "ticker": "005490.KS",
@@ -145,21 +145,10 @@
         "sector": "철강/소재",
         "price": 406500.0,
         "change_pct": 1.75,
-        "volume": 575104,
-        "trading_value": 233779776000,
-        "vol_surge": 1.04,
-        "score": 20.7346
-      },
-      {
-        "ticker": "042700.KS",
-        "name": "한미반도체",
-        "sector": "반도체",
-        "price": 214500.0,
-        "change_pct": 2.14,
-        "volume": 1106225,
-        "trading_value": 237285262500,
-        "vol_surge": 0.6,
-        "score": 14.6078
+        "volume": 558243,
+        "trading_value": 226925779500,
+        "vol_surge": 1.01,
+        "score": 20.1038
       },
       {
         "ticker": "000660.KS",
@@ -167,10 +156,21 @@
         "sector": "반도체",
         "price": 1018000.0,
         "change_pct": 1.29,
-        "volume": 3608888,
-        "trading_value": 3673847984000,
+        "volume": 3609554,
+        "trading_value": 3674525972000,
         "vol_surge": 0.9,
-        "score": 14.5511
+        "score": 14.5539
+      },
+      {
+        "ticker": "042700.KS",
+        "name": "한미반도체",
+        "sector": "반도체",
+        "price": 214500.0,
+        "change_pct": 2.14,
+        "volume": 1064978,
+        "trading_value": 228437781000,
+        "vol_surge": 0.58,
+        "score": 14.0427
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 16:13 KST"
+    "date": "2026년 02월 25일 17:53 KST"
   }
 }
