@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 17:53 KST",
+  "updated_at": "2026년 02월 25일 18:57 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1433.48,
-      "change_pct": -0.52
+      "value": 1433.08,
+      "change_pct": -0.55
     }
   },
   "kr": {
@@ -79,10 +79,10 @@
         "sector": "자동차",
         "price": 196100.0,
         "change_pct": 12.7,
-        "volume": 4075070,
-        "trading_value": 799121227000,
+        "volume": 4076362,
+        "trading_value": 799374588200,
         "vol_surge": 2.77,
-        "score": 419.3173
+        "score": 419.4551
       },
       {
         "ticker": "005380.KS",
@@ -90,10 +90,10 @@
         "sector": "자동차",
         "price": 572000.0,
         "change_pct": 9.16,
-        "volume": 4149248,
-        "trading_value": 2373369856000,
+        "volume": 4149696,
+        "trading_value": 2373626112000,
         "vol_surge": 1.8,
-        "score": 203.5108
+        "score": 203.5335
       },
       {
         "ticker": "011210.KS",
@@ -123,10 +123,10 @@
         "sector": "자동차",
         "price": 469500.0,
         "change_pct": 3.64,
-        "volume": 711264,
-        "trading_value": 333938448000,
+        "volume": 712489,
+        "trading_value": 334513585500,
         "vol_surge": 1.65,
-        "score": 69.2176
+        "score": 69.3413
       },
       {
         "ticker": "005930.KS",
@@ -134,10 +134,10 @@
         "sector": "반도체",
         "price": 203500.0,
         "change_pct": 1.75,
-        "volume": 27730565,
-        "trading_value": 5643169977500,
-        "vol_surge": 1.08,
-        "score": 24.1455
+        "volume": 26987996,
+        "trading_value": 5492057186000,
+        "vol_surge": 1.05,
+        "score": 23.4772
       },
       {
         "ticker": "005490.KS",
@@ -156,10 +156,10 @@
         "sector": "반도체",
         "price": 1018000.0,
         "change_pct": 1.29,
-        "volume": 3609554,
-        "trading_value": 3674525972000,
-        "vol_surge": 0.9,
-        "score": 14.5539
+        "volume": 3682010,
+        "trading_value": 3748286180000,
+        "vol_surge": 0.92,
+        "score": 14.8562
       },
       {
         "ticker": "042700.KS",
@@ -178,15 +178,15 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 1.12
+        "change_pct": 0.01
       },
       {
         "name": "금융",
-        "change_pct": 0.3
+        "change_pct": 0.02
       },
       {
         "name": "에너지",
-        "change_pct": -0.02
+        "change_pct": -0.13
       },
       {
         "name": "헬스케어",
@@ -194,19 +194,19 @@
       },
       {
         "name": "산업재",
-        "change_pct": 1.13
+        "change_pct": -0.23
       },
       {
         "name": "임의소비재",
-        "change_pct": 1.83
+        "change_pct": -0.12
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.84
+        "change_pct": 0.06
       },
       {
         "name": "소재",
-        "change_pct": 0.68
+        "change_pct": -0.32
       },
       {
         "name": "부동산",
@@ -214,7 +214,7 @@
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.29
+        "change_pct": -0.19
       },
       {
         "name": "통신서비스",
@@ -223,114 +223,114 @@
     ],
     "top_stocks": [
       {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 213.84,
-        "change_pct": 9.04,
-        "volume": 81144900,
-        "trading_value": 17352025118,
-        "vol_surge": 2.25,
-        "score": 208.1362
+        "ticker": "EQIX",
+        "name": "Equinix, Inc.",
+        "sector": "부동산",
+        "price": 951.9,
+        "change_pct": 0.67,
+        "volume": 486100,
+        "trading_value": 462718601,
+        "vol_surge": 0.79,
+        "score": 4.5786
       },
       {
-        "ticker": "HD",
-        "name": "Home Depot, Inc. (",
-        "sector": "임의소비재",
-        "price": 384.48,
-        "change_pct": 2.04,
-        "volume": 5674800,
-        "trading_value": 2181847166,
-        "vol_surge": 1.29,
-        "score": 24.4813
+        "ticker": "KO",
+        "name": "Coca-Cola Company ",
+        "sector": "필수소비재",
+        "price": 80.72,
+        "change_pct": 0.26,
+        "volume": 16443400,
+        "trading_value": 1327311268,
+        "vol_surge": 0.93,
+        "score": 2.1954
       },
       {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc.",
-        "sector": "임의소비재",
-        "price": 409.38,
-        "change_pct": 2.53,
-        "volume": 58441300,
-        "trading_value": 23924699679,
-        "vol_surge": 0.88,
-        "score": 23.167
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 639.3,
+        "change_pct": 0.16,
+        "volume": 10117900,
+        "trading_value": 6468373346,
+        "vol_surge": 0.64,
+        "score": 1.0
       },
       {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 345.64,
-        "change_pct": 1.92,
-        "volume": 6170400,
-        "trading_value": 2132737146,
-        "vol_surge": 1.18,
-        "score": 21.0527
+        "ticker": "BRK-B",
+        "name": "Berkshire Hathaway",
+        "sector": "금융",
+        "price": 494.51,
+        "change_pct": 0.11,
+        "volume": 3220400,
+        "trading_value": 1592520035,
+        "vol_surge": 0.71,
+        "score": 0.7146
       },
       {
-        "ticker": "AAPL",
-        "name": "Apple Inc.",
-        "sector": "기술",
-        "price": 272.14,
-        "change_pct": 1.93,
-        "volume": 46960000,
-        "trading_value": 12779695087,
+        "ticker": "T",
+        "name": "AT&T Inc.",
+        "sector": "통신서비스",
+        "price": 28.35,
+        "change_pct": 0.07,
+        "volume": 34537800,
+        "trading_value": 979146643,
+        "vol_surge": 0.83,
+        "score": 0.5251
+      },
+      {
+        "ticker": "VZ",
+        "name": "Verizon Communicat",
+        "sector": "통신서비스",
+        "price": 49.86,
+        "change_pct": 0.06,
+        "volume": 23814700,
+        "trading_value": 1187400956,
+        "vol_surge": 0.78,
+        "score": 0.4254
+      },
+      {
+        "ticker": "PG",
+        "name": "Procter & Gamble C",
+        "sector": "필수소비재",
+        "price": 165.28,
+        "change_pct": 0.04,
+        "volume": 9709500,
+        "trading_value": 1604786148,
+        "vol_surge": 0.85,
+        "score": 0.3147
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 998.43,
+        "change_pct": 0.05,
+        "volume": 1670000,
+        "trading_value": 1667378087,
+        "vol_surge": 0.64,
+        "score": 0.2947
+      },
+      {
+        "ticker": "CCI",
+        "name": "Crown Castle Inc.",
+        "sector": "부동산",
+        "price": 88.64,
+        "change_pct": 0.02,
+        "volume": 3137800,
+        "trading_value": 278134590,
         "vol_surge": 0.98,
-        "score": 19.165
+        "score": 0.1648
       },
       {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 95.68,
-        "change_pct": 1.56,
-        "volume": 11590300,
-        "trading_value": 1108959907,
-        "vol_surge": 1.24,
-        "score": 17.5101
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 208.56,
-        "change_pct": 1.58,
-        "volume": 41061500,
-        "trading_value": 8563786339,
-        "vol_surge": 0.88,
-        "score": 13.8174
-      },
-      {
-        "ticker": "CAT",
-        "name": "Caterpillar, Inc.",
-        "sector": "산업재",
-        "price": 768.23,
-        "change_pct": 1.48,
-        "volume": 2614300,
-        "trading_value": 2008383637,
-        "vol_surge": 0.96,
-        "score": 13.2113
-      },
-      {
-        "ticker": "SO",
-        "name": "Southern Company (",
-        "sector": "유틸리티",
-        "price": 95.81,
-        "change_pct": 1.68,
-        "volume": 5087100,
-        "trading_value": 487395038,
-        "vol_surge": 0.82,
-        "score": 11.9619
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 389.0,
-        "change_pct": 1.03,
-        "volume": 33805100,
-        "trading_value": 13150183900,
-        "vol_surge": 1.07,
-        "score": 11.1968
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 902.27,
+        "change_pct": 0.01,
+        "volume": 1970800,
+        "trading_value": 1778193754,
+        "vol_surge": 0.86,
+        "score": 0.0795
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 17:53 KST"
+    "date": "2026년 02월 25일 18:57 KST"
   }
 }
