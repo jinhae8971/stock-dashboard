@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 19:53 KST",
+  "updated_at": "2026년 02월 25일 20:42 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1432.88,
-      "change_pct": -0.56
+      "value": 1432.18,
+      "change_pct": -0.61
     }
   },
   "kr": {
@@ -218,21 +218,10 @@
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.5
+        "change_pct": 0.0
       }
     ],
     "top_stocks": [
-      {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 951.9,
-        "change_pct": 0.67,
-        "volume": 486100,
-        "trading_value": 462718601,
-        "vol_surge": 0.79,
-        "score": 4.5786
-      },
       {
         "ticker": "KO",
         "name": "Coca-Cola Company ",
@@ -256,17 +245,6 @@
         "score": 1.3744
       },
       {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
-        "sector": "통신서비스",
-        "price": 639.3,
-        "change_pct": 0.16,
-        "volume": 10117900,
-        "trading_value": 6468373346,
-        "vol_surge": 0.64,
-        "score": 1.0
-      },
-      {
         "ticker": "BRK-B",
         "name": "Berkshire Hathaway",
         "sector": "금융",
@@ -276,28 +254,6 @@
         "trading_value": 1592520035,
         "vol_surge": 0.71,
         "score": 0.7146
-      },
-      {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 28.35,
-        "change_pct": 0.07,
-        "volume": 34537800,
-        "trading_value": 979146643,
-        "vol_surge": 0.83,
-        "score": 0.5251
-      },
-      {
-        "ticker": "VZ",
-        "name": "Verizon Communicat",
-        "sector": "통신서비스",
-        "price": 49.86,
-        "change_pct": 0.06,
-        "volume": 23814700,
-        "trading_value": 1187400956,
-        "vol_surge": 0.78,
-        "score": 0.4254
       },
       {
         "ticker": "PG",
@@ -331,6 +287,50 @@
         "trading_value": 278134590,
         "vol_surge": 0.98,
         "score": 0.1648
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 902.27,
+        "change_pct": 0.01,
+        "volume": 1970800,
+        "trading_value": 1778193754,
+        "vol_surge": 0.86,
+        "score": 0.0795
+      },
+      {
+        "ticker": "EQIX",
+        "name": "Equinix, Inc.",
+        "sector": "부동산",
+        "price": 951.9,
+        "change_pct": 0.0,
+        "volume": 486100,
+        "trading_value": 462718601,
+        "vol_surge": 0.79,
+        "score": 0.0
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 325.49,
+        "change_pct": -0.03,
+        "volume": 23588400,
+        "trading_value": 7677788085,
+        "vol_surge": 0.77,
+        "score": -0.03
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 192.85,
+        "change_pct": -0.04,
+        "volume": 174595300,
+        "trading_value": 33670704670,
+        "vol_surge": 1.03,
+        "score": -0.04
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 19:53 KST"
+    "date": "2026년 02월 25일 20:42 KST"
   }
 }
