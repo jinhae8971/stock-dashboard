@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026년 02월 25일 08:35 KST",
+  "updated_at": "2026년 02월 25일 11:23 KST",
   "indices": {
     "kospi": {
-      "value": 5969.64,
-      "change_pct": 2.11
+      "value": 6078.05,
+      "change_pct": 1.9
     },
     "kosdaq": {
-      "value": 1165.0,
-      "change_pct": 1.13
+      "value": 1167.42,
+      "change_pct": 0.25
     },
     "sp500": {
       "value": 6890.07,
@@ -22,155 +22,155 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1440.96,
-      "change_pct": -0.14
+      "value": 1438.18,
+      "change_pct": -0.19
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 3.13
+        "change_pct": 2.31
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 0.88
+        "change_pct": -6.09
       },
       {
         "name": "금융",
-        "change_pct": -2.59
+        "change_pct": -0.36
       },
       {
         "name": "자동차",
-        "change_pct": 0.62
+        "change_pct": 8.55
       },
       {
         "name": "헬스케어",
-        "change_pct": 1.13
+        "change_pct": -3.9
       },
       {
         "name": "화학/에너지",
-        "change_pct": 4.61
+        "change_pct": -0.68
       },
       {
         "name": "철강/소재",
-        "change_pct": 0.39
+        "change_pct": 1.5
       },
       {
         "name": "통신",
-        "change_pct": -0.52
+        "change_pct": -0.44
       }
     ],
     "top_stocks": [
       {
-        "ticker": "011170.KS",
-        "name": "롯데케미칼",
-        "sector": "화학/에너지",
-        "price": 91500.0,
-        "change_pct": 6.15,
-        "volume": 881915,
-        "trading_value": 80695222500,
-        "vol_surge": 4.44,
-        "score": 297.5131
+        "ticker": "000270.KS",
+        "name": "기아",
+        "sector": "자동차",
+        "price": 196800.0,
+        "change_pct": 13.1,
+        "volume": 2546872,
+        "trading_value": 501224409600,
+        "vol_surge": 1.73,
+        "score": 265.7218
       },
       {
-        "ticker": "096770.KS",
-        "name": "SK이노베이션",
-        "sector": "화학/에너지",
-        "price": 137700.0,
-        "change_pct": 7.24,
-        "volume": 1454315,
-        "trading_value": 200259175500,
-        "vol_surge": 3.63,
-        "score": 296.7888
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "sector": "자동차",
+        "price": 572000.0,
+        "change_pct": 9.16,
+        "volume": 2628014,
+        "trading_value": 1503224008000,
+        "vol_surge": 1.14,
+        "score": 126.832
+      },
+      {
+        "ticker": "011210.KS",
+        "name": "현대위아",
+        "sector": "자동차",
+        "price": 92800.0,
+        "change_pct": 7.53,
+        "volume": 435433,
+        "trading_value": 40408182400,
+        "vol_surge": 1.25,
+        "score": 99.8734
       },
       {
         "ticker": "051910.KS",
         "name": "LG화학",
         "sector": "화학/에너지",
-        "price": 350500.0,
-        "change_pct": 5.41,
-        "volume": 519344,
-        "trading_value": 182030072000,
-        "vol_surge": 1.64,
-        "score": 99.7735
+        "price": 376500.0,
+        "change_pct": 7.26,
+        "volume": 295838,
+        "trading_value": 111383007000,
+        "vol_surge": 0.93,
+        "score": 74.825
+      },
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 471500.0,
+        "change_pct": 4.43,
+        "volume": 423630,
+        "trading_value": 199741545000,
+        "vol_surge": 0.98,
+        "score": 49.2017
+      },
+      {
+        "ticker": "004020.KS",
+        "name": "현대제철",
+        "sector": "철강/소재",
+        "price": 38350.0,
+        "change_pct": 3.23,
+        "volume": 680089,
+        "trading_value": 26081413150,
+        "vol_surge": 0.89,
+        "score": 29.9183
       },
       {
         "ticker": "000660.KS",
         "name": "SK하이닉스",
         "sector": "반도체",
-        "price": 1005000.0,
-        "change_pct": 5.68,
-        "volume": 4102382,
-        "trading_value": 4122893910000,
-        "vol_surge": 1.02,
-        "score": 73.1215
+        "price": 1035000.0,
+        "change_pct": 3.6,
+        "volume": 1507381,
+        "trading_value": 1560139335000,
+        "vol_surge": 0.37,
+        "score": 16.4592
       },
       {
         "ticker": "005930.KS",
         "name": "삼성전자",
         "sector": "반도체",
-        "price": 200000.0,
-        "change_pct": 3.63,
-        "volume": 28060617,
-        "trading_value": 5612123400000,
-        "vol_surge": 1.09,
-        "score": 50.6712
-      },
-      {
-        "ticker": "005490.KS",
-        "name": "POSCO홀딩스",
-        "sector": "철강/소재",
-        "price": 399500.0,
-        "change_pct": 2.96,
-        "volume": 557616,
-        "trading_value": 222767592000,
-        "vol_surge": 1.01,
-        "score": 33.942
+        "price": 203500.0,
+        "change_pct": 1.9,
+        "volume": 12154816,
+        "trading_value": 2473505056000,
+        "vol_surge": 0.47,
+        "score": 11.1678
       },
       {
         "ticker": "042700.KS",
         "name": "한미반도체",
         "sector": "반도체",
-        "price": 210000.0,
-        "change_pct": 2.94,
-        "volume": 1645860,
-        "trading_value": 345630600000,
-        "vol_surge": 0.89,
-        "score": 30.2872
-      },
-      {
-        "ticker": "068270.KS",
-        "name": "셀트리온",
-        "sector": "헬스케어",
-        "price": 248500.0,
-        "change_pct": 2.26,
-        "volume": 654474,
-        "trading_value": 162636789000,
-        "vol_surge": 0.89,
-        "score": 22.5985
-      },
-      {
-        "ticker": "066570.KS",
-        "name": "LG전자",
-        "sector": "IT/플랫폼",
-        "price": 134500.0,
+        "price": 212500.0,
         "change_pct": 1.43,
-        "volume": 1918668,
-        "trading_value": 258060846000,
-        "vol_surge": 1.29,
-        "score": 21.1014
+        "volume": 506337,
+        "trading_value": 107596612500,
+        "vol_surge": 0.27,
+        "score": 4.333
       },
       {
-        "ticker": "145020.KS",
-        "name": "휴젤",
-        "sector": "헬스케어",
-        "price": 268000.0,
-        "change_pct": 2.29,
-        "volume": 62254,
-        "trading_value": 16684072000,
-        "vol_surge": 0.72,
-        "score": 16.8251
+        "ticker": "001430.KS",
+        "name": "세아베스틸",
+        "sector": "철강/소재",
+        "price": 71800.0,
+        "change_pct": 1.99,
+        "volume": 113659,
+        "trading_value": 8160716200,
+        "vol_surge": 0.21,
+        "score": 4.085
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 08:35 KST"
+    "date": "2026년 02월 25일 11:23 KST"
   }
 }
