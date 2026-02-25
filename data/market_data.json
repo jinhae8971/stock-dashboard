@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 20:42 KST",
+  "updated_at": "2026년 02월 25일 22:10 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1432.18,
-      "change_pct": -0.61
+      "value": 1426.78,
+      "change_pct": -0.98
     }
   },
   "kr": {
@@ -210,7 +210,7 @@
       },
       {
         "name": "부동산",
-        "change_pct": 0.27
+        "change_pct": 0.28
       },
       {
         "name": "유틸리티",
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 20:42 KST"
+    "date": "2026년 02월 25일 22:10 KST"
   }
 }
