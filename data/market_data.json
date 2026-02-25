@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 22:10 KST",
+  "updated_at": "2026년 02월 25일 23:52 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -10,20 +10,20 @@
       "change_pct": 0.02
     },
     "sp500": {
-      "value": 6890.07,
-      "change_pct": 0.77
+      "value": 6935.28,
+      "change_pct": 0.64
     },
     "nasdaq": {
-      "value": 22863.68,
-      "change_pct": 1.04
+      "value": 23124.12,
+      "change_pct": 1.14
     },
     "dow": {
-      "value": 49174.5,
-      "change_pct": 0.76
+      "value": 49393.28,
+      "change_pct": 0.42
     },
     "usdkrw": {
-      "value": 1426.78,
-      "change_pct": -0.98
+      "value": 1426.52,
+      "change_pct": -1.0
     }
   },
   "kr": {
@@ -178,159 +178,159 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.01
+        "change_pct": 1.61
       },
       {
         "name": "금융",
-        "change_pct": 0.02
+        "change_pct": 0.65
       },
       {
         "name": "에너지",
-        "change_pct": -0.13
+        "change_pct": -0.88
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.04
+        "change_pct": 0.67
       },
       {
         "name": "산업재",
-        "change_pct": -0.23
+        "change_pct": -0.57
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.12
+        "change_pct": 0.21
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.06
+        "change_pct": -0.84
       },
       {
         "name": "소재",
-        "change_pct": -0.32
+        "change_pct": -0.67
       },
       {
         "name": "부동산",
-        "change_pct": 0.28
+        "change_pct": 0.01
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.19
+        "change_pct": -0.69
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.0
+        "change_pct": 0.46
       }
     ],
     "top_stocks": [
       {
-        "ticker": "KO",
-        "name": "Coca-Cola Company ",
-        "sector": "필수소비재",
-        "price": 80.72,
-        "change_pct": 0.26,
-        "volume": 16443400,
-        "trading_value": 1327311268,
-        "vol_surge": 0.93,
-        "score": 2.1954
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "sector": "통신서비스",
+        "price": 81.5,
+        "change_pct": 3.28,
+        "volume": 12067211,
+        "trading_value": 983521151,
+        "vol_surge": 0.26,
+        "score": 7.6694
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 396.24,
+        "change_pct": 1.93,
+        "volume": 6592419,
+        "trading_value": 2612180040,
+        "vol_surge": 0.21,
+        "score": 3.8076
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth Group",
         "sector": "헬스케어",
-        "price": 273.95,
-        "change_pct": 0.13,
-        "volume": 9666300,
-        "trading_value": 2648083002,
-        "vol_surge": 1.12,
-        "score": 1.3744
-      },
-      {
-        "ticker": "BRK-B",
-        "name": "Berkshire Hathaway",
-        "sector": "금융",
-        "price": 494.51,
-        "change_pct": 0.11,
-        "volume": 3220400,
-        "trading_value": 1592520035,
-        "vol_surge": 0.71,
-        "score": 0.7146
-      },
-      {
-        "ticker": "PG",
-        "name": "Procter & Gamble C",
-        "sector": "필수소비재",
-        "price": 165.28,
-        "change_pct": 0.04,
-        "volume": 9709500,
-        "trading_value": 1604786148,
-        "vol_surge": 0.85,
-        "score": 0.3147
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 998.43,
-        "change_pct": 0.05,
-        "volume": 1670000,
-        "trading_value": 1667378087,
-        "vol_surge": 0.64,
-        "score": 0.2947
-      },
-      {
-        "ticker": "CCI",
-        "name": "Crown Castle Inc.",
-        "sector": "부동산",
-        "price": 88.64,
-        "change_pct": 0.02,
-        "volume": 3137800,
-        "trading_value": 278134590,
-        "vol_surge": 0.98,
-        "score": 0.1648
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 902.27,
-        "change_pct": 0.01,
-        "volume": 1970800,
-        "trading_value": 1778193754,
-        "vol_surge": 0.86,
-        "score": 0.0795
-      },
-      {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 951.9,
-        "change_pct": 0.0,
-        "volume": 486100,
-        "trading_value": 462718601,
-        "vol_surge": 0.79,
-        "score": 0.0
+        "price": 279.98,
+        "change_pct": 2.21,
+        "volume": 1357622,
+        "trading_value": 380100227,
+        "vol_surge": 0.16,
+        "score": 2.9879
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 325.49,
-        "change_pct": -0.03,
-        "volume": 23588400,
-        "trading_value": 7677788085,
-        "vol_surge": 0.77,
-        "score": -0.03
+        "price": 334.72,
+        "change_pct": 2.85,
+        "volume": 2275300,
+        "trading_value": 761588627,
+        "vol_surge": 0.07,
+        "score": 2.5313
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 416.11,
+        "change_pct": 1.72,
+        "volume": 9715146,
+        "trading_value": 4042570445,
+        "vol_surge": 0.15,
+        "score": 2.4234
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 192.85,
-        "change_pct": -0.04,
-        "volume": 174595300,
-        "trading_value": 33670704670,
-        "vol_surge": 1.03,
-        "score": -0.04
+        "price": 195.41,
+        "change_pct": 1.35,
+        "volume": 28607068,
+        "trading_value": 5590107262,
+        "vol_surge": 0.17,
+        "score": 2.2145
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 650.92,
+        "change_pct": 1.96,
+        "volume": 1182339,
+        "trading_value": 769613999,
+        "vol_surge": 0.07,
+        "score": 1.7417
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 504.11,
+        "change_pct": 1.32,
+        "volume": 436454,
+        "trading_value": 220020819,
+        "vol_surge": 0.12,
+        "score": 1.3633
+      },
+      {
+        "ticker": "V",
+        "name": "Visa Inc.",
+        "sector": "금융",
+        "price": 311.26,
+        "change_pct": 1.21,
+        "volume": 929286,
+        "trading_value": 289249569,
+        "vol_surge": 0.12,
+        "score": 1.258
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 915.33,
+        "change_pct": 1.48,
+        "volume": 195939,
+        "trading_value": 179348848,
+        "vol_surge": 0.09,
+        "score": 1.2215
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 22:10 KST"
+    "date": "2026년 02월 25일 23:52 KST"
   }
 }
