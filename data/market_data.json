@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 25일 18:57 KST",
+  "updated_at": "2026년 02월 25일 19:53 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.76
     },
     "usdkrw": {
-      "value": 1433.08,
-      "change_pct": -0.55
+      "value": 1432.88,
+      "change_pct": -0.56
     }
   },
   "kr": {
@@ -190,7 +190,7 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.43
+        "change_pct": 0.04
       },
       {
         "name": "산업재",
@@ -243,6 +243,17 @@
         "trading_value": 1327311268,
         "vol_surge": 0.93,
         "score": 2.1954
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 273.95,
+        "change_pct": 0.13,
+        "volume": 9666300,
+        "trading_value": 2648083002,
+        "vol_surge": 1.12,
+        "score": 1.3744
       },
       {
         "ticker": "META",
@@ -320,17 +331,6 @@
         "trading_value": 278134590,
         "vol_surge": 0.98,
         "score": 0.1648
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 902.27,
-        "change_pct": 0.01,
-        "volume": 1970800,
-        "trading_value": 1778193754,
-        "vol_surge": 0.86,
-        "score": 0.0795
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 25일 18:57 KST"
+    "date": "2026년 02월 25일 19:53 KST"
   }
 }
