@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 26일 06:37 KST",
+  "updated_at": "2026년 02월 26일 07:36 KST",
   "indices": {
     "kospi": {
       "value": 6083.86,
@@ -22,8 +22,8 @@
       "change_pct": 0.63
     },
     "usdkrw": {
-      "value": 1427.15,
-      "change_pct": -0.96
+      "value": 1427.85,
+      "change_pct": -0.91
     }
   },
   "kr": {
@@ -239,10 +239,10 @@
         "sector": "기술",
         "price": 400.6,
         "change_pct": 3.06,
-        "volume": 42352342,
-        "trading_value": 16966348463,
-        "vol_surge": 1.35,
-        "score": 42.1286
+        "volume": 43309989,
+        "trading_value": 17349981857,
+        "vol_surge": 1.38,
+        "score": 43.1221
       },
       {
         "ticker": "MA",
@@ -261,10 +261,10 @@
         "sector": "기술",
         "price": 195.56,
         "change_pct": 1.43,
-        "volume": 196523805,
-        "trading_value": 38432194826,
-        "vol_surge": 1.16,
-        "score": 17.4976
+        "volume": 230041455,
+        "trading_value": 44986906378,
+        "vol_surge": 1.35,
+        "score": 20.6142
       },
       {
         "ticker": "TSLA",
@@ -278,26 +278,37 @@
         "score": 16.9427
       },
       {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
-        "sector": "통신서비스",
-        "price": 653.69,
-        "change_pct": 2.39,
-        "volume": 11156744,
-        "trading_value": 7293052012,
-        "vol_surge": 0.7,
-        "score": 16.5579
-      },
-      {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "금융",
         "price": 312.99,
         "change_pct": 1.77,
-        "volume": 6614707,
-        "trading_value": 2070337079,
-        "vol_surge": 0.87,
-        "score": 14.4219
+        "volume": 7618413,
+        "trading_value": 2384487010,
+        "vol_surge": 1.01,
+        "score": 16.7196
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 653.69,
+        "change_pct": 2.39,
+        "volume": 11224183,
+        "trading_value": 7337136212,
+        "vol_surge": 0.71,
+        "score": 16.6624
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 303.3,
+        "change_pct": 1.88,
+        "volume": 7867816,
+        "trading_value": 2386308496,
+        "vol_surge": 0.74,
+        "score": 13.1072
       },
       {
         "ticker": "AVGO",
@@ -320,17 +331,6 @@
         "trading_value": 1330817323,
         "vol_surge": 0.63,
         "score": 12.3538
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 303.3,
-        "change_pct": 1.88,
-        "volume": 6130396,
-        "trading_value": 1859349031,
-        "vol_surge": 0.58,
-        "score": 10.0948
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 26일 06:37 KST"
+    "date": "2026년 02월 26일 07:36 KST"
   }
 }
