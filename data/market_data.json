@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026년 02월 26일 14:59 KST",
+  "updated_at": "2026년 02월 26일 16:03 KST",
   "indices": {
     "kospi": {
-      "value": 6245.88,
-      "change_pct": 2.81
+      "value": 6307.27,
+      "change_pct": 3.67
     },
     "kosdaq": {
-      "value": 1188.42,
-      "change_pct": 2.3
+      "value": 1188.15,
+      "change_pct": 1.97
     },
     "sp500": {
       "value": 6946.13,
@@ -22,43 +22,43 @@
       "change_pct": 0.63
     },
     "usdkrw": {
-      "value": 1423.09,
-      "change_pct": -0.33
+      "value": 1426.58,
+      "change_pct": -0.09
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 12.82
+        "change_pct": 14.51
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": -3.24
+        "change_pct": -3.08
       },
       {
         "name": "금융",
-        "change_pct": -2.12
+        "change_pct": -1.72
       },
       {
         "name": "자동차",
-        "change_pct": 5.7
+        "change_pct": 6.05
       },
       {
         "name": "헬스케어",
-        "change_pct": -3.8
+        "change_pct": -3.77
       },
       {
         "name": "화학/에너지",
-        "change_pct": -0.5
+        "change_pct": 0.1
       },
       {
         "name": "철강/소재",
-        "change_pct": -0.21
+        "change_pct": -0.33
       },
       {
         "name": "통신",
-        "change_pct": 0.84
+        "change_pct": 0.86
       }
     ],
     "top_stocks": [
@@ -66,111 +66,111 @@
         "ticker": "042700.KS",
         "name": "한미반도체",
         "sector": "반도체",
-        "price": 271000.0,
-        "change_pct": 27.23,
-        "volume": 5364923,
-        "trading_value": 1453894133000,
-        "vol_surge": 2.91,
-        "score": 963.188
+        "price": 275500.0,
+        "change_pct": 28.44,
+        "volume": 6073427,
+        "trading_value": 1673229138500,
+        "vol_surge": 3.29,
+        "score": 1144.5555
       },
       {
         "ticker": "066570.KS",
         "name": "LG전자",
         "sector": "IT/플랫폼",
-        "price": 145700.0,
-        "change_pct": 9.47,
-        "volume": 4224189,
-        "trading_value": 615464337300,
-        "vol_surge": 2.82,
-        "score": 315.0757
+        "price": 146700.0,
+        "change_pct": 10.05,
+        "volume": 4652342,
+        "trading_value": 682498571400,
+        "vol_surge": 3.11,
+        "score": 369.6665
       },
       {
         "ticker": "035720.KS",
         "name": "카카오",
         "sector": "IT/플랫폼",
         "price": 61400.0,
-        "change_pct": 6.78,
-        "volume": 8869783,
-        "trading_value": 544604676200,
-        "vol_surge": 3.55,
-        "score": 282.7372
+        "change_pct": 6.97,
+        "volume": 9838277,
+        "trading_value": 604070207800,
+        "vol_surge": 3.94,
+        "score": 323.6342
       },
       {
         "ticker": "012330.KS",
         "name": "현대모비스",
         "sector": "자동차",
-        "price": 519000.0,
-        "change_pct": 11.02,
-        "volume": 675214,
-        "trading_value": 350436066000,
-        "vol_surge": 1.53,
-        "score": 194.7158
-      },
-      {
-        "ticker": "005380.KS",
-        "name": "현대차",
-        "sector": "자동차",
-        "price": 613000.0,
-        "change_pct": 7.36,
-        "volume": 2247298,
-        "trading_value": 1377593674000,
-        "vol_surge": 0.95,
-        "score": 84.5811
-      },
-      {
-        "ticker": "005930.KS",
-        "name": "삼성전자",
-        "sector": "반도체",
-        "price": 216000.0,
-        "change_pct": 6.4,
-        "volume": 23529464,
-        "trading_value": 5082364224000,
-        "vol_surge": 0.91,
-        "score": 74.1342
+        "price": 529000.0,
+        "change_pct": 12.67,
+        "volume": 959654,
+        "trading_value": 507656966000,
+        "vol_surge": 2.18,
+        "score": 322.6137
       },
       {
         "ticker": "000660.KS",
         "name": "SK하이닉스",
         "sector": "반도체",
-        "price": 1063000.0,
-        "change_pct": 4.83,
-        "volume": 3382836,
-        "trading_value": 3595954668000,
-        "vol_surge": 0.84,
-        "score": 51.0855
+        "price": 1099000.0,
+        "change_pct": 7.96,
+        "volume": 4696797,
+        "trading_value": 5161779903000,
+        "vol_surge": 1.17,
+        "score": 118.3533
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "sector": "반도체",
+        "price": 218000.0,
+        "change_pct": 7.13,
+        "volume": 32209522,
+        "trading_value": 7021675796000,
+        "vol_surge": 1.25,
+        "score": 114.3068
+      },
+      {
+        "ticker": "005380.KS",
+        "name": "현대차",
+        "sector": "자동차",
+        "price": 609000.0,
+        "change_pct": 6.47,
+        "volume": 3028044,
+        "trading_value": 1844078796000,
+        "vol_surge": 1.28,
+        "score": 101.23
       },
       {
         "ticker": "000270.KS",
         "name": "기아",
         "sector": "자동차",
-        "price": 204500.0,
-        "change_pct": 3.97,
-        "volume": 1503693,
-        "trading_value": 307505218500,
-        "vol_surge": 0.99,
-        "score": 45.0248
-      },
-      {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 39000.0,
-        "change_pct": 2.5,
-        "volume": 1180027,
-        "trading_value": 46021053000,
-        "vol_surge": 1.51,
-        "score": 40.2122
+        "price": 206000.0,
+        "change_pct": 5.05,
+        "volume": 2141974,
+        "trading_value": 441246644000,
+        "vol_surge": 1.41,
+        "score": 82.6983
       },
       {
         "ticker": "035420.KS",
         "name": "NAVER",
         "sector": "IT/플랫폼",
-        "price": 259500.0,
-        "change_pct": 2.57,
-        "volume": 1678610,
-        "trading_value": 435599295000,
-        "vol_surge": 1.22,
-        "score": 36.4511
+        "price": 260500.0,
+        "change_pct": 2.96,
+        "volume": 1963291,
+        "trading_value": 511437305500,
+        "vol_surge": 1.43,
+        "score": 49.3967
+      },
+      {
+        "ticker": "032640.KS",
+        "name": "LG유플러스",
+        "sector": "통신",
+        "price": 17810.0,
+        "change_pct": 2.36,
+        "volume": 1547048,
+        "trading_value": 27552924880,
+        "vol_surge": 1.78,
+        "score": 43.742
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 26일 14:59 KST"
+    "date": "2026년 02월 26일 16:03 KST"
   }
 }
