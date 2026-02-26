@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 26일 16:57 KST",
+  "updated_at": "2026년 02월 26일 17:53 KST",
   "indices": {
     "kospi": {
       "value": 6307.27,
@@ -22,8 +22,8 @@
       "change_pct": 0.63
     },
     "usdkrw": {
-      "value": 1427.98,
-      "change_pct": 0.01
+      "value": 1426.22,
+      "change_pct": -0.11
     }
   },
   "kr": {
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 26일 16:57 KST"
+    "date": "2026년 02월 26일 17:53 KST"
   }
 }
