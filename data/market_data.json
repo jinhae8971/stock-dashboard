@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 27일 05:41 KST",
+  "updated_at": "2026년 02월 27일 06:38 KST",
   "indices": {
     "kospi": {
       "value": 6307.27,
@@ -10,20 +10,20 @@
       "change_pct": 1.97
     },
     "sp500": {
-      "value": 6909.4,
-      "change_pct": -0.53
+      "value": 6908.86,
+      "change_pct": -0.54
     },
     "nasdaq": {
-      "value": 22872.75,
-      "change_pct": -1.21
+      "value": 22878.38,
+      "change_pct": -1.18
     },
     "dow": {
-      "value": 49521.46,
-      "change_pct": 0.07
+      "value": 49499.2,
+      "change_pct": 0.03
     },
     "usdkrw": {
-      "value": 1431.15,
-      "change_pct": 0.23
+      "value": 1431.98,
+      "change_pct": 0.29
     }
   },
   "kr": {
@@ -178,19 +178,19 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.1
+        "change_pct": -0.95
       },
       {
         "name": "금융",
-        "change_pct": 1.52
+        "change_pct": 1.43
       },
       {
         "name": "에너지",
-        "change_pct": 0.48
+        "change_pct": 0.33
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.12
+        "change_pct": -0.14
       },
       {
         "name": "산업재",
@@ -198,27 +198,27 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.27
+        "change_pct": 0.24
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.17
+        "change_pct": -0.08
       },
       {
         "name": "소재",
-        "change_pct": -0.22
+        "change_pct": -0.17
       },
       {
         "name": "부동산",
-        "change_pct": 0.67
+        "change_pct": 0.62
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.45
+        "change_pct": -0.46
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.68
+        "change_pct": 0.5
       }
     ],
     "top_stocks": [
@@ -226,119 +226,119 @@
         "ticker": "NFLX",
         "name": "Netflix, Inc.",
         "sector": "통신서비스",
-        "price": 85.29,
-        "change_pct": 2.54,
-        "volume": 54551143,
-        "trading_value": 4652939642,
-        "vol_surge": 1.16,
-        "score": 28.5168
-      },
-      {
-        "ticker": "BRK-B",
-        "name": "Berkshire Hathaway",
-        "sector": "금융",
-        "price": 503.11,
-        "change_pct": 1.9,
-        "volume": 2827480,
-        "trading_value": 1422519356,
-        "vol_surge": 0.62,
-        "score": 10.8014
+        "price": 84.59,
+        "change_pct": 1.7,
+        "volume": 68258461,
+        "trading_value": 5773982966,
+        "vol_surge": 1.45,
+        "score": 24.1135
       },
       {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "금융",
-        "price": 316.97,
-        "change_pct": 1.28,
-        "volume": 5635131,
-        "trading_value": 1786167479,
-        "vol_surge": 0.74,
-        "score": 8.79
+        "price": 316.7,
+        "change_pct": 1.19,
+        "volume": 8701288,
+        "trading_value": 2755698015,
+        "vol_surge": 1.15,
+        "score": 12.8753
+      },
+      {
+        "ticker": "BRK-B",
+        "name": "Berkshire Hathaway",
+        "sector": "금융",
+        "price": 502.67,
+        "change_pct": 1.82,
+        "volume": 3426122,
+        "trading_value": 1722208791,
+        "vol_surge": 0.75,
+        "score": 12.6509
       },
       {
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 657.65,
-        "change_pct": 1.57,
-        "volume": 7376461,
-        "trading_value": 4851129756,
-        "vol_surge": 0.47,
-        "score": 7.165
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 306.75,
-        "change_pct": 1.49,
-        "volume": 4507310,
-        "trading_value": 1382617342,
-        "vol_surge": 0.43,
-        "score": 5.8078
+        "price": 657.01,
+        "change_pct": 1.47,
+        "volume": 9320866,
+        "trading_value": 6123902261,
+        "vol_surge": 0.6,
+        "score": 8.5656
       },
       {
         "ticker": "MA",
         "name": "Mastercard Incorpo",
         "sector": "금융",
-        "price": 513.93,
-        "change_pct": 0.6,
-        "volume": 3375786,
-        "trading_value": 1734917674,
-        "vol_surge": 0.95,
-        "score": 5.2836
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 929.87,
-        "change_pct": 1.0,
-        "volume": 1327852,
-        "trading_value": 1234729732,
-        "vol_surge": 0.58,
-        "score": 5.2821
+        "price": 514.77,
+        "change_pct": 0.77,
+        "volume": 4114744,
+        "trading_value": 2118146849,
+        "vol_surge": 1.16,
+        "score": 8.3425
       },
       {
         "ticker": "PLD",
         "name": "Prologis, Inc.",
         "sector": "부동산",
-        "price": 142.41,
-        "change_pct": 1.25,
-        "volume": 1557853,
-        "trading_value": 221853851,
-        "vol_surge": 0.47,
-        "score": 4.8723
+        "price": 142.66,
+        "change_pct": 1.43,
+        "volume": 1897396,
+        "trading_value": 270682520,
+        "vol_surge": 0.57,
+        "score": 6.8591
       },
       {
         "ticker": "RTX",
         "name": "RTX Corporation",
         "sector": "산업재",
-        "price": 197.42,
-        "change_pct": 0.72,
-        "volume": 3478223,
-        "trading_value": 686670778,
-        "vol_surge": 0.62,
-        "score": 3.9675
+        "price": 197.63,
+        "change_pct": 0.83,
+        "volume": 4526586,
+        "trading_value": 894589213,
+        "vol_surge": 0.81,
+        "score": 6.0296
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 306.13,
+        "change_pct": 1.28,
+        "volume": 5181241,
+        "trading_value": 1586133332,
+        "vol_surge": 0.49,
+        "score": 5.7726
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 929.0,
+        "change_pct": 0.9,
+        "volume": 1518631,
+        "trading_value": 1410808199,
+        "vol_surge": 0.66,
+        "score": 5.4715
       },
       {
         "ticker": "SPG",
         "name": "Simon Property Gro",
         "sector": "부동산",
-        "price": 203.31,
-        "change_pct": 1.14,
-        "volume": 619020,
-        "trading_value": 125852954,
-        "vol_surge": 0.4,
-        "score": 3.7339
+        "price": 202.6,
+        "change_pct": 0.79,
+        "volume": 794326,
+        "trading_value": 160930452,
+        "vol_surge": 0.52,
+        "score": 3.3641
       }
     ]
   },
   "strategy": {
-    "overview": "한국 증시는 반도체 섹터 폭등(+12.72%)에 힘입어 KOSPI가 3.67% 급등하며 강세장을 연출한 반면, 미국은 기술주 약세(-1.21% 나스닥)와 금융주 강세의 섹터 로테이션이 진행 중입니다. 한미 증시 간 디커플링 현상이 뚜렷하며, 원화 약세(1,431원)가 수출주에 우호적 환경을 제공하고 있습니다.",
-    "action": "반도체 섹터 급등 이후 단기 차익실현 물량 출회 가능성에 대비해 한미반도체는 신규 진입보다 눌림목 대기 전략을 권고합니다. 상대적으로 상승폭이 작았던 리노공업, LG전자 등 2차 수혜주 롱 포지션 진입을 고려하되, 전일 종가 대비 -3% 이탈 시 손절 설정하세요. 미국 기술주 약세 지속 시 코스닥 고베타 종목 헷지 숏 병행을 검토합니다.",
-    "risk": "미국 나스닥 하락세가 아시아 장으로 전이될 가능성과 원/달러 1,435원 돌파 시 외국인 매도 가속화 리스크에 주의하세요. 반도체 섹터 과열 신호(RSI 과매수권 진입 예상)로 급락 반전 가능성 있으며, 주도주 기준 고점 대비 -5% 손절라인을 엄수해야 합니다.",
-    "watchlist": "리노공업: 반도체 섹터 내 상대적 저평가, 추가 상승 여력 존재\nLG전자: IT/플랫폼 섹터 모멘텀 + 원화 약세 수혜 수출주\n카카오: 플랫폼 섹터 회복세 편승, 기술적 반등 구간 진입\n현대모비스: 자동차 섹터 강세 지속 시 동반 상승 기대",
-    "date": "2026년 02월 27일 05:41 KST"
+    "overview": "한국 시장은 반도체 섹터 급등(+12.72%)이 주도하는 강세장, 미국은 기술주 약세로 혼조세를 보임. 한미 간 디커플링 현상이 뚜렷하며, 국내는 반도체·IT 중심 섹터 로테이션이 진행 중. 원화 약세(1,431원대)가 수출주에 우호적 환경을 조성하고 있음.",
+    "action": "반도체 섹터 모멘텀 추종 롱 포지션 유지, 단 한미반도체 등 급등주는 장 초반 갭상승 시 일부 차익실현 권고. 2차 진입은 5일선 지지 확인 후(한미반도체 기준 250,000원대) 분할 매수. 미국 나스닥 약세 감안해 장 후반 변동성 확대에 대비한 헤지 비중 10-15% 유지.",
+    "risk": "나스닥 기술주 약세(-1.18%)가 내일 국내 시장에 지연 반영될 가능성 주의. 급등 반도체주 과열 구간 진입으로 10% 이상 조정 리스크 존재. 손절 기준은 KOSPI 6,150선(전일 대비 -2.5%) 이탈 시 전체 포지션 50% 축소.",
+    "watchlist": "한미반도체: 급등 후 차익실현 물량 소화 여부 확인, 260,000원 지지력 테스트 주목\n리노공업: 반도체 후공정 수혜주로 상대적 상승 여력 존재, 10만원선 지지 시 추가 매수 고려\n카카오: IT 플랫폼 순환매 수혜 기대, 60,000원 지지 확인 후 단기 트레이딩 유효\nLG전자: 가전·전장 모멘텀 지속 여부 관찰, 145,000원선 이탈 시 관망 전환",
+    "date": "2026년 02월 27일 06:38 KST"
   }
 }
