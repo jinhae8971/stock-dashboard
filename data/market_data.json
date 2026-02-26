@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026년 02월 26일 08:30 KST",
+  "updated_at": "2026년 02월 26일 11:12 KST",
   "indices": {
     "kospi": {
-      "value": 6083.86,
-      "change_pct": 1.91
+      "value": 6174.31,
+      "change_pct": 1.63
     },
     "kosdaq": {
-      "value": 1165.25,
-      "change_pct": 0.02
+      "value": 1171.69,
+      "change_pct": 0.86
     },
     "sp500": {
       "value": 6946.13,
@@ -22,155 +22,155 @@
       "change_pct": 0.63
     },
     "usdkrw": {
-      "value": 1427.85,
-      "change_pct": -0.91
+      "value": 1419.18,
+      "change_pct": -0.61
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 0.74
+        "change_pct": 7.15
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": -0.8
+        "change_pct": -2.55
       },
       {
         "name": "금융",
-        "change_pct": -0.23
+        "change_pct": -1.61
       },
       {
         "name": "자동차",
-        "change_pct": 8.09
+        "change_pct": 1.23
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.16
+        "change_pct": -4.36
       },
       {
         "name": "화학/에너지",
-        "change_pct": 0.81
+        "change_pct": 0.48
       },
       {
         "name": "철강/소재",
-        "change_pct": 1.28
+        "change_pct": 0.05
       },
       {
         "name": "통신",
-        "change_pct": -0.0
+        "change_pct": 0.85
       }
     ],
     "top_stocks": [
       {
-        "ticker": "051910.KS",
-        "name": "LG화학",
-        "sector": "화학/에너지",
-        "price": 387500.0,
-        "change_pct": 10.56,
-        "volume": 1099978,
-        "trading_value": 426241475000,
-        "vol_surge": 3.32,
-        "score": 407.8257
-      },
-      {
-        "ticker": "000270.KS",
-        "name": "기아",
-        "sector": "자동차",
-        "price": 196100.0,
-        "change_pct": 12.7,
-        "volume": 3876333,
-        "trading_value": 760148901300,
-        "vol_surge": 2.54,
-        "score": 384.0057
-      },
-      {
-        "ticker": "005380.KS",
-        "name": "현대차",
-        "sector": "자동차",
-        "price": 572000.0,
-        "change_pct": 9.16,
-        "volume": 4149696,
-        "trading_value": 2373626112000,
-        "vol_surge": 1.75,
-        "score": 198.1615
-      },
-      {
-        "ticker": "011210.KS",
-        "name": "현대위아",
-        "sector": "자동차",
-        "price": 92200.0,
-        "change_pct": 6.84,
-        "volume": 670364,
-        "trading_value": 61807560800,
+        "ticker": "066570.KS",
+        "name": "LG전자",
+        "sector": "IT/플랫폼",
+        "price": 146300.0,
+        "change_pct": 9.92,
+        "volume": 2800787,
+        "trading_value": 409755138100,
         "vol_surge": 1.87,
-        "score": 138.2665
-      },
-      {
-        "ticker": "012330.KS",
-        "name": "현대모비스",
-        "sector": "자동차",
-        "price": 469500.0,
-        "change_pct": 3.64,
-        "volume": 712489,
-        "trading_value": 334513585500,
-        "vol_surge": 1.62,
-        "score": 67.7481
-      },
-      {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 38150.0,
-        "change_pct": 3.53,
-        "volume": 1392335,
-        "trading_value": 53117580250,
-        "vol_surge": 1.78,
-        "score": 67.3866
-      },
-      {
-        "ticker": "005930.KS",
-        "name": "삼성전자",
-        "sector": "반도체",
-        "price": 203500.0,
-        "change_pct": 1.75,
-        "volume": 26987996,
-        "trading_value": 5492057186000,
-        "vol_surge": 1.05,
-        "score": 23.3123
-      },
-      {
-        "ticker": "005490.KS",
-        "name": "POSCO홀딩스",
-        "sector": "철강/소재",
-        "price": 406500.0,
-        "change_pct": 1.75,
-        "volume": 558243,
-        "trading_value": 226925779500,
-        "vol_surge": 1.0,
-        "score": 19.8694
+        "score": 215.5537
       },
       {
         "ticker": "042700.KS",
         "name": "한미반도체",
         "sector": "반도체",
-        "price": 214500.0,
-        "change_pct": 2.14,
-        "volume": 1064978,
-        "trading_value": 228437781000,
-        "vol_surge": 0.58,
-        "score": 14.0334
+        "price": 244500.0,
+        "change_pct": 14.79,
+        "volume": 2138911,
+        "trading_value": 522963739500,
+        "vol_surge": 1.16,
+        "score": 200.9591
+      },
+      {
+        "ticker": "035720.KS",
+        "name": "카카오",
+        "sector": "IT/플랫폼",
+        "price": 60800.0,
+        "change_pct": 5.74,
+        "volume": 5078435,
+        "trading_value": 308768848000,
+        "vol_surge": 2.03,
+        "score": 134.173
+      },
+      {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 497500.0,
+        "change_pct": 6.42,
+        "volume": 374165,
+        "trading_value": 186147087500,
+        "vol_surge": 0.85,
+        "score": 61.3643
+      },
+      {
+        "ticker": "035420.KS",
+        "name": "NAVER",
+        "sector": "IT/플랫폼",
+        "price": 264000.0,
+        "change_pct": 4.35,
+        "volume": 1133647,
+        "trading_value": 299282808000,
+        "vol_surge": 0.82,
+        "score": 41.0837
+      },
+      {
+        "ticker": "005930.KS",
+        "name": "삼성전자",
+        "sector": "반도체",
+        "price": 212500.0,
+        "change_pct": 4.68,
+        "volume": 13198889,
+        "trading_value": 2804763912500,
+        "vol_surge": 0.51,
+        "score": 29.7917
+      },
+      {
+        "ticker": "004020.KS",
+        "name": "현대제철",
+        "sector": "철강/소재",
+        "price": 39050.0,
+        "change_pct": 2.63,
+        "volume": 525420,
+        "trading_value": 20517651000,
+        "vol_surge": 0.67,
+        "score": 18.2162
+      },
+      {
+        "ticker": "011170.KS",
+        "name": "롯데케미칼",
+        "sector": "화학/에너지",
+        "price": 93000.0,
+        "change_pct": 2.54,
+        "volume": 130665,
+        "trading_value": 12151845000,
+        "vol_surge": 0.64,
+        "score": 16.4205
       },
       {
         "ticker": "000660.KS",
         "name": "SK하이닉스",
         "sector": "반도체",
-        "price": 1018000.0,
-        "change_pct": 1.29,
-        "volume": 3462525,
-        "trading_value": 3524850450000,
-        "vol_surge": 0.86,
-        "score": 13.9557
+        "price": 1034000.0,
+        "change_pct": 1.97,
+        "volume": 2030190,
+        "trading_value": 2099216460000,
+        "vol_surge": 0.51,
+        "score": 12.2719
+      },
+      {
+        "ticker": "032640.KS",
+        "name": "LG유플러스",
+        "sector": "통신",
+        "price": 17710.0,
+        "change_pct": 1.49,
+        "volume": 285783,
+        "trading_value": 5061216930,
+        "vol_surge": 0.33,
+        "score": 4.742
       }
     ]
   },
@@ -228,10 +228,10 @@
         "sector": "통신서비스",
         "price": 82.7,
         "change_pct": 4.8,
-        "volume": 67500722,
-        "trading_value": 5582309503,
-        "vol_surge": 1.45,
-        "score": 68.0402
+        "volume": 69089100,
+        "trading_value": 5713668359,
+        "vol_surge": 1.49,
+        "score": 69.7135
       },
       {
         "ticker": "MSFT",
@@ -239,10 +239,10 @@
         "sector": "기술",
         "price": 400.6,
         "change_pct": 3.06,
-        "volume": 43309989,
-        "trading_value": 17349981857,
+        "volume": 43514700,
+        "trading_value": 17431989085,
         "vol_surge": 1.38,
-        "score": 43.1221
+        "score": 43.3346
       },
       {
         "ticker": "MA",
@@ -250,10 +250,10 @@
         "sector": "금융",
         "price": 509.39,
         "change_pct": 2.38,
-        "volume": 3573215,
-        "trading_value": 1820160041,
-        "vol_surge": 1.01,
-        "score": 22.3382
+        "volume": 4138100,
+        "trading_value": 2107906819,
+        "vol_surge": 1.17,
+        "score": 26.0477
       },
       {
         "ticker": "NVDA",
@@ -261,10 +261,10 @@
         "sector": "기술",
         "price": 195.56,
         "change_pct": 1.43,
-        "volume": 230041455,
-        "trading_value": 44986906378,
-        "vol_surge": 1.35,
-        "score": 20.6142
+        "volume": 243263800,
+        "trading_value": 47572668134,
+        "vol_surge": 1.43,
+        "score": 21.8487
       },
       {
         "ticker": "TSLA",
@@ -272,10 +272,10 @@
         "sector": "임의소비재",
         "price": 417.4,
         "change_pct": 2.03,
-        "volume": 53425932,
-        "trading_value": 22299983690,
-        "vol_surge": 0.81,
-        "score": 16.9427
+        "volume": 54649200,
+        "trading_value": 22810575746,
+        "vol_surge": 0.82,
+        "score": 17.3471
       },
       {
         "ticker": "V",
@@ -283,10 +283,10 @@
         "sector": "금융",
         "price": 312.99,
         "change_pct": 1.77,
-        "volume": 7618413,
-        "trading_value": 2384487010,
+        "volume": 7622700,
+        "trading_value": 2385828798,
         "vol_surge": 1.01,
-        "score": 16.7196
+        "score": 16.7295
       },
       {
         "ticker": "META",
@@ -300,15 +300,15 @@
         "score": 16.6624
       },
       {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
         "sector": "금융",
-        "price": 303.3,
-        "change_pct": 1.88,
-        "volume": 7867816,
-        "trading_value": 2386308496,
-        "vol_surge": 0.74,
-        "score": 13.1072
+        "price": 921.38,
+        "change_pct": 2.15,
+        "volume": 1762300,
+        "trading_value": 1623747982,
+        "vol_surge": 0.77,
+        "score": 15.2158
       },
       {
         "ticker": "AVGO",
@@ -316,21 +316,21 @@
         "sector": "기술",
         "price": 332.31,
         "change_pct": 2.11,
-        "volume": 18504074,
-        "trading_value": 6149088785,
-        "vol_surge": 0.61,
-        "score": 12.507
+        "volume": 20118300,
+        "trading_value": 6685512223,
+        "vol_surge": 0.66,
+        "score": 13.6485
       },
       {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
         "sector": "금융",
-        "price": 921.38,
-        "change_pct": 2.15,
-        "volume": 1444374,
-        "trading_value": 1330817323,
-        "vol_surge": 0.63,
-        "score": 12.3538
+        "price": 303.3,
+        "change_pct": 1.88,
+        "volume": 8084900,
+        "trading_value": 2452150071,
+        "vol_surge": 0.76,
+        "score": 13.4858
       }
     ]
   },
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 26일 08:30 KST"
+    "date": "2026년 02월 26일 11:12 KST"
   }
 }
