@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 26일 16:03 KST",
+  "updated_at": "2026년 02월 26일 16:57 KST",
   "indices": {
     "kospi": {
       "value": 6307.27,
@@ -22,8 +22,8 @@
       "change_pct": 0.63
     },
     "usdkrw": {
-      "value": 1426.58,
-      "change_pct": -0.09
+      "value": 1427.98,
+      "change_pct": 0.01
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "반도체",
         "price": 275500.0,
         "change_pct": 28.44,
-        "volume": 6073427,
-        "trading_value": 1673229138500,
-        "vol_surge": 3.29,
-        "score": 1144.5555
+        "volume": 6002195,
+        "trading_value": 1653604722500,
+        "vol_surge": 3.25,
+        "score": 1130.6575
       },
       {
         "ticker": "066570.KS",
@@ -79,10 +79,10 @@
         "sector": "IT/플랫폼",
         "price": 146700.0,
         "change_pct": 10.05,
-        "volume": 4652342,
-        "trading_value": 682498571400,
-        "vol_surge": 3.11,
-        "score": 369.6665
+        "volume": 4568151,
+        "trading_value": 670147751700,
+        "vol_surge": 3.05,
+        "score": 362.7336
       },
       {
         "ticker": "035720.KS",
@@ -90,10 +90,10 @@
         "sector": "IT/플랫폼",
         "price": 61400.0,
         "change_pct": 6.97,
-        "volume": 9838277,
-        "trading_value": 604070207800,
+        "volume": 9840867,
+        "trading_value": 604229233800,
         "vol_surge": 3.94,
-        "score": 323.6342
+        "score": 323.7225
       },
       {
         "ticker": "012330.KS",
@@ -101,10 +101,10 @@
         "sector": "자동차",
         "price": 529000.0,
         "change_pct": 12.67,
-        "volume": 959654,
-        "trading_value": 507656966000,
+        "volume": 959711,
+        "trading_value": 507687119000,
         "vol_surge": 2.18,
-        "score": 322.6137
+        "score": 322.6336
       },
       {
         "ticker": "000660.KS",
@@ -112,10 +112,10 @@
         "sector": "반도체",
         "price": 1099000.0,
         "change_pct": 7.96,
-        "volume": 4696797,
-        "trading_value": 5161779903000,
+        "volume": 4698460,
+        "trading_value": 5163607540000,
         "vol_surge": 1.17,
-        "score": 118.3533
+        "score": 118.3967
       },
       {
         "ticker": "005930.KS",
@@ -123,10 +123,10 @@
         "sector": "반도체",
         "price": 218000.0,
         "change_pct": 7.13,
-        "volume": 32209522,
-        "trading_value": 7021675796000,
-        "vol_surge": 1.25,
-        "score": 114.3068
+        "volume": 29904932,
+        "trading_value": 6519275176000,
+        "vol_surge": 1.16,
+        "score": 105.8618
       },
       {
         "ticker": "005380.KS",
@@ -134,10 +134,10 @@
         "sector": "자동차",
         "price": 609000.0,
         "change_pct": 6.47,
-        "volume": 3028044,
-        "trading_value": 1844078796000,
+        "volume": 3028636,
+        "trading_value": 1844439324000,
         "vol_surge": 1.28,
-        "score": 101.23
+        "score": 101.2505
       },
       {
         "ticker": "000270.KS",
@@ -145,10 +145,10 @@
         "sector": "자동차",
         "price": 206000.0,
         "change_pct": 5.05,
-        "volume": 2141974,
-        "trading_value": 441246644000,
+        "volume": 2142738,
+        "trading_value": 441404028000,
         "vol_surge": 1.41,
-        "score": 82.6983
+        "score": 82.7289
       },
       {
         "ticker": "035420.KS",
@@ -156,10 +156,10 @@
         "sector": "IT/플랫폼",
         "price": 260500.0,
         "change_pct": 2.96,
-        "volume": 1963291,
-        "trading_value": 511437305500,
-        "vol_surge": 1.43,
-        "score": 49.3967
+        "volume": 1890166,
+        "trading_value": 492388243000,
+        "vol_surge": 1.37,
+        "score": 47.4899
       },
       {
         "ticker": "032640.KS",
@@ -167,8 +167,8 @@
         "sector": "통신",
         "price": 17810.0,
         "change_pct": 2.36,
-        "volume": 1547048,
-        "trading_value": 27552924880,
+        "volume": 1547049,
+        "trading_value": 27552942690,
         "vol_surge": 1.78,
         "score": 43.742
       }
@@ -339,6 +339,6 @@
     "action": "—",
     "risk": "—",
     "watchlist": "—",
-    "date": "2026년 02월 26일 16:03 KST"
+    "date": "2026년 02월 26일 16:57 KST"
   }
 }
