@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 27일 06:38 KST",
+  "updated_at": "2026년 02월 27일 07:37 KST",
   "indices": {
     "kospi": {
       "value": 6307.27,
@@ -22,8 +22,8 @@
       "change_pct": 0.03
     },
     "usdkrw": {
-      "value": 1431.98,
-      "change_pct": 0.29
+      "value": 1433.34,
+      "change_pct": 0.38
     }
   },
   "kr": {
@@ -228,10 +228,10 @@
         "sector": "통신서비스",
         "price": 84.59,
         "change_pct": 1.7,
-        "volume": 68258461,
-        "trading_value": 5773982966,
-        "vol_surge": 1.45,
-        "score": 24.1135
+        "volume": 69345050,
+        "trading_value": 5865897525,
+        "vol_surge": 1.48,
+        "score": 24.5146
       },
       {
         "ticker": "V",
@@ -256,26 +256,48 @@
         "score": 12.6509
       },
       {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
-        "sector": "통신서비스",
-        "price": 657.01,
-        "change_pct": 1.47,
-        "volume": 9320866,
-        "trading_value": 6123902261,
-        "vol_surge": 0.6,
-        "score": 8.5656
-      },
-      {
         "ticker": "MA",
         "name": "Mastercard Incorpo",
         "sector": "금융",
         "price": 514.77,
         "change_pct": 0.77,
-        "volume": 4114744,
-        "trading_value": 2118146849,
-        "vol_surge": 1.16,
-        "score": 8.3425
+        "volume": 4842702,
+        "trading_value": 2492877803,
+        "vol_surge": 1.37,
+        "score": 9.8929
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 657.01,
+        "change_pct": 1.47,
+        "volume": 10575279,
+        "trading_value": 6948064159,
+        "vol_surge": 0.68,
+        "score": 9.7728
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 306.13,
+        "change_pct": 1.28,
+        "volume": 6984105,
+        "trading_value": 2138044097,
+        "vol_surge": 0.66,
+        "score": 7.891
+      },
+      {
+        "ticker": "RTX",
+        "name": "RTX Corporation",
+        "sector": "산업재",
+        "price": 197.63,
+        "change_pct": 0.83,
+        "volume": 5752484,
+        "trading_value": 1136863441,
+        "vol_surge": 1.03,
+        "score": 7.7517
       },
       {
         "ticker": "PLD",
@@ -289,28 +311,6 @@
         "score": 6.8591
       },
       {
-        "ticker": "RTX",
-        "name": "RTX Corporation",
-        "sector": "산업재",
-        "price": 197.63,
-        "change_pct": 0.83,
-        "volume": 4526586,
-        "trading_value": 894589213,
-        "vol_surge": 0.81,
-        "score": 6.0296
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 306.13,
-        "change_pct": 1.28,
-        "volume": 5181241,
-        "trading_value": 1586133332,
-        "vol_surge": 0.49,
-        "score": 5.7726
-      },
-      {
         "ticker": "GS",
         "name": "Goldman Sachs Grou",
         "sector": "금융",
@@ -322,23 +322,23 @@
         "score": 5.4715
       },
       {
-        "ticker": "SPG",
-        "name": "Simon Property Gro",
+        "ticker": "AMT",
+        "name": "American Tower Cor",
         "sector": "부동산",
-        "price": 202.6,
-        "change_pct": 0.79,
-        "volume": 794326,
-        "trading_value": 160930452,
-        "vol_surge": 0.52,
-        "score": 3.3641
+        "price": 185.01,
+        "change_pct": 0.49,
+        "volume": 2918059,
+        "trading_value": 539870079,
+        "vol_surge": 0.91,
+        "score": 3.8953
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 반도체 섹터 급등(+12.72%)이 주도하는 강세장, 미국은 기술주 약세로 혼조세를 보임. 한미 간 디커플링 현상이 뚜렷하며, 국내는 반도체·IT 중심 섹터 로테이션이 진행 중. 원화 약세(1,431원대)가 수출주에 우호적 환경을 조성하고 있음.",
-    "action": "반도체 섹터 모멘텀 추종 롱 포지션 유지, 단 한미반도체 등 급등주는 장 초반 갭상승 시 일부 차익실현 권고. 2차 진입은 5일선 지지 확인 후(한미반도체 기준 250,000원대) 분할 매수. 미국 나스닥 약세 감안해 장 후반 변동성 확대에 대비한 헤지 비중 10-15% 유지.",
-    "risk": "나스닥 기술주 약세(-1.18%)가 내일 국내 시장에 지연 반영될 가능성 주의. 급등 반도체주 과열 구간 진입으로 10% 이상 조정 리스크 존재. 손절 기준은 KOSPI 6,150선(전일 대비 -2.5%) 이탈 시 전체 포지션 50% 축소.",
-    "watchlist": "한미반도체: 급등 후 차익실현 물량 소화 여부 확인, 260,000원 지지력 테스트 주목\n리노공업: 반도체 후공정 수혜주로 상대적 상승 여력 존재, 10만원선 지지 시 추가 매수 고려\n카카오: IT 플랫폼 순환매 수혜 기대, 60,000원 지지 확인 후 단기 트레이딩 유효\nLG전자: 가전·전장 모멘텀 지속 여부 관찰, 145,000원선 이탈 시 관망 전환",
-    "date": "2026년 02월 27일 06:38 KST"
+    "overview": "한국 시장은 반도체 섹터 주도의 강한 강세장, 미국은 기술주 약세 속 금융섹터 로테이션 진행 중인 혼조세. 한미반도체 +28% 폭등이 반도체 밸류체인 전반으로 모멘텀 확산 중이며, 원화 약세(1,433원)가 수출주에 추가 지지력 제공.",
+    "action": "반도체 섹터 롱 포지션 유지하되, 급등 종목은 갭상승 후 첫 30분 눌림목에서 분할 진입 권장. 한미반도체는 차익실현 구간 진입으로 신규 매수 자제, 리노공업/LG전자 등 후발주자 중심 접근. 금융 섹터는 역행 중이므로 숏 헤지용으로 활용 가능.",
+    "risk": "미국 나스닥 -1.18% 하락이 오후 외국인 매도세로 연결될 가능성 주시. 반도체 급등주는 10% 이상 되돌림 시 손절 기준 설정, 원/달러 1,440원 돌파 시 외국인 이탈 가속화 리스크 대비 필요.",
+    "watchlist": "리노공업: 반도체 후발 모멘텀 수혜, 한미반도체 대비 상승률 낮아 추격 매수 여력\nLG전자: IT플랫폼 섹터 내 대형주로 기관 수급 안정적, +10% 상승 후 눌림목 진입 기회\n카카오: 기술적 반등 구간 진입, 거래량 동반 시 단기 스윙 유효\n현대모비스: 자동차 섹터 독자 강세, 원화 약세 수혜 지속 여부 확인 필요",
+    "date": "2026년 02월 27일 07:37 KST"
   }
 }
