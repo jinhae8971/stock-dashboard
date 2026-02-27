@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 28일 01:44 KST",
+  "updated_at": "2026년 02월 28일 02:38 KST",
   "indices": {
     "kospi": {
       "value": 6244.13,
@@ -10,20 +10,20 @@
       "change_pct": 0.39
     },
     "sp500": {
-      "value": 6865.4,
-      "change_pct": -0.63
+      "value": 6861.01,
+      "change_pct": -0.69
     },
     "nasdaq": {
-      "value": 22664.9,
-      "change_pct": -0.93
+      "value": 22662.04,
+      "change_pct": -0.95
     },
     "dow": {
-      "value": 48946.81,
-      "change_pct": -1.11
+      "value": 48770.59,
+      "change_pct": -1.47
     },
     "usdkrw": {
-      "value": 1439.74,
-      "change_pct": 0.45
+      "value": 1439.28,
+      "change_pct": 0.41
     }
   },
   "kr": {
@@ -178,167 +178,167 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.65
+        "change_pct": -0.59
       },
       {
         "name": "금융",
-        "change_pct": -1.56
+        "change_pct": -2.25
       },
       {
         "name": "에너지",
-        "change_pct": 0.2
+        "change_pct": 0.83
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.98
+        "change_pct": 1.28
       },
       {
         "name": "산업재",
-        "change_pct": 0.07
+        "change_pct": -0.14
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.11
+        "change_pct": 0.08
       },
       {
         "name": "필수소비재",
-        "change_pct": 1.3
+        "change_pct": 1.36
       },
       {
         "name": "소재",
-        "change_pct": 0.49
+        "change_pct": 0.47
       },
       {
         "name": "부동산",
-        "change_pct": 0.7
+        "change_pct": 0.87
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.03
+        "change_pct": 0.82
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.3
+        "change_pct": 0.47
       }
     ],
     "top_stocks": [
       {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 973.14,
-        "change_pct": 2.92,
-        "volume": 308820,
-        "trading_value": 300525099,
-        "vol_surge": 0.5,
-        "score": 12.3538
-      },
-      {
         "ticker": "AMT",
         "name": "American Tower Cor",
         "sector": "부동산",
-        "price": 189.48,
-        "change_pct": 3.54,
-        "volume": 951405,
-        "trading_value": 180272215,
-        "vol_surge": 0.3,
-        "score": 8.6316
+        "price": 189.42,
+        "change_pct": 3.51,
+        "volume": 1258012,
+        "trading_value": 238292630,
+        "vol_surge": 0.39,
+        "score": 11.4827
       },
       {
         "ticker": "CCI",
         "name": "Crown Castle Inc.",
         "sector": "부동산",
-        "price": 89.13,
-        "change_pct": 3.15,
-        "volume": 1060511,
-        "trading_value": 94523342,
-        "vol_surge": 0.33,
-        "score": 8.2646
+        "price": 89.38,
+        "change_pct": 3.44,
+        "volume": 1321522,
+        "trading_value": 118117632,
+        "vol_surge": 0.41,
+        "score": 11.3832
       },
       {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 92.83,
-        "change_pct": 1.09,
-        "volume": 7882328,
-        "trading_value": 731755912,
-        "vol_surge": 0.82,
-        "score": 7.951
+        "ticker": "EQIX",
+        "name": "Equinix, Inc.",
+        "sector": "부동산",
+        "price": 967.49,
+        "change_pct": 2.33,
+        "volume": 353241,
+        "trading_value": 341757131,
+        "vol_surge": 0.57,
+        "score": 11.3498
       },
       {
         "ticker": "MRK",
         "name": "Merck & Company, I",
         "sector": "헬스케어",
-        "price": 122.76,
-        "change_pct": 2.78,
-        "volume": 4092149,
-        "trading_value": 502372669,
-        "vol_surge": 0.31,
-        "score": 7.4686
-      },
-      {
-        "ticker": "NEM",
-        "name": "Newmont Corporatio",
-        "sector": "소재",
-        "price": 130.2,
-        "change_pct": 2.5,
-        "volume": 2988892,
-        "trading_value": 389138815,
-        "vol_surge": 0.32,
-        "score": 6.8283
+        "price": 123.13,
+        "change_pct": 3.08,
+        "volume": 4602170,
+        "trading_value": 566665179,
+        "vol_surge": 0.35,
+        "score": 9.3617
       },
       {
         "ticker": "WMT",
         "name": "Walmart Inc.",
         "sector": "필수소비재",
-        "price": 127.74,
-        "change_pct": 2.97,
-        "volume": 7254969,
-        "trading_value": 926749724,
-        "vol_surge": 0.24,
-        "score": 6.2934
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 228.76,
-        "change_pct": 1.99,
-        "volume": 1518463,
-        "trading_value": 347371187,
-        "vol_surge": 0.24,
-        "score": 4.0315
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1002.4,
-        "change_pct": 1.77,
-        "volume": 656899,
-        "trading_value": 658475573,
-        "vol_surge": 0.25,
-        "score": 3.9522
+        "price": 127.72,
+        "change_pct": 2.95,
+        "volume": 8957375,
+        "trading_value": 1144035945,
+        "vol_surge": 0.29,
+        "score": 7.7966
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth Group",
         "sector": "헬스케어",
-        "price": 291.27,
-        "change_pct": 1.74,
-        "volume": 2251497,
-        "trading_value": 655798934,
-        "vol_surge": 0.26,
-        "score": 3.9345
+        "price": 292.57,
+        "change_pct": 2.19,
+        "volume": 3209328,
+        "trading_value": 938937054,
+        "vol_surge": 0.37,
+        "score": 7.1836
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 92.48,
+        "change_pct": 0.71,
+        "volume": 10744428,
+        "trading_value": 993644737,
+        "vol_surge": 1.12,
+        "score": 7.1655
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 230.29,
+        "change_pct": 2.66,
+        "volume": 1834925,
+        "trading_value": 422555710,
+        "vol_surge": 0.29,
+        "score": 6.5768
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 151.26,
+        "change_pct": 1.83,
+        "volume": 6019573,
+        "trading_value": 910520578,
+        "vol_surge": 0.32,
+        "score": 5.2602
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 111.7,
+        "change_pct": 1.94,
+        "volume": 2557576,
+        "trading_value": 285681231,
+        "vol_surge": 0.32,
+        "score": 5.2398
       }
     ]
   },
   "strategy": {
-    "overview": "글로벌 증시 약세 속 한국시장은 혼조세. KOSPI 하락에도 반도체(+4.42%)가 강세를 보이며 현대그룹 계열사 중심 순환매가 활발. 미국은 기술주 약세 반면 부동산/유틸리티 방어주로 자금 이동 중이며, 원/달러 상승(1,439원)으로 수출주에 우호적 환경 조성.",
-    "action": "반도체·자동차 섹터 롱 포지션 유지, IT/플랫폼 섹터는 관망 또는 단기 숏 헤지. 한미반도체·현대차는 장초반 갭상승시 분할 익절(50%), 눌림목 지지시 재진입. KOSPI 6,200선 이탈시 전체 포지션 30% 축소.",
-    "risk": "원/달러 1,440원 돌파시 외국인 이탈 가속화 우려. 월말 윈도우드레싱 마감 후 차익실현 매물 출회 가능성. 손절 기준: 개별종목 -3%, 지수선물 6,180pt 하회시 전량 청산.",
-    "watchlist": "한미반도체: 반도체 섹터 모멘텀 최강, 17%급등 후 차익매물 소화 여부 확인\n현대차: 원화약세 수혜+자동차 섹터 로테이션, 67만원선 지지 확인시 추가 매수\nLG화학: 화학/2차전지 반등 시도, 42만원 저항선 돌파 여부 관찰\n삼성전자: 반도체 섹터 강세에 동반 상승 가능성, 대형주 순환매 수혜 기대",
-    "date": "2026년 02월 28일 01:44 KST"
+    "overview": "글로벌 증시는 기술주 중심으로 약세를 보이며 혼조세를 나타내고 있으나, 한국 시장에서는 반도체(+4.42%)와 자동차/철강 등 제조업 섹터로의 뚜렷한 로테이션이 관찰됩니다. 미국은 방어주(리츠, 헬스케어, 필수소비재) 강세로 리스크오프 심리가 감지되며, 원/달러 상승(+0.41%)은 수출주에 우호적 환경을 제공합니다.",
+    "action": "한국 반도체/자동차 섹터 롱 포지션 유지하되, 전일 급등주(현대제철 +19.85%, 한미반도체 +17.42%)는 장초반 갭상승 시 일부 차익실현 권고합니다. IT/플랫폼 섹터는 약세 지속 예상되어 숏 헤지 또는 관망하고, 신규 진입은 오전 9:30 이후 거래량 확인 후 VWAP 기준 눌림목에서 진입하세요. KOSDAQ 상대강도 유지 시 중소형 반도체 장비주 추가 매수 고려.",
+    "risk": "KOSPI -1% 하락과 기술주 동반 약세로 외국인 수급 이탈 가능성에 유의하고, 원/달러 1,445원 돌파 시 외국인 매도 가속화 리스크가 있습니다. 급등주 손절 기준은 전일 종가 대비 -5% 이탈로 설정하고, 지수 선물 야간 하락폭 확인 후 장 시작 대응하세요.",
+    "watchlist": "한미반도체: 반도체 섹터 모멘텀 지속 여부 확인, +17% 급등 후 연속 상승 가능성 점검\n현대차: 자동차 섹터 강세 + 원화 약세 수혜, 기관 수급 확인 필요\n삼성전자: 반도체 섹터 대장주로서 외국인 수급 방향성 지표 역할\n카카오/네이버: IT플랫폼 -6.74% 급락 후 기술적 반등 가능성 및 숏커버 타이밍 모니터링",
+    "date": "2026년 02월 28일 02:38 KST"
   }
 }
