@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 02월 28일 08:28 KST",
+  "updated_at": "2026년 02월 28일 11:01 KST",
   "indices": {
     "kospi": {
       "value": 6244.13,
@@ -22,8 +22,8 @@
       "change_pct": -1.05
     },
     "usdkrw": {
-      "value": 1439.23,
-      "change_pct": 0.41
+      "value": 1432.32,
+      "change_pct": -0.07
     }
   },
   "kr": {
@@ -223,81 +223,15 @@
     ],
     "top_stocks": [
       {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 248.43,
-        "change_pct": 2.33,
-        "volume": 16328515,
-        "trading_value": 4056492861,
-        "vol_surge": 1.85,
-        "score": 41.4299
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 152.5,
-        "change_pct": 2.66,
-        "volume": 30234713,
-        "trading_value": 4610793732,
-        "vol_surge": 1.61,
-        "score": 41.4234
-      },
-      {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
         "price": 93.77,
         "change_pct": 2.11,
-        "volume": 19869263,
-        "trading_value": 1863140724,
-        "vol_surge": 2.07,
-        "score": 40.5738
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 113.46,
-        "change_pct": 3.55,
-        "volume": 8764736,
-        "trading_value": 994446938,
-        "vol_surge": 1.09,
-        "score": 34.964
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1010.79,
-        "change_pct": 2.62,
-        "volume": 3246169,
-        "trading_value": 3281195092,
-        "vol_surge": 1.25,
-        "score": 31.1958
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart Inc.",
-        "sector": "필수소비재",
-        "price": 127.95,
-        "change_pct": 3.14,
-        "volume": 29170714,
-        "trading_value": 3732392767,
-        "vol_surge": 0.95,
-        "score": 28.558
-      },
-      {
-        "ticker": "PG",
-        "name": "Procter & Gamble C",
-        "sector": "필수소비재",
-        "price": 167.2,
-        "change_pct": 1.97,
-        "volume": 14778402,
-        "trading_value": 2470948769,
-        "vol_surge": 1.31,
-        "score": 24.2392
+        "volume": 25137100,
+        "trading_value": 2357105782,
+        "vol_surge": 2.62,
+        "score": 51.8964
       },
       {
         "ticker": "MRK",
@@ -305,10 +239,32 @@
         "sector": "헬스케어",
         "price": 123.82,
         "change_pct": 3.66,
-        "volume": 9469829,
-        "trading_value": 1172554223,
-        "vol_surge": 0.71,
-        "score": 23.717
+        "volume": 17629500,
+        "trading_value": 2182884684,
+        "vol_surge": 1.33,
+        "score": 45.4666
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 248.43,
+        "change_pct": 2.33,
+        "volume": 16414700,
+        "trading_value": 4077903800,
+        "vol_surge": 1.86,
+        "score": 41.6585
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 152.5,
+        "change_pct": 2.66,
+        "volume": 30246900,
+        "trading_value": 4612652250,
+        "vol_surge": 1.61,
+        "score": 41.4408
       },
       {
         "ticker": "LLY",
@@ -316,29 +272,73 @@
         "sector": "헬스케어",
         "price": 1051.99,
         "change_pct": 3.05,
-        "volume": 2455171,
-        "trading_value": 2582815316,
-        "vol_surge": 0.76,
-        "score": 21.9488
+        "volume": 4317800,
+        "trading_value": 4542282379,
+        "vol_surge": 1.34,
+        "score": 39.6059
       },
       {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 232.08,
-        "change_pct": 3.46,
-        "volume": 4184250,
-        "trading_value": 971080747,
-        "vol_surge": 0.65,
-        "score": 20.325
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 1010.79,
+        "change_pct": 2.62,
+        "volume": 3931800,
+        "trading_value": 3974224035,
+        "vol_surge": 1.52,
+        "score": 38.1152
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 113.46,
+        "change_pct": 3.55,
+        "volume": 9008500,
+        "trading_value": 1022104401,
+        "vol_surge": 1.13,
+        "score": 35.984
+      },
+      {
+        "ticker": "NEM",
+        "name": "Newmont Corporatio",
+        "sector": "소재",
+        "price": 130.0,
+        "change_pct": 2.35,
+        "volume": 15011100,
+        "trading_value": 1951443000,
+        "vol_surge": 1.6,
+        "score": 34.8633
+      },
+      {
+        "ticker": "WMT",
+        "name": "Walmart Inc.",
+        "sector": "필수소비재",
+        "price": 127.95,
+        "change_pct": 3.14,
+        "volume": 29189600,
+        "trading_value": 3734809230,
+        "vol_surge": 0.95,
+        "score": 28.5773
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 124.08,
+        "change_pct": 1.96,
+        "volume": 6899100,
+        "trading_value": 856040340,
+        "vol_surge": 1.53,
+        "score": 26.7605
       }
     ]
   },
   "strategy": {
-    "overview": "한미 증시 혼조세 속 섹터 로테이션이 뚜렷함. 한국은 현대그룹 중심 자동차/철강 강세와 반도체 상승이 주도하나 금융 약세가 KOSPI를 끌어내림. 미국은 기술주 약세 속 에너지/방어주로 자금 이동 중이며, 원화 약세(1,439원)가 수출주에 긍정적.",
-    "action": "현대그룹 관련주(현대차, 현대제철, 현대위아) 단기 모멘텀 롱 전략 유효하나, 급등 후 차익실현 물량 주의하여 오전 갭상승 시 추격매수 자제. 한미반도체는 전고점 돌파 여부 확인 후 눌림목 매수 검토. 금융섹터는 숏 관점 유지하되, 코스닥 중소형 반도체 장비주 선별 롱 병행.",
-    "risk": "월말 기관 리밸런싱과 프로그램 매도 압력 경계 필요. 원화 급락 시 외국인 이탈 가속화 리스크 존재. 손절 기준은 현대그룹주 -3%, 반도체 -4% 이탈 시 즉시 청산.",
-    "watchlist": "한미반도체: 반도체 섹터 강세 수혜, HBM 테마 지속성 확인\n현대차: 그룹사 동반 강세 중 대장주, 외국인 수급 모니터링\nLG화학: 화학 반등 시도, 2차전지 연계 모멘텀 유효 여부 체크\nKB금융: 금융 섹터 -3.28% 급락, 기술적 반등 숏커버 타이밍 포착용",
-    "date": "2026년 02월 28일 08:28 KST"
+    "overview": "KOSPI 약세(-1.00%) 속 KOSDAQ 강보합으로 혼조세이며, 반도체 섹터(+2.40%)로 수급 집중되는 뚜렷한 섹터 로테이션 진행 중. 미국 헬스케어·에너지 방어주 강세, 기술주 약세로 글로벌 위험회피 심리 확산 조짐이 감지됨.",
+    "action": "반도체(한미반도체) 롱 + 금융 숏 페어트레이드 전략 권고. 한미반도체는 32만원 지지 확인 후 진입, 목표 35만원, 손절 30.5만원(-5%). 현대계열(현대차, 현대제철) 모멘텀 추격 매수는 오전 갭상승분 소화 후 눌림목에서 진입 검토.",
+    "risk": "금융 섹터 -3.28% 급락이 시장 전반 센티먼트 악화로 전이될 가능성 주시. 월말 기관 리밸런싱 물량과 환율 1,430원대 지지 여부 모니터링 필요. 손절은 진입가 대비 -3~5% 기계적 적용.",
+    "watchlist": "한미반도체: 반도체 섹터 대장주, 거래량 동반 급등으로 단기 모멘텀 최강\n현대제철: +19.85% 이상 급등, 철강 수급 테마 부각 시 추가 상승 여력 점검\nLG화학: 화학/2차전지 동반 수혜 기대, 기술적 반등 구간 진입 여부 확인\nEli Lilly: 미국 헬스케어 방어주 대장, 글로벌 위험회피 시 추가 유입 가능",
+    "date": "2026년 02월 28일 11:01 KST"
   }
 }
