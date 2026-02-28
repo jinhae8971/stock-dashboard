@@ -379,6 +379,212 @@
     margin-right: 4px;
   }
 
+  /* ── CONSENSUS SECTION ── */
+  .consensus-section {
+    background: var(--bg-secondary);
+    border-top: 2px solid var(--border-glow);
+    padding: 14px 20px 18px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .consensus-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--yellow), #ffa040, transparent);
+  }
+
+  .consensus-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+
+  .consensus-badge {
+    background: linear-gradient(135deg, #1e2a10, #141f0a);
+    border: 1px solid var(--yellow);
+    border-radius: 4px;
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--yellow);
+    letter-spacing: 1px;
+  }
+
+  .consensus-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .consensus-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  .consensus-panel {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+  }
+
+  .consensus-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .consensus-index-name {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--kr-accent);
+    letter-spacing: 2px;
+  }
+
+  .consensus-summary {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+  }
+
+  .consensus-current { color: var(--text-muted); font-family: 'Courier New', monospace; }
+  .consensus-arrow   { color: var(--text-dim); font-size: 10px; }
+  .consensus-target  { color: var(--yellow); font-weight: 700; font-family: 'Courier New', monospace; }
+
+  .consensus-upside {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    margin-left: 2px;
+  }
+  .consensus-upside.up   { color: var(--green); background: rgba(0,230,118,0.1); }
+  .consensus-upside.down { color: var(--red);   background: rgba(255,23,68,0.1); }
+
+  /* Progress bar */
+  .consensus-bar-area {
+    margin-bottom: 10px;
+    padding: 14px 0 4px;
+    position: relative;
+  }
+
+  .consensus-bar-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+
+  .consensus-bar-track {
+    position: relative;
+    height: 6px;
+    background: rgba(30,48,80,0.7);
+    border-radius: 3px;
+  }
+
+  .consensus-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #1e4a7a, var(--kr-accent));
+    transition: width 0.8s ease;
+    position: relative;
+  }
+
+  .consensus-bar-fill::after {
+    content: '현재';
+    position: absolute;
+    right: -1px;
+    top: -18px;
+    font-size: 8px;
+    color: var(--kr-accent);
+    white-space: nowrap;
+    transform: translateX(50%);
+  }
+
+  .consensus-bar-target {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--yellow);
+    border-radius: 1px;
+  }
+
+  .consensus-bar-target::after {
+    content: '목표';
+    position: absolute;
+    right: 0;
+    top: -18px;
+    font-size: 8px;
+    color: var(--yellow);
+    white-space: nowrap;
+  }
+
+  /* Firms table */
+  .consensus-firms-label {
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+  }
+
+  .consensus-firms {
+    max-height: 150px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .consensus-firms::-webkit-scrollbar { width: 3px; }
+  .consensus-firms::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  .consensus-firms table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .consensus-firms thead th {
+    font-size: 9px;
+    color: var(--text-dim);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 3px 5px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card2);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+  }
+
+  .consensus-firms thead th.num { text-align: right; }
+
+  .consensus-firms tbody tr {
+    border-bottom: 1px solid rgba(30,48,80,0.35);
+  }
+
+  .consensus-firms tbody tr:hover { background: rgba(0,198,255,0.03); }
+
+  .consensus-firms tbody td {
+    font-size: 10px;
+    padding: 3px 5px;
+  }
+
+  .cf-name   { color: var(--text-primary); }
+  .cf-target { text-align: right; font-family: 'Courier New', monospace; color: #a8c8e8; }
+  .cf-upside { text-align: right; font-weight: 700; }
+  .cf-stocks { text-align: right; color: var(--text-dim); }
+
   /* ═══════════════════════════════════════
      MOBILE TABS (기본: 숨김)
   ═══════════════════════════════════════ */
@@ -552,6 +758,12 @@
     .market-panel-header { padding: 10px 12px; }
     .market-title        { font-size: 13px; }
     .section-title       { font-size: 9px; }
+
+    /* Consensus 모바일 */
+    .consensus-section { padding: 10px 12px 14px; }
+    .consensus-grid    { grid-template-columns: 1fr; gap: 10px; }
+    .consensus-summary { flex-wrap: wrap; gap: 3px; font-size: 11px; }
+    .consensus-firms   { max-height: 120px; }
   }
 </style>
 </head>
@@ -727,6 +939,67 @@
   </div>
 
 </div><!-- /market-container -->
+
+<!-- CONSENSUS SECTION -->
+<div class="consensus-section">
+  <div class="consensus-header">
+    <span class="consensus-badge">📊 증권사 컨센서스</span>
+    <span class="consensus-sub" id="consensus-sub">국내 주요 증권사 연간 목표지수 평균</span>
+  </div>
+  <div class="consensus-grid">
+
+    <!-- KOSPI -->
+    <div class="consensus-panel">
+      <div class="consensus-panel-header">
+        <span class="consensus-index-name">KOSPI</span>
+        <div class="consensus-summary">
+          <span class="consensus-current" id="kospi-cs-current">—</span>
+          <span class="consensus-arrow">▶</span>
+          <span class="consensus-target" id="kospi-cs-target">—</span>
+          <span class="consensus-upside" id="kospi-cs-upside">—</span>
+        </div>
+      </div>
+      <div class="consensus-bar-area">
+        <div class="consensus-bar-labels">
+          <span id="kospi-cs-bar-left">현재가</span>
+          <span id="kospi-cs-bar-right">평균 목표가</span>
+        </div>
+        <div class="consensus-bar-track">
+          <div class="consensus-bar-fill" id="kospi-cs-bar" style="width:0%"></div>
+          <div class="consensus-bar-target"></div>
+        </div>
+      </div>
+      <div class="consensus-firms-label" id="kospi-cs-count">증권사 — 개사</div>
+      <div class="consensus-firms" id="kospi-cs-firms"></div>
+    </div>
+
+    <!-- KOSDAQ -->
+    <div class="consensus-panel">
+      <div class="consensus-panel-header">
+        <span class="consensus-index-name" style="color:var(--us-accent)">KOSDAQ</span>
+        <div class="consensus-summary">
+          <span class="consensus-current" id="kosdaq-cs-current">—</span>
+          <span class="consensus-arrow">▶</span>
+          <span class="consensus-target" id="kosdaq-cs-target">—</span>
+          <span class="consensus-upside" id="kosdaq-cs-upside">—</span>
+        </div>
+      </div>
+      <div class="consensus-bar-area">
+        <div class="consensus-bar-labels">
+          <span id="kosdaq-cs-bar-left">현재가</span>
+          <span id="kosdaq-cs-bar-right">평균 목표가</span>
+        </div>
+        <div class="consensus-bar-track">
+          <div class="consensus-bar-fill" id="kosdaq-cs-bar" style="width:0%;background:linear-gradient(90deg,#4a2010,var(--us-accent))"></div>
+          <div class="consensus-bar-target"></div>
+        </div>
+      </div>
+      <div class="consensus-firms-label" id="kosdaq-cs-count">증권사 — 개사</div>
+      <div class="consensus-firms" id="kosdaq-cs-firms"></div>
+    </div>
+
+  </div>
+</div><!-- /consensus-section -->
 
 <script>
 // ════════════════════════════════════════════════
@@ -976,6 +1249,9 @@ function renderDashboard(data) {
   document.getElementById('us-sentiment').textContent =
     usTot > 0 ? `${usUp}/${usTot} 섹터 상승` : '';
 
+  // ── Consensus ──
+  renderConsensus(data.consensus);
+
   // ── Strategy ──
   renderStrategy(data.strategy);
 
@@ -1001,6 +1277,83 @@ function startCountdown(ms) {
     const s = Math.floor((remaining % 60000) / 1000);
     el.textContent = `다음 갱신까지 ${m}분 ${s < 10 ? '0' + s : s}초`;
   }, 1000);
+}
+
+// ════════════════════════════════════════════════
+//  Consensus Section
+// ════════════════════════════════════════════════
+function renderConsensusPanel(idPrefix, data) {
+  if (!data) return;
+
+  const upside    = data.upside_pct;
+  const upsideCls = upside >= 0 ? 'up' : 'down';
+  const upsideTxt = (upside >= 0 ? '+' : '') + upside.toFixed(1) + '%';
+
+  // 요약 수치
+  document.getElementById(`${idPrefix}-cs-current`).textContent = fmtNum(data.current, 2);
+  document.getElementById(`${idPrefix}-cs-target`).textContent  = fmtNum(data.target_avg, 0);
+  const upEl = document.getElementById(`${idPrefix}-cs-upside`);
+  upEl.textContent  = upsideTxt;
+  upEl.className    = `consensus-upside ${upsideCls}`;
+
+  // 바 레이블
+  const leftEl  = document.getElementById(`${idPrefix}-cs-bar-left`);
+  const rightEl = document.getElementById(`${idPrefix}-cs-bar-right`);
+  if (leftEl)  leftEl.textContent  = fmtNum(data.current,    2);
+  if (rightEl) rightEl.textContent = '목표 ' + fmtNum(data.target_avg, 0);
+
+  // 프로그레스 바 (현재/목표 비율, 최대 99%)
+  const fillPct = Math.min((data.current / data.target_avg) * 100, 99);
+  const barEl   = document.getElementById(`${idPrefix}-cs-bar`);
+  if (barEl) {
+    setTimeout(() => { barEl.style.width = fillPct.toFixed(1) + '%'; }, 100);
+  }
+
+  // 증권사 수
+  const countEl = document.getElementById(`${idPrefix}-cs-count`);
+  if (countEl) countEl.textContent = `증권사 ${data.firms_count || (data.firms || []).length}개사`;
+
+  // 테이블
+  const container = document.getElementById(`${idPrefix}-cs-firms`);
+  if (!container) return;
+  const firms = data.firms || [];
+  if (firms.length === 0) { container.innerHTML = '<div style="color:var(--text-dim);font-size:10px;padding:6px">데이터 없음</div>'; return; }
+
+  container.innerHTML = `
+  <table>
+    <thead>
+      <tr>
+        <th>증권사</th>
+        <th class="num">목표지수</th>
+        <th class="num">상승여력</th>
+        <th class="num">종목수</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${firms.map(f => {
+        const uc  = f.upside_pct >= 0 ? 'up' : 'down';
+        const utx = (f.upside_pct >= 0 ? '+' : '') + f.upside_pct.toFixed(1) + '%';
+        return `<tr>
+          <td class="cf-name">${f.name}</td>
+          <td class="cf-target">${fmtNum(f.target, 0)}</td>
+          <td class="cf-upside ${uc}">${utx}</td>
+          <td class="cf-stocks">${f.stocks}</td>
+        </tr>`;
+      }).join('')}
+    </tbody>
+  </table>`;
+}
+
+function renderConsensus(consensus) {
+  if (!consensus) return;
+  renderConsensusPanel('kospi',  consensus.kospi);
+  renderConsensusPanel('kosdaq', consensus.kosdaq);
+  const subEl = document.getElementById('consensus-sub');
+  const kc    = consensus.kospi?.firms_count  || 0;
+  const qc    = consensus.kosdaq?.firms_count || 0;
+  if (subEl && (kc || qc)) {
+    subEl.textContent = `KOSPI ${kc}개사 · KOSDAQ ${qc}개사 연간 목표지수 컨센서스`;
+  }
 }
 
 // ════════════════════════════════════════════════
