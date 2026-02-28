@@ -556,6 +556,180 @@ def upload_to_github(data: dict, token: str, owner: str, repo: str,
         return False
 
 
+
+
+# ─────────────────────────────────────────────
+#  국내외 증권사 목표지수 컨센서스 (WISEreport 기반)
+# ─────────────────────────────────────────────
+try:
+    from bs4 import BeautifulSoup
+    _BS4_OK = True
+except ImportError:
+    _BS4_OK = False
+    log.warning("beautifulsoup4 없음 – 컨센서스 수집 스킵")
+
+# 컨센서스 수집용 대표 종목 바스켓
+KOSPI_BASKET = [
+    ("005930", "삼성전자"),  ("000660", "SK하이닉스"),
+    ("207940", "삼성바이오로직스"), ("005380", "현대차"),
+    ("035420", "NAVER"),    ("068270", "셀트리온"),
+    ("000270", "기아"),      ("105560", "KB금융"),
+    ("012450", "한화에어로스페이스"), ("004020", "현대제철"),
+    ("051910", "LG화학"),    ("066570", "LG전자"),
+    ("055550", "신한지주"),  ("012330", "현대모비스"),
+    ("086790", "하나금융지주"),
+]
+KOSDAQ_BASKET = [
+    ("042700", "한미반도체"), ("240810", "원익IPS"),
+    ("145020", "휴젤"),      ("196170", "알테오젠"),
+    ("086520", "에코프로"),  ("247540", "에코프로비엠"),
+    ("058470", "리노공업"),  ("263750", "펄어비스"),
+]
+
+_WISE_HDR = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+    "Accept-Language": "ko-KR,ko;q=0.9",
+    "Referer": "https://navercomp.wisereport.co.kr/",
+}
+_NAVER_HDR = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+}
+
+
+def _naver_price(code: str) -> float:
+    """Naver 모바일 API로 현재가 조회"""
+    try:
+        r = requests.get(
+            f"https://m.stock.naver.com/api/stock/{code}/basic",
+            headers=_NAVER_HDR, timeout=8,
+        )
+        if r.status_code == 200:
+            raw = r.json().get("closePrice", "0")
+            return float(str(raw).replace(",", ""))
+    except Exception:
+        pass
+    return 0.0
+
+
+def _wise_firm_targets(code: str) -> list:
+    """WISEreport 목표주가 테이블 → [{firm, target}]"""
+    if not _BS4_OK:
+        return []
+    try:
+        r = requests.get(
+            f"https://navercomp.wisereport.co.kr/v2/company/c1010001.aspx?cmp_cd={code}&target=analyze",
+            headers=_WISE_HDR, timeout=15,
+        )
+        r.encoding = "utf-8"
+        soup = BeautifulSoup(r.text, "html.parser")
+        tbl = None
+        for t in soup.find_all("table"):
+            ths = [th.get_text(strip=True) for th in t.find_all("th")]
+            if "목표가" in ths and "직전목표가" in ths:
+                tbl = t
+                break
+        if not tbl:
+            return []
+        results = []
+        import re as _re
+        for row in tbl.find_all("tr")[1:]:
+            cols = [c.get_text(strip=True) for c in row.find_all("td")]
+            if len(cols) < 3:
+                continue
+            firm = cols[0].strip()
+            tgt_raw = _re.sub(r"[^0-9]", "", cols[2])
+            if tgt_raw and firm:
+                results.append({"firm": firm, "target": int(tgt_raw)})
+        return results
+    except Exception as e:
+        log.warning(f"WISEreport({code}): {e}")
+        return []
+
+
+def get_kr_index_consensus(indices: dict) -> dict:
+    """
+    KOSPI/KOSDAQ 대표 종목 WISEreport 컨센서스를 바탕으로
+    국내외 증권사별 '묵시적 목표지수' 산출
+    """
+    if not _BS4_OK:
+        return {}
+
+    kospi_cur = float(indices.get("kospi", {}).get("value", 0) or 0)
+    kosdaq_cur = float(indices.get("kosdaq", {}).get("value", 0) or 0)
+    if not kospi_cur or not kosdaq_cur:
+        return {}
+
+    # firm_name → {kospi_upsides: [], kosdaq_upsides: []}
+    firm_pool: dict[str, dict] = {}
+
+    def _collect(basket, mkt_key):
+        for code, name in basket:
+            try:
+                price = _naver_price(code)
+                if price <= 0:
+                    continue
+                targets = _wise_firm_targets(code)
+                for t in targets:
+                    firm = t["firm"]
+                    upside = (t["target"] / price) - 1
+                    if abs(upside) > 1.0:     # 100% 이상 이상치 제외
+                        continue
+                    if firm not in firm_pool:
+                        firm_pool[firm] = {"kospi": [], "kosdaq": []}
+                    firm_pool[firm][mkt_key].append(upside)
+                time.sleep(0.15)
+            except Exception as e:
+                log.warning(f"Consensus({code}): {e}")
+
+    log.info("KOSPI 컨센서스 수집 중 (%d종목)...", len(KOSPI_BASKET))
+    _collect(KOSPI_BASKET, "kospi")
+    log.info("KOSDAQ 컨센서스 수집 중 (%d종목)...", len(KOSDAQ_BASKET))
+    _collect(KOSDAQ_BASKET, "kosdaq")
+
+    def _build(mkt_key, cur):
+        rows = []
+        for firm, d in firm_pool.items():
+            ups = d[mkt_key]
+            if not ups:
+                continue
+            avg_up = sum(ups) / len(ups)
+            implied = round(cur * (1 + avg_up))
+            rows.append({
+                "name":       firm,
+                "target":     implied,
+                "upside_pct": round(avg_up * 100, 1),
+                "stocks":     len(ups),
+            })
+        rows.sort(key=lambda x: x["target"], reverse=True)
+        if not rows:
+            return {"current": round(cur, 2), "target_avg": None,
+                    "upside_pct": None, "firms_count": 0, "firms": []}
+        target_avg = round(sum(r["target"] for r in rows) / len(rows))
+        upside_avg = round((target_avg / cur - 1) * 100, 1) if cur else None
+        return {
+            "current":    round(cur, 2),
+            "target_avg": target_avg,
+            "upside_pct": upside_avg,
+            "firms_count": len(rows),
+            "firms":      rows[:20],
+        }
+
+    result = {
+        "kospi":  _build("kospi",  kospi_cur),
+        "kosdaq": _build("kosdaq", kosdaq_cur),
+    }
+    kospi_avg = result["kospi"].get("target_avg")
+    kosdaq_avg = result["kosdaq"].get("target_avg")
+    log.info(
+        "컨센서스 완료 — KOSPI 목표: %s (%s개사) / KOSDAQ 목표: %s (%s개사)",
+        f"{kospi_avg:,}" if kospi_avg else "-",
+        result["kospi"]["firms_count"],
+        f"{kosdaq_avg:,}" if kosdaq_avg else "-",
+        result["kosdaq"]["firms_count"],
+    )
+    return result
+
 # ─────────────────────────────────────────────
 #  Main
 # ─────────────────────────────────────────────
@@ -579,20 +753,25 @@ def main():
     # 4) 매매전략 (Claude API)
     strategy = generate_strategy(cfg["anthropic_api_key"], kr_data, us_data, indices)
 
-    # 5) 결과 조합
+    # 5) 국내외 증권사 컨센서스 목표지수
+    log.info("증권사 컨센서스 수집 중...")
+    consensus = get_kr_index_consensus(indices)
+
+    # 6) 결과 조합
     output = {
         "updated_at": _today_kst(),
         "indices":    indices,
         "kr":         kr_data,
         "us":         us_data,
         "strategy":   strategy,
+        "consensus":  consensus,
     }
 
-    # 6) 로컬 저장 (백업)
+    # 7) 로컬 저장 (백업)
     out_path = Path(__file__).parent.parent / "data" / "market_data.json"
     save_json(output, out_path)
 
-    # 7) GitHub Contents API 직접 업로드 (git push 불필요)
+    # 8) GitHub Contents API 직접 업로드 (git push 불필요)
     uploaded = upload_to_github(
         data=output,
         token=cfg["github_token"],
