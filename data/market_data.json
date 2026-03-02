@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 02일 17:52 KST",
+  "updated_at": "2026년 03월 02일 18:55 KST",
   "indices": {
     "kospi": {
       "value": 6244.13,
@@ -22,8 +22,8 @@
       "change_pct": -1.05
     },
     "usdkrw": {
-      "value": 1457.94,
-      "change_pct": 1.3
+      "value": 1456.46,
+      "change_pct": 1.2
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.81
+        "change_pct": 0.01
       },
       {
         "name": "금융",
-        "change_pct": -1.53
+        "change_pct": 0.08
       },
       {
         "name": "에너지",
-        "change_pct": 1.65
+        "change_pct": -0.37
       },
       {
         "name": "헬스케어",
-        "change_pct": 1.79
+        "change_pct": 0.01
       },
       {
         "name": "산업재",
-        "change_pct": 0.67
+        "change_pct": 0.32
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.52
+        "change_pct": 0.44
       },
       {
         "name": "필수소비재",
-        "change_pct": 1.5
+        "change_pct": 0.01
       },
       {
         "name": "소재",
-        "change_pct": 1.07
+        "change_pct": -0.04
       },
       {
         "name": "부동산",
-        "change_pct": 0.55
+        "change_pct": -0.02
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.12
+        "change_pct": -0.04
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.98
+        "change_pct": -0.11
       }
     ],
     "top_stocks": [
       {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 93.77,
-        "change_pct": 2.11,
-        "volume": 25137100,
-        "trading_value": 2357105782,
-        "vol_surge": 2.56,
-        "score": 50.5716
-      },
-      {
-        "ticker": "MRK",
-        "name": "Merck & Company, I",
-        "sector": "헬스케어",
-        "price": 123.82,
-        "change_pct": 3.66,
-        "volume": 17629500,
-        "trading_value": 2182884684,
-        "vol_surge": 1.32,
-        "score": 45.2258
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 248.43,
-        "change_pct": 2.33,
-        "volume": 16414700,
-        "trading_value": 4077903800,
-        "vol_surge": 1.83,
-        "score": 41.0883
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 152.5,
-        "change_pct": 2.66,
-        "volume": 30246900,
-        "trading_value": 4612652250,
-        "vol_surge": 1.6,
-        "score": 41.0357
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 319.55,
+        "change_pct": 0.61,
+        "volume": 27934100,
+        "trading_value": 8926341314,
+        "vol_surge": 0.92,
+        "score": 5.5829
       },
       {
         "ticker": "ABBV",
         "name": "AbbVie Inc.",
         "sector": "헬스케어",
         "price": 232.08,
-        "change_pct": 3.46,
+        "change_pct": 0.41,
         "volume": 8004800,
         "trading_value": 1857753998,
         "vol_surge": 1.25,
-        "score": 39.9409
+        "score": 4.7329
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 293.27,
+        "change_pct": 0.44,
+        "volume": 9708500,
+        "trading_value": 2847211688,
+        "vol_surge": 1.1,
+        "score": 4.5926
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 210.0,
+        "change_pct": 0.37,
+        "volume": 57230900,
+        "trading_value": 12018489000,
+        "vol_surge": 1.22,
+        "score": 4.5423
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar, Inc.",
+        "sector": "산업재",
+        "price": 742.83,
+        "change_pct": 0.38,
+        "volume": 3440900,
+        "trading_value": 2556003805,
+        "vol_surge": 1.25,
+        "score": 4.4732
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
         "price": 1051.99,
-        "change_pct": 3.05,
+        "change_pct": 0.29,
         "volume": 4317800,
         "trading_value": 4542282379,
         "vol_surge": 1.34,
-        "score": 39.387
+        "score": 3.745
       },
       {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1010.79,
-        "change_pct": 2.62,
-        "volume": 3931800,
-        "trading_value": 3974224035,
-        "vol_surge": 1.5,
-        "score": 37.8009
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "기술",
+        "price": 264.18,
+        "change_pct": 0.24,
+        "volume": 72239400,
+        "trading_value": 19084204162,
+        "vol_surge": 1.51,
+        "score": 3.7165
       },
       {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 113.46,
-        "change_pct": 3.55,
-        "volume": 9008500,
-        "trading_value": 1022104401,
-        "vol_surge": 1.12,
-        "score": 35.9115
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 200.21,
+        "change_pct": 0.43,
+        "volume": 31232400,
+        "trading_value": 6253039013,
+        "vol_surge": 0.88,
+        "score": 3.7087
       },
       {
-        "ticker": "NEM",
-        "name": "Newmont Corporatio",
-        "sector": "소재",
-        "price": 130.0,
-        "change_pct": 2.35,
-        "volume": 15011100,
-        "trading_value": 1951443000,
+        "ticker": "V",
+        "name": "Visa Inc.",
+        "sector": "금융",
+        "price": 320.14,
+        "change_pct": 0.24,
+        "volume": 12403000,
+        "trading_value": 3970696601,
+        "vol_surge": 1.6,
+        "score": 3.6912
+      },
+      {
+        "ticker": "RTX",
+        "name": "RTX Corporation",
+        "sector": "산업재",
+        "price": 202.62,
+        "change_pct": 0.23,
+        "volume": 8972000,
+        "trading_value": 1817906596,
         "vol_surge": 1.58,
-        "score": 34.5309
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart Inc.",
-        "sector": "필수소비재",
-        "price": 127.95,
-        "change_pct": 3.14,
-        "volume": 29189600,
-        "trading_value": 3734809230,
-        "vol_surge": 0.95,
-        "score": 28.6
+        "score": 3.3712
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI 약세(-1.00%) 속 KOSDAQ 소폭 강세(+0.39%)로 혼조세를 보이며, 반도체·자동차·철강 등 수출주 중심의 섹터 로테이션이 진행 중. 미국은 기술·금융 약세 속 에너지·헬스케어 방어주로 자금 이동이 뚜렷하며, 원/달러 1,457원대 급등(+1.30%)은 외국인 매도 압력과 수출주 환차익 기대를 동시에 시사함.",
-    "action": "한국은 반도체(한미반도체) 및 자동차(현대차, 현대위아) 섹터 롱 포지션 유지하되, 금융주는 숏 또는 관망 권고. 환율 급등 수혜주인 수출 대형주 위주로 장 초반 눌림목 매수 후 +3~5% 구간 분할 청산 전략. 미국 헬스케어(MRK, ABBV) 선물 롱 진입 고려, 나스닥 기술주는 추가 하락 시 저가 매수 대기.",
-    "risk": "원/달러 1,460원 돌파 시 외국인 추가 이탈 가속화 우려로 KOSPI 대형주 손절라인 -2.5% 설정 필수. 미국 기술주 약세 지속 시 한국 IT/플랫폼 섹터 동반 하락 리스크 존재하며, 반도체 섹터도 차익실현 매물 출회 가능성 주의.",
-    "watchlist": "한미반도체: 반도체 섹터 강세 주도 +17%, 단기 과열 경계하나 모멘텀 유효\n현대차: 환율 수혜 + 자동차 섹터 강세, 67만원대 지지 확인 시 추가 매수 가능\nLG화학: 화학/2차전지 반등 조짐, 42만원 돌파 시 추세 전환 시그널\nMerck(MRK): 미국 헬스케어 방어주 강세 지속, 달러 강세 환경에서 안전자산 역할",
-    "date": "2026년 03월 02일 17:51 KST"
+    "overview": "한국 시장은 KOSPI 약세(-1.00%) 속에서도 반도체(+2.40%)와 현대그룹 관련주가 급등하며 뚜렷한 섹터 로테이션이 진행 중. 원/달러 1,456원대 급등(+1.20%)은 외국인 매도 압력을 시사하나, 철강·자동차·반도체 중심의 수출주가 수혜를 받는 혼조세. 미국 시장은 기술주 부진 속 방어적 흐름으로 나스닥 약세가 지속되고 있음.",
+    "action": "반도체·자동차·철강 등 원화 약세 수혜 수출주 중심으로 단기 롱 포지션 유지하되, 장중 급등주는 +15% 이상 구간에서 분할 익절 권장. 금융 섹터(-3.28%)는 추가 하락 가능성이 있어 숏 헷지 또는 관망 유지. 진입 시 전일 종가 대비 -2% 눌림목에서 분할 매수, 청산은 당일 고가 부근에서 50% 이상 정리.",
+    "risk": "원/달러 1,460원 돌파 시 외국인 대규모 이탈 가능성 대비 필요. 급등주(현대제철, 한미반도체)는 변동성 과열로 -5% 손절라인 엄수. 미국 나스닥 추가 하락 시 내일 코스닥 기술주 동반 조정 리스크 존재.",
+    "watchlist": "한미반도체: 반도체 섹터 모멘텀 + AI HBM 수혜주, 단기 과열 주의하며 눌림목 대기\n현대차: 원화 약세 최대 수혜 + 10% 급등 후 연속 상승 여부 확인\nLG화학: 화학/2차전지 반등 신호, 42만원 지지 여부 모니터링\n삼성전자: 반도체 섹터 강세 시 동반 상승 가능, 외국인 수급 확인 필수",
+    "date": "2026년 03월 02일 18:54 KST"
   },
   "consensus": {
     "kospi": {
