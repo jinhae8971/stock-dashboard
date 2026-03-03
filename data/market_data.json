@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 04일 02:46 KST",
+  "updated_at": "2026년 03월 04일 03:56 KST",
   "indices": {
     "kospi": {
       "value": 5791.91,
@@ -10,27 +10,27 @@
       "change_pct": -4.62
     },
     "sp500": {
-      "value": 6796.98,
-      "change_pct": -1.21
+      "value": 6827.66,
+      "change_pct": -0.76
     },
     "nasdaq": {
-      "value": 22439.66,
-      "change_pct": -1.36
+      "value": 22556.7,
+      "change_pct": -0.84
     },
     "dow": {
-      "value": 48334.05,
-      "change_pct": -1.15
+      "value": 48557.78,
+      "change_pct": -0.69
     },
     "usdkrw": {
-      "value": 1484.34,
-      "change_pct": 2.14
+      "value": 1480.61,
+      "change_pct": 1.88
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": -11.4
+        "change_pct": -11.22
       },
       {
         "name": "IT/플랫폼",
@@ -67,168 +67,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.24
+        "change_pct": -0.79
       },
       {
         "name": "금융",
-        "change_pct": -0.66
+        "change_pct": 0.3
       },
       {
         "name": "에너지",
-        "change_pct": -0.28
+        "change_pct": -0.79
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.68
+        "change_pct": -1.25
       },
       {
         "name": "산업재",
-        "change_pct": -2.06
+        "change_pct": -2.0
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.48
+        "change_pct": -0.88
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.99
+        "change_pct": -0.53
       },
       {
         "name": "소재",
-        "change_pct": -2.44
+        "change_pct": -2.05
       },
       {
         "name": "부동산",
-        "change_pct": -0.81
+        "change_pct": -0.3
       },
       {
         "name": "유틸리티",
-        "change_pct": -1.29
+        "change_pct": -0.99
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.46
+        "change_pct": 0.31
       }
     ],
     "top_stocks": [
       {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 119.28,
-        "change_pct": 0.96,
-        "volume": 10111586,
-        "trading_value": 1206109965,
-        "vol_surge": 1.21,
-        "score": 10.5756
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 405.77,
+        "change_pct": 2.22,
+        "volume": 20665547,
+        "trading_value": 8385355981,
+        "vol_surge": 0.63,
+        "score": 13.8466
       },
       {
         "ticker": "T",
         "name": "AT&T Inc.",
         "sector": "통신서비스",
-        "price": 28.5,
-        "change_pct": 2.02,
-        "volume": 18943930,
-        "trading_value": 539911471,
-        "vol_surge": 0.45,
-        "score": 7.8793
+        "price": 28.62,
+        "change_pct": 2.47,
+        "volume": 23685673,
+        "trading_value": 678002389,
+        "vol_surge": 0.56,
+        "score": 12.1827
       },
       {
         "ticker": "VZ",
         "name": "Verizon Communicat",
         "sector": "통신서비스",
-        "price": 50.72,
-        "change_pct": 1.61,
-        "volume": 14877691,
-        "trading_value": 754670853,
-        "vol_surge": 0.48,
-        "score": 6.8198
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 190.47,
-        "change_pct": 0.38,
-        "volume": 7577391,
-        "trading_value": 1443265673,
-        "vol_surge": 0.7,
-        "score": 2.4531
+        "price": 51.01,
+        "change_pct": 2.18,
+        "volume": 18399990,
+        "trading_value": 938583459,
+        "vol_surge": 0.59,
+        "score": 11.5423
       },
       {
         "ticker": "MA",
         "name": "Mastercard Incorpo",
         "sector": "금융",
-        "price": 520.37,
-        "change_pct": 0.54,
-        "volume": 1694704,
-        "trading_value": 881873112,
-        "vol_surge": 0.46,
-        "score": 2.2215
+        "price": 525.7,
+        "change_pct": 1.57,
+        "volume": 2069526,
+        "trading_value": 1087939485,
+        "vol_surge": 0.56,
+        "score": 7.9677
       },
       {
         "ticker": "JPM",
         "name": "JP Morgan Chase & ",
         "sector": "금융",
-        "price": 298.75,
-        "change_pct": 0.56,
-        "volume": 4601302,
-        "trading_value": 1374638972,
-        "vol_surge": 0.42,
-        "score": 2.1679
-      },
-      {
-        "ticker": "CCI",
-        "name": "Crown Castle Inc.",
-        "sector": "부동산",
-        "price": 89.91,
-        "change_pct": 0.67,
-        "volume": 1223362,
-        "trading_value": 109992481,
-        "vol_surge": 0.37,
-        "score": 1.9926
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1007.45,
-        "change_pct": 0.43,
-        "volume": 776542,
-        "trading_value": 782327152,
-        "vol_surge": 0.29,
-        "score": 1.1222
+        "price": 301.19,
+        "change_pct": 1.38,
+        "volume": 5766315,
+        "trading_value": 1736756428,
+        "vol_surge": 0.53,
+        "score": 6.7693
       },
       {
         "ticker": "EQIX",
         "name": "Equinix, Inc.",
         "sector": "부동산",
-        "price": 965.0,
-        "change_pct": 0.06,
-        "volume": 392291,
-        "trading_value": 378560815,
-        "vol_surge": 0.63,
-        "score": 0.3223
+        "price": 973.74,
+        "change_pct": 0.97,
+        "volume": 454465,
+        "trading_value": 442533019,
+        "vol_surge": 0.73,
+        "score": 6.0849
       },
       {
-        "ticker": "AMT",
-        "name": "American Tower Cor",
+        "ticker": "CCI",
+        "name": "Crown Castle Inc.",
         "sector": "부동산",
-        "price": 189.58,
-        "change_pct": -0.17,
-        "volume": 817407,
-        "trading_value": 154964020,
-        "vol_surge": 0.25,
-        "score": -0.17
+        "price": 90.54,
+        "change_pct": 1.38,
+        "volume": 1468927,
+        "trading_value": 133003992,
+        "vol_surge": 0.44,
+        "score": 4.9786
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "sector": "통신서비스",
+        "price": 97.15,
+        "change_pct": 0.57,
+        "volume": 35270276,
+        "trading_value": 3426507367,
+        "vol_surge": 0.67,
+        "score": 3.6652
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 658.14,
+        "change_pct": 0.84,
+        "volume": 6732538,
+        "trading_value": 4430952657,
+        "vol_surge": 0.43,
+        "score": 3.4814
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 1013.91,
+        "change_pct": 1.08,
+        "volume": 944787,
+        "trading_value": 957933690,
+        "vol_surge": 0.36,
+        "score": 3.4631
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 급락(-7.24%)과 원화 약세(+2.14%)로 패닉 셀링 국면 진입. 반도체(-11.4%) 중심 기술주 투매 발생, 미국 대비 한국 낙폭이 6배로 외국인 이탈 가속화. 글로벌 리스크오프 심화되며 방어주(통신, 에너지)로 자금 이동 중.",
-    "action": "신규 롱 진입 금지, 기존 포지션 50% 이상 현금화 권고. 반도체/IT 숏 포지션 유지하되 낙폭 과대로 추격 숏 자제. 반등 시 KOSPI 2,850선 저항 확인 후 숏 재진입 검토, 원/달러 1,500원 돌파 시 추가 하락 대비.",
-    "risk": "외국인 선물 매도 포지션 청산 여부와 프로그램 매매 동향 주시. KOSPI 2,750선 이탈 시 추가 10% 하락 가능성. 손절 기준: 숏 포지션은 전일 종가 대비 +3% 반등 시, 모든 레버리지 포지션 즉시 청산.",
-    "watchlist": "삼성전자: 반도체 섹터 벤치마크, 외국인 수급과 6만원 지지선 확인 필요\nSK하이닉스: 낙폭 과대 종목, 기술적 반등 시 숏커버 트레이딩 기회\nKT/SK텔레콤: 방어주 선호 속 상대적 강세 여부 관찰\nKODEX 인버스: 헷지 수단으로 거래량 급증 시 시장 바닥 신호 참고",
-    "date": "2026년 03월 04일 02:46 KST"
+    "overview": "한국 시장 극심한 약세장으로 KOSPI -7.24% 폭락, 반도체(-11.22%) 중심 패닉셀 발생. 원화 급락(1,480원)과 함께 외국인 대규모 이탈 추정되며, 미국 대비 한국 시장 디커플링 심화. 전형적인 리스크오프 장세로 현금 비중 확대 필요.",
+    "action": "신규 롱 진입 자제, 기존 포지션 50% 이상 현금화 권고. 반등 시 KOSPI 인버스 ETF(KODEX 200선물인버스2X) 숏 헷지 유지하고, 반도체 섹터는 패닉 마무리 확인 전까지 관망. 진입 시점은 KOSPI 2,650선 지지 확인 후 분할 매수 고려.",
+    "risk": "추가 원화 약세(1,500원 돌파 시 외인 추가 이탈), 반도체 대형주 신용반대매매 물량 출회 가능성. 손절 기준은 전일 종가 대비 추가 -3% 하락 시 전량 청산, 반등 시에도 전고점 대비 -5% 이탈 시 재진입 금지.",
+    "watchlist": "삼성전자: 반도체 대장주로 수급 바닥 확인용 지표, 외인 순매수 전환 여부 모니터링\nKODEX 200선물인버스2X: 하락장 헷지 수단, 변동성 확대 시 단기 트레이딩 기회\nKB금융: 상대적 방어주로 섹터 내 낙폭 제한(-2.22%), 리스크오프 완화 시 반등 선도 가능\nMicrosoft: 미국 기술주 중 상대강도 확인(+2.22%), 글로벌 센티먼트 회복 바로미터",
+    "date": "2026년 03월 04일 03:55 KST"
   },
   "consensus": {
     "kospi": {
