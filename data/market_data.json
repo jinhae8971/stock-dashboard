@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 04일 18:44 KST",
+  "updated_at": "2026년 03월 04일 19:40 KST",
   "indices": {
     "kospi": {
       "value": 5093.54,
@@ -22,8 +22,8 @@
       "change_pct": -0.83
     },
     "usdkrw": {
-      "value": 1468.64,
-      "change_pct": -1.15
+      "value": 1464.08,
+      "change_pct": -1.45
     }
   },
   "kr": {
@@ -198,7 +198,7 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.88
+        "change_pct": 0.46
       },
       {
         "name": "필수소비재",
@@ -222,6 +222,17 @@
       }
     ],
     "top_stocks": [
+      {
+        "ticker": "SBUX",
+        "name": "Starbucks Corporat",
+        "sector": "임의소비재",
+        "price": 96.68,
+        "change_pct": 1.55,
+        "volume": 7186900,
+        "trading_value": 694829494,
+        "vol_surge": 0.76,
+        "score": 10.4364
+      },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
@@ -267,17 +278,6 @@
         "score": 4.715
       },
       {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 862.58,
-        "change_pct": 0.3,
-        "volume": 3782100,
-        "trading_value": 3262363882,
-        "vol_surge": 1.57,
-        "score": 4.4858
-      },
-      {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
@@ -287,6 +287,28 @@
         "trading_value": 1042718211,
         "vol_surge": 1.71,
         "score": 3.8493
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 392.43,
+        "change_pct": 0.29,
+        "volume": 62441000,
+        "trading_value": 24503721172,
+        "vol_surge": 0.95,
+        "score": 2.8666
+      },
+      {
+        "ticker": "MCD",
+        "name": "McDonald's Corpora",
+        "sector": "임의소비재",
+        "price": 332.17,
+        "change_pct": 0.35,
+        "volume": 2899900,
+        "trading_value": 963259821,
+        "vol_surge": 0.86,
+        "score": 2.7153
       },
       {
         "ticker": "ABBV",
@@ -300,46 +322,24 @@
         "score": 2.5792
       },
       {
-        "ticker": "NFLX",
-        "name": "Netflix, Inc.",
-        "sector": "통신서비스",
-        "price": 97.7,
-        "change_pct": 0.17,
-        "volume": 59033000,
-        "trading_value": 5767523919,
-        "vol_surge": 1.13,
-        "score": 1.8697
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 151.83,
-        "change_pct": 0.15,
-        "volume": 25172200,
-        "trading_value": 3821895172,
-        "vol_surge": 1.28,
-        "score": 1.8395
-      },
-      {
-        "ticker": "VZ",
-        "name": "Verizon Communicat",
-        "sector": "통신서비스",
-        "price": 50.87,
-        "change_pct": 0.2,
-        "volume": 30920600,
-        "trading_value": 1572930888,
-        "vol_surge": 0.99,
-        "score": 1.8133
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 208.73,
+        "change_pct": 0.25,
+        "volume": 43111100,
+        "trading_value": 8998579718,
+        "vol_surge": 0.9,
+        "score": 2.2521
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 역대급 폭락(-12~14%)으로 패닉 셀링 국면 진입. 미국 시장은 상대적으로 안정적(-1% 내외)이나 한국은 반도체·IT·금융 전 섹터 동반 붕괴 중이며, 원화 약세(-1.15%)까지 겹쳐 외국인 대규모 이탈 징후. 서킷브레이커 발동 수준의 시스템 리스크 상황.",
-    "action": "신규 롱 포지션 절대 금지, 기존 보유 포지션 전량 청산 또는 최소화 권고. 반등 시도 시 KOSPI200 인버스 ETF(KODEX 인버스) 단기 숏 헤지 유지. 바닥 확인 전까지 현금 비중 80% 이상 유지하며, 반등 시 저점 대비 +5% 회복 확인 후 분할 재진입 검토.",
-    "risk": "추가 하락 리스크 극대화 구간으로 데드캣 바운스 함정 주의. 손절 기준은 진입가 대비 -3% 즉시 컷, 레버리지 상품 일체 회피. 내일 미국장 추가 하락 시 한국 연쇄 폭락 가능성 및 외환시장 급변동 모니터링 필수.",
-    "watchlist": "KODEX 인버스: 하락장 헤지 수단, 변동성 방어용\nSK하이닉스: 반도체 대장주 낙폭과대(-9.58%), 기술적 반등 시 첫 번째 관찰 대상\n한화에어로스페이스: 방산주 상대적 선방(-7.61%), 섹터 로테이션 수혜 가능성\nUSD/KRW: 1,470원 돌파 시 외국인 추가 이탈 신호로 전체 포지션 재조정 트리거",
-    "date": "2026년 03월 04일 18:43 KST"
+    "overview": "한국 시장은 KOSPI -12%, KOSDAQ -14%로 역사적 폭락세를 기록하며 극단적 패닉 상태입니다. 반도체·IT·금융 전 섹터가 동반 급락한 반면, 미국 시장은 -1% 내외로 안정적이어서 한국 특수 악재(지정학적 리스크, 외국인 대량 매도 추정)가 원인으로 보입니다. 원화도 급락하며 외국인 자금 이탈이 확인됩니다.",
+    "action": "신규 롱 진입은 절대 금지하고, 기존 롱 포지션은 전량 청산 또는 최소화하세요. 변동성이 극대화된 상황에서 섣부른 저가 매수는 위험하며, 장 마감 30분 전 반등 시 인버스 ETF(KODEX 200선물인버스2X) 숏 커버링 또는 현금 비중 90% 이상 유지를 권장합니다. 반등 매매 시도 시 KOSPI 5,000 지지선 확인 후 소액으로만 진입하세요.",
+    "risk": "추가 서킷브레이커 발동 가능성, 야간선물 및 내일 갭하락 리스크가 매우 높습니다. 손절 기준은 보유 종목 대비 추가 -3% 하락 시 무조건 청산하며, 레버리지 상품은 전량 정리하세요. 환율 1,480원 돌파 시 외국인 매도 가속화에 대비해야 합니다.",
+    "watchlist": "SK하이닉스: 반도체 대장주로 외국인 수급 반전 시 가장 먼저 반등 신호 확인 가능\n삼성전자: 시장 전체 분위기 바로미터, 6만원대 지지 여부 관찰\nKODEX 인버스: 추가 하락 헷지용, 변동성 축소 시 청산 타이밍 포착\n신한지주: 금융주 중 배당 메리트로 기관 매수세 유입 가능성 체크",
+    "date": "2026년 03월 04일 19:39 KST"
   },
   "consensus": {
     "kospi": {
