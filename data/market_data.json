@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 04일 17:43 KST",
+  "updated_at": "2026년 03월 04일 18:44 KST",
   "indices": {
     "kospi": {
       "value": 5093.54,
@@ -22,8 +22,8 @@
       "change_pct": -0.83
     },
     "usdkrw": {
-      "value": 1473.53,
-      "change_pct": -0.82
+      "value": 1468.64,
+      "change_pct": -1.15
     }
   },
   "kr": {
@@ -68,9 +68,9 @@
         "sector": "헬스케어",
         "price": 1323000.0,
         "change_pct": -7.61,
-        "volume": 1191514,
-        "trading_value": 1576373022000,
-        "vol_surge": 4.73,
+        "volume": 1219522,
+        "trading_value": 1613427606000,
+        "vol_surge": 4.84,
         "score": -7.61
       },
       {
@@ -90,9 +90,9 @@
         "sector": "금융",
         "price": 88800.0,
         "change_pct": -8.17,
-        "volume": 3156620,
-        "trading_value": 280307856000,
-        "vol_surge": 2.29,
+        "volume": 3419674,
+        "trading_value": 303667051200,
+        "vol_surge": 2.48,
         "score": -8.17
       },
       {
@@ -112,9 +112,9 @@
         "sector": "반도체",
         "price": 849000.0,
         "change_pct": -9.58,
-        "volume": 9212661,
-        "trading_value": 7821549189000,
-        "vol_surge": 2.2,
+        "volume": 9707166,
+        "trading_value": 8241383934000,
+        "vol_surge": 2.32,
         "score": -9.58
       },
       {
@@ -123,9 +123,9 @@
         "sector": "헬스케어",
         "price": 1516000.0,
         "change_pct": -9.82,
-        "volume": 90367,
-        "trading_value": 136996372000,
-        "vol_surge": 1.57,
+        "volume": 83414,
+        "trading_value": 126455624000,
+        "vol_surge": 1.45,
         "score": -9.82
       },
       {
@@ -145,9 +145,9 @@
         "sector": "통신",
         "price": 70300.0,
         "change_pct": -10.1,
-        "volume": 1891071,
-        "trading_value": 132942291300,
-        "vol_surge": 1.46,
+        "volume": 2003636,
+        "trading_value": 140855610800,
+        "vol_surge": 1.55,
         "score": -10.1
       },
       {
@@ -156,8 +156,8 @@
         "sector": "금융",
         "price": 137700.0,
         "change_pct": -10.29,
-        "volume": 2844868,
-        "trading_value": 391738323600,
+        "volume": 2845836,
+        "trading_value": 391871617200,
         "vol_surge": 2.51,
         "score": -10.29
       },
@@ -178,23 +178,23 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.22
+        "change_pct": -0.03
       },
       {
         "name": "금융",
-        "change_pct": -0.18
+        "change_pct": 0.1
       },
       {
         "name": "에너지",
-        "change_pct": -0.84
+        "change_pct": 0.13
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.34
+        "change_pct": 0.15
       },
       {
         "name": "산업재",
-        "change_pct": -2.27
+        "change_pct": 0.03
       },
       {
         "name": "임의소비재",
@@ -202,144 +202,144 @@
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.91
+        "change_pct": 0.1
       },
       {
         "name": "소재",
-        "change_pct": -2.31
+        "change_pct": -0.29
       },
       {
         "name": "부동산",
-        "change_pct": -0.52
+        "change_pct": 0.0
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.63
+        "change_pct": 0.15
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.08
+        "change_pct": 0.61
       }
     ],
     "top_stocks": [
       {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 28.67,
-        "change_pct": 2.63,
-        "volume": 45886700,
-        "trading_value": 1315571692,
-        "vol_surge": 1.07,
-        "score": 25.7801
-      },
-      {
-        "ticker": "VZ",
-        "name": "Verizon Communicat",
-        "sector": "통신서비스",
-        "price": 50.87,
-        "change_pct": 1.9,
-        "volume": 30920600,
-        "trading_value": 1572930888,
-        "vol_surge": 0.99,
-        "score": 17.2262
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
-        "sector": "금융",
-        "price": 524.32,
-        "change_pct": 1.3,
-        "volume": 4199700,
-        "trading_value": 2201986734,
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 92.59,
+        "change_pct": 0.64,
+        "volume": 11306400,
+        "trading_value": 1046859534,
         "vol_surge": 1.13,
-        "score": 13.748
+        "score": 6.5043
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 303.58,
+        "change_pct": 0.48,
+        "volume": 35437900,
+        "trading_value": 10758237206,
+        "vol_surge": 1.03,
+        "score": 4.9697
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 131.92,
+        "change_pct": 0.47,
+        "volume": 4048500,
+        "trading_value": 534078112,
+        "vol_surge": 1.19,
+        "score": 4.8813
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 289.21,
+        "change_pct": 0.64,
+        "volume": 7044200,
+        "trading_value": 2037253021,
+        "vol_surge": 0.79,
+        "score": 4.715
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 862.58,
+        "change_pct": 0.3,
+        "volume": 3782100,
+        "trading_value": 3262363882,
+        "vol_surge": 1.57,
+        "score": 4.4858
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 128.01,
+        "change_pct": 0.25,
+        "volume": 8145600,
+        "trading_value": 1042718211,
+        "vol_surge": 1.71,
+        "score": 3.8493
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 233.86,
+        "change_pct": 0.28,
+        "volume": 6595200,
+        "trading_value": 1542353476,
+        "vol_surge": 1.0,
+        "score": 2.5792
       },
       {
         "ticker": "NFLX",
         "name": "Netflix, Inc.",
         "sector": "통신서비스",
         "price": 97.7,
-        "change_pct": 1.14,
+        "change_pct": 0.17,
         "volume": 59033000,
         "trading_value": 5767523919,
         "vol_surge": 1.13,
-        "score": 12.5377
+        "score": 1.8697
       },
       {
-        "ticker": "CCI",
-        "name": "Crown Castle Inc.",
-        "sector": "부동산",
-        "price": 90.26,
-        "change_pct": 1.06,
-        "volume": 3745100,
-        "trading_value": 338032734,
-        "vol_surge": 1.13,
-        "score": 10.1726
-      },
-      {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 972.01,
-        "change_pct": 0.79,
-        "volume": 849500,
-        "trading_value": 825722503,
-        "vol_surge": 1.36,
-        "score": 9.5899
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 300.26,
-        "change_pct": 1.07,
-        "volume": 10273500,
-        "trading_value": 3084721210,
-        "vol_surge": 0.94,
-        "score": 9.5782
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 118.52,
-        "change_pct": 0.31,
-        "volume": 17351200,
-        "trading_value": 2056464165,
-        "vol_surge": 2.03,
-        "score": 5.8722
+        "price": 151.83,
+        "change_pct": 0.15,
+        "volume": 25172200,
+        "trading_value": 3821895172,
+        "vol_surge": 1.28,
+        "score": 1.8395
       },
       {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
+        "ticker": "VZ",
+        "name": "Verizon Communicat",
         "sector": "통신서비스",
-        "price": 655.08,
-        "change_pct": 0.37,
-        "volume": 12240600,
-        "trading_value": 8018572457,
-        "vol_surge": 0.78,
-        "score": 2.8591
-      },
-      {
-        "ticker": "V",
-        "name": "Visa Inc.",
-        "sector": "금융",
-        "price": 320.83,
-        "change_pct": 0.34,
-        "volume": 5473300,
-        "trading_value": 1755998765,
-        "vol_surge": 0.7,
-        "score": 2.2154
+        "price": 50.87,
+        "change_pct": 0.2,
+        "volume": 30920600,
+        "trading_value": 1572930888,
+        "vol_surge": 0.99,
+        "score": 1.8133
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장이 KOSPI -12%, KOSDAQ -14%로 역사적 수준의 폭락장을 기록하며 패닉 셀링 양상입니다. 미국 대비 한국의 낙폭이 10배 이상으로 외국인 대규모 이탈과 원화 약세(1,473원)가 동반된 복합 위기 상황이며, 반도체·IT·금융 전 섹터가 동반 급락하는 시스템적 리스크가 발생했습니다.",
-    "action": "신규 롱 포지션 진입 금지, 기존 포지션 50% 이상 현금화하여 리스크 회피가 최우선입니다. 단기 반등 시 KOSPI200 인버스 ETF(KODEX 인버스) 또는 변동성 ETN으로 헷지 포지션 유지하고, 저가 매수는 VIX 안정화 및 외국인 순매수 전환 확인 후 3-5일 이후 분할 접근을 권장합니다.",
-    "risk": "추가 서킷브레이커 발동 가능성, 외국인 선물 매도 포지션 청산 여부, 그리고 원화 급락에 따른 외환시장 개입 가능성을 주시해야 합니다. 손절 기준은 전 종목 -5% 추가 하락 시 무조건 청산하며, 오버나이트 포지션은 최소화하세요.",
-    "watchlist": "SK하이닉스: 반도체 대장주로 낙폭 과대(-9.58%), 외국인 수급 전환 시 1차 반등 후보\nKODEX 인버스: 추가 하락 헷지 및 단기 수익 기회, 변동성 확대 국면에서 유효\n신한지주: 금융주 중 배당 메리트 존재, 패닉 진정 후 밸류에이션 매력 부각 가능\nAT&T: 미국 방어주 강세(+2.63%), 달러 자산 분산 및 안전자산 대안으로 관찰",
-    "date": "2026년 03월 04일 17:42 KST"
+    "overview": "한국 시장 역대급 폭락(-12~14%)으로 패닉 셀링 국면 진입. 미국 시장은 상대적으로 안정적(-1% 내외)이나 한국은 반도체·IT·금융 전 섹터 동반 붕괴 중이며, 원화 약세(-1.15%)까지 겹쳐 외국인 대규모 이탈 징후. 서킷브레이커 발동 수준의 시스템 리스크 상황.",
+    "action": "신규 롱 포지션 절대 금지, 기존 보유 포지션 전량 청산 또는 최소화 권고. 반등 시도 시 KOSPI200 인버스 ETF(KODEX 인버스) 단기 숏 헤지 유지. 바닥 확인 전까지 현금 비중 80% 이상 유지하며, 반등 시 저점 대비 +5% 회복 확인 후 분할 재진입 검토.",
+    "risk": "추가 하락 리스크 극대화 구간으로 데드캣 바운스 함정 주의. 손절 기준은 진입가 대비 -3% 즉시 컷, 레버리지 상품 일체 회피. 내일 미국장 추가 하락 시 한국 연쇄 폭락 가능성 및 외환시장 급변동 모니터링 필수.",
+    "watchlist": "KODEX 인버스: 하락장 헤지 수단, 변동성 방어용\nSK하이닉스: 반도체 대장주 낙폭과대(-9.58%), 기술적 반등 시 첫 번째 관찰 대상\n한화에어로스페이스: 방산주 상대적 선방(-7.61%), 섹터 로테이션 수혜 가능성\nUSD/KRW: 1,470원 돌파 시 외국인 추가 이탈 신호로 전체 포지션 재조정 트리거",
+    "date": "2026년 03월 04일 18:43 KST"
   },
   "consensus": {
     "kospi": {
