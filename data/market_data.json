@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 05일 03:56 KST",
+  "updated_at": "2026년 03월 05일 04:41 KST",
   "indices": {
     "kospi": {
       "value": 5093.54,
@@ -10,20 +10,20 @@
       "change_pct": -14.0
     },
     "sp500": {
-      "value": 6881.61,
-      "change_pct": 0.95
+      "value": 6881.77,
+      "change_pct": 0.96
     },
     "nasdaq": {
-      "value": 22876.59,
-      "change_pct": 1.6
+      "value": 22870.71,
+      "change_pct": 1.57
     },
     "dow": {
-      "value": 48781.4,
-      "change_pct": 0.56
+      "value": 48775.42,
+      "change_pct": 0.55
     },
     "usdkrw": {
-      "value": 1462.42,
-      "change_pct": -1.57
+      "value": 1461.87,
+      "change_pct": -1.6
     }
   },
   "kr": {
@@ -67,47 +67,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 2.36
+        "change_pct": 2.38
       },
       {
         "name": "금융",
-        "change_pct": 0.65
+        "change_pct": 0.78
       },
       {
         "name": "에너지",
-        "change_pct": -1.04
+        "change_pct": -0.76
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.39
+        "change_pct": 0.28
       },
       {
         "name": "산업재",
-        "change_pct": 0.42
+        "change_pct": 0.51
       },
       {
         "name": "임의소비재",
-        "change_pct": 1.82
+        "change_pct": 1.78
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.35
+        "change_pct": -0.26
       },
       {
         "name": "소재",
-        "change_pct": 0.17
+        "change_pct": 0.21
       },
       {
         "name": "부동산",
-        "change_pct": -0.1
+        "change_pct": 0.13
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.61
+        "change_pct": 0.81
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.81
+        "change_pct": 0.75
       }
     ],
     "top_stocks": [
@@ -115,126 +115,126 @@
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 201.79,
-        "change_pct": 6.07,
-        "volume": 25149639,
-        "trading_value": 5074945484,
-        "vol_surge": 0.7,
-        "score": 41.323
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc.",
-        "sector": "임의소비재",
-        "price": 405.47,
-        "change_pct": 3.81,
-        "volume": 47460556,
-        "trading_value": 19243831699,
-        "vol_surge": 0.72,
-        "score": 28.3362
+        "price": 202.17,
+        "change_pct": 6.27,
+        "volume": 27721230,
+        "trading_value": 5604401018,
+        "vol_surge": 0.77,
+        "score": 47.2561
       },
       {
         "ticker": "AMZN",
         "name": "Amazon.com, Inc.",
         "sector": "임의소비재",
-        "price": 216.49,
-        "change_pct": 4.08,
-        "volume": 32749164,
-        "trading_value": 7089866694,
-        "vol_surge": 0.69,
-        "score": 27.63
+        "price": 217.04,
+        "change_pct": 4.34,
+        "volume": 36311174,
+        "trading_value": 7880795782,
+        "vol_surge": 0.76,
+        "score": 32.7385
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 405.44,
+        "change_pct": 3.8,
+        "volume": 51139089,
+        "trading_value": 20733816762,
+        "vol_surge": 0.78,
+        "score": 30.5469
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 184.35,
-        "change_pct": 2.76,
-        "volume": 110761072,
-        "trading_value": 20418804299,
-        "vol_surge": 0.63,
-        "score": 17.9791
+        "price": 183.97,
+        "change_pct": 2.55,
+        "volume": 123722398,
+        "trading_value": 22761332421,
+        "vol_surge": 0.71,
+        "score": 18.639
       },
       {
         "ticker": "NFLX",
         "name": "Netflix, Inc.",
         "sector": "통신서비스",
-        "price": 99.02,
-        "change_pct": 1.85,
-        "volume": 35133265,
-        "trading_value": 3478899534,
-        "vol_surge": 0.67,
-        "score": 11.8367
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 409.74,
-        "change_pct": 1.67,
-        "volume": 20929143,
-        "trading_value": 8575506848,
-        "vol_surge": 0.64,
-        "score": 10.5402
+        "price": 98.93,
+        "change_pct": 1.76,
+        "volume": 37803715,
+        "trading_value": 3740110451,
+        "vol_surge": 0.72,
+        "score": 12.1562
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 320.35,
-        "change_pct": 2.25,
-        "volume": 13543207,
-        "trading_value": 4338566445,
-        "vol_surge": 0.44,
-        "score": 9.5542
+        "price": 321.1,
+        "change_pct": 2.49,
+        "volume": 15244615,
+        "trading_value": 4895045969,
+        "vol_surge": 0.5,
+        "score": 11.966
       },
       {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 92.96,
-        "change_pct": 2.15,
-        "volume": 4133615,
-        "trading_value": 384260846,
-        "vol_surge": 0.41,
-        "score": 7.603
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 409.51,
+        "change_pct": 1.62,
+        "volume": 22308518,
+        "trading_value": 9135561424,
+        "vol_surge": 0.68,
+        "score": 10.9283
       },
       {
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 667.63,
-        "change_pct": 2.14,
-        "volume": 5786351,
-        "trading_value": 3863141546,
-        "vol_surge": 0.37,
-        "score": 7.5667
+        "price": 668.39,
+        "change_pct": 2.26,
+        "volume": 6332046,
+        "trading_value": 4232276318,
+        "vol_surge": 0.4,
+        "score": 8.7805
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 92.94,
+        "change_pct": 2.13,
+        "volume": 4702236,
+        "trading_value": 437025825,
+        "vol_surge": 0.47,
+        "score": 8.6241
       },
       {
         "ticker": "BRK-B",
         "name": "Berkshire Hathaway",
         "sector": "금융",
-        "price": 487.0,
-        "change_pct": 1.28,
-        "volume": 2205736,
-        "trading_value": 1074193432,
-        "vol_surge": 0.46,
-        "score": 5.2839
+        "price": 488.38,
+        "change_pct": 1.57,
+        "volume": 2436616,
+        "trading_value": 1189994533,
+        "vol_surge": 0.5,
+        "score": 7.1946
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 극단적 폭락(-12~14%)과 미국 시장 강세(+1~2%) 간 극심한 디커플링 발생. 반도체·IT·금융 전 섹터 동반 급락으로 시스템적 리스크 또는 대외 충격(지정학적 이슈, 외국인 대규모 이탈) 가능성이 높으며, 원화 강세(-1.57%)는 외국인 청산 후 달러 유출 신호로 해석됨.",
-    "action": "한국 시장 신규 롱 진입 금지, 기존 포지션 전량 청산 또는 헷지 필수. 변동성 극대화 구간으로 KOSPI200 풋옵션 또는 인버스 ETF(KODEX 인버스) 단기 헷지 유지. 미국 기술주(AMD, NVDA) 상승 모멘텀 활용한 선별적 롱 포지션은 유효하나, 한국 시장 안정 확인 전까지 비중 30% 이하로 제한.",
-    "risk": "서킷브레이커 발동 가능성, 추가 하락 시 마진콜 연쇄 청산 위험 존재. 손절 기준: KOSPI 5,000 이탈 시 전량 청산, 개별 종목 -5% 추가 하락 시 즉시 손절. 장 중 정부 발표, 외국인 수급 동향 실시간 모니터링 필수.",
-    "watchlist": "삼성전자: 반도체 대장주로 낙폭 과대 시 기술적 반등 가능성 탐색, 단 5만원 지지선 확인 필요\nKODEX 인버스: 추가 하락 헷지 수단, 변동성 확대 시 단기 수익 기회\nAMD: 미국 기술 섹터 주도주로 +6% 강세, 200달러 돌파 시 추가 상승 모멘텀\nNVIDIA: AI 테마 지속, 한국 반도체 연쇄 영향 모니터링용 벤치마크",
-    "date": "2026년 03월 05일 03:55 KST"
+    "overview": "한국 시장 역사적 폭락(-12~14%)과 미국 시장 강세(+1~1.5%)의 극단적 디커플링 발생. 원/달러 급락(-1.6%)에도 불구하고 한국 전 섹터 동반 급락은 외국인 대규모 이탈 또는 시스템적 리스크 신호로, 투매 후 기술적 반등 가능성과 추가 하락 리스크가 공존하는 극도의 변동성 장세.",
+    "action": "한국 시장 신규 롱 진입 금지, 기존 포지션 전량 청산 우선. 반등 시 KOSPI 선물 숏 헤지 유지하며 5,000 심리적 지지선 이탈 여부 확인 필요. 미국 기술주(AMD, NVDA) 강세 지속 시 소규모 롱 유지하되, 한국 시장 안정화 신호(거래량 감소+양봉) 확인 전까지 관망이 최선.",
+    "risk": "서킷브레이커 추가 발동 가능성, 외국인 선물 매도 포지션 규모 확인 필수. KOSPI 4,800 이탈 시 추가 -10% 하락 열려있음. 손절 기준은 전일 종가 대비 -3% 추가 하락 시 즉시 청산, 변동성 확대로 레버리지 상품 절대 금지.",
+    "watchlist": "삼성전자: 반도체 대장주 낙폭과대(-9.83% 섹터), 외국인 수급 반전 시 최우선 반등 후보\nKODEX 인버스: 추가 하락 헤지용, KOSPI 5,000 붕괴 시 단기 수익 기회\nAMD: 미국 기술 섹터 주도(+6.27%), 글로벌 반도체 센티먼트 선행지표로 활용\nNVIDIA: AI 테마 지속 여부 확인, 한국 반도체 연동 회복 시그널 관찰",
+    "date": "2026년 03월 05일 04:40 KST"
   },
   "consensus": {
     "kospi": {
       "current": 5093.54,
-      "target_avg": 6990,
-      "upside_pct": 37.2,
+      "target_avg": 7007,
+      "upside_pct": 37.6,
       "firms_count": 27,
       "firms": [
         {
@@ -286,6 +286,12 @@
           "stocks": 14
         },
         {
+          "name": "메리츠",
+          "target": 7151,
+          "upside_pct": 40.4,
+          "stocks": 15
+        },
+        {
           "name": "삼성",
           "target": 7134,
           "upside_pct": 40.1,
@@ -302,6 +308,12 @@
           "target": 7054,
           "upside_pct": 38.5,
           "stocks": 14
+        },
+        {
+          "name": "키움",
+          "target": 7047,
+          "upside_pct": 38.3,
+          "stocks": 13
         },
         {
           "name": "NH투자",
@@ -322,12 +334,6 @@
           "stocks": 11
         },
         {
-          "name": "메리츠",
-          "target": 6883,
-          "upside_pct": 35.1,
-          "stocks": 15
-        },
-        {
           "name": "흥국",
           "target": 6876,
           "upside_pct": 35.0,
@@ -338,12 +344,6 @@
           "target": 6865,
           "upside_pct": 34.8,
           "stocks": 11
-        },
-        {
-          "name": "키움",
-          "target": 6853,
-          "upside_pct": 34.5,
-          "stocks": 13
         },
         {
           "name": "현대차",
