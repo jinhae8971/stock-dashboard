@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 07일 01:45 KST",
+  "updated_at": "2026년 03월 07일 02:38 KST",
   "indices": {
     "kospi": {
       "value": 5584.87,
@@ -10,20 +10,20 @@
       "change_pct": 3.43
     },
     "sp500": {
-      "value": 6762.85,
-      "change_pct": -0.98
+      "value": 6745.79,
+      "change_pct": -1.23
     },
     "nasdaq": {
-      "value": 22566.19,
-      "change_pct": -0.8
+      "value": 22493.5,
+      "change_pct": -1.12
     },
     "dow": {
-      "value": 47429.83,
-      "change_pct": -1.08
+      "value": 47314.1,
+      "change_pct": -1.32
     },
     "usdkrw": {
-      "value": 1483.05,
-      "change_pct": 0.18
+      "value": 1482.95,
+      "change_pct": 0.17
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.49
+        "change_pct": -1.05
       },
       {
         "name": "금융",
-        "change_pct": -1.91
+        "change_pct": -2.15
       },
       {
         "name": "에너지",
-        "change_pct": 0.25
+        "change_pct": -0.02
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.09
+        "change_pct": -1.26
       },
       {
         "name": "산업재",
-        "change_pct": -1.4
-      },
-      {
-        "name": "임의소비재",
-        "change_pct": -1.52
-      },
-      {
-        "name": "필수소비재",
-        "change_pct": -0.13
-      },
-      {
-        "name": "소재",
         "change_pct": -1.74
       },
       {
+        "name": "임의소비재",
+        "change_pct": -1.71
+      },
+      {
+        "name": "필수소비재",
+        "change_pct": -0.22
+      },
+      {
+        "name": "소재",
+        "change_pct": -2.15
+      },
+      {
         "name": "부동산",
-        "change_pct": -1.3
+        "change_pct": -1.48
       },
       {
         "name": "유틸리티",
-        "change_pct": -1.17
+        "change_pct": -0.67
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.87
+        "change_pct": -0.96
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 340.58,
-        "change_pct": 2.53,
-        "volume": 14549419,
-        "trading_value": 4955240927,
-        "vol_surge": 0.46,
-        "score": 11.2962
+        "price": 337.0,
+        "change_pct": 1.45,
+        "volume": 18234148,
+        "trading_value": 6144907876,
+        "vol_surge": 0.58,
+        "score": 8.1919
       },
       {
         "ticker": "COST",
         "name": "Costco Wholesale C",
         "sector": "필수소비재",
-        "price": 997.07,
-        "change_pct": 1.64,
-        "volume": 1101941,
-        "trading_value": 1098712320,
-        "vol_surge": 0.42,
-        "score": 6.2337
+        "price": 995.6,
+        "change_pct": 1.49,
+        "volume": 1272110,
+        "trading_value": 1266512684,
+        "vol_surge": 0.49,
+        "score": 6.5827
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 131.64,
+        "change_pct": 0.87,
+        "volume": 1736995,
+        "trading_value": 228657331,
+        "vol_surge": 0.5,
+        "score": 3.6549
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 132.37,
-        "change_pct": 1.07,
-        "volume": 2086654,
-        "trading_value": 276210379,
-        "vol_surge": 0.43,
-        "score": 3.8827
+        "price": 131.89,
+        "change_pct": 0.7,
+        "volume": 2604834,
+        "trading_value": 343551554,
+        "vol_surge": 0.54,
+        "score": 3.2064
       },
       {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 151.92,
-        "change_pct": 0.78,
-        "volume": 7684687,
-        "trading_value": 1167457634,
-        "vol_surge": 0.39,
-        "score": 2.732
+        "price": 151.43,
+        "change_pct": 0.45,
+        "volume": 9075641,
+        "trading_value": 1374278966,
+        "vol_surge": 0.46,
+        "score": 1.876
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 117.87,
-        "change_pct": 0.61,
-        "volume": 3982689,
-        "trading_value": 469439563,
-        "vol_surge": 0.46,
-        "score": 2.4558
+        "price": 117.56,
+        "change_pct": 0.34,
+        "volume": 4801094,
+        "trading_value": 564416598,
+        "vol_surge": 0.56,
+        "score": 1.6653
+      },
+      {
+        "ticker": "DUK",
+        "name": "Duke Energy Corpor",
+        "sector": "유틸리티",
+        "price": 131.46,
+        "change_pct": 0.08,
+        "volume": 2029851,
+        "trading_value": 266844226,
+        "vol_surge": 0.5,
+        "score": 0.3358
       },
       {
         "ticker": "WMT",
         "name": "Walmart Inc.",
         "sector": "필수소비재",
-        "price": 123.93,
-        "change_pct": 0.37,
-        "volume": 7462803,
-        "trading_value": 924865178,
-        "vol_surge": 0.24,
-        "score": 0.7985
-      },
-      {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 199.89,
-        "change_pct": 0.25,
-        "volume": 10851137,
-        "trading_value": 2169033768,
-        "vol_surge": 0.3,
-        "score": 0.7002
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 411.52,
-        "change_pct": 0.09,
-        "volume": 10833119,
-        "trading_value": 4458045011,
-        "vol_surge": 0.32,
-        "score": 0.2814
+        "price": 123.39,
+        "change_pct": -0.06,
+        "volume": 8721393,
+        "trading_value": 1076132676,
+        "vol_surge": 0.28,
+        "score": -0.06
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 189.55,
-        "change_pct": -0.08,
-        "volume": 5029679,
-        "trading_value": 953375669,
-        "vol_surge": 0.46,
-        "score": -0.08
+        "price": 189.53,
+        "change_pct": -0.09,
+        "volume": 5845690,
+        "trading_value": 1107933618,
+        "vol_surge": 0.53,
+        "score": -0.09
       },
       {
-        "ticker": "LLY",
-        "name": "Eli Lilly and Comp",
-        "sector": "헬스케어",
-        "price": 978.32,
-        "change_pct": -0.22,
-        "volume": 736827,
-        "trading_value": 720852596,
-        "vol_surge": 0.23,
-        "score": -0.22
+        "ticker": "D",
+        "name": "Dominion Energy, I",
+        "sector": "유틸리티",
+        "price": 62.86,
+        "change_pct": -0.24,
+        "volume": 1454364,
+        "trading_value": 91421321,
+        "vol_surge": 0.22,
+        "score": -0.24
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSDAQ 강세(+3.43%)와 KOSPI 보합으로 중소형주 중심 위험선호 장세, 미국은 S&P/NASDAQ 동반 하락으로 혼조세 지속. 반도체·IT플랫폼 섹터 로테이션이 뚜렷하며, 원화 약세(1,483원)가 수출주에 우호적 환경 조성.",
-    "action": "반도체(한미반도체) 및 IT플랫폼(카카오, 넷마블) 롱 포지션 유지, 장 초반 갭업 시 분할 익절 권고. 미국 기술주 약세 감안해 코스피 대형주는 관망하고, 코스닥 모멘텀 종목 단기 스윙 매매에 집중. 진입은 9시 30분 이후 거래량 확인 후, 청산은 당일 고점 대비 -2% 이탈 시.",
-    "risk": "미국 금융섹터 급락(-1.91%)이 글로벌 리스크오프로 전이될 가능성 주시. 환율 1,490원 돌파 시 외국인 이탈 가속화 우려, 손절 기준은 진입가 대비 -3% 또는 KOSDAQ 1,130p 이탈 시 전량 청산.",
-    "watchlist": "한미반도체: 반도체 섹터 대장주, +5.87% 강세 지속 여부 확인\n카카오: IT플랫폼 로테이션 수혜, 54,000원 저항 돌파 시 추가 상승 여력\n현대제철: 철강 서프라이즈 +11%, 단기 과열 여부 및 차익실현 타이밍 모니터링\nBroadcom: 미국 기술주 중 유일 강세(+2.53%), 한국 반도체 연동성 체크",
-    "date": "2026년 03월 07일 01:44 KST"
+    "overview": "한미 증시 디커플링 심화. 미국 기술/금융 약세(-1~2%)에도 코스닥 +3.43% 강세로 국내 중소형주 중심 매수세 유입. 반도체·IT플랫폼 섹터 로테이션 진행 중이며 방산·철강 등 내수 테마주 급등이 특징적.",
+    "action": "코스닥 강세 모멘텀 활용해 IT플랫폼·반도체 단기 롱 전략 유효. 넷마블·카카오 등 갭상승 종목은 장초반 눌림목 매수(3-5% 조정 시), 한미반도체는 33만원 지지 확인 후 분할 진입. 미국 선물 약세 지속 시 코스피200 선물 헷지 숏 병행.",
+    "risk": "원달러 1,483원대 고환율 지속으로 외국인 매도 압력 상존. 미국 증시 추가 하락 시 월요일 갭다운 리스크 있음. 손절 기준: 개별종목 -3%, 코스닥 지수 1,140 이탈 시 전량 청산.",
+    "watchlist": "한미반도체: 반도체 섹터 주도주, 전일 +5.87% 거래량 동반 상승으로 추세 지속 기대\n넷마블: +11% 급등 후 단기 과열, 52,000원 지지 시 추가 상승 여력 확인\n현대제철: 철강 테마 부각, 4만원 돌파 시 신고가 도전 가능\n카카오: IT플랫폼 동반 상승, 5만원대 안착 여부가 중기 방향성 결정",
+    "date": "2026년 03월 07일 02:37 KST"
   },
   "consensus": {
     "kospi": {
