@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 07일 02:38 KST",
+  "updated_at": "2026년 03월 07일 03:52 KST",
   "indices": {
     "kospi": {
       "value": 5584.87,
@@ -10,19 +10,19 @@
       "change_pct": 3.43
     },
     "sp500": {
-      "value": 6745.79,
-      "change_pct": -1.23
+      "value": 6757.25,
+      "change_pct": -1.06
     },
     "nasdaq": {
-      "value": 22493.5,
-      "change_pct": -1.12
+      "value": 22528.95,
+      "change_pct": -0.97
     },
     "dow": {
-      "value": 47314.1,
-      "change_pct": -1.32
+      "value": 47395.01,
+      "change_pct": -1.15
     },
     "usdkrw": {
-      "value": 1482.95,
+      "value": 1482.85,
       "change_pct": 0.17
     }
   },
@@ -178,137 +178,126 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.05
+        "change_pct": -0.93
       },
       {
         "name": "금융",
-        "change_pct": -2.15
+        "change_pct": -2.12
       },
       {
         "name": "에너지",
-        "change_pct": -0.02
+        "change_pct": 0.2
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.26
+        "change_pct": -0.82
       },
       {
         "name": "산업재",
-        "change_pct": -1.74
+        "change_pct": -1.33
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.71
+        "change_pct": -1.47
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.22
+        "change_pct": -0.09
       },
       {
         "name": "소재",
-        "change_pct": -2.15
+        "change_pct": -2.0
       },
       {
         "name": "부동산",
-        "change_pct": -1.48
+        "change_pct": -1.37
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.67
+        "change_pct": -0.55
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.96
+        "change_pct": -0.85
       }
     ],
     "top_stocks": [
       {
-        "ticker": "AVGO",
-        "name": "Broadcom Inc.",
-        "sector": "기술",
-        "price": 337.0,
-        "change_pct": 1.45,
-        "volume": 18234148,
-        "trading_value": 6144907876,
-        "vol_surge": 0.58,
-        "score": 8.1919
-      },
-      {
         "ticker": "COST",
         "name": "Costco Wholesale C",
         "sector": "필수소비재",
-        "price": 995.6,
-        "change_pct": 1.49,
-        "volume": 1272110,
-        "trading_value": 1266512684,
-        "vol_surge": 0.49,
-        "score": 6.5827
+        "price": 999.07,
+        "change_pct": 1.84,
+        "volume": 1521361,
+        "trading_value": 1519946145,
+        "vol_surge": 0.58,
+        "score": 9.8064
       },
       {
         "ticker": "AEP",
         "name": "American Electric ",
         "sector": "유틸리티",
-        "price": 131.64,
-        "change_pct": 0.87,
-        "volume": 1736995,
-        "trading_value": 228657331,
-        "vol_surge": 0.5,
-        "score": 3.6549
+        "price": 132.04,
+        "change_pct": 1.18,
+        "volume": 2279996,
+        "trading_value": 301062067,
+        "vol_surge": 0.66,
+        "score": 6.5999
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 131.89,
-        "change_pct": 0.7,
-        "volume": 2604834,
-        "trading_value": 343551554,
-        "vol_surge": 0.54,
-        "score": 3.2064
+        "price": 132.21,
+        "change_pct": 0.95,
+        "volume": 3479293,
+        "trading_value": 459997350,
+        "vol_surge": 0.72,
+        "score": 5.8987
       },
       {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 151.43,
-        "change_pct": 0.45,
-        "volume": 9075641,
-        "trading_value": 1374278966,
-        "vol_surge": 0.46,
-        "score": 1.876
+        "price": 151.77,
+        "change_pct": 0.68,
+        "volume": 11074952,
+        "trading_value": 1680863256,
+        "vol_surge": 0.56,
+        "score": 3.4924
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 117.56,
-        "change_pct": 0.34,
-        "volume": 4801094,
-        "trading_value": 564416598,
-        "vol_surge": 0.56,
-        "score": 1.6653
+        "price": 117.7,
+        "change_pct": 0.46,
+        "volume": 6026550,
+        "trading_value": 709324916,
+        "vol_surge": 0.7,
+        "score": 2.8603
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 986.18,
+        "change_pct": 0.58,
+        "volume": 1167737,
+        "trading_value": 1151598866,
+        "vol_surge": 0.36,
+        "score": 1.908
       },
       {
         "ticker": "DUK",
         "name": "Duke Energy Corpor",
         "sector": "유틸리티",
-        "price": 131.46,
-        "change_pct": 0.08,
-        "volume": 2029851,
-        "trading_value": 266844226,
-        "vol_surge": 0.5,
-        "score": 0.3358
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart Inc.",
-        "sector": "필수소비재",
-        "price": 123.39,
-        "change_pct": -0.06,
-        "volume": 8721393,
-        "trading_value": 1076132676,
-        "vol_surge": 0.28,
-        "score": -0.06
+        "price": 131.67,
+        "change_pct": 0.24,
+        "volume": 2475316,
+        "trading_value": 325924853,
+        "vol_surge": 0.61,
+        "score": 1.2411
       },
       {
         "ticker": "CVX",
@@ -316,30 +305,41 @@
         "sector": "에너지",
         "price": 189.53,
         "change_pct": -0.09,
-        "volume": 5845690,
-        "trading_value": 1107933618,
-        "vol_surge": 0.53,
+        "volume": 7003630,
+        "trading_value": 1327397985,
+        "vol_surge": 0.64,
         "score": -0.09
       },
       {
         "ticker": "D",
         "name": "Dominion Energy, I",
         "sector": "유틸리티",
-        "price": 62.86,
-        "change_pct": -0.24,
-        "volume": 1454364,
-        "trading_value": 91421321,
-        "vol_surge": 0.22,
-        "score": -0.24
+        "price": 62.94,
+        "change_pct": -0.11,
+        "volume": 1822846,
+        "trading_value": 114729924,
+        "vol_surge": 0.28,
+        "score": -0.11
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 91.13,
+        "change_pct": -0.37,
+        "volume": 5082293,
+        "trading_value": 463149347,
+        "vol_surge": 0.51,
+        "score": -0.37
       }
     ]
   },
   "strategy": {
-    "overview": "한미 증시 디커플링 심화. 미국 기술/금융 약세(-1~2%)에도 코스닥 +3.43% 강세로 국내 중소형주 중심 매수세 유입. 반도체·IT플랫폼 섹터 로테이션 진행 중이며 방산·철강 등 내수 테마주 급등이 특징적.",
-    "action": "코스닥 강세 모멘텀 활용해 IT플랫폼·반도체 단기 롱 전략 유효. 넷마블·카카오 등 갭상승 종목은 장초반 눌림목 매수(3-5% 조정 시), 한미반도체는 33만원 지지 확인 후 분할 진입. 미국 선물 약세 지속 시 코스피200 선물 헷지 숏 병행.",
-    "risk": "원달러 1,483원대 고환율 지속으로 외국인 매도 압력 상존. 미국 증시 추가 하락 시 월요일 갭다운 리스크 있음. 손절 기준: 개별종목 -3%, 코스닥 지수 1,140 이탈 시 전량 청산.",
-    "watchlist": "한미반도체: 반도체 섹터 주도주, 전일 +5.87% 거래량 동반 상승으로 추세 지속 기대\n넷마블: +11% 급등 후 단기 과열, 52,000원 지지 시 추가 상승 여력 확인\n현대제철: 철강 테마 부각, 4만원 돌파 시 신고가 도전 가능\n카카오: IT플랫폼 동반 상승, 5만원대 안착 여부가 중기 방향성 결정",
-    "date": "2026년 03월 07일 02:37 KST"
+    "overview": "한국 시장은 혼조세로 코스닥이 +3.43% 급등하며 중소형주 강세, 반면 미국은 기술/금융 약세로 하락 마감. 섹터 로테이션이 IT/플랫폼과 반도체로 집중되며, 방어적 에너지/유틸리티로의 자금 이동도 관찰됨.",
+    "action": "코스닥 모멘텀 활용하여 IT/플랫폼 섹터 롱 포지션 진입, 넷마블/카카오 단기 매수 고려. 미국 약세 영향 감안해 코스피 대형주는 관망하고, 오전 갭상승 시 분할 매도로 익절 권장. 진입은 9시 30분 이후 거래량 확인 후 실행.",
+    "risk": "원/달러 1,482원대로 환율 상승세가 외국인 매도 압력을 유발할 수 있음. 미국 나스닥 추가 하락 시 한국 반도체 섹터 동반 조정 가능하며, 손절 기준은 진입가 대비 -2.5% 설정.",
+    "watchlist": "넷마블: 거래량 동반 +11% 급등, IT/플랫폼 섹터 리더로 모멘텀 지속 여부 확인\n한미반도체: 반도체 섹터 강세 속 +5.87% 상승, HBM 테마 수혜 지속 관찰\n카카오: 플랫폼 반등 흐름, 5만원대 지지 여부가 추가 상승 관건\n현대제철: 철강 섹터 이례적 강세 +11%, 단기 과열 여부 및 차익실현 타이밍 주시",
+    "date": "2026년 03월 07일 03:51 KST"
   },
   "consensus": {
     "kospi": {
