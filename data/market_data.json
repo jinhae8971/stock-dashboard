@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 10일 01:01 KST",
+  "updated_at": "2026년 03월 10일 02:00 KST",
   "indices": {
     "kospi": {
       "value": 5251.87,
@@ -10,20 +10,20 @@
       "change_pct": -4.54
     },
     "sp500": {
-      "value": 6707.46,
-      "change_pct": -0.48
+      "value": 6727.29,
+      "change_pct": -0.19
     },
     "nasdaq": {
-      "value": 22364.04,
-      "change_pct": -0.11
+      "value": 22429.88,
+      "change_pct": 0.19
     },
     "dow": {
-      "value": 47086.08,
-      "change_pct": -0.87
+      "value": 47215.38,
+      "change_pct": -0.57
     },
     "usdkrw": {
-      "value": 1477.78,
-      "change_pct": -0.46
+      "value": 1475.09,
+      "change_pct": -0.64
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.33
+        "change_pct": 0.72
       },
       {
         "name": "금융",
-        "change_pct": -2.12
+        "change_pct": -1.73
       },
       {
         "name": "에너지",
-        "change_pct": 0.04
+        "change_pct": -0.08
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.1
+        "change_pct": 0.33
       },
       {
         "name": "산업재",
-        "change_pct": -0.98
+        "change_pct": -0.37
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.65
-      },
-      {
-        "name": "필수소비재",
-        "change_pct": -0.36
-      },
-      {
-        "name": "소재",
         "change_pct": -1.41
       },
       {
+        "name": "필수소비재",
+        "change_pct": -0.29
+      },
+      {
+        "name": "소재",
+        "change_pct": -0.73
+      },
+      {
         "name": "부동산",
-        "change_pct": -1.17
+        "change_pct": -0.69
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.41
+        "change_pct": -0.35
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.15
+        "change_pct": 0.06
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 343.01,
-        "change_pct": 3.58,
-        "volume": 15883658,
-        "trading_value": 5448320093,
-        "vol_surge": 0.5,
-        "score": 17.4555
+        "price": 346.04,
+        "change_pct": 4.49,
+        "volume": 19749367,
+        "trading_value": 6833972282,
+        "vol_surge": 0.62,
+        "score": 27.4958
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 196.0,
-        "change_pct": 1.66,
-        "volume": 15900559,
-        "trading_value": 3116509564,
-        "vol_surge": 0.44,
-        "score": 6.9344
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 133.56,
-        "change_pct": 0.91,
-        "volume": 2484903,
-        "trading_value": 331883638,
-        "vol_surge": 0.51,
-        "score": 3.9419
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
-        "sector": "기술",
-        "price": 179.65,
-        "change_pct": 0.88,
-        "volume": 72885403,
-        "trading_value": 13093855531,
-        "vol_surge": 0.41,
-        "score": 3.6745
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 242.27,
-        "change_pct": 1.36,
-        "volume": 2486369,
-        "trading_value": 602372628,
-        "vol_surge": 0.28,
-        "score": 3.3261
-      },
-      {
-        "ticker": "PG",
-        "name": "Procter & Gamble C",
-        "sector": "필수소비재",
-        "price": 155.09,
-        "change_pct": 0.97,
-        "volume": 4335036,
-        "trading_value": 672299087,
-        "vol_surge": 0.38,
-        "score": 3.2931
+        "price": 197.15,
+        "change_pct": 2.26,
+        "volume": 19333814,
+        "trading_value": 3811661312,
+        "vol_surge": 0.54,
+        "score": 11.5851
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 117.84,
-        "change_pct": 0.58,
-        "volume": 4500366,
-        "trading_value": 530323112,
-        "vol_surge": 0.52,
-        "score": 2.6397
+        "price": 118.22,
+        "change_pct": 0.9,
+        "volume": 6846684,
+        "trading_value": 809414990,
+        "vol_surge": 0.79,
+        "score": 6.3628
       },
       {
-        "ticker": "PEP",
-        "name": "Pepsico, Inc.",
-        "sector": "필수소비재",
-        "price": 161.03,
-        "change_pct": 1.53,
-        "volume": 1657444,
-        "trading_value": 266899874,
-        "vol_surge": 0.19,
-        "score": 2.4992
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 180.12,
+        "change_pct": 1.15,
+        "volume": 88461890,
+        "trading_value": 15934197936,
+        "vol_surge": 0.5,
+        "score": 5.8773
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc.",
         "sector": "통신서비스",
-        "price": 299.92,
-        "change_pct": 0.71,
-        "volume": 11313507,
-        "trading_value": 3393203448,
+        "price": 301.57,
+        "change_pct": 1.26,
+        "volume": 13557521,
+        "trading_value": 4088541707,
+        "vol_surge": 0.4,
+        "score": 4.7899
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 242.63,
+        "change_pct": 1.52,
+        "volume": 2941042,
+        "trading_value": 713599709,
         "vol_surge": 0.33,
-        "score": 2.2333
+        "score": 4.434
+      },
+      {
+        "ticker": "PG",
+        "name": "Procter & Gamble C",
+        "sector": "필수소비재",
+        "price": 155.21,
+        "change_pct": 1.05,
+        "volume": 5248925,
+        "trading_value": 814685684,
+        "vol_surge": 0.47,
+        "score": 4.3569
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 133.53,
+        "change_pct": 0.78,
+        "volume": 3036224,
+        "trading_value": 405426987,
+        "vol_surge": 0.62,
+        "score": 4.1705
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 995.97,
-        "change_pct": 0.7,
-        "volume": 1037904,
-        "trading_value": 1033721216,
-        "vol_surge": 0.32,
-        "score": 2.0423
+        "price": 999.8,
+        "change_pct": 1.09,
+        "volume": 1225119,
+        "trading_value": 1224873961,
+        "vol_surge": 0.38,
+        "score": 3.7844
+      },
+      {
+        "ticker": "PEP",
+        "name": "Pepsico, Inc.",
+        "sector": "필수소비재",
+        "price": 160.59,
+        "change_pct": 1.25,
+        "volume": 2005380,
+        "trading_value": 322043966,
+        "vol_surge": 0.23,
+        "score": 2.4943
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI -5.96%, KOSDAQ -4.54%로 패닉 수준의 급락세를 보이며 반도체(-8.63%), IT/플랫폼(-7.34%) 중심으로 투매가 발생했습니다. 반면 미국 시장은 기술주 중심으로 소폭 상승하며 디커플링 현상이 심화되고 있어, 외국인 자금 이탈과 원화 약세가 복합 작용한 신흥국 리스크 회피 장세로 판단됩니다.",
-    "action": "금일은 공격적 매수보다 현금 비중 확대(70% 이상)를 권고하며, 낙폭과대 기술주 반등 시 분할 숏커버링 대응이 유효합니다. 방어주(통신, 에너지) 중심으로 소규모 롱 포지션 진입을 검토하되, KOSPI 5,200선 이탈 시 전량 청산 후 관망으로 전환하세요.",
-    "risk": "원화 약세 지속(1,480원 돌파 여부)과 외국인 순매도 규모를 실시간 모니터링해야 하며, 반도체 대형주 추가 급락 시 시장 전체 하방 압력이 가중될 수 있습니다. 손절 기준은 진입가 대비 -2% 엄격 적용, 장중 변동성 확대 시 포지션 규모를 평소의 50% 이하로 축소하세요.",
-    "watchlist": "삼성중공업: 유일한 대형주 상승세로 방산/조선 섹터 자금 유입 확인 필요\nKT/SK텔레콤: 방어주 성격의 통신주로 변동성 장세 피난처 역할 기대\n삼성전자: 반도체 급락의 핵심 종목으로 외국인 수급 반전 시그널 관찰\nNVIDIA: 미국 기술주 강세 지속 여부 확인용 벤치마크로 활용",
-    "date": "2026년 03월 10일 01:01 KST"
+    "overview": "한국 시장 급락(-5.96%) vs 미국 보합세로 극심한 디커플링 발생. 반도체·IT 섹터 대량 투매 속 방어주(통신, 조선) 강세로 전형적인 패닉셀링 후 섹터 로테이션 진행 중. 원화 약세(-0.64%)에도 외국인 이탈 압력 지속 예상.",
+    "action": "단기 반등 롱 포지션 신중 접근: KOSPI 5,200 지지 확인 후 낙폭과대 반도체(삼성전자, SK하이닉스) 분할 매수 검토. 숏 포지션 일부 청산하고 현금비중 40% 이상 유지, 장중 변동성 활용한 단타 위주 대응. 진입은 오전 갭하락 후 30분 이후 추세 확인 시점.",
+    "risk": "글로벌 매크로 이벤트(미국 금리, 지정학 리스크) 추가 충격 가능성 주의. KOSPI 5,150 하회 시 추가 하락 리스크 급증하므로 손절 기준 -3% 엄수. 반도체 섹터 외국인 순매도 지속 여부 실시간 모니터링 필수.",
+    "watchlist": "삼성중공업: 유일한 강세 업종, 조선 모멘텀 지속 시 추가 상승 여력\nSK하이닉스: 반도체 낙폭과대, 미국 기술주 강세 연동 반등 기대\nKT: 방어주 성격, 변동성 장세 헷지용 포지션 적합\nNVIDIA: 미국 기술 섹터 방향성 가늠 지표, 한국 반도체 연동성 확인",
+    "date": "2026년 03월 10일 01:59 KST"
   },
   "consensus": {
     "kospi": {
