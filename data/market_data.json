@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 10일 04:43 KST",
+  "updated_at": "2026년 03월 10일 05:39 KST",
   "indices": {
     "kospi": {
       "value": 5251.87,
@@ -10,20 +10,20 @@
       "change_pct": -4.54
     },
     "sp500": {
-      "value": 6787.12,
-      "change_pct": 0.7
+      "value": 6795.99,
+      "change_pct": 0.83
     },
     "nasdaq": {
-      "value": 22655.31,
-      "change_pct": 1.2
+      "value": 22695.95,
+      "change_pct": 1.38
     },
     "dow": {
-      "value": 47721.41,
-      "change_pct": 0.49
+      "value": 47740.8,
+      "change_pct": 0.5
     },
     "usdkrw": {
-      "value": 1470.39,
-      "change_pct": -0.96
+      "value": 1464.94,
+      "change_pct": -1.32
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 1.62
+        "change_pct": 1.83
       },
       {
         "name": "금융",
-        "change_pct": -0.63
+        "change_pct": -0.59
       },
       {
         "name": "에너지",
-        "change_pct": -0.92
+        "change_pct": -0.65
       },
       {
         "name": "헬스케어",
-        "change_pct": 1.08
+        "change_pct": 1.15
       },
       {
         "name": "산업재",
-        "change_pct": 0.63
+        "change_pct": 0.73
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.22
+        "change_pct": 0.31
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.3
+        "change_pct": 0.21
       },
       {
         "name": "소재",
-        "change_pct": 0.6
+        "change_pct": 0.55
       },
       {
         "name": "부동산",
-        "change_pct": 0.49
+        "change_pct": 0.37
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.27
+        "change_pct": 0.24
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.71
+        "change_pct": 0.78
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 346.81,
-        "change_pct": 4.73,
-        "volume": 30894620,
-        "trading_value": 10714563086,
-        "vol_surge": 0.97,
-        "score": 46.2116
+        "price": 345.75,
+        "change_pct": 4.41,
+        "volume": 38913091,
+        "trading_value": 13454201213,
+        "vol_surge": 1.23,
+        "score": 54.8026
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 201.43,
-        "change_pct": 4.48,
-        "volume": 30745847,
-        "trading_value": 6193135736,
-        "vol_surge": 0.85,
-        "score": 37.324
+        "price": 202.68,
+        "change_pct": 5.12,
+        "volume": 37261805,
+        "trading_value": 7552222364,
+        "vol_surge": 1.03,
+        "score": 52.151
       },
       {
         "ticker": "CAT",
         "name": "Caterpillar, Inc.",
         "sector": "산업재",
-        "price": 704.85,
+        "price": 704.82,
         "change_pct": 3.8,
-        "volume": 2677380,
-        "trading_value": 1887151227,
-        "vol_surge": 0.94,
-        "score": 33.1176
+        "volume": 3573996,
+        "trading_value": 2519023886,
+        "vol_surge": 1.25,
+        "score": 44.8059
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 181.74,
-        "change_pct": 2.06,
-        "volume": 139404476,
-        "trading_value": 25335370234,
-        "vol_surge": 0.79,
-        "score": 16.9182
+        "price": 182.65,
+        "change_pct": 2.57,
+        "volume": 174112632,
+        "trading_value": 31801671172,
+        "vol_surge": 0.99,
+        "score": 26.6119
       },
       {
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
-        "price": 60.3,
-        "change_pct": 1.74,
-        "volume": 19773703,
-        "trading_value": 1192354275,
-        "vol_surge": 1.0,
-        "score": 15.7969
+        "price": 60.49,
+        "change_pct": 2.06,
+        "volume": 25732287,
+        "trading_value": 1556546083,
+        "vol_surge": 1.3,
+        "score": 24.6481
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc.",
         "sector": "통신서비스",
-        "price": 304.82,
-        "change_pct": 2.35,
-        "volume": 20391523,
-        "trading_value": 6215744190,
-        "vol_surge": 0.59,
-        "score": 13.6909
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 243.55,
-        "change_pct": 1.9,
-        "volume": 4912122,
-        "trading_value": 1196347328,
-        "vol_surge": 0.55,
-        "score": 9.4918
-      },
-      {
-        "ticker": "LLY",
-        "name": "Eli Lilly and Comp",
-        "sector": "헬스케어",
-        "price": 1004.95,
-        "change_pct": 1.61,
-        "volume": 1756566,
-        "trading_value": 1765260808,
-        "vol_surge": 0.55,
-        "score": 8.1545
+        "price": 306.36,
+        "change_pct": 2.87,
+        "volume": 29038287,
+        "trading_value": 8896169179,
+        "vol_surge": 0.85,
+        "score": 24.189
       },
       {
         "ticker": "DE",
         "name": "Deere & Company",
         "sector": "산업재",
-        "price": 597.22,
-        "change_pct": 1.46,
-        "volume": 867990,
-        "trading_value": 518380962,
-        "vol_surge": 0.54,
-        "score": 6.8432
+        "price": 599.48,
+        "change_pct": 1.84,
+        "volume": 1155836,
+        "trading_value": 692900542,
+        "vol_surge": 0.72,
+        "score": 11.6504
       },
       {
-        "ticker": "APD",
-        "name": "Air Products and C",
-        "sector": "소재",
-        "price": 275.45,
-        "change_pct": 1.2,
-        "volume": 1039099,
-        "trading_value": 286220846,
-        "vol_surge": 0.61,
-        "score": 6.2017
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 1008.39,
+        "change_pct": 1.96,
+        "volume": 2016365,
+        "trading_value": 2033282331,
+        "vol_surge": 0.63,
+        "score": 11.4712
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "기술",
+        "price": 259.88,
+        "change_pct": 1.17,
+        "volume": 37958303,
+        "trading_value": 9864603968,
+        "vol_surge": 0.79,
+        "score": 9.2425
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 242.59,
+        "change_pct": 1.5,
+        "volume": 5745711,
+        "trading_value": 1393852010,
+        "vol_surge": 0.64,
+        "score": 8.8293
       }
     ]
   },
   "strategy": {
-    "overview": "한국 증시는 KOSPI -5.96%, KOSDAQ -4.54%의 급락세로 패닉 양상이며, 반도체 섹터가 -8.52%로 폭락을 주도하고 있습니다. 반면 미국은 나스닥 +1.20%로 기술주 중심 상승세를 보여 한미 증시 극심한 디커플링 상태입니다. 원화 강세(-0.96%)에도 불구하고 외국인 대규모 이탈이 진행 중인 것으로 판단됩니다.",
-    "action": "급락 당일 무리한 저가 매수는 금물이며, 현금 비중 70% 이상 유지 권고합니다. 단기 반등 시 반도체(삼성전자, SK하이닉스) 숏 헤지 포지션 구축하고, 방어주(통신, 삼성중공업) 소량 분할 매수 고려합니다. 진입은 오후장 2시 이후 낙폭 과대 종목 중 거래량 터지는 구간에서만 제한적으로 실행하세요.",
-    "risk": "반도체 추가 급락 시 KOSPI 5,100 지지선 붕괴 가능성이 있으며, 글로벌 매크로 이벤트(미중 갈등, 금리 이슈) 여부를 반드시 확인해야 합니다. 손절 기준은 진입가 대비 -3%로 타이트하게 설정하고, 오늘은 수익보다 자본 보존에 집중하세요.",
-    "watchlist": "삼성중공업: 유일한 대형주 상승(+3.44%), 방산/조선 모멘텀 지속 여부 확인\nSK하이닉스: 반도체 폭락 진원지, 낙폭 과대 시 기술적 반등 매매 기회 탐색\nKT: 방어주 역할 수행 중(+0.85%), 하락장 피난처로 자금 유입 모니터링\nNVIDIA: 미국 기술주 강세 수혜, 한국 반도체 연동 반등 시그널 선행지표",
-    "date": "2026년 03월 10일 04:42 KST"
+    "overview": "한국 시장은 KOSPI -5.96% 폭락으로 패닉 셀링 양상이며, 반도체(-8.52%) 중심의 급락이 전 섹터로 확산된 상황. 반면 미국은 기술주 강세로 나스닥 +1.38% 상승하며 한미 디커플링이 극명하게 나타남. 원화 약세(-1.32%)와 함께 외국인 대규모 매도세가 예상되는 공포 장세.",
+    "action": "오전 동시호가 반등 시 반도체/IT 숏 포지션 진입 권고, KOSPI200 선물 숏 또는 인버스 ETF(KODEX 200선물인버스2X) 활용. 방어주(통신/유틸리티) 제외한 추격 매수는 금지하며, 낙폭과대 반등 시 50% 익절 후 재진입 대기. 하락장 매수는 KOSPI 5,100 지지 확인 후 분할 진입만 고려.",
+    "risk": "외국인 선물 매도 포지션 확대 및 프로그램 매도 연쇄 가능성 주시. 원달러 1,480원 돌파 시 추가 외국인 이탈 가속화 위험. 손절 기준: 숏 포지션은 KOSPI 5,350 돌파 시 청산, 롱 포지션은 진입가 -3% 엄수.",
+    "watchlist": "삼성전자: 반도체 대장주로 외국인 수급 방향성의 바로미터, 장중 저점 갱신 여부 확인\nKODEX 200선물인버스2X: 하락장 헷지 및 숏 플레이 핵심 수단, 거래량 급증 시 추세 가속 신호\nKT/SK텔레콤: 유일한 방어섹터로 상대적 강세, 시장 안정 시 차익실현 매물 출회 가능성\n삼성중공업: 폭락장 내 역행 상승 종목으로 수급 모멘텀 확인 필요, 단기 트레이딩 후보",
+    "date": "2026년 03월 10일 05:38 KST"
   },
   "consensus": {
     "kospi": {
