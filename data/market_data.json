@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 09일 17:51 KST",
+  "updated_at": "2026년 03월 09일 18:56 KST",
   "indices": {
     "kospi": {
       "value": 5251.87,
@@ -22,8 +22,8 @@
       "change_pct": -0.95
     },
     "usdkrw": {
-      "value": 1494.88,
-      "change_pct": 0.69
+      "value": 1485.75,
+      "change_pct": 0.08
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "철강/소재",
         "price": 28550.0,
         "change_pct": 3.44,
-        "volume": 9475420,
-        "trading_value": 270523241000,
-        "vol_surge": 1.71,
-        "score": 67.3928
+        "volume": 9769122,
+        "trading_value": 278908433100,
+        "vol_surge": 1.77,
+        "score": 69.5623
       },
       {
         "ticker": "251270.KS",
@@ -79,10 +79,10 @@
         "sector": "IT/플랫폼",
         "price": 55200.0,
         "change_pct": 2.22,
-        "volume": 624006,
-        "trading_value": 34445131200,
-        "vol_surge": 2.54,
-        "score": 59.5172
+        "volume": 617152,
+        "trading_value": 34066790400,
+        "vol_surge": 2.52,
+        "score": 58.8367
       },
       {
         "ticker": "030200.KS",
@@ -90,10 +90,10 @@
         "sector": "통신",
         "price": 59500.0,
         "change_pct": 0.85,
-        "volume": 455238,
-        "trading_value": 27086661000,
-        "vol_surge": 0.86,
-        "score": 7.6598
+        "volume": 467958,
+        "trading_value": 27843501000,
+        "vol_surge": 0.89,
+        "score": 7.8828
       },
       {
         "ticker": "010950.KS",
@@ -112,9 +112,9 @@
         "sector": "통신",
         "price": 75800.0,
         "change_pct": -0.92,
-        "volume": 996566,
-        "trading_value": 75539702800,
-        "vol_surge": 0.75,
+        "volume": 1032732,
+        "trading_value": 78281085600,
+        "vol_surge": 0.77,
         "score": -0.92
       },
       {
@@ -123,9 +123,9 @@
         "sector": "IT/플랫폼",
         "price": 218500.0,
         "change_pct": -1.8,
-        "volume": 988704,
-        "trading_value": 216031824000,
-        "vol_surge": 0.68,
+        "volume": 940462,
+        "trading_value": 205490947000,
+        "vol_surge": 0.65,
         "score": -1.8
       },
       {
@@ -134,9 +134,9 @@
         "sector": "금융",
         "price": 107900.0,
         "change_pct": -2.35,
-        "volume": 1221217,
-        "trading_value": 131769314300,
-        "vol_surge": 1.42,
+        "volume": 1104013,
+        "trading_value": 119123002700,
+        "vol_surge": 1.28,
         "score": -2.35
       },
       {
@@ -145,9 +145,9 @@
         "sector": "통신",
         "price": 14720.0,
         "change_pct": -2.45,
-        "volume": 963075,
-        "trading_value": 14176464000,
-        "vol_surge": 0.85,
+        "volume": 1107814,
+        "trading_value": 16307022080,
+        "vol_surge": 0.98,
         "score": -2.45
       },
       {
@@ -156,9 +156,9 @@
         "sector": "헬스케어",
         "price": 96400.0,
         "change_pct": -2.92,
-        "volume": 292902,
-        "trading_value": 28235752800,
-        "vol_surge": 0.76,
+        "volume": 311219,
+        "trading_value": 30001511600,
+        "vol_surge": 0.8,
         "score": -2.92
       },
       {
@@ -167,9 +167,9 @@
         "sector": "헬스케어",
         "price": 1434000.0,
         "change_pct": -3.17,
-        "volume": 564231,
-        "trading_value": 809107254000,
-        "vol_surge": 1.94,
+        "volume": 576900,
+        "trading_value": 827274600000,
+        "vol_surge": 1.98,
         "score": -3.17
       }
     ]
@@ -198,7 +198,7 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.03
+        "change_pct": 0.0
       },
       {
         "name": "필수소비재",
@@ -232,6 +232,17 @@
         "trading_value": 1725783476,
         "vol_surge": 0.8,
         "score": 5.5717
+      },
+      {
+        "ticker": "EQIX",
+        "name": "Equinix, Inc.",
+        "sector": "부동산",
+        "price": 937.2,
+        "change_pct": 0.45,
+        "volume": 688400,
+        "trading_value": 645168488,
+        "vol_surge": 1.11,
+        "score": 4.385
       },
       {
         "ticker": "MSFT",
@@ -320,26 +331,15 @@
         "trading_value": 1510280693,
         "vol_surge": 0.87,
         "score": 1.2741
-      },
-      {
-        "ticker": "NEM",
-        "name": "Newmont Corporatio",
-        "sector": "소재",
-        "price": 116.29,
-        "change_pct": 0.16,
-        "volume": 8344700,
-        "trading_value": 970405170,
-        "vol_surge": 0.85,
-        "score": 1.2271
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 급락세로 KOSPI -5.96%, 특히 반도체(-8.63%)와 IT(-7.34%) 섹터가 패닉셀링 수준의 하락을 기록한 극단적 약세장. 미국 대비 한국 낙폭이 4배 이상으로 외국인 이탈 및 원화 약세(1,494원)가 동반되며 리스크오프 심화. 방어주(통신, 조선) 중심의 섹터 로테이션이 진행 중.",
-    "action": "신규 롱 진입은 자제하고 현금 비중 70% 이상 유지 권고. 기존 반도체/IT 보유분은 손절라인(-3%) 도달 시 즉시 청산하고, 통신(KT, SKT) 등 방어주는 저가 분할매수 기회 탐색. 선물 헷지 또는 인버스 ETF(KODEX 인버스)로 하방 리스크 대응.",
-    "risk": "원/달러 1,500원 돌파 시 외국인 추가 매도 가속화 우려가 최대 리스크. 반도체 대장주 삼성전자 지지선 이탈 여부 주시 필요. 전체 포트폴리오 손절 기준은 -5%로 타이트하게 설정하고, 장중 변동성 확대 구간(오전 9:00-10:00)은 관망.",
-    "watchlist": "삼성중공업: 유일한 대형주 상승(+3.44%), 조선 수주 모멘텀 지속 여부 확인\nKT: 방어주 역할 수행 중(+0.85%), 배당매력 부각 시 추가 유입 가능\n삼성전자: 반도체 섹터 급락의 핵심, 기술적 지지선(6만원대) 사수 여부가 시장 방향성 결정\nKODEX 인버스: 하락장 헷지 수단으로 단기 트레이딩 활용",
-    "date": "2026년 03월 09일 17:50 KST"
+    "overview": "한국 시장 급락(KOSPI -5.96%)으로 패닉 매도세 출현, 반도체·IT 섹터 중심의 투매가 진행 중. 미국은 상대적으로 선방하며 기술주 소폭 반등, 한미 디커플링 심화로 방어적 섹터(통신, 조선)로 로테이션 발생.",
+    "action": "신규 롱 진입은 자제하고 현금비중 50% 이상 유지. 반도체 숏 포지션 유지하되 KOSPI 5,150선 이탈 시 추가 숏, 5,300선 회복 시 절반 청산. 조선·통신 등 방어주는 추가 하락 시 분할 매수 관점으로 접근.",
+    "risk": "원화 약세(1,485원) 지속 시 외국인 이탈 가속화 우려, 월요일 갭다운 리스크 대비 필요. 전체 포지션 손절라인은 -3%로 타이트하게 설정, 변동성 확대 구간이므로 레버리지 축소 권고.",
+    "watchlist": "삼성중공업: 유일한 대형주 상승, 조선 섹터 방어주 역할 기대\nKT/SK텔레콤: 배당주+방어주 성격, 하락장 헷지용 관찰\n삼성전자: 반도체 급락(-8.63%) 핵심주, 저가매수 타이밍 포착용\nKODEX 인버스: 추가 하락 대비 헷지 수단으로 활용 검토",
+    "date": "2026년 03월 09일 18:55 KST"
   },
   "consensus": {
     "kospi": {
