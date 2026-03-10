@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 11일 04:41 KST",
+  "updated_at": "2026년 03월 11일 05:38 KST",
   "indices": {
     "kospi": {
       "value": 5532.59,
@@ -10,20 +10,20 @@
       "change_pct": 3.21
     },
     "sp500": {
-      "value": 6784.43,
-      "change_pct": -0.17
+      "value": 6781.48,
+      "change_pct": -0.21
     },
     "nasdaq": {
-      "value": 22696.68,
-      "change_pct": 0.0
+      "value": 22697.1,
+      "change_pct": 0.01
     },
     "dow": {
-      "value": 47731.63,
-      "change_pct": -0.02
+      "value": 47706.51,
+      "change_pct": -0.07
     },
     "usdkrw": {
-      "value": 1471.37,
-      "change_pct": 0.37
+      "value": 1474.08,
+      "change_pct": 0.56
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.5
+        "change_pct": 0.45
       },
       {
         "name": "금융",
-        "change_pct": -0.07
+        "change_pct": -0.28
       },
       {
         "name": "에너지",
-        "change_pct": -0.1
+        "change_pct": -0.27
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.73
+        "change_pct": -0.85
       },
       {
         "name": "산업재",
-        "change_pct": -0.15
+        "change_pct": -0.46
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.55
+        "change_pct": 0.32
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.09
+        "change_pct": -0.2
       },
       {
         "name": "소재",
-        "change_pct": 1.07
+        "change_pct": 0.83
       },
       {
         "name": "부동산",
-        "change_pct": 0.12
+        "change_pct": 0.09
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.3
+        "change_pct": -0.41
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.03
+        "change_pct": -0.1
       }
     ],
     "top_stocks": [
@@ -226,67 +226,78 @@
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
-        "price": 62.14,
-        "change_pct": 3.14,
-        "volume": 11841137,
-        "trading_value": 735808245,
-        "vol_surge": 0.59,
-        "score": 16.41
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
-        "sector": "기술",
-        "price": 184.21,
-        "change_pct": 1.57,
-        "volume": 140359897,
-        "trading_value": 25856397911,
-        "vol_surge": 0.79,
-        "score": 12.9869
+        "price": 62.4,
+        "change_pct": 3.57,
+        "volume": 16875107,
+        "trading_value": 1053006702,
+        "vol_surge": 0.84,
+        "score": 27.0557
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 118.33,
-        "change_pct": 2.45,
-        "volume": 5499862,
-        "trading_value": 650798680,
-        "vol_surge": 0.56,
-        "score": 12.0978
+        "price": 118.9,
+        "change_pct": 2.94,
+        "volume": 7924326,
+        "trading_value": 942202373,
+        "vol_surge": 0.81,
+        "score": 21.2983
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 184.77,
+        "change_pct": 1.88,
+        "volume": 170373543,
+        "trading_value": 31479920268,
+        "vol_surge": 0.96,
+        "score": 19.0315
       },
       {
         "ticker": "PLD",
         "name": "Prologis, Inc.",
         "sector": "부동산",
-        "price": 136.29,
-        "change_pct": 2.39,
-        "volume": 1795767,
-        "trading_value": 244736112,
-        "vol_surge": 0.52,
-        "score": 10.404
-      },
-      {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 203.51,
-        "change_pct": 1.43,
-        "volume": 23497845,
-        "trading_value": 4782046306,
-        "vol_surge": 0.64,
-        "score": 8.9225
+        "price": 136.16,
+        "change_pct": 2.3,
+        "volume": 2250824,
+        "trading_value": 306472204,
+        "vol_surge": 0.65,
+        "score": 12.6955
       },
       {
         "ticker": "EQIX",
         "name": "Equinix, Inc.",
         "sector": "부동산",
-        "price": 956.75,
-        "change_pct": 1.46,
-        "volume": 398242,
-        "trading_value": 381018033,
-        "vol_surge": 0.63,
-        "score": 7.9405
+        "price": 956.07,
+        "change_pct": 1.39,
+        "volume": 622677,
+        "trading_value": 595322803,
+        "vol_surge": 0.99,
+        "score": 12.0872
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 203.23,
+        "change_pct": 1.29,
+        "volume": 28218372,
+        "trading_value": 5734819620,
+        "vol_surge": 0.77,
+        "score": 9.7448
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 654.07,
+        "change_pct": 1.41,
+        "volume": 9805919,
+        "trading_value": 6413757512,
+        "vol_surge": 0.64,
+        "score": 8.8923
       },
       {
         "ticker": "AMZN",
@@ -294,52 +305,41 @@
         "sector": "임의소비재",
         "price": 214.33,
         "change_pct": 1.21,
-        "volume": 26998770,
-        "trading_value": 5786646423,
-        "vol_surge": 0.55,
-        "score": 6.5084
+        "volume": 35447311,
+        "trading_value": 7597422231,
+        "vol_surge": 0.72,
+        "score": 8.6486
       },
       {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc.",
+        "ticker": "SBUX",
+        "name": "Starbucks Corporat",
         "sector": "임의소비재",
-        "price": 399.84,
-        "change_pct": 0.76,
-        "volume": 53570829,
-        "trading_value": 21419760071,
+        "price": 100.77,
+        "change_pct": 1.16,
+        "volume": 7670066,
+        "trading_value": 772912525,
         "vol_surge": 0.82,
-        "score": 6.4226
-      },
-      {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
-        "sector": "통신서비스",
-        "price": 653.87,
-        "change_pct": 1.38,
-        "volume": 6840962,
-        "trading_value": 4473099789,
-        "vol_surge": 0.45,
-        "score": 5.9747
+        "score": 8.4463
       },
       {
         "ticker": "HD",
         "name": "Home Depot, Inc. (",
         "sector": "임의소비재",
-        "price": 358.36,
-        "change_pct": 1.51,
-        "volume": 1931066,
-        "trading_value": 692016783,
-        "vol_surge": 0.45,
-        "score": 5.9579
+        "price": 357.15,
+        "change_pct": 1.17,
+        "volume": 2399099,
+        "trading_value": 856838193,
+        "vol_surge": 0.55,
+        "score": 5.7955
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 반도체 섹터 주도의 강한 강세장으로, KOSPI +5.35%의 급등세를 보이며 미국 대비 디커플링 양상. SK하이닉스 +12%, 삼성전자 +8% 등 반도체 대형주 중심의 강력한 매수세가 유입되었으며, 원화 약세(1,471원)에도 외국인 수급이 집중된 것으로 판단됨.",
-    "action": "반도체 섹터 모멘텀 추종 롱 전략 유지하되, 장중 급등으로 인한 차익실현 매물 출회 가능성 대비 분할 매도 권고. 신규 진입 시 SK하이닉스 920,000원 지지선 확인 후 진입, 삼성전자는 185,000원 이탈 시 비중 축소. 상승 갭 발생 종목은 장 초반 30분 관망 후 눌림목 매수 접근.",
-    "risk": "급등 후 되돌림 리스크가 가장 크며, 원/달러 1,475원 돌파 시 외국인 이탈 가능성 주시. 손절 기준은 전일 종가 대비 -3% 이탈 시 즉시 청산, KOSPI 5,400선 붕괴 시 전체 롱 포지션 50% 축소 권고.",
-    "watchlist": "SK하이닉스: HBM 수급 기대감 + 거래량 급증, 단기 과열 구간이나 추세 지속 여부 핵심\n삼성전자: 반도체 대장주 동반 상승, 190,000원 돌파 시 추가 상승 여력 확인\n동진쎄미켐: 반도체 소재 테마 수혜, 중소형주 중 상대적 강세 지속 모니터링\nNVIDIA: 미국장 반도체 센티먼트 선행지표, 야간선물 방향성 결정 변수",
-    "date": "2026년 03월 11일 04:40 KST"
+    "overview": "한국 시장은 반도체 중심으로 강한 랠리(KOSPI +5.35%)를 보이며 미국 대비 확연한 아웃퍼폼 중. SK하이닉스 +12%, 삼성전자 +8% 등 AI/HBM 수혜주 주도로 섹터 로테이션이 기술주로 집중되고 있으나, 원화 약세(1,474원)와 미국 시장 혼조세는 후반 차익실현 압력 가능성 시사.",
+    "action": "반도체 주도주는 장 초반 갭업 후 눌림목에서 단기 롱 진입, 목표 수익률 3-5%로 짧게 가져갈 것. SK하이닉스 93만원 지지 확인 시 추가 매수, 삼성전자는 18.5만원 이탈 시 청산. 미국 선물 약세 전환 시 장 후반 헷지용 인버스 ETF 10-15% 편입 고려.",
+    "risk": "급등 후 차익실현 매물 집중 리스크, 원/달러 1,480원 돌파 시 외국인 순매도 전환 가능성. 손절 기준: 주도주 당일 고점 대비 -3% 이탈, 지수 기준 KOSPI 5,450 하회 시 전량 청산.",
+    "watchlist": "SK하이닉스: HBM 모멘텀 최대 수혜, 거래량 확인하며 눌림목 매수 기회 포착\n삼성전자: 반도체 대장주 동반 상승, 19만원 돌파 시 추가 상승 여력\n동진쎄미켐: 반도체 소재주 후행 상승 중, 중소형주 순환매 수혜 관찰\nKODEX 인버스: 장 후반 리스크 헷지용, 지수 피로감 시 단기 진입",
+    "date": "2026년 03월 11일 05:38 KST"
   },
   "consensus": {
     "kospi": {
