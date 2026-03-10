@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 10일 17:48 KST",
+  "updated_at": "2026년 03월 10일 18:49 KST",
   "indices": {
     "kospi": {
       "value": 5532.59,
@@ -22,8 +22,8 @@
       "change_pct": 0.5
     },
     "usdkrw": {
-      "value": 1467.68,
-      "change_pct": 0.12
+      "value": 1471.46,
+      "change_pct": 0.38
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "반도체",
         "price": 938000.0,
         "change_pct": 12.2,
-        "volume": 5619550,
-        "trading_value": 5271137900000,
-        "vol_surge": 1.27,
-        "score": 196.6853
+        "volume": 5701592,
+        "trading_value": 5348093296000,
+        "vol_surge": 1.29,
+        "score": 199.6555
       },
       {
         "ticker": "005930.KS",
@@ -79,10 +79,10 @@
         "sector": "반도체",
         "price": 187900.0,
         "change_pct": 8.3,
-        "volume": 33411048,
-        "trading_value": 6277935919200,
-        "vol_surge": 1.09,
-        "score": 115.7202
+        "volume": 35118188,
+        "trading_value": 6598707525200,
+        "vol_surge": 1.15,
+        "score": 121.8386
       },
       {
         "ticker": "000270.KS",
@@ -90,10 +90,10 @@
         "sector": "자동차",
         "price": 161000.0,
         "change_pct": 4.95,
-        "volume": 1914432,
-        "trading_value": 308223552000,
+        "volume": 1917309,
+        "trading_value": 308686749000,
         "vol_surge": 1.11,
-        "score": 62.8566
+        "score": 62.9546
       },
       {
         "ticker": "042700.KS",
@@ -112,21 +112,10 @@
         "sector": "금융",
         "price": 147400.0,
         "change_pct": 3.37,
-        "volume": 1499862,
-        "trading_value": 221079658800,
-        "vol_surge": 1.25,
-        "score": 47.8203
-      },
-      {
-        "ticker": "011170.KS",
-        "name": "롯데케미칼",
-        "sector": "화학/에너지",
-        "price": 74100.0,
-        "change_pct": 4.07,
-        "volume": 196019,
-        "trading_value": 14525007900,
-        "vol_surge": 0.86,
-        "score": 35.428
+        "volume": 1371667,
+        "trading_value": 202183715800,
+        "vol_surge": 1.14,
+        "score": 43.5835
       },
       {
         "ticker": "011210.KS",
@@ -134,10 +123,21 @@
         "sector": "자동차",
         "price": 87800.0,
         "change_pct": 6.42,
-        "volume": 222451,
-        "trading_value": 19531197800,
-        "vol_surge": 0.53,
-        "score": 34.8092
+        "volume": 241722,
+        "trading_value": 21223191600,
+        "vol_surge": 0.57,
+        "score": 37.9574
+      },
+      {
+        "ticker": "011170.KS",
+        "name": "롯데케미칼",
+        "sector": "화학/에너지",
+        "price": 74100.0,
+        "change_pct": 4.07,
+        "volume": 207974,
+        "trading_value": 15410873400,
+        "vol_surge": 0.91,
+        "score": 37.6838
       },
       {
         "ticker": "051910.KS",
@@ -145,10 +145,10 @@
         "sector": "화학/에너지",
         "price": 311000.0,
         "change_pct": 3.67,
-        "volume": 278895,
-        "trading_value": 86736345000,
-        "vol_surge": 0.72,
-        "score": 29.0838
+        "volume": 279895,
+        "trading_value": 87047345000,
+        "vol_surge": 0.73,
+        "score": 29.1922
       },
       {
         "ticker": "012450.KS",
@@ -156,10 +156,10 @@
         "sector": "헬스케어",
         "price": 1455000.0,
         "change_pct": 1.46,
-        "volume": 450856,
-        "trading_value": 655995480000,
-        "vol_surge": 1.51,
-        "score": 26.1189
+        "volume": 472701,
+        "trading_value": 687779955000,
+        "vol_surge": 1.59,
+        "score": 27.432
       },
       {
         "ticker": "316140.KS",
@@ -167,10 +167,10 @@
         "sector": "금융",
         "price": 32100.0,
         "change_pct": 1.74,
-        "volume": 2981523,
-        "trading_value": 95706888300,
-        "vol_surge": 1.32,
-        "score": 25.1864
+        "volume": 3055072,
+        "trading_value": 98067811200,
+        "vol_surge": 1.35,
+        "score": 25.8326
       }
     ]
   },
@@ -198,7 +198,7 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.31
+        "change_pct": 0.46
       },
       {
         "name": "필수소비재",
@@ -267,6 +267,17 @@
         "score": 11.39
       },
       {
+        "ticker": "SHW",
+        "name": "Sherwin-Williams C",
+        "sector": "소재",
+        "price": 333.4,
+        "change_pct": 1.03,
+        "volume": 2189600,
+        "trading_value": 730012626,
+        "vol_surge": 1.23,
+        "score": 11.1836
+      },
+      {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
@@ -287,17 +298,6 @@
         "trading_value": 7860781371,
         "vol_surge": 1.06,
         "score": 10.7393
-      },
-      {
-        "ticker": "SHW",
-        "name": "Sherwin-Williams C",
-        "sector": "소재",
-        "price": 333.4,
-        "change_pct": 0.92,
-        "volume": 2189600,
-        "trading_value": 730012626,
-        "vol_surge": 1.23,
-        "score": 9.9892
       },
       {
         "ticker": "AVGO",
@@ -335,11 +335,11 @@
     ]
   },
   "strategy": {
-    "overview": "한국 시장 강세장 진입, KOSPI +5.35% 폭등과 함께 반도체 섹터가 +8.91%로 랠리를 주도하고 있음. 미국 시장은 에너지 중심의 완만한 상승세로 혼조세이나, 한국은 SK하이닉스·삼성전자 쌍끌이 효과로 외국인 순매수 유입 추정. 원/달러 1,467원대 약보합으로 환율 부담은 제한적.",
-    "action": "반도체 대형주 중심 롱 포지션 유지, SK하이닉스 930,000원 지지선 확인 후 추가 매수 고려. 삼성전자는 185,000원 이탈 시 부분 익절, 190,000원 돌파 시 홀딩. 장 후반 차익실현 매물 출회 가능성 대비, 14:30 이후 신규 진입은 자제하고 기존 포지션 관리에 집중.",
-    "risk": "급등 후 단기 과열 구간 진입, KOSPI 5,500선 이탈 시 손절 대응 필요. 미국 증시 대비 한국 단독 강세는 외국인 차익실현 리스크 내포, 내일 갭다운 가능성 경계. 반도체 개별 종목 손절선은 금일 저가 -3% 기준 설정.",
-    "watchlist": "SK하이닉스: 반도체 대장주, 12% 급등 후 거래량 동반 여부로 추세 지속성 판단\n삼성전자: 8% 상승으로 20만원 심리적 저항선 돌파 시도 주목\n한미반도체: HBM 장비 수혜주, 대형주 대비 상승률 제한적이라 후행 랠리 가능\nKB금융: 금융 섹터 대표주, 반도체 피로감 시 로테이션 수혜 예상",
-    "date": "2026년 03월 10일 17:47 KST"
+    "overview": "한국 시장 강세장 진입, KOSPI +5.35% 급등과 함께 반도체 섹터가 +8.91%로 강력한 랠리 주도. 미국은 에너지/소재 중심의 완만한 상승세로 한미 디커플링 양상이며, 원화 약세(1,471원)에도 외국인 순매수 유입 추정되는 리스크온 환경.",
+    "action": "반도체 대형주 중심 롱 포지션 유지하되, 급등 후 단기 과열 감안하여 SK하이닉스 93만원 돌파 시 추격매수 자제. 삼성전자는 18.5만원 지지 확인 후 분할 진입, 장 마감 30분 전 차익실현 50% 권고. KOSDAQ은 추세 추종보다 대형주 집중 전략 유효.",
+    "risk": "급등 후 익일 갭다운 리스크 상존, KOSPI 5,450pt 이탈 시 전량 손절. 원/달러 1,480원 돌파 시 외국인 이탈 가능성 경계. 미국 증시 대비 과도한 아웃퍼폼으로 단기 되돌림 3-5% 가능성 염두.",
+    "watchlist": "SK하이닉스: HBM 수혜 핵심주, 거래량 동반 상승 시 추가 모멘텀 확인\n삼성전자: 18만원대 안착 여부가 반도체 랠리 지속성 판단 기준\n기아: 비반도체 중 상대강도 우수, 자동차 섹터 로테이션 수혜 관찰\n한미반도체: 중소형 반도체 대장주, 32만원 지지 시 스윙 매매 기회",
+    "date": "2026년 03월 10일 18:48 KST"
   },
   "consensus": {
     "kospi": {
