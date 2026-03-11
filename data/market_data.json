@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 12일 04:44 KST",
+  "updated_at": "2026년 03월 12일 05:37 KST",
   "indices": {
     "kospi": {
       "value": 5609.95,
@@ -10,20 +10,20 @@
       "change_pct": -0.07
     },
     "sp500": {
-      "value": 6769.53,
-      "change_pct": -0.17
+      "value": 6775.8,
+      "change_pct": -0.08
     },
     "nasdaq": {
-      "value": 22691.08,
-      "change_pct": -0.03
+      "value": 22716.13,
+      "change_pct": 0.08
     },
     "dow": {
-      "value": 47404.74,
-      "change_pct": -0.64
+      "value": 47417.27,
+      "change_pct": -0.61
     },
     "usdkrw": {
-      "value": 1476.66,
-      "change_pct": 0.19
+      "value": 1478.98,
+      "change_pct": 0.35
     }
   },
   "kr": {
@@ -178,19 +178,19 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.02
+        "change_pct": 0.1
       },
       {
         "name": "금융",
-        "change_pct": -0.86
+        "change_pct": -0.88
       },
       {
         "name": "에너지",
-        "change_pct": 2.22
+        "change_pct": 2.41
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.15
+        "change_pct": -0.2
       },
       {
         "name": "산업재",
@@ -198,27 +198,27 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.2
+        "change_pct": -0.23
       },
       {
         "name": "필수소비재",
-        "change_pct": -1.14
+        "change_pct": -1.2
       },
       {
         "name": "소재",
-        "change_pct": -0.33
+        "change_pct": -0.2
       },
       {
         "name": "부동산",
-        "change_pct": -1.41
+        "change_pct": -1.29
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.87
+        "change_pct": -0.84
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.44
+        "change_pct": -0.29
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 132.12,
-        "change_pct": 3.46,
-        "volume": 3505316,
-        "trading_value": 463122332,
-        "vol_surge": 0.7,
-        "score": 20.9861
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc.",
-        "sector": "임의소비재",
-        "price": 407.55,
-        "change_pct": 1.94,
-        "volume": 55862701,
-        "trading_value": 22766565229,
-        "vol_surge": 0.85,
-        "score": 17.1577
+        "price": 132.51,
+        "change_pct": 3.77,
+        "volume": 5434113,
+        "trading_value": 720074283,
+        "vol_surge": 1.09,
+        "score": 36.2323
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 191.02,
-        "change_pct": 2.46,
-        "volume": 7861492,
-        "trading_value": 1501702235,
-        "vol_surge": 0.71,
-        "score": 15.9721
+        "price": 191.79,
+        "change_pct": 2.88,
+        "volume": 9428156,
+        "trading_value": 1808225975,
+        "vol_surge": 0.85,
+        "score": 22.6222
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 116.7,
-        "change_pct": 1.81,
-        "volume": 6516148,
-        "trading_value": 760427939,
-        "vol_surge": 0.74,
-        "score": 11.8789
+        "price": 117.03,
+        "change_pct": 2.1,
+        "volume": 9179898,
+        "trading_value": 1074323451,
+        "vol_surge": 1.04,
+        "score": 19.7439
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 407.82,
+        "change_pct": 2.01,
+        "volume": 61215452,
+        "trading_value": 24964886082,
+        "vol_surge": 0.94,
+        "score": 19.5549
       },
       {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 151.31,
-        "change_pct": 1.89,
-        "volume": 9757239,
-        "trading_value": 1476367809,
-        "vol_surge": 0.49,
-        "score": 8.4447
+        "price": 151.58,
+        "change_pct": 2.07,
+        "volume": 11664699,
+        "trading_value": 1768135095,
+        "vol_surge": 0.58,
+        "score": 11.1512
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth Group",
         "sector": "헬스케어",
-        "price": 285.34,
-        "change_pct": 1.24,
-        "volume": 5160425,
-        "trading_value": 1472475650,
-        "vol_surge": 0.57,
-        "score": 6.5039
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 228.18,
-        "change_pct": 0.76,
-        "volume": 3246244,
-        "trading_value": 740711734,
-        "vol_surge": 0.48,
-        "score": 3.2394
+        "price": 285.25,
+        "change_pct": 1.21,
+        "volume": 5984656,
+        "trading_value": 1707123124,
+        "vol_surge": 0.66,
+        "score": 7.4117
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 185.52,
-        "change_pct": 0.41,
-        "volume": 110951106,
-        "trading_value": 20584203263,
-        "vol_surge": 0.63,
-        "score": 2.6514
-      },
-      {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 204.7,
-        "change_pct": 0.51,
-        "volume": 19611745,
-        "trading_value": 4014524141,
-        "vol_surge": 0.54,
-        "score": 2.6281
+        "price": 186.03,
+        "change_pct": 0.69,
+        "volume": 138663908,
+        "trading_value": 25795646635,
+        "vol_surge": 0.78,
+        "score": 5.6294
       },
       {
         "ticker": "SBUX",
         "name": "Starbucks Corporat",
         "sector": "임의소비재",
-        "price": 101.25,
-        "change_pct": 0.44,
-        "volume": 6316665,
-        "trading_value": 639530765,
-        "vol_surge": 0.68,
-        "score": 2.6259
+        "price": 101.44,
+        "change_pct": 0.63,
+        "volume": 8809607,
+        "trading_value": 893646555,
+        "vol_surge": 0.95,
+        "score": 5.3302
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 204.83,
+        "change_pct": 0.57,
+        "volume": 22177286,
+        "trading_value": 4542573531,
+        "vol_surge": 0.61,
+        "score": 3.34
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 227.68,
+        "change_pct": 0.54,
+        "volume": 3783025,
+        "trading_value": 861319104,
+        "vol_surge": 0.56,
+        "score": 2.702
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI 강세(+1.40%) 속 금융 섹터 주도의 로테이션이 뚜렷하며, 반도체/IT는 약세 전환. 미국은 에너지 섹터만 강세를 보이는 혼조세로, 기술주 피로감과 원자재 상승 사이클이 감지됨. 원/달러 1,476원대 유지로 외국인 매도 압력 지속 가능성 있음.",
-    "action": "금융섹터 롱 포지션 유지하되, NH투자증권·우리금융지주는 장 초반 갭상승 시 분할 익절(+3~5% 구간). 반도체 숏 헷지 유지하고, 에너지 관련 국내 정유주(S-Oil, SK이노베이션) 소규모 롱 진입 검토. KOSPI 5,650 저항선 돌파 여부 확인 후 지수 롱 확대.",
-    "risk": "원/달러 1,480원 돌파 시 외국인 매도 가속화 리스크, 반도체 섹터 추가 하락(-3% 이상) 시 시장 전체 센티먼트 악화 가능. 손절 기준: 금융주 -2.5%, 에너지 롱 -3% 이탈 시 청산.",
-    "watchlist": "세아베스틸: 철강 강세 모멘텀 지속 여부 확인, 과열 구간 접근 시 차익실현 대비\nNH투자증권: 금융 섹터 대장주로 기관 수급 추적, 33,000원 지지 여부 관찰\n삼성바이오로직스: 헬스케어 방어적 매수세 유입 확인, 165만원 돌파 시 추가 상승 여력\nS-Oil: 미국 에너지 강세 연동 수혜 기대, 원유 가격 동향과 함께 모니터링",
-    "date": "2026년 03월 12일 04:43 KST"
+    "overview": "한미 증시 혼조세 속 섹터 로테이션이 뚜렷함. 한국은 반도체·IT 약세(-2%) 대비 금융·철강 강세(+3.6%), 미국은 에너지 섹터가 주도(+2.4%)하며 방어적 순환매 장세. 원/달러 1,479원 돌파로 수출주보다 내수·금융 선호 심리 지속.",
+    "action": "금융섹터 롱 중심 전략: NH투자증권·우리금융지주 갭상승 후 눌림목 33,000원대 지지 확인 시 진입, 목표 +3~4%. 반도체(삼성전자·SK하이닉스)는 반등 시 숏 헤지 유지. 에너지 ETF(KODEX WTI원유선물) 미국 에너지 강세 연동 단기 롱 고려.",
+    "risk": "원/달러 급등세 지속 시 외국인 매도 가속 리스크, 1,485원 돌파 시 포지션 축소. 반도체 섹터 추가 하락 시 지수 하방 압력 확대 가능. 손절 기준: 개별 종목 -2.5%, 지수 선물 -1.5%.",
+    "watchlist": "NH투자증권: 금융 섹터 모멘텀 + 거래량 급증, 33,000원 지지 여부 확인\n세아베스틸: +12.6% 급등 후 차익실현 매물 소화 능력 관찰, 68,000원 이탈 시 숏\n삼성전자: 반도체 섹터 약세 대장주, 반등 강도로 섹터 전환 시그널 체크\nKODEX 에너지화학: 미국 에너지 강세 수혜 국내 ETF, 원유 흐름 연동 매매",
+    "date": "2026년 03월 12일 05:37 KST"
   },
   "consensus": {
     "kospi": {
