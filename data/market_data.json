@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 11일 17:46 KST",
+  "updated_at": "2026년 03월 11일 18:46 KST",
   "indices": {
     "kospi": {
       "value": 5609.95,
@@ -22,8 +22,8 @@
       "change_pct": -0.07
     },
     "usdkrw": {
-      "value": 1472.0,
-      "change_pct": -0.12
+      "value": 1474.2,
+      "change_pct": 0.03
     }
   },
   "kr": {
@@ -79,10 +79,10 @@
         "sector": "금융",
         "price": 33300.0,
         "change_pct": 6.05,
-        "volume": 1398587,
-        "trading_value": 46572947100,
-        "vol_surge": 1.12,
-        "score": 72.2825
+        "volume": 1436755,
+        "trading_value": 47843941500,
+        "vol_surge": 1.15,
+        "score": 74.3365
       },
       {
         "ticker": "010140.KS",
@@ -101,10 +101,10 @@
         "sector": "금융",
         "price": 33350.0,
         "change_pct": 3.89,
-        "volume": 2570404,
-        "trading_value": 85722973400,
-        "vol_surge": 1.12,
-        "score": 47.7261
+        "volume": 2417242,
+        "trading_value": 80615020700,
+        "vol_surge": 1.06,
+        "score": 44.7727
       },
       {
         "ticker": "105560.KS",
@@ -112,10 +112,10 @@
         "sector": "금융",
         "price": 151300.0,
         "change_pct": 2.65,
-        "volume": 1526329,
-        "trading_value": 230933577700,
-        "vol_surge": 1.26,
-        "score": 37.9882
+        "volume": 1451829,
+        "trading_value": 219661727700,
+        "vol_surge": 1.2,
+        "score": 36.0649
       },
       {
         "ticker": "207940.KS",
@@ -134,10 +134,21 @@
         "sector": "금융",
         "price": 19050.0,
         "change_pct": 3.93,
-        "volume": 974051,
-        "trading_value": 18555671550,
-        "vol_surge": 0.84,
-        "score": 33.7349
+        "volume": 971226,
+        "trading_value": 18501855300,
+        "vol_surge": 0.83,
+        "score": 33.6329
+      },
+      {
+        "ticker": "055550.KS",
+        "name": "신한지주",
+        "sector": "금융",
+        "price": 91100.0,
+        "change_pct": 2.13,
+        "volume": 2055895,
+        "trading_value": 187292034500,
+        "vol_surge": 1.35,
+        "score": 32.5303
       },
       {
         "ticker": "086790.KS",
@@ -145,10 +156,10 @@
         "sector": "금융",
         "price": 113400.0,
         "change_pct": 3.18,
-        "volume": 813530,
-        "trading_value": 92254302000,
-        "vol_surge": 0.92,
-        "score": 32.1497
+        "volume": 750295,
+        "trading_value": 85083453000,
+        "vol_surge": 0.85,
+        "score": 29.5557
       },
       {
         "ticker": "011170.KS",
@@ -160,17 +171,6 @@
         "trading_value": 16512862900,
         "vol_surge": 0.94,
         "score": 26.0398
-      },
-      {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 37400.0,
-        "change_pct": 1.91,
-        "volume": 1421065,
-        "trading_value": 53147831000,
-        "vol_surge": 1.12,
-        "score": 23.0138
       }
     ]
   },
@@ -206,7 +206,7 @@
       },
       {
         "name": "소재",
-        "change_pct": 0.83
+        "change_pct": -0.12
       },
       {
         "name": "부동산",
@@ -232,17 +232,6 @@
         "trading_value": 424860633,
         "vol_surge": 0.91,
         "score": 6.3871
-      },
-      {
-        "ticker": "NEM",
-        "name": "Newmont Corporatio",
-        "sector": "소재",
-        "price": 118.9,
-        "change_pct": 0.61,
-        "volume": 8015800,
-        "trading_value": 953078632,
-        "vol_surge": 0.82,
-        "score": 4.5119
       },
       {
         "ticker": "NEE",
@@ -300,6 +289,17 @@
         "score": 0.1748
       },
       {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 833.81,
+        "change_pct": 0.02,
+        "volume": 1869600,
+        "trading_value": 1558891171,
+        "vol_surge": 0.77,
+        "score": 0.141
+      },
+      {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
@@ -311,6 +311,17 @@
         "score": 0.0
       },
       {
+        "ticker": "BRK-B",
+        "name": "Berkshire Hathaway",
+        "sector": "금융",
+        "price": 494.14,
+        "change_pct": -0.01,
+        "volume": 3595000,
+        "trading_value": 1776433352,
+        "vol_surge": 0.73,
+        "score": -0.01
+      },
+      {
         "ticker": "D",
         "name": "Dominion Energy, I",
         "sector": "유틸리티",
@@ -320,26 +331,15 @@
         "trading_value": 215352088,
         "vol_surge": 0.53,
         "score": -0.02
-      },
-      {
-        "ticker": "SBUX",
-        "name": "Starbucks Corporat",
-        "sector": "임의소비재",
-        "price": 100.77,
-        "change_pct": -0.03,
-        "volume": 8002000,
-        "trading_value": 806361513,
-        "vol_surge": 0.86,
-        "score": -0.03
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI 강세(+1.40%)와 KOSDAQ 약세(-0.07%)로 대형주 중심의 혼조세를 보이며, 금융(+3.64%) 섹터로의 뚜렷한 로테이션이 진행 중입니다. 미국은 전 섹터 약세 속 유틸리티·헬스케어 등 방어주로 자금이 이동하는 리스크오프 심리가 감지되며, IT/플랫폼(-5.71%) 급락은 성장주 차익실현 압력을 시사합니다.",
-    "action": "금융섹터 롱 포지션 유지하되, NH투자증권·우리금융지주는 장초반 갭상승 시 33,000원/33,000원 이하 눌림목에서 분할 진입을 권고합니다. IT/플랫폼 숏 또는 언더웨이트 유지하며, KOSDAQ 150 인버스 ETF로 헤지 포지션 구축을 고려하세요. 청산 기준은 금융섹터 일중 +2% 이상 추가 상승 시 익절, KOSPI 5,550 이탈 시 전량 정리입니다.",
-    "risk": "IT/플랫폼 급락(-5.71%)의 추가 하락 전이 가능성과 원/달러 환율 1,470원대 지지 여부를 주시해야 합니다. 손절 기준은 금융 개별종목 -3%, 전체 포트폴리오 -1.5%로 설정하며, 미국 선물 야간 약세 지속 시 내일 갭다운 리스크에 대비하세요.",
-    "watchlist": "NH투자증권: 거래량 동반 +6% 급등, 증권업 실적 모멘텀 지속 여부 확인\n세아베스틸: +12.6% 급등 후 과열 구간, 단기 차익실현 매물 출회 모니터링\nKODEX 200선물인버스2X: KOSDAQ·IT 추가 하락 시 헤지 수단으로 활용\nKB금융: 외국인 수급과 배당주 선호 흐름 지속 시 추가 상승 여력 점검",
-    "date": "2026년 03월 11일 17:46 KST"
+    "overview": "한국 시장은 KOSPI 강세(+1.40%) 속 금융 섹터 주도의 명확한 로테이션이 진행 중이며, IT/플랫폼(-5.71%)에서 자금 이탈이 뚜렷함. 미국은 기술주 약세 속 유틸리티/헬스케어 방어주로 자금이 집중되는 리스크오프 양상으로, 글로벌 성장주에서 가치주/방어주로의 섹터 전환이 핵심 테마.",
+    "action": "한국 금융주(KB금융, 우리금융지주) 롱 포지션 유지하며, IT/플랫폼 섹터는 반등 시 숏 또는 비중 축소 권고. 진입은 금융주 2% 이내 눌림 시 분할매수, 청산은 KOSPI 5,550 하회 시 또는 금융섹터 상승률 둔화 확인 시 50% 익절.",
+    "risk": "원/달러 1,474원대 고환율이 외국인 이탈 압력으로 작용할 수 있으며, 미국 기술주 추가 하락 시 반도체 섹터 동반 약세 리스크 존재. 손절 기준은 개별 종목 -3%, 포트폴리오 전체 -1.5%로 엄격히 관리.",
+    "watchlist": "KB금융: 금융 섹터 대장주로 외국인 수급 양호, 추가 상승 모멘텀 확인 필요\n세아베스틸: +12.6% 급등 후 과열 여부 체크, 단기 차익실현 매물 출회 가능성\n삼성전자: 반도체 섹터 -0.21% 약세 중 대장주 방향성이 내일 시장 분위기 결정\nNAVER: IT/플랫폼 -5.71% 급락의 핵심 종목, 저가 매수 타이밍 포착용 관찰",
+    "date": "2026년 03월 11일 18:45 KST"
   },
   "consensus": {
     "kospi": {
