@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 12일 19:42 KST",
+  "updated_at": "2026년 03월 12일 20:35 KST",
   "indices": {
     "kospi": {
       "value": 5583.25,
@@ -22,8 +22,8 @@
       "change_pct": -0.61
     },
     "usdkrw": {
-      "value": 1477.82,
-      "change_pct": 0.07
+      "value": 1478.48,
+      "change_pct": 0.12
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "철강/소재",
         "price": 30850.0,
         "change_pct": 7.12,
-        "volume": 16051728,
-        "trading_value": 495195808800,
-        "vol_surge": 2.81,
-        "score": 233.7824
+        "volume": 17107711,
+        "trading_value": 527772884350,
+        "vol_surge": 2.99,
+        "score": 249.7516
       },
       {
         "ticker": "096770.KS",
@@ -96,17 +96,6 @@
         "score": 48.5054
       },
       {
-        "ticker": "000270.KS",
-        "name": "기아",
-        "sector": "자동차",
-        "price": 167000.0,
-        "change_pct": 3.09,
-        "volume": 1922064,
-        "trading_value": 320984688000,
-        "vol_surge": 1.1,
-        "score": 38.9787
-      },
-      {
         "ticker": "012450.KS",
         "name": "한화에어로스페이스",
         "sector": "헬스케어",
@@ -129,15 +118,15 @@
         "score": 32.9715
       },
       {
-        "ticker": "000100.KS",
-        "name": "유한양행",
-        "sector": "헬스케어",
-        "price": 99900.0,
-        "change_pct": 1.42,
-        "volume": 578256,
-        "trading_value": 57767774400,
-        "vol_surge": 1.5,
-        "score": 22.8796
+        "ticker": "000270.KS",
+        "name": "기아",
+        "sector": "자동차",
+        "price": 167000.0,
+        "change_pct": 3.09,
+        "volume": 1348612,
+        "trading_value": 225218204000,
+        "vol_surge": 0.77,
+        "score": 26.9836
       },
       {
         "ticker": "030200.KS",
@@ -149,6 +138,17 @@
         "trading_value": 26283316500,
         "vol_surge": 0.82,
         "score": 22.8395
+      },
+      {
+        "ticker": "000100.KS",
+        "name": "유한양행",
+        "sector": "헬스케어",
+        "price": 99900.0,
+        "change_pct": 1.42,
+        "volume": 486079,
+        "trading_value": 48559292100,
+        "vol_surge": 1.26,
+        "score": 19.0977
       },
       {
         "ticker": "032640.KS",
@@ -167,10 +167,10 @@
         "sector": "철강/소재",
         "price": 37850.0,
         "change_pct": 1.2,
-        "volume": 1637050,
-        "trading_value": 61962342500,
-        "vol_surge": 1.28,
-        "score": 16.5525
+        "volume": 1491587,
+        "trading_value": 56456567950,
+        "vol_surge": 1.16,
+        "score": 15.0253
       }
     ]
   },
@@ -198,7 +198,7 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.23
+        "change_pct": 0.98
       },
       {
         "name": "필수소비재",
@@ -256,26 +256,26 @@
         "score": 8.5807
       },
       {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
-        "sector": "기술",
-        "price": 186.03,
-        "change_pct": 0.87,
-        "volume": 144428800,
-        "trading_value": 26868089487,
-        "vol_surge": 0.82,
-        "score": 7.432
+        "ticker": "SBUX",
+        "name": "Starbucks Corporat",
+        "sector": "임의소비재",
+        "price": 101.44,
+        "change_pct": 0.94,
+        "volume": 8815800,
+        "trading_value": 894274773,
+        "vol_surge": 0.94,
+        "score": 7.9316
       },
       {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 204.83,
-        "change_pct": 1.2,
-        "volume": 22905300,
-        "trading_value": 4691692640,
-        "vol_surge": 0.63,
-        "score": 7.2988
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 407.82,
+        "change_pct": 0.74,
+        "volume": 62220300,
+        "trading_value": 25374683201,
+        "vol_surge": 0.95,
+        "score": 7.3109
       },
       {
         "ticker": "DE",
@@ -311,15 +311,15 @@
         "score": 6.6554
       },
       {
-        "ticker": "AVGO",
-        "name": "Broadcom Inc.",
-        "sector": "기술",
-        "price": 341.57,
-        "change_pct": 1.06,
-        "volume": 20037700,
-        "trading_value": 6844277335,
-        "vol_surge": 0.64,
-        "score": 6.622
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 212.65,
+        "change_pct": 0.92,
+        "volume": 34006300,
+        "trading_value": 7231439487,
+        "vol_surge": 0.69,
+        "score": 6.2891
       },
       {
         "ticker": "HON",
@@ -335,11 +335,11 @@
     ]
   },
   "strategy": {
-    "overview": "한미 시장 혼조세로 섹터 로테이션이 뚜렷함. 한국은 IT/플랫폼 급락(-6.29%) 속 조선/에너지/방산으로 자금 이동 중이며, 미국은 기술·금융 소폭 강세로 안정적 흐름. 원/달러 1,477원대 고환율 지속으로 수출주 우호적 환경 유지.",
-    "action": "코스닥 강세(+1.02%)와 방산/조선 모멘텀 감안해 삼성중공업·한화에어로 단기 롱 포지션 유지. IT/플랫폼 섹터는 낙폭과대 반등 노리기보다 추가 하락 리스크 감안해 관망 또는 소규모 숏 헷지. 진입은 오전 갭 확인 후 10시 이후 추세 확정 시 분할 매수.",
-    "risk": "IT/플랫폼 -6% 급락이 시장 전반 심리 위축으로 확산될 가능성 주시. 원/달러 1,480원 돌파 시 외국인 이탈 가속화 리스크. 손절 기준은 주도주 대비 -3%, 지수 기준 KOSPI 5,520 이탈 시 포지션 전량 청산.",
-    "watchlist": "삼성중공업: 조선 슈퍼사이클 수혜, 7%대 급등 후 눌림목 매수 기회 탐색\n한화에어로스페이스: 방산 모멘텀 지속, 150만원 지지 확인 시 추가 상승 여력\n기아: 자동차 섹터 강세 + 고환율 수혜, 17만원 돌파 시 단기 목표 18만원\nNVIDIA: 미국 기술주 반등 신호, 국내 반도체 섹터 동반 회복 가늠자로 활용",
-    "date": "2026년 03월 12일 19:42 KST"
+    "overview": "한국 시장은 KOSPI 약세(-0.48%), KOSDAQ 강세(+1.02%)로 혼조세를 보이며 대형주에서 중소형주로 자금 로테이션이 진행 중입니다. IT/플랫폼(-6.29%) 급락 속에서 조선/에너지 섹터가 강세를 주도하고 있으며, 미국 금융·기술 섹터 반등이 긍정적 신호로 작용합니다.",
+    "action": "조선/에너지 섹터 롱 포지션 유지하되, IT/플랫폼 급락 종목은 기술적 반등 시 단기 트레이딩으로 접근합니다. 삼성중공업은 31,500원 돌파 시 추가 매수, S-Oil/SK이노베이션은 에너지 모멘텀 지속 확인 후 눌림목 진입을 권장합니다. 환율 상승(1,478원) 감안해 수출주 비중 확대가 유리합니다.",
+    "risk": "IT/플랫폼 섹터 추가 하락 가능성과 원/달러 1,480원 돌파 시 외국인 이탈 가속화에 주의해야 합니다. 손절 기준은 삼성중공업 29,500원(-4.4%), 에너지주는 전일 저가 이탈 시 즉시 청산하며, 전체 포트폴리오 일일 손실 한도 -2%를 준수합니다.",
+    "watchlist": "삼성중공업: 거래량 동반 +7% 급등, 조선 슈퍼사이클 수혜 지속 모니터링\nS-Oil: 정유마진 개선 기대감, 120,000원 저항선 돌파 여부 관찰\n넷마블: IT섹터 급락 속 상대적 강세, 저가 매수 기회 탐색\n한화에어로스페이스: 방산 모멘텀 지속, 150만원 안착 시 신고가 도전 가능",
+    "date": "2026년 03월 12일 20:34 KST"
   },
   "consensus": {
     "kospi": {
