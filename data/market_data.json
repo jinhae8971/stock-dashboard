@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 14일 00:46 KST",
+  "updated_at": "2026년 03월 14일 01:44 KST",
   "indices": {
     "kospi": {
       "value": 5487.24,
@@ -10,20 +10,20 @@
       "change_pct": 0.4
     },
     "sp500": {
-      "value": 6643.79,
-      "change_pct": -0.42
+      "value": 6655.33,
+      "change_pct": -0.25
     },
     "nasdaq": {
-      "value": 22137.51,
-      "change_pct": -0.78
+      "value": 22173.1,
+      "change_pct": -0.62
     },
     "dow": {
-      "value": 46640.7,
-      "change_pct": -0.07
+      "value": 46696.08,
+      "change_pct": 0.05
     },
     "usdkrw": {
-      "value": 1499.47,
-      "change_pct": 0.72
+      "value": 1497.87,
+      "change_pct": 0.61
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.56
+        "change_pct": -0.08
       },
       {
         "name": "금융",
-        "change_pct": 0.47
+        "change_pct": 0.57
       },
       {
         "name": "에너지",
-        "change_pct": -0.54
+        "change_pct": -0.29
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.05
+        "change_pct": 0.27
       },
       {
         "name": "산업재",
-        "change_pct": -0.43
+        "change_pct": -0.25
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.71
+        "change_pct": -0.65
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.75
+        "change_pct": 0.83
       },
       {
         "name": "소재",
-        "change_pct": -0.86
+        "change_pct": -0.8
       },
       {
         "name": "부동산",
-        "change_pct": 0.37
+        "change_pct": 0.81
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.88
+        "change_pct": 1.02
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.5
+        "change_pct": -0.58
       }
     ],
     "top_stocks": [
       {
-        "ticker": "AEP",
-        "name": "American Electric ",
-        "sector": "유틸리티",
-        "price": 133.46,
-        "change_pct": 1.87,
-        "volume": 1147989,
-        "trading_value": 153204979,
-        "vol_surge": 0.33,
-        "score": 5.0205
-      },
-      {
         "ticker": "DUK",
         "name": "Duke Energy Corpor",
         "sector": "유틸리티",
-        "price": 133.38,
-        "change_pct": 1.43,
-        "volume": 1439757,
-        "trading_value": 192034795,
+        "price": 133.64,
+        "change_pct": 1.63,
+        "volume": 1907184,
+        "trading_value": 254876068,
+        "vol_surge": 0.44,
+        "score": 6.0914
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 133.21,
+        "change_pct": 1.69,
+        "volume": 1401853,
+        "trading_value": 186740847,
+        "vol_surge": 0.4,
+        "score": 5.5988
+      },
+      {
+        "ticker": "AMT",
+        "name": "American Tower Cor",
+        "sector": "부동산",
+        "price": 183.17,
+        "change_pct": 1.76,
+        "volume": 1064648,
+        "trading_value": 195011572,
         "vol_surge": 0.34,
-        "score": 3.9752
+        "score": 4.9039
       },
       {
         "ticker": "SO",
         "name": "Southern Company (",
         "sector": "유틸리티",
         "price": 98.82,
-        "change_pct": 1.81,
-        "volume": 1463010,
-        "trading_value": 144567336,
-        "vol_surge": 0.24,
-        "score": 3.5322
-      },
-      {
-        "ticker": "AMT",
-        "name": "American Tower Cor",
-        "sector": "부동산",
-        "price": 182.6,
-        "change_pct": 1.44,
-        "volume": 855496,
-        "trading_value": 156213574,
-        "vol_surge": 0.27,
-        "score": 3.1866
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 280.69,
-        "change_pct": 1.3,
-        "volume": 1843890,
-        "trading_value": 517561488,
-        "vol_surge": 0.2,
-        "score": 2.3076
+        "change_pct": 1.82,
+        "volume": 1880537,
+        "trading_value": 185844063,
+        "vol_surge": 0.31,
+        "score": 4.6263
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 988.73,
-        "change_pct": 1.04,
-        "volume": 772944,
-        "trading_value": 764232906,
+        "price": 991.76,
+        "change_pct": 1.35,
+        "volume": 965337,
+        "trading_value": 957382632,
+        "vol_surge": 0.31,
+        "score": 3.7463
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 281.01,
+        "change_pct": 1.42,
+        "volume": 2268531,
+        "trading_value": 637479918,
         "vol_surge": 0.25,
-        "score": 2.2856
+        "score": 3.1334
       },
       {
         "ticker": "JPM",
         "name": "JP Morgan Chase & ",
         "sector": "금융",
-        "price": 285.02,
-        "change_pct": 0.8,
-        "volume": 3032491,
-        "trading_value": 864320551,
-        "vol_surge": 0.28,
-        "score": 1.9918
+        "price": 284.54,
+        "change_pct": 0.63,
+        "volume": 3867484,
+        "trading_value": 1100453930,
+        "vol_surge": 0.36,
+        "score": 2.024
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 92.44,
-        "change_pct": 0.7,
-        "volume": 2261873,
-        "trading_value": 209087545,
-        "vol_surge": 0.23,
-        "score": 1.3497
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1008.42,
-        "change_pct": 0.62,
-        "volume": 464003,
-        "trading_value": 467909897,
-        "vol_surge": 0.18,
-        "score": 0.9886
+        "price": 92.49,
+        "change_pct": 0.75,
+        "volume": 2933366,
+        "trading_value": 271307015,
+        "vol_surge": 0.3,
+        "score": 1.901
       },
       {
         "ticker": "PLD",
         "name": "Prologis, Inc.",
         "sector": "부동산",
-        "price": 132.77,
-        "change_pct": 0.76,
-        "volume": 454789,
-        "trading_value": 60382337,
-        "vol_surge": 0.13,
-        "score": 0.7703
+        "price": 133.24,
+        "change_pct": 1.12,
+        "volume": 622619,
+        "trading_value": 82957758,
+        "vol_surge": 0.18,
+        "score": 1.5815
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 1008.23,
+        "change_pct": 0.61,
+        "volume": 562014,
+        "trading_value": 566642177,
+        "vol_surge": 0.22,
+        "score": 1.1894
       }
     ]
   },
   "strategy": {
-    "overview": "KOSPI -1.72% 급락과 원/달러 1,499원 근접으로 외국인 이탈 우려가 큰 약세장. 반도체·IT 대형주 중심 매도세 속 방어주(유틸리티, 헬스케어)로 자금 이동하는 섹터 로테이션 진행 중. 미국도 기술주 약세지만 하락폭 제한적이라 한국 시장 단독 약세 성격이 강함.",
-    "action": "KOSPI 숏 또는 인버스 ETF 비중 40% 유지하며 단기 하락 추세 추종. 반등 시 KOSDAQ 상대강도 활용해 넷마블·NAVER 등 개별 종목 단기 롱 진입 고려, 진입가 대비 -2% 손절/+4% 익절 기준 적용. 환율 1,500원 돌파 시 추가 숏 확대.",
-    "risk": "원/달러 1,500원 심리적 저항선 돌파 시 외국인 매도 가속화 리스크. 주말 앞두고 포지션 축소 압력 예상되며, KOSPI 5,450 이탈 시 하방 열림. 전체 포지션 손절 기준은 계좌 -1.5%로 설정.",
-    "watchlist": "넷마블: 섹터 역행 강세 +4.78%, 수급 양호하며 단기 모멘텀 트레이딩 적합\n한화에어로스페이스: 방산·헬스케어 방어주 성격, 외국인 순매수 확인 시 롱 진입 검토\nKODEX 인버스: KOSPI 추가 하락 헷지용, 원화 약세 연동 전략\nKB금융: 낙폭 제한적 -0.2%, 금융섹터 상대강도 확인 후 저가 매수 대기",
-    "date": "2026년 03월 14일 00:45 KST"
+    "overview": "KOSPI가 -1.72% 급락하며 약세장 진입, 반도체·IT 섹터 중심 매도세가 강함. 미국은 유틸리티·디펜시브로 자금 이동 중이며 원/달러 1,497원대 급등은 외국인 이탈 가속화 신호. 한국시장 혼조 속 방어주·게임주만 선방하는 전형적인 리스크오프 장세.",
+    "action": "KOSPI 선물 숏 포지션 유지, 5,450 지지선 이탈 시 추가 숏 진입 고려. 반도체 대형주(삼성전자, SK하이닉스) 반등 매도 전략, 넷마블·NAVER 등 상대강도 양호 종목만 소규모 롱 진입. 원화 약세 수혜 수출주는 환율 1,500원 돌파 여부 확인 후 대응.",
+    "risk": "USD/KRW 1,500원 심리선 돌파 시 외국인 추가 매도 가속화 리스크. KOSPI 5,450 하회 시 기술적 손절, 개별 롱 포지션은 -2% 손절 엄수. 주말 앞두고 글로벌 이벤트(미국 금리정책 발언) 리스크 경계.",
+    "watchlist": "넷마블: IT섹터 급락에도 +4.78% 독보적 강세, 게임주 모멘텀 지속 여부 확인\n삼성전자: 반도체 섹터 -2.71% 주도, 기술적 반등 구간에서 숏 커버 또는 재숏 타이밍 포착\nNAVER: IT플랫폼 내 상대강도 양호, 223,000원 지지 시 단기 롱 후보\nKB금융: 금융섹터 방어적 움직임, 148,000원 지지 확인 시 배당주 성격 매수 검토",
+    "date": "2026년 03월 14일 01:43 KST"
   },
   "consensus": {
     "kospi": {
