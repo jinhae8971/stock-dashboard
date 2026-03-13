@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 14일 01:44 KST",
+  "updated_at": "2026년 03월 14일 02:38 KST",
   "indices": {
     "kospi": {
       "value": 5487.24,
@@ -10,20 +10,20 @@
       "change_pct": 0.4
     },
     "sp500": {
-      "value": 6655.33,
-      "change_pct": -0.25
+      "value": 6649.54,
+      "change_pct": -0.33
     },
     "nasdaq": {
-      "value": 22173.1,
-      "change_pct": -0.62
+      "value": 22147.56,
+      "change_pct": -0.74
     },
     "dow": {
-      "value": 46696.08,
-      "change_pct": 0.05
+      "value": 46662.06,
+      "change_pct": -0.02
     },
     "usdkrw": {
-      "value": 1497.87,
-      "change_pct": 0.61
+      "value": 1496.9,
+      "change_pct": 0.55
     }
   },
   "kr": {
@@ -178,35 +178,35 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.08
+        "change_pct": -0.21
       },
       {
         "name": "금융",
-        "change_pct": 0.57
+        "change_pct": 0.36
       },
       {
         "name": "에너지",
-        "change_pct": -0.29
+        "change_pct": -0.12
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.27
+        "change_pct": 0.25
       },
       {
         "name": "산업재",
-        "change_pct": -0.25
+        "change_pct": -0.15
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.65
+        "change_pct": -0.71
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.83
+        "change_pct": 0.87
       },
       {
         "name": "소재",
-        "change_pct": -0.8
+        "change_pct": -0.81
       },
       {
         "name": "부동산",
@@ -214,132 +214,132 @@
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.02
+        "change_pct": 1.22
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.58
+        "change_pct": -0.88
       }
     ],
     "top_stocks": [
       {
-        "ticker": "DUK",
-        "name": "Duke Energy Corpor",
-        "sector": "유틸리티",
-        "price": 133.64,
-        "change_pct": 1.63,
-        "volume": 1907184,
-        "trading_value": 254876068,
-        "vol_surge": 0.44,
-        "score": 6.0914
-      },
-      {
         "ticker": "AEP",
         "name": "American Electric ",
         "sector": "유틸리티",
-        "price": 133.21,
-        "change_pct": 1.69,
-        "volume": 1401853,
-        "trading_value": 186740847,
-        "vol_surge": 0.4,
-        "score": 5.5988
+        "price": 133.9,
+        "change_pct": 2.22,
+        "volume": 1839654,
+        "trading_value": 246338136,
+        "vol_surge": 0.53,
+        "score": 9.7919
+      },
+      {
+        "ticker": "DUK",
+        "name": "Duke Energy Corpor",
+        "sector": "유틸리티",
+        "price": 133.9,
+        "change_pct": 1.83,
+        "volume": 2313079,
+        "trading_value": 309721263,
+        "vol_surge": 0.54,
+        "score": 8.3778
       },
       {
         "ticker": "AMT",
         "name": "American Tower Cor",
         "sector": "부동산",
-        "price": 183.17,
-        "change_pct": 1.76,
-        "volume": 1064648,
-        "trading_value": 195011572,
-        "vol_surge": 0.34,
-        "score": 4.9039
+        "price": 183.65,
+        "change_pct": 2.03,
+        "volume": 1544922,
+        "trading_value": 283717207,
+        "vol_surge": 0.49,
+        "score": 8.369
       },
       {
         "ticker": "SO",
         "name": "Southern Company (",
         "sector": "유틸리티",
-        "price": 98.82,
-        "change_pct": 1.82,
-        "volume": 1880537,
-        "trading_value": 185844063,
-        "vol_surge": 0.31,
-        "score": 4.6263
+        "price": 99.1,
+        "change_pct": 2.11,
+        "volume": 2409159,
+        "trading_value": 238747653,
+        "vol_surge": 0.39,
+        "score": 6.9616
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 991.76,
-        "change_pct": 1.35,
-        "volume": 965337,
-        "trading_value": 957382632,
-        "vol_surge": 0.31,
-        "score": 3.7463
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 281.01,
-        "change_pct": 1.42,
-        "volume": 2268531,
-        "trading_value": 637479918,
-        "vol_surge": 0.25,
-        "score": 3.1334
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 284.54,
-        "change_pct": 0.63,
-        "volume": 3867484,
-        "trading_value": 1100453930,
-        "vol_surge": 0.36,
-        "score": 2.024
+        "price": 990.54,
+        "change_pct": 1.23,
+        "volume": 1082557,
+        "trading_value": 1072313211,
+        "vol_surge": 0.35,
+        "score": 3.8487
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 92.49,
-        "change_pct": 0.75,
-        "volume": 2933366,
-        "trading_value": 271307015,
+        "price": 92.85,
+        "change_pct": 1.14,
+        "volume": 3629084,
+        "trading_value": 336960443,
+        "vol_surge": 0.37,
+        "score": 3.6146
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 280.86,
+        "change_pct": 1.36,
+        "volume": 2698728,
+        "trading_value": 757953176,
         "vol_surge": 0.3,
-        "score": 1.901
+        "score": 3.6005
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Company, I",
+        "sector": "헬스케어",
+        "price": 116.68,
+        "change_pct": 1.09,
+        "volume": 2611745,
+        "trading_value": 304725355,
+        "vol_surge": 0.2,
+        "score": 1.8833
       },
       {
         "ticker": "PLD",
         "name": "Prologis, Inc.",
         "sector": "부동산",
-        "price": 133.24,
-        "change_pct": 1.12,
-        "volume": 622619,
-        "trading_value": 82957758,
-        "vol_surge": 0.18,
-        "score": 1.5815
+        "price": 132.88,
+        "change_pct": 0.85,
+        "volume": 805722,
+        "trading_value": 107064343,
+        "vol_surge": 0.23,
+        "score": 1.575
       },
       {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1008.23,
-        "change_pct": 0.61,
-        "volume": 562014,
-        "trading_value": 566642177,
-        "vol_surge": 0.22,
-        "score": 1.1894
+        "ticker": "D",
+        "name": "Dominion Energy, I",
+        "sector": "유틸리티",
+        "price": 63.54,
+        "change_pct": 0.89,
+        "volume": 1337198,
+        "trading_value": 84965562,
+        "vol_surge": 0.21,
+        "score": 1.4857
       }
     ]
   },
   "strategy": {
-    "overview": "KOSPI가 -1.72% 급락하며 약세장 진입, 반도체·IT 섹터 중심 매도세가 강함. 미국은 유틸리티·디펜시브로 자금 이동 중이며 원/달러 1,497원대 급등은 외국인 이탈 가속화 신호. 한국시장 혼조 속 방어주·게임주만 선방하는 전형적인 리스크오프 장세.",
-    "action": "KOSPI 선물 숏 포지션 유지, 5,450 지지선 이탈 시 추가 숏 진입 고려. 반도체 대형주(삼성전자, SK하이닉스) 반등 매도 전략, 넷마블·NAVER 등 상대강도 양호 종목만 소규모 롱 진입. 원화 약세 수혜 수출주는 환율 1,500원 돌파 여부 확인 후 대응.",
-    "risk": "USD/KRW 1,500원 심리선 돌파 시 외국인 추가 매도 가속화 리스크. KOSPI 5,450 하회 시 기술적 손절, 개별 롱 포지션은 -2% 손절 엄수. 주말 앞두고 글로벌 이벤트(미국 금리정책 발언) 리스크 경계.",
-    "watchlist": "넷마블: IT섹터 급락에도 +4.78% 독보적 강세, 게임주 모멘텀 지속 여부 확인\n삼성전자: 반도체 섹터 -2.71% 주도, 기술적 반등 구간에서 숏 커버 또는 재숏 타이밍 포착\nNAVER: IT플랫폼 내 상대강도 양호, 223,000원 지지 시 단기 롱 후보\nKB금융: 금융섹터 방어적 움직임, 148,000원 지지 확인 시 배당주 성격 매수 검토",
-    "date": "2026년 03월 14일 01:43 KST"
+    "overview": "KOSPI -1.72% 급락과 원/달러 1,496원대 급등으로 외국인 이탈 압력이 심화된 약세장. 반도체·IT플랫폼 대형주 중심 매도세 vs 방산·게임 개별주 강세로 뚜렷한 섹터 로테이션 진행 중. 미국은 유틸리티·디펜시브 강세로 위험회피 심리 확산.",
+    "action": "KOSPI 지수 숏 포지션 유지하며 2차전지·반도체 대형주 추가 하락 베팅. 넷마블·한화에어로스페이스 등 개별 모멘텀주는 단기 스윙 롱 진입 고려, 목표가 +3~5%에서 분할 익절. 신규 롱 진입은 환율 1,480원 이탈 확인 후로 제한.",
+    "risk": "원/달러 1,500원 심리적 저항선 돌파 시 외국인 추가 매도세 가속화 리스크. KOSPI 5,400 지지선 이탈 시 숏 포지션 추가, 롱 포지션은 -2% 손절 엄수. 주말 리스크 감안해 금요일 장 마감 전 포지션 50% 이상 축소 권고.",
+    "watchlist": "넷마블: 게임 섹터 내 상대강도 최고, 54,000원 지지 확인 시 단기 롱\n한화에어로스페이스: 방산 모멘텀 지속, 150만원 돌파 시 추세 가속 기대\n삼성전자: 반도체 섹터 대장주로 낙폭과대 반등 타이밍 포착용 관찰\nTIGER 인버스: 환율 상승+지수 하락 헤지용, 추가 하락 시 비중 확대",
+    "date": "2026년 03월 14일 02:37 KST"
   },
   "consensus": {
     "kospi": {
