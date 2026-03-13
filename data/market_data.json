@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 14일 03:47 KST",
+  "updated_at": "2026년 03월 14일 04:33 KST",
   "indices": {
     "kospi": {
       "value": 5487.24,
@@ -10,20 +10,20 @@
       "change_pct": 0.4
     },
     "sp500": {
-      "value": 6653.08,
-      "change_pct": -0.28
+      "value": 6638.73,
+      "change_pct": -0.5
     },
     "nasdaq": {
-      "value": 22160.03,
-      "change_pct": -0.68
+      "value": 22107.47,
+      "change_pct": -0.92
     },
     "dow": {
-      "value": 46698.18,
-      "change_pct": 0.06
+      "value": 46612.01,
+      "change_pct": -0.13
     },
     "usdkrw": {
-      "value": 1500.06,
-      "change_pct": 0.76
+      "value": 1500.25,
+      "change_pct": 0.77
     }
   },
   "kr": {
@@ -145,9 +145,9 @@
         "sector": "헬스케어",
         "price": 99300.0,
         "change_pct": -0.6,
-        "volume": 212782,
-        "trading_value": 21129252600,
-        "vol_surge": 0.55,
+        "volume": 196832,
+        "trading_value": 19545417600,
+        "vol_surge": 0.51,
         "score": -0.6
       },
       {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.21
+        "change_pct": -0.59
       },
       {
         "name": "금융",
-        "change_pct": 0.46
+        "change_pct": 0.25
       },
       {
         "name": "에너지",
-        "change_pct": 0.12
+        "change_pct": 0.03
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.32
+        "change_pct": 0.09
       },
       {
         "name": "산업재",
-        "change_pct": -0.12
+        "change_pct": -0.34
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.71
+        "change_pct": -0.88
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.88
+        "change_pct": 0.65
       },
       {
         "name": "소재",
-        "change_pct": -1.11
+        "change_pct": -1.48
       },
       {
         "name": "부동산",
-        "change_pct": 0.76
+        "change_pct": 0.33
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.31
+        "change_pct": 0.91
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.75
+        "change_pct": -0.81
       }
     ],
     "top_stocks": [
@@ -226,132 +226,132 @@
         "ticker": "AEP",
         "name": "American Electric ",
         "sector": "유틸리티",
-        "price": 134.3,
-        "change_pct": 2.52,
-        "volume": 2328136,
-        "trading_value": 312668671,
-        "vol_surge": 0.67,
-        "score": 14.2401
+        "price": 133.96,
+        "change_pct": 2.26,
+        "volume": 2629246,
+        "trading_value": 352213811,
+        "vol_surge": 0.75,
+        "score": 14.5105
       },
       {
         "ticker": "AMT",
         "name": "American Tower Cor",
         "sector": "부동산",
-        "price": 184.18,
-        "change_pct": 2.32,
-        "volume": 1843973,
-        "trading_value": 339632162,
-        "vol_surge": 0.58,
-        "score": 11.5215
+        "price": 183.76,
+        "change_pct": 2.09,
+        "volume": 2070930,
+        "trading_value": 380543752,
+        "vol_surge": 0.65,
+        "score": 11.7243
       },
       {
         "ticker": "DUK",
         "name": "Duke Energy Corpor",
         "sector": "유틸리티",
-        "price": 133.89,
-        "change_pct": 1.82,
-        "volume": 2793766,
-        "trading_value": 374057328,
-        "vol_surge": 0.65,
-        "score": 10.1607
+        "price": 133.35,
+        "change_pct": 1.41,
+        "volume": 3303897,
+        "trading_value": 440574685,
+        "vol_surge": 0.77,
+        "score": 9.3862
       },
       {
         "ticker": "SO",
         "name": "Southern Company (",
         "sector": "유틸리티",
-        "price": 98.87,
-        "change_pct": 1.87,
-        "volume": 3034553,
-        "trading_value": 300026263,
-        "vol_surge": 0.5,
-        "score": 7.8634
-      },
-      {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 93.26,
-        "change_pct": 1.59,
-        "volume": 4466545,
-        "trading_value": 416549996,
-        "vol_surge": 0.46,
-        "score": 6.2719
+        "price": 98.38,
+        "change_pct": 1.37,
+        "volume": 3572332,
+        "trading_value": 351446012,
+        "vol_surge": 0.58,
+        "score": 6.8368
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth Group",
         "sector": "헬스케어",
-        "price": 282.05,
-        "change_pct": 1.79,
-        "volume": 3143471,
-        "trading_value": 886600320,
-        "vol_surge": 0.35,
-        "score": 5.5622
+        "price": 282.08,
+        "change_pct": 1.8,
+        "volume": 3481841,
+        "trading_value": 982140342,
+        "vol_surge": 0.38,
+        "score": 6.226
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 92.91,
+        "change_pct": 1.21,
+        "volume": 5210495,
+        "trading_value": 484107109,
+        "vol_surge": 0.53,
+        "score": 5.6101
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 990.39,
-        "change_pct": 1.21,
-        "volume": 1197560,
-        "trading_value": 1186045472,
-        "vol_surge": 0.38,
-        "score": 4.2086
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 284.4,
-        "change_pct": 0.58,
-        "volume": 5476623,
-        "trading_value": 1557551547,
-        "vol_surge": 0.5,
-        "score": 2.6826
+        "price": 986.49,
+        "change_pct": 0.81,
+        "volume": 1319722,
+        "trading_value": 1301892542,
+        "vol_surge": 0.42,
+        "score": 3.1185
       },
       {
         "ticker": "MRK",
         "name": "Merck & Company, I",
         "sector": "헬스케어",
-        "price": 116.59,
-        "change_pct": 1.01,
-        "volume": 3440730,
-        "trading_value": 401154698,
-        "vol_surge": 0.27,
-        "score": 2.3314
+        "price": 116.5,
+        "change_pct": 0.93,
+        "volume": 4119867,
+        "trading_value": 479960387,
+        "vol_surge": 0.32,
+        "score": 2.5937
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 283.93,
+        "change_pct": 0.42,
+        "volume": 6148502,
+        "trading_value": 1745744127,
+        "vol_surge": 0.56,
+        "score": 2.1926
       },
       {
         "ticker": "WMT",
         "name": "Walmart Inc.",
         "sector": "필수소비재",
-        "price": 126.49,
-        "change_pct": 0.79,
-        "volume": 8173284,
-        "trading_value": 1033838675,
-        "vol_surge": 0.27,
-        "score": 1.8882
+        "price": 126.42,
+        "change_pct": 0.73,
+        "volume": 9387041,
+        "trading_value": 1186673109,
+        "vol_surge": 0.3,
+        "score": 2.0172
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI -1.72% 급락, KOSDAQ +0.40% 소폭 상승으로 대형주 중심 약세 혼조장. 반도체 -3.08% 급락 vs IT/플랫폼 +0.69% 상승으로 명확한 섹터 로테이션 진행 중. 원/달러 1,500원 돌파 및 미국 유틸리티 방어주 강세는 글로벌 리스크오프 심리를 반영.",
-    "action": "반도체 섹터 숏 포지션 유지하며, IT/플랫폼(넷마블, 네이버) 단기 롱 진입 고려. KOSPI 5,450 지지선 이탈 시 추가 숏, 반등 시 5,520 저항 확인 후 익절. 장 초반 30분 관망 후 방향성 확인되면 포지션 진입.",
-    "risk": "원/달러 1,500원 심리적 저항 돌파로 외국인 이탈 가속화 우려, 반도체 추가 급락 시 시장 전반 동반 하락 가능. 손절 기준: 롱 포지션 -2%, 숏 포지션 +1.5% 역행 시 즉시 청산.",
-    "watchlist": "넷마블: IT 섹터 모멘텀 주도주, +4.78% 강세 지속 여부 확인\n삼성전자: 반도체 급락 대표주, 기술적 반등 매매 기회 탐색\nNAVER: 플랫폼 섹터 대장주, 223,000원 지지 여부 관찰\nKB금융: 금융섹터 -1.70% 중 상대적 선방, 방어주 역할 가능성",
-    "date": "2026년 03월 14일 03:46 KST"
+    "overview": "글로벌 기술주 약세와 원/달러 1,500원 돌파로 위험회피 심리가 확산되며 KOSPI가 1.72% 급락한 혼조장세. 미국은 유틸리티·디펜시브 섹터로 자금이 이동 중이며, 한국은 반도체 -3.08% 급락 속 IT/플랫폼만 소폭 강세를 보이는 뚜렷한 섹터 로테이션 발생.",
+    "action": "반도체 숏 포지션 유지하며 IT/플랫폼 대형주(NAVER, 카카오) 눌림목 분할 매수 전략 권고. 환율 급등 수혜 예상되는 수출주는 관망하고, 넷마블 등 게임주는 +3% 이상 추가 상승 시 차익실현. 장중 KOSPI 5,450선 이탈 시 전체 비중 축소.",
+    "risk": "원/달러 1,500원 돌파로 외국인 이탈 가속화 우려가 최대 리스크. 반도체 추가 하락(-5% 이상) 시 지수 급락 가능성 대비 필요. 손절 기준은 진입가 대비 -2%, KOSPI 5,400선 붕괴 시 전량 청산.",
+    "watchlist": "넷마블: 게임 섹터 모멘텀 + 거래량 급증, 단기 스윙 매매 적합\nNAVER: IT/플랫폼 대장주로 방어적 성격, 220,000원 지지선 확인 시 매수\n삼성전자: 반도체 급락 대표주, 반등 시점 포착용 관찰 (숏커버 타이밍)\nKB금융: 배당주 성격으로 하락 제한적, 148,000원 이탈 시 손절",
+    "date": "2026년 03월 14일 04:32 KST"
   },
   "consensus": {
     "kospi": {
       "current": 5487.24,
-      "target_avg": 7249,
-      "upside_pct": 32.1,
+      "target_avg": 7261,
+      "upside_pct": 32.3,
       "firms_count": 27,
       "firms": [
         {
           "name": "KB",
-          "target": 8010,
-          "upside_pct": 46.0,
+          "target": 8239,
+          "upside_pct": 50.2,
           "stocks": 10
         },
         {
@@ -373,16 +373,16 @@
           "stocks": 11
         },
         {
-          "name": "미래에셋",
-          "target": 7581,
-          "upside_pct": 38.2,
-          "stocks": 15
-        },
-        {
           "name": "유안타",
           "target": 7575,
           "upside_pct": 38.0,
           "stocks": 15
+        },
+        {
+          "name": "미래에셋",
+          "target": 7557,
+          "upside_pct": 37.7,
+          "stocks": 14
         },
         {
           "name": "다올투자",
@@ -395,6 +395,12 @@
           "target": 7394,
           "upside_pct": 34.7,
           "stocks": 8
+        },
+        {
+          "name": "하나",
+          "target": 7338,
+          "upside_pct": 33.7,
+          "stocks": 14
         },
         {
           "name": "메리츠",
@@ -425,12 +431,6 @@
           "target": 7238,
           "upside_pct": 31.9,
           "stocks": 12
-        },
-        {
-          "name": "하나",
-          "target": 7231,
-          "upside_pct": 31.8,
-          "stocks": 14
         },
         {
           "name": "NH투자",
@@ -472,7 +472,7 @@
     },
     "kosdaq": {
       "current": 1152.96,
-      "target_avg": 1353,
+      "target_avg": 1354,
       "upside_pct": 17.4,
       "firms_count": 25,
       "firms": [
@@ -574,8 +574,8 @@
         },
         {
           "name": "삼성",
-          "target": 1175,
-          "upside_pct": 1.9,
+          "target": 1214,
+          "upside_pct": 5.3,
           "stocks": 5
         },
         {
