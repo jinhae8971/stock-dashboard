@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 17일 05:42 KST",
+  "updated_at": "2026년 03월 17일 06:43 KST",
   "indices": {
     "kospi": {
       "value": 5549.85,
@@ -22,8 +22,8 @@
       "change_pct": 0.83
     },
     "usdkrw": {
-      "value": 1489.64,
-      "change_pct": -0.53
+      "value": 1490.26,
+      "change_pct": -0.49
     }
   },
   "kr": {
@@ -117,10 +117,10 @@
         "sector": "기술",
         "price": 183.22,
         "change_pct": 1.68,
-        "volume": 207704887,
-        "trading_value": 38055689649,
-        "vol_surge": 1.18,
-        "score": 21.0626
+        "volume": 215647512,
+        "trading_value": 39510937411,
+        "vol_surge": 1.23,
+        "score": 21.9017
       },
       {
         "ticker": "AMZN",
@@ -128,10 +128,21 @@
         "sector": "임의소비재",
         "price": 211.74,
         "change_pct": 2.05,
-        "volume": 42029509,
-        "trading_value": 8899328466,
+        "volume": 42137043,
+        "trading_value": 8922097716,
         "vol_surge": 0.86,
-        "score": 17.5049
+        "score": 17.5517
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Aerospace",
+        "sector": "산업재",
+        "price": 304.0,
+        "change_pct": 1.45,
+        "volume": 6252727,
+        "trading_value": 1900829008,
+        "vol_surge": 1.17,
+        "score": 15.7223
       },
       {
         "ticker": "AMD",
@@ -150,21 +161,10 @@
         "sector": "임의소비재",
         "price": 395.56,
         "change_pct": 1.42,
-        "volume": 56545394,
-        "trading_value": 22367095912,
-        "vol_surge": 0.87,
-        "score": 12.8154
-      },
-      {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 304.0,
-        "change_pct": 1.45,
-        "volume": 5103372,
-        "trading_value": 1551425088,
-        "vol_surge": 0.95,
-        "score": 12.7103
+        "volume": 57799658,
+        "trading_value": 22863232577,
+        "vol_surge": 0.89,
+        "score": 13.1118
       },
       {
         "ticker": "AVGO",
@@ -205,30 +205,30 @@
         "sector": "기술",
         "price": 399.95,
         "change_pct": 1.23,
-        "volume": 27582497,
-        "trading_value": 11031620011,
+        "volume": 27676508,
+        "trading_value": 11069219712,
         "vol_surge": 0.82,
-        "score": 10.0866
+        "score": 10.1224
       },
       {
-        "ticker": "AAPL",
-        "name": "Apple Inc.",
-        "sector": "기술",
-        "price": 252.82,
+        "ticker": "HD",
+        "name": "Home Depot, Inc. (",
+        "sector": "임의소비재",
+        "price": 342.58,
         "change_pct": 1.18,
-        "volume": 30091880,
-        "trading_value": 7607829321,
-        "vol_surge": 0.63,
-        "score": 7.315
+        "volume": 3108921,
+        "trading_value": 1065054114,
+        "vol_surge": 0.74,
+        "score": 7.8786
       }
     ]
   },
   "strategy": {
-    "overview": "미국 증시 강세(S&P +1.01%, 나스닥 +1.22%)에 힘입어 KOSPI는 반도체 주도로 상승했으나, KOSDAQ은 IT/플랫폼 급락(-6.19%)으로 혼조세를 보이는 양극화 장세입니다. 원화 강세(-0.53%)와 함께 대형 반도체주로의 섹터 로테이션이 뚜렷하며, 중소형 성장주는 차익실현 압력을 받고 있습니다.",
-    "action": "KOSPI 반도체 대형주(삼성전자, SK하이닉스) 중심 롱 포지션 유지하되, 장 초반 갭상승 시 분할 매수보다는 눌림목 대기 전략이 유효합니다. KOSDAQ IT/플랫폼 섹터는 기술적 반등 시 숏 또는 헷지 포지션 고려하며, 반도체 상승 모멘텀이 둔화되는 오후 2시 이후 일부 차익실현을 권장합니다.",
-    "risk": "IT/플랫폼 -6.19% 급락의 추가 하락 여부와 투매 가능성에 주의하고, KOSPI-KOSDAQ 괴리 확대 시 시장 전반 변동성 증가 리스크가 있습니다. 반도체 롱 포지션은 전일 대비 -1.5% 이탈 시 손절, KOSDAQ 숏은 +2% 반등 시 손절 기준을 설정하세요.",
-    "watchlist": "SK하이닉스: 반도체 섹터 강세 수혜 및 NVIDIA 동반 상승 모멘텀\n삼성전자: 외국인 수급 확인 필요, 원화 강세 시 추가 매수세 유입 기대\n카카오/네이버: IT/플랫폼 급락 후 기술적 반등 또는 추가 하락 분기점 모니터링\nNVIDIA(야간선물): 미국 기술주 방향성 선행지표로 한국 반도체 연동성 체크",
-    "date": "2026년 03월 17일 05:41 KST"
+    "overview": "미국 기술주 강세에 힘입어 KOSPI는 반도체 주도로 상승했으나, 코스닥은 IT/플랫폼 급락(-6.19%)으로 혼조세를 보이는 양극화 장세입니다. 원화 강세(-0.49%)와 함께 외국인 수급이 대형 반도체주에 집중되는 섹터 로테이션이 뚜렷하며, 미국 NVIDIA·AMD 동반 상승이 국내 반도체 모멘텀을 지지합니다.",
+    "action": "반도체 대형주(삼성전자, SK하이닉스) 중심 롱 포지션 유지하되, 장 초반 갭 상승 시 추격 매수보다 눌림목 진입을 권장합니다. IT/플랫폼 섹터는 기술적 반등 시 숏 포지션 진입 기회로 활용하고, 코스닥 약세 지속 시 인버스 ETF 헷지를 병행하세요. 반도체 진입 기준은 전일 종가 대비 -1% 눌림, 청산은 +2~3% 수익권에서 분할 매도.",
+    "risk": "코스닥 IT/플랫폼 추가 급락 시 투매 확산 가능성과 환율 1,480원 이탈 시 외국인 차익실현 리스크에 주의하세요. 반도체 롱 포지션 손절 기준은 KOSPI 5,490pt 이탈 또는 개별 종목 -3% 손실 시 즉시 청산, 미국 FOMC 이슈 대기 중이므로 오버나잇 포지션은 축소 권장합니다.",
+    "watchlist": "삼성전자: 반도체 섹터 대장주로 외국인 수급 집중 예상, SK하이닉스: NVIDIA 훈풍 수혜 및 HBM 모멘텀 지속, 카카오/네이버: IT플랫폼 급락 후 기술적 반등 여부 관찰 필요, KODEX 코스닥150 인버스: 코스닥 약세 헷지 수단으로 활용",
+    "date": "2026년 03월 17일 06:43 KST"
   },
   "consensus": {
     "kospi": {
@@ -361,8 +361,8 @@
     },
     "kosdaq": {
       "current": 1138.29,
-      "target_avg": 1334,
-      "upside_pct": 17.2,
+      "target_avg": 1341,
+      "upside_pct": 17.8,
       "firms_count": 25,
       "firms": [
         {
@@ -384,12 +384,6 @@
           "stocks": 1
         },
         {
-          "name": "키움",
-          "target": 1646,
-          "upside_pct": 44.6,
-          "stocks": 1
-        },
-        {
           "name": "교보",
           "target": 1646,
           "upside_pct": 44.6,
@@ -400,6 +394,12 @@
           "target": 1641,
           "upside_pct": 44.2,
           "stocks": 3
+        },
+        {
+          "name": "키움",
+          "target": 1575,
+          "upside_pct": 38.4,
+          "stocks": 2
         },
         {
           "name": "신한투자",
@@ -420,16 +420,16 @@
           "stocks": 2
         },
         {
-          "name": "NH투자",
-          "target": 1494,
-          "upside_pct": 31.3,
-          "stocks": 1
-        },
-        {
           "name": "흥국",
           "target": 1458,
           "upside_pct": 28.1,
           "stocks": 1
+        },
+        {
+          "name": "NH투자",
+          "target": 1396,
+          "upside_pct": 22.6,
+          "stocks": 2
         },
         {
           "name": "IBK투자",
@@ -438,16 +438,34 @@
           "stocks": 1
         },
         {
+          "name": "BNK투자",
+          "target": 1275,
+          "upside_pct": 12.0,
+          "stocks": 2
+        },
+        {
+          "name": "SK",
+          "target": 1242,
+          "upside_pct": 9.1,
+          "stocks": 2
+        },
+        {
           "name": "DB",
           "target": 1218,
           "upside_pct": 7.0,
           "stocks": 2
         },
         {
-          "name": "SK",
-          "target": 1169,
-          "upside_pct": 2.7,
-          "stocks": 1
+          "name": "삼성",
+          "target": 1192,
+          "upside_pct": 4.7,
+          "stocks": 5
+        },
+        {
+          "name": "메리츠",
+          "target": 1189,
+          "upside_pct": 4.4,
+          "stocks": 3
         },
         {
           "name": "신영",
@@ -456,28 +474,10 @@
           "stocks": 1
         },
         {
-          "name": "삼성",
-          "target": 1137,
-          "upside_pct": -0.1,
-          "stocks": 4
-        },
-        {
-          "name": "메리츠",
-          "target": 1125,
-          "upside_pct": -1.2,
-          "stocks": 2
-        },
-        {
           "name": "미래에셋",
           "target": 1122,
           "upside_pct": -1.4,
           "stocks": 2
-        },
-        {
-          "name": "BNK투자",
-          "target": 1093,
-          "upside_pct": -3.9,
-          "stocks": 1
         },
         {
           "name": "한화투자",
