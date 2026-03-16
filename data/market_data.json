@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 17일 07:38 KST",
+  "updated_at": "2026년 03월 17일 08:35 KST",
   "indices": {
     "kospi": {
       "value": 5549.85,
@@ -38,7 +38,7 @@
       },
       {
         "name": "금융",
-        "change_pct": -0.52
+        "change_pct": -0.48
       },
       {
         "name": "자동차",
@@ -83,11 +83,11 @@
       },
       {
         "name": "산업재",
-        "change_pct": 0.94
+        "change_pct": 0.76
       },
       {
         "name": "임의소비재",
-        "change_pct": 1.04
+        "change_pct": 1.09
       },
       {
         "name": "필수소비재",
@@ -95,11 +95,11 @@
       },
       {
         "name": "소재",
-        "change_pct": 0.59
+        "change_pct": 0.1
       },
       {
         "name": "부동산",
-        "change_pct": 0.78
+        "change_pct": 0.04
       },
       {
         "name": "유틸리티",
@@ -111,6 +111,17 @@
       }
     ],
     "top_stocks": [
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 627.45,
+        "change_pct": 2.71,
+        "volume": 14353381,
+        "trading_value": 9006029083,
+        "vol_surge": 0.95,
+        "score": 25.6654
+      },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
@@ -134,26 +145,15 @@
         "score": 17.5517
       },
       {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 304.0,
-        "change_pct": 1.45,
-        "volume": 6252727,
-        "trading_value": 1900829008,
-        "vol_surge": 1.17,
-        "score": 15.7223
-      },
-      {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
         "price": 196.58,
-        "change_pct": 1.91,
+        "change_pct": 1.92,
         "volume": 30136935,
         "trading_value": 5924318737,
         "vol_surge": 0.83,
-        "score": 15.5639
+        "score": 15.6454
       },
       {
         "ticker": "TSLA",
@@ -171,11 +171,11 @@
         "name": "Broadcom Inc.",
         "sector": "기술",
         "price": 324.92,
-        "change_pct": 1.2,
+        "change_pct": 1.21,
         "volume": 31244813,
         "trading_value": 10152065059,
         "vol_surge": 1.03,
-        "score": 12.3447
+        "score": 12.4476
       },
       {
         "ticker": "MA",
@@ -211,24 +211,24 @@
         "score": 10.1224
       },
       {
-        "ticker": "HD",
-        "name": "Home Depot, Inc. (",
-        "sector": "임의소비재",
-        "price": 342.58,
-        "change_pct": 1.18,
-        "volume": 3108921,
-        "trading_value": 1065054114,
-        "vol_surge": 0.74,
-        "score": 7.8786
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 305.56,
+        "change_pct": 1.34,
+        "volume": 23445212,
+        "trading_value": 7163918921,
+        "vol_surge": 0.7,
+        "score": 9.256
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술주 강세에 힘입어 KOSPI는 반도체 주도로 상승했으나, KOSDAQ은 IT/플랫폼 급락(-6.19%)으로 혼조세를 보이는 양극화 장세입니다. 원화 강세(-0.49%)와 함께 대형 반도체주 중심의 섹터 로테이션이 뚜렷하며, 미국 NVIDIA·AMD 동반 상승이 한국 반도체 모멘텀을 지지하고 있습니다.",
-    "action": "KOSPI 반도체 대형주(삼성전자, SK하이닉스) 롱 포지션 유지하되, 장 초반 갭업 시 분할 익절을 권장합니다. KOSDAQ IT/플랫폼 섹터는 기술적 반등 시도 전까지 숏 관점 유지, -3% 추가 하락 시 청산 검토하세요. 진입은 9시 30분 이후 거래량 확인 후, KOSPI 5,500선 지지 여부를 확인하고 대응합니다.",
-    "risk": "KOSDAQ IT/플랫폼의 급락 원인(악재성 뉴스/수급 이탈) 파악이 필수이며, 동 섹터 전이 리스크에 주의해야 합니다. 반도체 롱 포지션은 KOSPI 5,480 이탈 시 손절, 원/달러 1,500원 재돌파 시 외국인 매도 전환 가능성을 경계하세요.",
-    "watchlist": "SK하이닉스: 미국 AI 반도체 랠리 수혜, HBM 모멘텀 지속 여부 확인\n삼성전자: 반도체 섹터 대장주로 외국인 수급 방향성 확인 필요\n카카오/네이버: IT/플랫폼 급락의 핵심 종목, 기술적 지지선 테스트 관찰\n한미반도체: 장비주 동반 상승 여부로 반도체 랠리 지속성 판단",
-    "date": "2026년 03월 17일 07:37 KST"
+    "overview": "한국 시장은 KOSPI 강세(+1.14%)와 KOSDAQ 약세(-1.27%)로 대형주 중심의 차별화 장세가 뚜렷함. 미국 기술주 강세에 힘입어 반도체 섹터(+2.69%)가 주도하는 반면, IT/플랫폼(-6.19%)의 급락은 성장주 내 로테이션을 시사. 원화 강세(-0.49%)는 외국인 수급에 긍정적 신호.",
+    "action": "반도체 대형주(삼성전자, SK하이닉스) 중심 롱 포지션 구축, 장 초반 갭상승 시 추격매수보다 10시 이후 눌림목 진입 권장. IT/플랫폼 섹터는 기술적 반등 시 숏 헷지 유지, KOSDAQ 약세 지속 시 레버리지 인버스 ETF 단기 대응. 진입 후 목표 수익률 1.5-2% 도달 시 50% 익절.",
+    "risk": "IT/플랫폼 -6.19% 급락의 원인(실적 쇼크, 규제 이슈 등) 파악 필수, 연쇄 투매 가능성 경계. KOSDAQ 1,130선 이탈 시 중소형주 전반 손절 대응 필요. 반도체 롱 포지션 손절선은 전일 종가 대비 -1.2% 하회 시 기계적 청산.",
+    "watchlist": "삼성전자: 반도체 섹터 대장주, 외국인 순매수 지속 여부 확인\nSK하이닉스: NVIDIA 강세(+1.68%) 수혜 기대, HBM 모멘텀 유효\n카카오/네이버: IT/플랫폼 급락 주범 추정, 낙폭과대 기술적 반등 또는 추가 하락 모니터링\nTIGER 미국나스닥100: 미국 기술주 강세 추종, 원화 강세 시 환헷지형 고려",
+    "date": "2026년 03월 17일 08:35 KST"
   },
   "consensus": {
     "kospi": {
