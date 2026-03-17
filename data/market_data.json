@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 18일 04:58 KST",
+  "updated_at": "2026년 03월 18일 05:43 KST",
   "indices": {
     "kospi": {
       "value": 5640.48,
@@ -10,20 +10,20 @@
       "change_pct": -0.12
     },
     "sp500": {
-      "value": 6715.6,
-      "change_pct": 0.24
+      "value": 6716.09,
+      "change_pct": 0.25
     },
     "nasdaq": {
-      "value": 22473.16,
-      "change_pct": 0.44
+      "value": 22479.53,
+      "change_pct": 0.47
     },
     "dow": {
-      "value": 46995.94,
+      "value": 46993.26,
       "change_pct": 0.1
     },
     "usdkrw": {
-      "value": 1486.19,
-      "change_pct": -0.27
+      "value": 1487.61,
+      "change_pct": -0.18
     }
   },
   "kr": {
@@ -112,47 +112,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.51
+        "change_pct": 0.53
       },
       {
         "name": "금융",
-        "change_pct": 0.52
+        "change_pct": 0.53
       },
       {
         "name": "에너지",
-        "change_pct": 1.01
+        "change_pct": 0.93
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.9
+        "change_pct": -0.89
       },
       {
         "name": "산업재",
-        "change_pct": 0.33
+        "change_pct": 0.3
       },
       {
         "name": "임의소비재",
-        "change_pct": 1.14
+        "change_pct": 1.19
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.62
+        "change_pct": -0.59
       },
       {
         "name": "소재",
-        "change_pct": 0.2
+        "change_pct": 0.24
       },
       {
         "name": "부동산",
-        "change_pct": 0.49
+        "change_pct": 0.51
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.15
+        "change_pct": -0.11
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.05
+        "change_pct": 0.03
       }
     ],
     "top_stocks": [
@@ -160,120 +160,120 @@
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 46.19,
-        "change_pct": 2.85,
-        "volume": 12067129,
-        "trading_value": 557380671,
-        "vol_surge": 0.65,
-        "score": 16.0942
+        "price": 46.13,
+        "change_pct": 2.72,
+        "volume": 12755643,
+        "trading_value": 588417825,
+        "vol_surge": 0.68,
+        "score": 16.2802
       },
       {
         "ticker": "AMZN",
         "name": "Amazon.com, Inc.",
         "sector": "임의소비재",
-        "price": 215.15,
-        "change_pct": 1.77,
-        "volume": 33796781,
-        "trading_value": 7271377225,
-        "vol_surge": 0.69,
-        "score": 12.0273
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 158.97,
-        "change_pct": 1.14,
-        "volume": 14437024,
-        "trading_value": 2295053722,
-        "vol_surge": 0.71,
-        "score": 7.5472
+        "price": 215.2,
+        "change_pct": 1.79,
+        "volume": 41662109,
+        "trading_value": 8965685729,
+        "vol_surge": 0.85,
+        "score": 15.1321
       },
       {
         "ticker": "GS",
         "name": "Goldman Sachs Grou",
         "sector": "금융",
-        "price": 806.51,
-        "change_pct": 1.54,
-        "volume": 1225519,
-        "trading_value": 988393340,
-        "vol_surge": 0.5,
-        "score": 6.9208
+        "price": 807.04,
+        "change_pct": 1.6,
+        "volume": 1329556,
+        "trading_value": 1073004845,
+        "vol_surge": 0.54,
+        "score": 7.8318
       },
       {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 122.95,
-        "change_pct": 1.21,
-        "volume": 5790568,
-        "trading_value": 711950317,
-        "vol_surge": 0.65,
-        "score": 6.9193
+        "price": 158.81,
+        "change_pct": 1.04,
+        "volume": 15218225,
+        "trading_value": 2416806275,
+        "vol_surge": 0.75,
+        "score": 7.2751
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
         "sector": "임의소비재",
-        "price": 398.55,
-        "change_pct": 0.78,
-        "volume": 43422527,
-        "trading_value": 17306047605,
+        "price": 399.27,
+        "change_pct": 0.96,
+        "volume": 46052732,
+        "trading_value": 18387473799,
+        "vol_surge": 0.73,
+        "score": 7.1811
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 122.87,
+        "change_pct": 1.14,
+        "volume": 6188337,
+        "trading_value": 760360984,
         "vol_surge": 0.69,
-        "score": 5.4873
+        "score": 6.9893
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 198.04,
-        "change_pct": 0.53,
-        "volume": 10572117,
-        "trading_value": 2093701979,
-        "vol_surge": 0.91,
-        "score": 4.4904
+        "price": 197.97,
+        "change_pct": 0.49,
+        "volume": 11128012,
+        "trading_value": 2203012549,
+        "vol_surge": 0.96,
+        "score": 4.3802
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 135.71,
-        "change_pct": 0.84,
-        "volume": 2546177,
-        "trading_value": 345541697,
-        "vol_surge": 0.5,
-        "score": 3.6101
+        "price": 135.72,
+        "change_pct": 0.85,
+        "volume": 2917712,
+        "trading_value": 395991876,
+        "vol_surge": 0.58,
+        "score": 4.2152
       },
       {
         "ticker": "AAPL",
         "name": "Apple Inc.",
         "sector": "기술",
-        "price": 254.36,
-        "change_pct": 0.72,
-        "volume": 18831027,
-        "trading_value": 4789860039,
-        "vol_surge": 0.39,
-        "score": 2.7439
+        "price": 254.23,
+        "change_pct": 0.67,
+        "volume": 27556024,
+        "trading_value": 7005567863,
+        "vol_surge": 0.58,
+        "score": 3.8002
       },
       {
         "ticker": "SPG",
         "name": "Simon Property Gro",
         "sector": "부동산",
-        "price": 190.41,
-        "change_pct": 0.45,
-        "volume": 874277,
-        "trading_value": 166471086,
-        "vol_surge": 0.55,
-        "score": 2.0505
+        "price": 190.53,
+        "change_pct": 0.51,
+        "volume": 1014974,
+        "trading_value": 193382994,
+        "vol_surge": 0.64,
+        "score": 2.7192
       }
     ]
   },
   "strategy": {
-    "overview": "글로벌 시장 혼조세 속 한국은 KOSPI 강세(+1.63%), KOSDAQ 약세(-0.12%)로 대형주 중심 양극화 장세. 미국 에너지·금융 강세가 한국 금융섹터로 전이되었으나, 반도체는 미국 기술주 상승에도 디커플링되며 약세 지속. 원화 강세(-0.27%)는 외국인 매수세 유입 신호로 해석 가능.",
-    "action": "금융섹터 롱 유지하며 반도체 단기 숏 또는 관망 권고. KOSPI 대형 금융주(KB, 신한) 오전 갭상승 시 9시 30분 이후 눌림목에서 분할 매수, 목표가 +1.5~2%. 반도체 장비주(원익IPS, 리노공업)는 추가 하락 시 -3% 손절 기준으로 소규모 숏 진입 고려.",
-    "risk": "반도체 섹터 연속 약세로 외국인 수급 이탈 가능성 주시, KOSDAQ 하락 전환 시 성장주 투매 리스크. 원/달러 1,480원 하회 시 수출주 마진 압박 우려. 손절 기준: 개별 포지션 -2%, 포트폴리오 전체 -1% 도달 시 전량 청산.",
-    "watchlist": "휴젤: 헬스케어 모멘텀 지속, 신고가 돌파 시 추세 추종 매매 대상\nKB금융: 금융섹터 대장주로 외국인 순매수 집중 예상, KOSPI 상승 수혜\n원익IPS: 반도체 장비 약세 대표주, 숏 커버 또는 반등 매매 타이밍 포착용\nAmazon: 미국 임의소비재 강세 확인 후 국내 이커머스 연관주 방향성 판단 지표",
-    "date": "2026년 03월 18일 04:57 KST"
+    "overview": "KOSPI가 1.63% 강세를 보이며 금융·IT 섹터 주도의 상승세를 나타내고 있으나, KOSDAQ은 소폭 하락하며 대형주 중심의 차별화 장세가 전개 중입니다. 미국 시장도 에너지·금융 섹터 강세와 함께 완만한 상승을 기록했으며, 반도체 섹터의 약세가 한미 공통으로 나타나 섹터 로테이션이 진행 중입니다.",
+    "action": "금융 섹터 ETF 및 대형 금융주 롱 포지션을 권장하며, 반도체 섹터는 추가 하락 가능성에 대비해 숏 헷지 또는 관망이 적절합니다. KOSPI 5,600선 지지 확인 후 진입하고, 장 초반 30분 거래량 급증 시 추세 추종 전략을 적용하세요. IT/플랫폼 섹터는 1%대 상승 모멘텀 지속 여부를 확인 후 분할 진입을 고려합니다.",
+    "risk": "원/달러 환율 1,487원대의 고환율 지속이 외국인 수급에 부정적 요인으로 작용할 수 있으며, 반도체 주도주들의 동반 하락(-1.7%~-2.0%)이 낙폭 확대로 이어질 가능성에 유의하세요. 손절 기준은 KOSPI 5,580선 이탈 또는 개별 종목 -2% 손실 시 기계적 청산을 권장합니다.",
+    "watchlist": "휴젤: 헬스케어 섹터 내 독보적 강세(+3.31%)로 모멘텀 지속 여부 확인\nKB금융/신한지주: 금융 섹터 주도 상승에 따른 대형 금융주 수혜 기대\n리노공업: 반도체 약세 속 낙폭과대 반등 가능성 모니터링\n네이버/카카오: IT플랫폼 섹터 강세(+1.30%) 수혜 대형주로 외국인 수급 확인 필요",
+    "date": "2026년 03월 18일 05:42 KST"
   },
   "consensus": {
     "kospi": {
