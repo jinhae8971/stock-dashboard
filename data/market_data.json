@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 17일 20:46 KST",
+  "updated_at": "2026년 03월 17일 22:18 KST",
   "indices": {
     "kospi": {
       "value": 5640.48,
@@ -22,8 +22,8 @@
       "change_pct": 0.83
     },
     "usdkrw": {
-      "value": 1490.48,
-      "change_pct": 0.01
+      "value": 1487.38,
+      "change_pct": -0.19
     }
   },
   "kr": {
@@ -218,43 +218,10 @@
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.81
+        "change_pct": 0.0
       }
     ],
     "top_stocks": [
-      {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 984.46,
-        "change_pct": 6.66,
-        "volume": 790249,
-        "trading_value": 777968547,
-        "vol_surge": 1.24,
-        "score": 73.5342
-      },
-      {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
-        "sector": "통신서비스",
-        "price": 627.45,
-        "change_pct": 0.65,
-        "volume": 14353381,
-        "trading_value": 9006029083,
-        "vol_surge": 0.95,
-        "score": 6.1584
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet Inc.",
-        "sector": "통신서비스",
-        "price": 305.56,
-        "change_pct": 0.3,
-        "volume": 23445212,
-        "trading_value": 7163918921,
-        "vol_surge": 0.7,
-        "score": 2.0751
-      },
       {
         "ticker": "RTX",
         "name": "RTX Corporation",
@@ -265,6 +232,17 @@
         "trading_value": 987376247,
         "vol_surge": 0.78,
         "score": 2.0335
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Company, I",
+        "sector": "헬스케어",
+        "price": 115.43,
+        "change_pct": 0.37,
+        "volume": 6539144,
+        "trading_value": 754813393,
+        "vol_surge": 0.52,
+        "score": 1.7191
       },
       {
         "ticker": "AMZN",
@@ -300,28 +278,6 @@
         "score": 1.1391
       },
       {
-        "ticker": "NFLX",
-        "name": "Netflix, Inc.",
-        "sector": "통신서비스",
-        "price": 95.2,
-        "change_pct": 0.11,
-        "volume": 34582324,
-        "trading_value": 3292237139,
-        "vol_surge": 0.71,
-        "score": 0.7405
-      },
-      {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 27.73,
-        "change_pct": 0.11,
-        "volume": 31260003,
-        "trading_value": 866839868,
-        "vol_surge": 0.73,
-        "score": 0.7154
-      },
-      {
         "ticker": "AMT",
         "name": "American Tower Cor",
         "sector": "부동산",
@@ -331,15 +287,59 @@
         "trading_value": 417517206,
         "vol_surge": 0.72,
         "score": 0.6867
+      },
+      {
+        "ticker": "HON",
+        "name": "Honeywell Internat",
+        "sector": "산업재",
+        "price": 234.51,
+        "change_pct": 0.09,
+        "volume": 3143607,
+        "trading_value": 737207260,
+        "vol_surge": 0.73,
+        "score": 0.5864
+      },
+      {
+        "ticker": "SO",
+        "name": "Southern Company (",
+        "sector": "유틸리티",
+        "price": 99.11,
+        "change_pct": 0.11,
+        "volume": 3452095,
+        "trading_value": 342137137,
+        "vol_surge": 0.57,
+        "score": 0.5341
+      },
+      {
+        "ticker": "DE",
+        "name": "Deere & Company",
+        "sector": "산업재",
+        "price": 572.48,
+        "change_pct": 0.08,
+        "volume": 922340,
+        "trading_value": 528021185,
+        "vol_surge": 0.58,
+        "score": 0.4062
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 989.12,
+        "change_pct": 0.08,
+        "volume": 1436073,
+        "trading_value": 1420448518,
+        "vol_surge": 0.47,
+        "score": 0.3463
       }
     ]
   },
   "strategy": {
-    "overview": "KOSPI가 미국 증시 강세에 동조하며 +1.63% 상승했으나 KOSDAQ은 소폭 하락하는 혼조세. 반도체·금융 강세 vs IT/플랫폼 급락(-3.35%)으로 뚜렷한 섹터 로테이션이 진행 중이며, 원화 약세(1,490원대)가 수출주에 우호적 환경 제공.",
-    "action": "KOSPI 대형주 중심 롱 포지션 유지하되, IT/플랫폼 숏 헷지 병행. 통신주(SKT, LGU+) 모멘텀 추격매수는 장 초반 30분 눌림목에서 진입하고, 익일 갭상승 시 70% 청산. LG화학은 5% 이상 급등 후 차익실현 매물 예상되므로 신규 진입 자제.",
-    "risk": "환율 1,500원 돌파 시 외국인 이탈 가속화 우려, IT/플랫폼 섹터 -3.35% 급락이 확산될 경우 지수 하방 압력 증가. 손절 기준은 진입가 대비 -2.5% 이탈 시 즉시 청산, KOSPI 5,580선 이탈 시 롱 포지션 전량 정리.",
-    "watchlist": "현대위아: 자동차 섹터 내 거래량 동반 +6.28% 급등, 추가 상승 모멘텀 확인 필요\nSK텔레콤: 통신 섹터 리더로 +4.46% 상승, 배당주 선호 흐름 지속 여부 관찰\n넷마블: IT/플랫폼 섹터 역행 강세(+3.01%), 섹터 반등 시 선도주 가능성\n삼성전자: 반도체 +0.89% 대비 수익률 확인하여 지수 주도력 점검 필요",
-    "date": "2026년 03월 17일 20:45 KST"
+    "overview": "KOSPI가 1.63% 강세를 보이며 금융·반도체 중심 상승세이나, KOSDAQ은 약보합으로 대형주 쏠림 현상이 뚜렷함. 미국 증시는 기술·금융 섹터가 보합권으로 상승 탄력이 둔화되어 국내 추격 매수보다는 순환매 대응이 유효한 장세.",
+    "action": "금융·통신 섹터 강세 지속시 SK텔레콤·LG유플러스 단기 롱 진입 고려, 목표가 +3~4%에서 분할 청산. IT/플랫폼 섹터 약세(-3.35%)로 넷마블 제외 동종업종 숏 헷지 병행, KOSPI 5,580선 이탈시 전량 청산 후 관망.",
+    "risk": "원/달러 1,487원대 고환율 지속으로 외국인 이탈 가능성 상존, KOSDAQ 이격도 확대시 중소형주 급락 리스크 주의. 손절 기준은 진입가 대비 -2% 또는 KOSPI 5,550선 하회시 즉시 실행.",
+    "watchlist": "현대위아: 자동차 섹터 내 6.28% 급등, 단기 과열 구간 진입 여부 모니터링\nLG화학: 5.31% 상승으로 화학/에너지 모멘텀 확인, 310,000원 돌파시 추가 상승 여력\nSK텔레콤: 통신 섹터 대장주로 배당+방어주 성격, 80,000원 저항선 돌파 여부 주시\n넷마블: IT/플랫폼 약세 속 역행 상승, 섹터 반등 선행지표로 활용 가능",
+    "date": "2026년 03월 17일 22:17 KST"
   },
   "consensus": {
     "kospi": {
