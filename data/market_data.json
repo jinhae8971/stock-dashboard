@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 17일 17:57 KST",
+  "updated_at": "2026년 03월 17일 18:59 KST",
   "indices": {
     "kospi": {
       "value": 5640.48,
@@ -22,8 +22,8 @@
       "change_pct": 0.83
     },
     "usdkrw": {
-      "value": 1488.48,
-      "change_pct": -0.12
+      "value": 1490.48,
+      "change_pct": 0.01
     }
   },
   "kr": {
@@ -63,37 +63,15 @@
     ],
     "top_stocks": [
       {
-        "ticker": "032640.KS",
-        "name": "LG유플러스",
-        "sector": "통신",
-        "price": 15800.0,
-        "change_pct": 3.95,
-        "volume": 1153757,
-        "trading_value": 18229360600,
-        "vol_surge": 1.01,
-        "score": 40.7962
-      },
-      {
         "ticker": "251270.KS",
         "name": "넷마블",
         "sector": "IT/플랫폼",
         "price": 54800.0,
         "change_pct": 3.01,
-        "volume": 351280,
-        "trading_value": 19250144000,
-        "vol_surge": 1.3,
-        "score": 40.3247
-      },
-      {
-        "ticker": "017670.KS",
-        "name": "SK텔레콤",
-        "sector": "통신",
-        "price": 79700.0,
-        "change_pct": 4.46,
-        "volume": 1064641,
-        "trading_value": 84851887700,
-        "vol_surge": 0.78,
-        "score": 38.0791
+        "volume": 344738,
+        "trading_value": 18891642400,
+        "vol_surge": 1.28,
+        "score": 39.5423
       },
       {
         "ticker": "051910.KS",
@@ -107,26 +85,37 @@
         "score": 37.8817
       },
       {
+        "ticker": "017670.KS",
+        "name": "SK텔레콤",
+        "sector": "통신",
+        "price": 79700.0,
+        "change_pct": 4.46,
+        "volume": 1010185,
+        "trading_value": 80511744500,
+        "vol_surge": 0.74,
+        "score": 36.0559
+      },
+      {
+        "ticker": "032640.KS",
+        "name": "LG유플러스",
+        "sector": "통신",
+        "price": 15800.0,
+        "change_pct": 3.95,
+        "volume": 972229,
+        "trading_value": 15361218200,
+        "vol_surge": 0.85,
+        "score": 34.1284
+      },
+      {
         "ticker": "011210.KS",
         "name": "현대위아",
         "sector": "자동차",
         "price": 86300.0,
         "change_pct": 6.28,
-        "volume": 195914,
-        "trading_value": 16907378200,
-        "vol_surge": 0.47,
-        "score": 29.9255
-      },
-      {
-        "ticker": "000270.KS",
-        "name": "기아",
-        "sector": "자동차",
-        "price": 167300.0,
-        "change_pct": 3.27,
-        "volume": 1068349,
-        "trading_value": 178734787700,
-        "vol_surge": 0.6,
-        "score": 22.0445
+        "volume": 193955,
+        "trading_value": 16738316500,
+        "vol_surge": 0.46,
+        "score": 29.6136
       },
       {
         "ticker": "005930.KS",
@@ -134,21 +123,21 @@
         "sector": "반도체",
         "price": 193900.0,
         "change_pct": 2.76,
-        "volume": 19358819,
-        "trading_value": 3753675004100,
-        "vol_surge": 0.62,
-        "score": 21.5546
+        "volume": 21987706,
+        "trading_value": 4263416193400,
+        "vol_surge": 0.71,
+        "score": 24.5893
       },
       {
-        "ticker": "316140.KS",
-        "name": "우리금융지주",
-        "sector": "금융",
-        "price": 32600.0,
-        "change_pct": 2.19,
-        "volume": 1877836,
-        "trading_value": 61217453600,
-        "vol_surge": 0.81,
-        "score": 19.2134
+        "ticker": "000270.KS",
+        "name": "기아",
+        "sector": "자동차",
+        "price": 167300.0,
+        "change_pct": 3.27,
+        "volume": 1149281,
+        "trading_value": 192274711300,
+        "vol_surge": 0.64,
+        "score": 23.7813
       },
       {
         "ticker": "005380.KS",
@@ -156,10 +145,21 @@
         "sector": "자동차",
         "price": 522000.0,
         "change_pct": 3.16,
-        "volume": 1346937,
-        "trading_value": 703101114000,
-        "vol_surge": 0.5,
-        "score": 18.8224
+        "volume": 1396555,
+        "trading_value": 729001710000,
+        "vol_surge": 0.52,
+        "score": 19.5416
+      },
+      {
+        "ticker": "316140.KS",
+        "name": "우리금융지주",
+        "sector": "금융",
+        "price": 32600.0,
+        "change_pct": 2.19,
+        "volume": 1829463,
+        "trading_value": 59640493800,
+        "vol_surge": 0.79,
+        "score": 18.6988
       },
       {
         "ticker": "011170.KS",
@@ -167,10 +167,10 @@
         "sector": "화학/에너지",
         "price": 70200.0,
         "change_pct": 1.59,
-        "volume": 256793,
-        "trading_value": 18026868600,
-        "vol_surge": 1.08,
-        "score": 17.5458
+        "volume": 250456,
+        "trading_value": 17582011200,
+        "vol_surge": 1.05,
+        "score": 17.0947
       }
     ]
   },
@@ -206,7 +206,7 @@
       },
       {
         "name": "소재",
-        "change_pct": 0.59
+        "change_pct": 0.1
       },
       {
         "name": "부동산",
@@ -245,17 +245,6 @@
         "score": 6.1584
       },
       {
-        "ticker": "AEP",
-        "name": "American Electric ",
-        "sector": "유틸리티",
-        "price": 134.15,
-        "change_pct": 0.42,
-        "volume": 4356482,
-        "trading_value": 584422033,
-        "vol_surge": 1.23,
-        "score": 4.5345
-      },
-      {
         "ticker": "SHW",
         "name": "Sherwin-Williams C",
         "sector": "소재",
@@ -287,6 +276,17 @@
         "trading_value": 8922097716,
         "vol_surge": 0.86,
         "score": 1.3678
+      },
+      {
+        "ticker": "SBUX",
+        "name": "Starbucks Corporat",
+        "sector": "임의소비재",
+        "price": 97.82,
+        "change_pct": 0.2,
+        "volume": 6855251,
+        "trading_value": 670580650,
+        "vol_surge": 0.73,
+        "score": 1.2934
       },
       {
         "ticker": "CCI",
@@ -335,11 +335,11 @@
     ]
   },
   "strategy": {
-    "overview": "KOSPI와 미국 증시 동반 강세로 글로벌 리스크온 분위기이나, KOSDAQ 약보합과 IT/플랫폼 -3.35% 급락으로 성장주 차익실현 압력 존재. 통신·화학·자동차 등 가치주 중심 섹터 로테이션이 뚜렷하며, 원/달러 안정세가 외국인 수급에 긍정적 환경 조성 중.",
-    "action": "KOSPI 대형 가치주(통신, 화학) 롱 포지션 유지하되, IT/플랫폼 섹터는 추가 하락 시 숏 헤지 병행. 진입은 오전 갭상승 후 눌림목(KOSPI 5,600선 지지 확인 시), 청산은 전고점 대비 +2% 구간에서 분할 익절. 미국 선물 야간 흐름 확인 후 익일 포지션 조정.",
-    "risk": "IT/플랫폼 섹터 낙폭 확대 시 지수 전반 하방 압력 가능성 주의. KOSPI 5,550 이탈 시 손절, 개별종목은 -3% 기준 스탑로스 설정. 미국 기술주 약세 전환(-1% 이상) 시 한국 반도체 동반 조정 리스크 경계 필요.",
-    "watchlist": "SK텔레콤: 통신 섹터 대장주, 거래량 동반 +4.46% 강세로 추세 지속 여부 확인\nLG화학: +5.31% 급등 후 단기 과열 여부 및 2차전지 테마 연계 모멘텀 점검\n삼성전자: 반도체 섹터 +0.89% 상승 주도, 외국인 수급 방향성 바로미터\n카카오: IT/플랫폼 -3.35% 급락 중 낙폭과대 반등 가능성 또는 추가 하락 분기점 관찰",
-    "date": "2026년 03월 17일 17:56 KST"
+    "overview": "KOSPI가 1.63% 강세를 보이며 반도체·금융 중심 상승세, KOSDAQ은 IT/플랫폼 약세(-3.35%)로 혼조세. 미국 증시 반등에도 불구하고 기술·에너지 섹터 부진, 방어주 및 통신·화학 섹터로의 로테이션이 뚜렷함. 환율 1,490원대 고착화로 수출주 실적 기대감과 외국인 수급 변동성 공존.",
+    "action": "KOSPI 대형주 중심 롱 포지션 유지, 특히 통신(SK텔레콤, LG유플러스) 및 화학(LG화학) 섹터 모멘텀 추종 매수 유효. IT/플랫폼 섹터는 약세 지속 시 숏 헷지 또는 관망, KOSDAQ 노출 축소 권장. 진입은 장 초반 갭 확인 후 10시~11시 눌림목, 청산은 당일 고점 대비 1.5% 이탈 시 익절.",
+    "risk": "환율 1,500원 돌파 시 외국인 매도 가속화 우려, IT/플랫폼 추가 하락 시 KOSDAQ 지수 1,130선 붕괴 가능성 주시. 손절 기준은 KOSPI 5,580선(-1%), 개별 종목은 진입가 대비 -2% 적용. 미국 FOMC 이벤트 리스크 대비 포지션 사이즈 70% 이하 유지.",
+    "watchlist": "LG화학: 5% 이상 급등 후 거래량 동반, 화학 섹터 모멘텀 지속 여부 확인\nSK텔레콤: 통신 섹터 강세 주도, 배당락 이후 반등세 지속성 점검\n현대위아: 자동차 부품주 6% 급등, 단기 과열 구간 진입 여부 모니터링\n넷마블: IT/플랫폼 약세 속 역행 상승, 게임 섹터 차별화 움직임 관찰",
+    "date": "2026년 03월 17일 18:58 KST"
   },
   "consensus": {
     "kospi": {
