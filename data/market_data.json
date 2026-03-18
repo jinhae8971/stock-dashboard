@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026년 03월 18일 15:05 KST",
+  "updated_at": "2026년 03월 18일 16:17 KST",
   "indices": {
     "kospi": {
-      "value": 5903.67,
-      "change_pct": 4.06
+      "value": 5925.03,
+      "change_pct": 5.04
     },
     "kosdaq": {
-      "value": 1160.46,
-      "change_pct": 1.31
+      "value": 1164.38,
+      "change_pct": 2.41
     },
     "sp500": {
       "value": 6716.09,
@@ -22,43 +22,43 @@
       "change_pct": 0.1
     },
     "usdkrw": {
-      "value": 1484.68,
-      "change_pct": -0.08
+      "value": 1485.03,
+      "change_pct": -0.06
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": 4.81
+        "change_pct": 6.57
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": -4.85
+        "change_pct": -4.13
       },
       {
         "name": "금융",
-        "change_pct": 3.25
+        "change_pct": 3.48
       },
       {
         "name": "자동차",
-        "change_pct": 2.99
+        "change_pct": 3.71
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.75
+        "change_pct": -0.64
       },
       {
         "name": "화학/에너지",
-        "change_pct": 6.62
+        "change_pct": 6.95
       },
       {
         "name": "철강/소재",
-        "change_pct": 0.52
+        "change_pct": 1.59
       },
       {
         "name": "통신",
-        "change_pct": 0.41
+        "change_pct": 0.13
       }
     ],
     "top_stocks": [
@@ -66,111 +66,111 @@
         "ticker": "011170.KS",
         "name": "롯데케미칼",
         "sector": "화학/에너지",
-        "price": 81600.0,
-        "change_pct": 15.09,
-        "volume": 639415,
-        "trading_value": 52176264000,
-        "vol_surge": 2.72,
-        "score": 439.8068
+        "price": 82000.0,
+        "change_pct": 16.81,
+        "volume": 745332,
+        "trading_value": 61117224000,
+        "vol_surge": 3.17,
+        "score": 574.754
       },
       {
         "ticker": "000660.KS",
         "name": "SK하이닉스",
         "sector": "반도체",
-        "price": 1048000.0,
-        "change_pct": 6.83,
-        "volume": 3034173,
-        "trading_value": 3179813304000,
-        "vol_surge": 0.67,
-        "score": 57.3789
+        "price": 1056000.0,
+        "change_pct": 8.87,
+        "volume": 4180564,
+        "trading_value": 4414675584000,
+        "vol_surge": 0.93,
+        "score": 103.8416
       },
       {
         "ticker": "005930.KS",
         "name": "삼성전자",
         "sector": "반도체",
-        "price": 207000.0,
-        "change_pct": 5.94,
-        "volume": 20097131,
-        "trading_value": 4160106117000,
-        "vol_surge": 0.65,
-        "score": 48.3838
+        "price": 208500.0,
+        "change_pct": 7.53,
+        "volume": 26752791,
+        "trading_value": 5577956923500,
+        "vol_surge": 0.86,
+        "score": 82.4717
       },
       {
-        "ticker": "010950.KS",
-        "name": "S-Oil",
-        "sector": "화학/에너지",
-        "price": 110200.0,
-        "change_pct": 3.47,
-        "volume": 727138,
-        "trading_value": 80130607600,
-        "vol_surge": 0.87,
-        "score": 33.0444
+        "ticker": "005940.KS",
+        "name": "NH투자증권",
+        "sector": "금융",
+        "price": 34200.0,
+        "change_pct": 5.56,
+        "volume": 1028511,
+        "trading_value": 35175076200,
+        "vol_surge": 0.83,
+        "score": 48.9127
       },
       {
         "ticker": "055550.KS",
         "name": "신한지주",
         "sector": "금융",
         "price": 95000.0,
-        "change_pct": 3.94,
-        "volume": 1081522,
-        "trading_value": 102744590000,
-        "vol_surge": 0.69,
-        "score": 30.0267
+        "change_pct": 4.17,
+        "volume": 1486826,
+        "trading_value": 141248470000,
+        "vol_surge": 0.95,
+        "score": 44.2374
       },
       {
-        "ticker": "051910.KS",
-        "name": "LG화학",
+        "ticker": "010950.KS",
+        "name": "S-Oil",
         "sector": "화학/에너지",
-        "price": 322000.0,
-        "change_pct": 4.55,
-        "volume": 226027,
-        "trading_value": 72780694000,
-        "vol_surge": 0.58,
-        "score": 28.468
+        "price": 110600.0,
+        "change_pct": 3.85,
+        "volume": 859475,
+        "trading_value": 95057935000,
+        "vol_surge": 1.03,
+        "score": 43.6305
       },
       {
         "ticker": "086790.KS",
         "name": "하나금융지주",
         "sector": "금융",
-        "price": 114900.0,
-        "change_pct": 4.45,
-        "volume": 525976,
-        "trading_value": 60434642400,
-        "vol_surge": 0.59,
-        "score": 28.3119
-      },
-      {
-        "ticker": "105560.KS",
-        "name": "KB금융",
-        "sector": "금융",
-        "price": 155500.0,
-        "change_pct": 2.84,
-        "volume": 1036978,
-        "trading_value": 161250079000,
-        "vol_surge": 0.84,
-        "score": 26.8766
+        "price": 114500.0,
+        "change_pct": 4.19,
+        "volume": 713280,
+        "trading_value": 81670560000,
+        "vol_surge": 0.8,
+        "score": 36.5893
       },
       {
         "ticker": "000270.KS",
         "name": "기아",
         "sector": "자동차",
-        "price": 175700.0,
-        "change_pct": 4.15,
-        "volume": 926341,
-        "trading_value": 162758113700,
-        "vol_surge": 0.52,
-        "score": 24.1097
+        "price": 175100.0,
+        "change_pct": 4.66,
+        "volume": 1186749,
+        "trading_value": 207799749900,
+        "vol_surge": 0.66,
+        "score": 35.0113
       },
       {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 37300.0,
-        "change_pct": 4.19,
-        "volume": 708107,
-        "trading_value": 26412391100,
-        "vol_surge": 0.53,
-        "score": 23.2594
+        "ticker": "051910.KS",
+        "name": "LG화학",
+        "sector": "화학/에너지",
+        "price": 320000.0,
+        "change_pct": 4.07,
+        "volume": 296806,
+        "trading_value": 94977920000,
+        "vol_surge": 0.76,
+        "score": 33.7948
+      },
+      {
+        "ticker": "105560.KS",
+        "name": "KB금융",
+        "sector": "금융",
+        "price": 154700.0,
+        "change_pct": 2.65,
+        "volume": 1364026,
+        "trading_value": 211014822200,
+        "vol_surge": 1.11,
+        "score": 33.3318
       }
     ]
   },
@@ -335,266 +335,266 @@
     ]
   },
   "strategy": {
-    "overview": "KOSPI +4% 이상 급등하며 강세장 진입, 반도체 섹터가 +4.81%로 시장을 주도하는 섹터 로테이션 확인. 미국 시장은 소폭 상승에 그쳐 한국 시장의 독자적 강세가 두드러지며, IT/플랫폼 -4.85% 급락은 반도체로의 자금 이동을 시사함.",
-    "action": "SK하이닉스·삼성전자 중심 반도체 롱 포지션 유지, 장중 조정 시 2-3% 눌림목에서 추가 매수 고려. IT/플랫폼 섹터는 약세 지속 예상되어 숏 헷지 또는 관망, 금융주는 모멘텀 추종 전략으로 단기 스윙 진입 가능.",
-    "risk": "KOSPI 4% 급등 후 단기 과열 신호로 익일 차익실현 매물 출회 가능성 높음. 반도체 주도주 5% 이상 되돌림 시 손절, 환율 1,480원 하회 시 외국인 매수세 약화 모니터링 필요.",
-    "watchlist": "SK하이닉스: 100만원 돌파 후 신고가 영역, HBM 수요 지속 여부 확인\n삼성전자: 20만원 회복 시도, 외국인 수급 방향성 주목\n롯데케미칼: +15% 급등으로 단기 과열, 내일 갭 하락 시 숏 기회\n신한지주: 금융 섹터 강세 속 9.5만원 저항선 돌파 여부 관찰",
-    "date": "2026년 03월 18일 15:04 KST"
+    "overview": "KOSPI가 5% 이상 급등하며 반도체 섹터 주도의 강한 상승장. SK하이닉스, 삼성전자가 동반 급등하며 AI/HBM 관련 수급이 폭발적이고, 화학/금융으로 순환매 확산 조짐. 미국 증시는 소폭 상승 마감으로 한국 독자적 강세 구간 진입.",
+    "action": "반도체 대형주(SK하이닉스, 삼성전자) 단기 차익실현 30% 비중 축소 후 눌림목 재진입 대기. 롯데케미칼 등 순환매 수혜 화학/금융 섹터 단기 롱 포지션 신규 진입 고려, IT/플랫폼 섹터는 -4% 약세로 숏 헷지 유지. 급등 이후 변동성 확대 예상되어 장초반 30분 관망 후 진입 권장.",
+    "risk": "하루 5% 급등 후 익일 갭다운 및 차익실현 매물 출회 리스크 높음. SK하이닉스 100만원선, 삼성전자 20만원선 이탈 시 손절 기준 설정. 환율 급변동(1,500원 돌파) 시 외국인 이탈 가능성 주시 필요.",
+    "watchlist": "SK하이닉스: HBM 모멘텀 지속 여부 확인, 100만원 지지선 테스트 관찰\n롯데케미칼: 16% 급등 후 연속 상승 가능성, 화학 섹터 순환매 대장주\n신한지주: 금융 섹터 강세 지속 시 추가 상승 여력, 밸류업 수혜주\n카카오/네이버: IT플랫폼 -4% 급락 원인 파악 및 반등 매수 타이밍 탐색",
+    "date": "2026년 03월 18일 16:16 KST"
   },
   "consensus": {
     "kospi": {
-      "current": 5903.67,
-      "target_avg": 7423,
-      "upside_pct": 25.7,
+      "current": 5925.03,
+      "target_avg": 7453,
+      "upside_pct": 25.8,
       "firms_count": 27,
       "firms": [
         {
           "name": "KB",
-          "target": 8322,
+          "target": 8354,
           "upside_pct": 41.0,
           "stocks": 10
         },
         {
           "name": "한국투자",
-          "target": 8088,
-          "upside_pct": 37.0,
+          "target": 8122,
+          "upside_pct": 37.1,
           "stocks": 15
         },
         {
           "name": "DS투자",
-          "target": 7901,
-          "upside_pct": 33.8,
+          "target": 7924,
+          "upside_pct": 33.7,
           "stocks": 8
         },
         {
           "name": "SK",
-          "target": 7786,
-          "upside_pct": 31.9,
+          "target": 7805,
+          "upside_pct": 31.7,
           "stocks": 8
         },
         {
           "name": "유안타",
-          "target": 7749,
+          "target": 7781,
           "upside_pct": 31.3,
           "stocks": 15
         },
         {
           "name": "미래에셋",
-          "target": 7717,
+          "target": 7746,
           "upside_pct": 30.7,
           "stocks": 14
         },
         {
           "name": "대신",
-          "target": 7655,
+          "target": 7687,
           "upside_pct": 29.7,
           "stocks": 11
         },
         {
           "name": "다올투자",
-          "target": 7580,
-          "upside_pct": 28.4,
+          "target": 7611,
+          "upside_pct": 28.5,
           "stocks": 14
         },
         {
           "name": "메리츠",
-          "target": 7516,
-          "upside_pct": 27.3,
+          "target": 7549,
+          "upside_pct": 27.4,
           "stocks": 15
         },
         {
           "name": "삼성",
-          "target": 7501,
-          "upside_pct": 27.0,
+          "target": 7534,
+          "upside_pct": 27.1,
           "stocks": 15
         },
         {
           "name": "하나",
-          "target": 7486,
-          "upside_pct": 26.8,
+          "target": 7517,
+          "upside_pct": 26.9,
           "stocks": 14
         },
         {
+          "name": "흥국",
+          "target": 7512,
+          "upside_pct": 26.8,
+          "stocks": 9
+        },
+        {
           "name": "BNK투자",
-          "target": 7479,
+          "target": 7509,
           "upside_pct": 26.7,
           "stocks": 13
         },
         {
-          "name": "흥국",
-          "target": 7473,
-          "upside_pct": 26.6,
-          "stocks": 9
-        },
-        {
           "name": "키움",
-          "target": 7448,
-          "upside_pct": 26.2,
+          "target": 7482,
+          "upside_pct": 26.3,
           "stocks": 13
         },
         {
           "name": "한화투자",
-          "target": 7379,
+          "target": 7409,
           "upside_pct": 25.0,
           "stocks": 12
         },
         {
+          "name": "부국",
+          "target": 7353,
+          "upside_pct": 24.1,
+          "stocks": 1
+        },
+        {
           "name": "DB",
-          "target": 7319,
-          "upside_pct": 24.0,
+          "target": 7352,
+          "upside_pct": 24.1,
           "stocks": 14
         },
         {
           "name": "NH투자",
-          "target": 7316,
-          "upside_pct": 23.9,
+          "target": 7347,
+          "upside_pct": 24.0,
           "stocks": 14
         },
         {
-          "name": "부국",
-          "target": 7309,
-          "upside_pct": 23.8,
-          "stocks": 1
-        },
-        {
           "name": "iM",
-          "target": 7258,
+          "target": 7284,
           "upside_pct": 22.9,
           "stocks": 11
         },
         {
           "name": "LS",
-          "target": 7182,
-          "upside_pct": 21.7,
+          "target": 7214,
+          "upside_pct": 21.8,
           "stocks": 11
         }
       ]
     },
     "kosdaq": {
-      "current": 1160.46,
-      "target_avg": 1296,
-      "upside_pct": 11.7,
+      "current": 1164.38,
+      "target_avg": 1297,
+      "upside_pct": 11.4,
       "firms_count": 25,
       "firms": [
         {
           "name": "대신",
-          "target": 1716,
-          "upside_pct": 47.9,
+          "target": 1728,
+          "upside_pct": 48.4,
           "stocks": 1
         },
         {
           "name": "다올투자",
-          "target": 1678,
-          "upside_pct": 44.6,
+          "target": 1686,
+          "upside_pct": 44.8,
           "stocks": 2
         },
         {
           "name": "하나",
-          "target": 1586,
-          "upside_pct": 36.7,
+          "target": 1594,
+          "upside_pct": 36.9,
           "stocks": 3
         },
         {
           "name": "신한투자",
-          "target": 1522,
-          "upside_pct": 31.1,
-          "stocks": 2
-        },
-        {
-          "name": "키움",
-          "target": 1507,
-          "upside_pct": 29.9,
+          "target": 1527,
+          "upside_pct": 31.2,
           "stocks": 2
         },
         {
           "name": "현대차",
-          "target": 1502,
-          "upside_pct": 29.4,
+          "target": 1512,
+          "upside_pct": 29.9,
           "stocks": 1
         },
         {
           "name": "교보",
-          "target": 1502,
-          "upside_pct": 29.4,
+          "target": 1512,
+          "upside_pct": 29.9,
           "stocks": 1
         },
         {
+          "name": "키움",
+          "target": 1504,
+          "upside_pct": 29.2,
+          "stocks": 2
+        },
+        {
           "name": "KB",
-          "target": 1479,
-          "upside_pct": 27.4,
+          "target": 1481,
+          "upside_pct": 27.2,
           "stocks": 1
         },
         {
           "name": "LS",
-          "target": 1425,
-          "upside_pct": 22.8,
+          "target": 1427,
+          "upside_pct": 22.5,
           "stocks": 2
         },
         {
           "name": "흥국",
-          "target": 1420,
-          "upside_pct": 22.3,
+          "target": 1422,
+          "upside_pct": 22.1,
           "stocks": 1
         },
         {
           "name": "NH투자",
-          "target": 1380,
-          "upside_pct": 18.9,
+          "target": 1374,
+          "upside_pct": 18.0,
           "stocks": 2
         },
         {
           "name": "IBK투자",
-          "target": 1301,
-          "upside_pct": 12.1,
+          "target": 1304,
+          "upside_pct": 12.0,
           "stocks": 1
         },
         {
           "name": "BNK투자",
-          "target": 1265,
-          "upside_pct": 9.0,
+          "target": 1258,
+          "upside_pct": 8.1,
           "stocks": 2
         },
         {
           "name": "SK",
-          "target": 1240,
-          "upside_pct": 6.8,
+          "target": 1229,
+          "upside_pct": 5.5,
           "stocks": 2
         },
         {
           "name": "메리츠",
-          "target": 1213,
-          "upside_pct": 4.6,
+          "target": 1203,
+          "upside_pct": 3.3,
           "stocks": 3
         },
         {
           "name": "삼성",
-          "target": 1164,
-          "upside_pct": 0.3,
+          "target": 1161,
+          "upside_pct": -0.3,
           "stocks": 5
         },
         {
           "name": "DB",
-          "target": 1135,
-          "upside_pct": -2.2,
+          "target": 1141,
+          "upside_pct": -2.0,
           "stocks": 2
         },
         {
           "name": "신영",
-          "target": 1124,
-          "upside_pct": -3.2,
+          "target": 1126,
+          "upside_pct": -3.3,
           "stocks": 1
+        },
+        {
+          "name": "미래에셋",
+          "target": 1076,
+          "upside_pct": -7.6,
+          "stocks": 2
         },
         {
           "name": "DS투자",
-          "target": 1080,
-          "upside_pct": -7.0,
-          "stocks": 3
-        },
-        {
-          "name": "한국투자",
           "target": 1075,
-          "upside_pct": -7.4,
-          "stocks": 1
+          "upside_pct": -7.6,
+          "stocks": 3
         }
       ]
     }
