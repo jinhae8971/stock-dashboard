@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 20일 04:51 KST",
+  "updated_at": "2026년 03월 20일 05:42 KST",
   "indices": {
     "kospi": {
       "value": 5763.22,
@@ -10,20 +10,20 @@
       "change_pct": -1.79
     },
     "sp500": {
-      "value": 6609.58,
-      "change_pct": -0.22
+      "value": 6606.49,
+      "change_pct": -0.27
     },
     "nasdaq": {
-      "value": 22089.54,
+      "value": 22090.69,
       "change_pct": -0.28
     },
     "dow": {
-      "value": 46089.79,
-      "change_pct": -0.29
+      "value": 46021.43,
+      "change_pct": -0.44
     },
     "usdkrw": {
-      "value": 1488.62,
-      "change_pct": -1.2
+      "value": 1488.33,
+      "change_pct": -1.21
     }
   },
   "kr": {
@@ -112,47 +112,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.62
+        "change_pct": 0.67
       },
       {
         "name": "금융",
-        "change_pct": 0.14
+        "change_pct": 0.04
       },
       {
         "name": "에너지",
-        "change_pct": 1.29
+        "change_pct": 1.42
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.14
+        "change_pct": -0.27
       },
       {
         "name": "산업재",
-        "change_pct": -0.21
+        "change_pct": -0.35
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.67
+        "change_pct": -0.89
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.59
+        "change_pct": -0.77
       },
       {
         "name": "소재",
-        "change_pct": -1.41
+        "change_pct": -1.31
       },
       {
         "name": "부동산",
-        "change_pct": -0.32
+        "change_pct": -0.42
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.52
+        "change_pct": -0.51
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.03
+        "change_pct": -0.14
       }
     ],
     "top_stocks": [
@@ -160,120 +160,120 @@
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 47.61,
-        "change_pct": 4.98,
-        "volume": 22900758,
-        "trading_value": 1090305102,
-        "vol_surge": 1.22,
-        "score": 55.1158
+        "price": 47.82,
+        "change_pct": 5.45,
+        "volume": 24946894,
+        "trading_value": 1192960463,
+        "vol_surge": 1.33,
+        "score": 65.9909
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 205.72,
-        "change_pct": 3.2,
-        "volume": 27659726,
-        "trading_value": 5690158866,
-        "vol_surge": 0.76,
-        "score": 23.8252
-      },
-      {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 27.89,
-        "change_pct": 1.73,
-        "volume": 41050279,
-        "trading_value": 1144687039,
-        "vol_surge": 0.96,
-        "score": 14.9809
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 201.31,
-        "change_pct": 1.3,
-        "volume": 14076499,
-        "trading_value": 2833739979,
-        "vol_surge": 1.19,
-        "score": 14.6305
+        "price": 205.27,
+        "change_pct": 2.97,
+        "volume": 31972587,
+        "trading_value": 6563013070,
+        "vol_surge": 0.88,
+        "score": 25.7232
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 125.7,
-        "change_pct": 1.58,
-        "volume": 8752440,
-        "trading_value": 1100181681,
-        "vol_surge": 0.97,
-        "score": 13.9164
+        "price": 126.02,
+        "change_pct": 1.83,
+        "volume": 9694955,
+        "trading_value": 1221758196,
+        "vol_surge": 1.08,
+        "score": 17.944
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporatio",
+        "sector": "에너지",
+        "price": 201.44,
+        "change_pct": 1.37,
+        "volume": 15137596,
+        "trading_value": 3049317375,
+        "vol_surge": 1.28,
+        "score": 16.6364
+      },
+      {
+        "ticker": "T",
+        "name": "AT&T Inc.",
+        "sector": "통신서비스",
+        "price": 27.74,
+        "change_pct": 1.2,
+        "volume": 49738159,
+        "trading_value": 1379736519,
+        "vol_surge": 1.16,
+        "score": 12.7033
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 319.39,
-        "change_pct": 1.41,
-        "volume": 15944345,
-        "trading_value": 5092464583,
-        "vol_surge": 0.56,
-        "score": 7.7154
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 812.67,
-        "change_pct": 1.32,
-        "volume": 1342620,
-        "trading_value": 1091106972,
-        "vol_surge": 0.55,
-        "score": 6.5648
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 288.53,
-        "change_pct": 0.71,
-        "volume": 6779073,
-        "trading_value": 1955965924,
-        "vol_surge": 0.63,
-        "score": 4.1282
+        "price": 319.84,
+        "change_pct": 1.55,
+        "volume": 22910965,
+        "trading_value": 7327842961,
+        "vol_surge": 0.81,
+        "score": 12.3857
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 138.72,
-        "change_pct": 0.55,
-        "volume": 4207317,
-        "trading_value": 583639019,
-        "vol_surge": 0.83,
-        "score": 4.0152
+        "price": 138.82,
+        "change_pct": 0.62,
+        "volume": 4649959,
+        "trading_value": 645507342,
+        "vol_surge": 0.92,
+        "score": 5.0274
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 809.5,
+        "change_pct": 0.92,
+        "volume": 1461849,
+        "trading_value": 1183366765,
+        "vol_surge": 0.6,
+        "score": 5.0012
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 287.97,
+        "change_pct": 0.51,
+        "volume": 7341330,
+        "trading_value": 2114082809,
+        "vol_surge": 0.68,
+        "score": 3.2229
       },
       {
         "ticker": "JNJ",
         "name": "Johnson & Johnson",
         "sector": "헬스케어",
-        "price": 237.78,
-        "change_pct": 0.67,
-        "volume": 4240572,
-        "trading_value": 1008323204,
-        "vol_surge": 0.48,
-        "score": 2.9232
+        "price": 237.6,
+        "change_pct": 0.59,
+        "volume": 4866957,
+        "trading_value": 1156389012,
+        "vol_surge": 0.56,
+        "score": 2.9739
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 급락(-2.73%) vs 미국 보합세로 극심한 디커플링 발생. 원화 강세(-1.20%)에도 외국인 매도세가 반도체·IT 섹터에 집중되며 투심 악화. 미국은 에너지·기술주 주도로 방어적 흐름 유지 중.",
-    "action": "한국 시장 장초반 추가 하락 시 반도체 대형주(삼성전자, SK하이닉스) 분할 매수 접근. 리노공업 등 상대적 강세 종목은 지수 반등 확인 후 단기 롱 진입, KOSPI 5,700선 이탈 시 인버스 ETF 헷지 병행.",
-    "risk": "외국인 순매도 지속 여부와 프로그램 매물 출회 주시. 손절 기준은 진입가 대비 -2.5%, KOSPI 5,650선 하회 시 전체 포지션 50% 축소. 환율 급변동 가능성도 리스크 요인.",
-    "watchlist": "리노공업: 지수 급락에도 유일한 상승, 수급 우위 확인 시 단기 트레이딩\n삼성전자: 반도체 섹터 낙폭과대, 기술적 지지선 접근 시 반등 매매 기회\nKODEX 인버스: 추가 하락 대비 헷지 수단으로 활용\nAMD(미국): +3.2% 강세, 국내 반도체 동반 반등 트리거 여부 관찰",
-    "date": "2026년 03월 20일 04:50 KST"
+    "overview": "한국 시장 급락(-2.73%) vs 미국 소폭 조정(-0.27%)으로 디커플링 심화. 원화 강세(환율 -1.21%)에도 외국인 매도세 지속, 반도체·IT 섹터 중심 투매 양상. 미국 에너지·기술 강세와 대비되어 글로벌 자금이 미국으로 쏠리는 섹터 로테이션 진행 중.",
+    "action": "한국 시장 단기 숏 포지션 유지, KOSPI 5,700 지지선 이탈 시 추가 숏. 반등 시 IT/반도체 약세 종목 숏 커버 후 금융·헬스케어 방어주로 롱 스위칭 고려. 미국 에너지(SLB, COP) 롱 포지션 신규 진입, 기술주(AMD) 눌림목 매수 대기.",
+    "risk": "KOSPI 5,700선 붕괴 시 패닉셀 가능성, 손절 기준 -1.5% 설정. 원화 강세 지속 시 수출주 추가 하락 리스크 주시. 미국 FOMC 관련 발언 및 옵션 만기 변동성 확대 경계 필요.",
+    "watchlist": "리노공업: 반도체 섹터 유일 상승, 낙폭 과대 섹터 내 상대강도 확인용\n삼성전자: 반도체 대장주 저점 매수 타이밍 포착, 5만원대 지지 여부 모니터링\nSLB Limited: 에너지 섹터 모멘텀 리더, 추세 추종 롱 진입 후보\nAMD: 기술주 조정 속 강세, $200 지지 확인 후 분할 매수 검토",
+    "date": "2026년 03월 20일 05:41 KST"
   },
   "consensus": {
     "kospi": {
