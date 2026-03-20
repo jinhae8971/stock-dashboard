@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 21일 01:49 KST",
+  "updated_at": "2026년 03월 21일 02:38 KST",
   "indices": {
     "kospi": {
       "value": 5781.2,
@@ -10,20 +10,20 @@
       "change_pct": 1.58
     },
     "sp500": {
-      "value": 6548.91,
-      "change_pct": -0.87
+      "value": 6534.43,
+      "change_pct": -1.09
     },
     "nasdaq": {
-      "value": 21799.67,
-      "change_pct": -1.32
+      "value": 21720.7,
+      "change_pct": -1.67
     },
     "dow": {
-      "value": 45792.06,
-      "change_pct": -0.5
+      "value": 45732.1,
+      "change_pct": -0.63
     },
     "usdkrw": {
-      "value": 1503.58,
-      "change_pct": 0.61
+      "value": 1503.65,
+      "change_pct": 0.62
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "금융",
         "price": 35600.0,
         "change_pct": 6.59,
-        "volume": 1466630,
-        "trading_value": 52212028000,
-        "vol_surge": 1.18,
-        "score": 83.2548
+        "volume": 1656124,
+        "trading_value": 58958014400,
+        "vol_surge": 1.33,
+        "score": 94.2271
       },
       {
         "ticker": "138930.KS",
@@ -85,6 +85,17 @@
         "score": 80.9566
       },
       {
+        "ticker": "004020.KS",
+        "name": "현대제철",
+        "sector": "철강/소재",
+        "price": 37450.0,
+        "change_pct": 4.46,
+        "volume": 1783963,
+        "trading_value": 66809414350,
+        "vol_surge": 1.33,
+        "score": 64.1991
+      },
+      {
         "ticker": "032640.KS",
         "name": "LG유플러스",
         "sector": "통신",
@@ -94,17 +105,6 @@
         "trading_value": 83994454880,
         "vol_surge": 4.28,
         "score": 59.9091
-      },
-      {
-        "ticker": "004020.KS",
-        "name": "현대제철",
-        "sector": "철강/소재",
-        "price": 37450.0,
-        "change_pct": 4.46,
-        "volume": 1577759,
-        "trading_value": 59087074550,
-        "vol_surge": 1.18,
-        "score": 56.6488
       },
       {
         "ticker": "055550.KS",
@@ -151,26 +151,26 @@
         "score": 28.0465
       },
       {
-        "ticker": "251270.KS",
-        "name": "넷마블",
-        "sector": "IT/플랫폼",
-        "price": 52300.0,
-        "change_pct": 2.55,
-        "volume": 190208,
-        "trading_value": 9947878400,
-        "vol_surge": 0.7,
-        "score": 17.7483
+        "ticker": "005490.KS",
+        "name": "POSCO홀딩스",
+        "sector": "철강/소재",
+        "price": 343500.0,
+        "change_pct": 1.63,
+        "volume": 723365,
+        "trading_value": 248475877500,
+        "vol_surge": 1.13,
+        "score": 21.0062
       },
       {
-        "ticker": "051910.KS",
-        "name": "LG화학",
-        "sector": "화학/에너지",
-        "price": 310000.0,
-        "change_pct": 2.14,
-        "volume": 269738,
-        "trading_value": 83618780000,
-        "vol_surge": 0.7,
-        "score": 16.3701
+        "ticker": "000100.KS",
+        "name": "유한양행",
+        "sector": "헬스케어",
+        "price": 100300.0,
+        "change_pct": 1.62,
+        "volume": 413723,
+        "trading_value": 41496416900,
+        "vol_surge": 1.09,
+        "score": 18.7723
       }
     ]
   },
@@ -178,7 +178,7 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.77
+        "change_pct": -2.26
       },
       {
         "name": "금융",
@@ -186,39 +186,39 @@
       },
       {
         "name": "에너지",
-        "change_pct": 1.05
+        "change_pct": 0.81
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.45
+        "change_pct": -0.55
       },
       {
         "name": "산업재",
-        "change_pct": -1.32
+        "change_pct": -1.54
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.15
+        "change_pct": -1.42
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.81
+        "change_pct": -0.57
       },
       {
         "name": "소재",
-        "change_pct": -1.21
+        "change_pct": -1.4
       },
       {
         "name": "부동산",
-        "change_pct": -1.99
+        "change_pct": -1.45
       },
       {
         "name": "유틸리티",
-        "change_pct": -2.53
+        "change_pct": -2.29
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.73
+        "change_pct": -0.89
       }
     ],
     "top_stocks": [
@@ -228,118 +228,118 @@
         "sector": "통신서비스",
         "price": 28.58,
         "change_pct": 2.86,
-        "volume": 35271657,
-        "trading_value": 1008240283,
-        "vol_surge": 0.83,
-        "score": 21.4095
+        "volume": 39710377,
+        "trading_value": 1135121090,
+        "vol_surge": 0.94,
+        "score": 24.2416
       },
       {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 162.2,
-        "change_pct": 2.5,
-        "volume": 15838783,
-        "trading_value": 2569050554,
-        "vol_surge": 0.78,
-        "score": 18.4033
+        "price": 161.72,
+        "change_pct": 2.2,
+        "volume": 17978666,
+        "trading_value": 2907509887,
+        "vol_surge": 0.89,
+        "score": 18.4879
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 204.29,
-        "change_pct": 1.23,
-        "volume": 9534108,
-        "trading_value": 1947722859,
-        "vol_surge": 0.81,
-        "score": 9.2768
+        "price": 204.03,
+        "change_pct": 1.11,
+        "volume": 10540393,
+        "trading_value": 2150556370,
+        "vol_surge": 0.9,
+        "score": 9.2982
       },
       {
         "ticker": "VZ",
         "name": "Verizon Communicat",
         "sector": "통신서비스",
         "price": 50.38,
-        "change_pct": 1.83,
-        "volume": 14611519,
-        "trading_value": 736201360,
-        "vol_surge": 0.48,
-        "score": 7.7405
+        "change_pct": 1.82,
+        "volume": 15882774,
+        "trading_value": 800174171,
+        "vol_surge": 0.52,
+        "score": 8.4022
       },
       {
         "ticker": "GS",
         "name": "Goldman Sachs Grou",
         "sector": "금융",
-        "price": 819.0,
-        "change_pct": 0.73,
-        "volume": 1741796,
-        "trading_value": 1426530924,
-        "vol_surge": 0.73,
-        "score": 4.8719
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 282.36,
-        "change_pct": 0.65,
-        "volume": 6008929,
-        "trading_value": 1696681104,
-        "vol_surge": 0.67,
-        "score": 4.0493
+        "price": 819.6,
+        "change_pct": 0.81,
+        "volume": 2172982,
+        "trading_value": 1780975994,
+        "vol_surge": 0.91,
+        "score": 6.8151
       },
       {
         "ticker": "MA",
         "name": "Mastercard Incorpo",
         "sector": "금융",
-        "price": 497.16,
-        "change_pct": 1.05,
-        "volume": 1495073,
-        "trading_value": 743293920,
-        "vol_surge": 0.4,
-        "score": 3.758
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 127.15,
-        "change_pct": 0.68,
-        "volume": 4968906,
-        "trading_value": 631796405,
-        "vol_surge": 0.56,
-        "score": 3.3307
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 139.97,
-        "change_pct": 0.81,
-        "volume": 2294277,
-        "trading_value": 321129954,
-        "vol_surge": 0.46,
-        "score": 3.1734
+        "price": 497.99,
+        "change_pct": 1.22,
+        "volume": 1755819,
+        "trading_value": 874389074,
+        "vol_surge": 0.47,
+        "score": 5.1687
       },
       {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "금융",
-        "price": 301.9,
-        "change_pct": 0.63,
-        "volume": 3582293,
-        "trading_value": 1081512163,
-        "vol_surge": 0.48,
-        "score": 2.7108
+        "price": 302.23,
+        "change_pct": 0.74,
+        "volume": 4043010,
+        "trading_value": 1221939068,
+        "vol_surge": 0.54,
+        "score": 3.6147
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 127.03,
+        "change_pct": 0.59,
+        "volume": 5751114,
+        "trading_value": 730564004,
+        "vol_surge": 0.64,
+        "score": 3.3688
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 139.79,
+        "change_pct": 0.68,
+        "volume": 2478005,
+        "trading_value": 346387937,
+        "vol_surge": 0.5,
+        "score": 2.8886
+      },
+      {
+        "ticker": "PG",
+        "name": "Procter & Gamble C",
+        "sector": "필수소비재",
+        "price": 145.34,
+        "change_pct": 0.23,
+        "volume": 5654801,
+        "trading_value": 821868756,
+        "vol_surge": 0.53,
+        "score": 1.0924
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술주 급락(-1.32%)에도 한국 시장은 금융·철강 중심 방어적 로테이션으로 혼조세 마감. 원/달러 1,503원대 급등은 외국인 수급 부담 요인이나, 코스닥 +1.58% 강세는 내수 중소형주로의 자금 이동 시사. 오늘은 미국 기술주 약세 여파 제한적 반영 후 금융·에너지 섹터 강세 지속 전망.",
-    "action": "금융섹터 롱 포지션 유지, 특히 NH투자증권·신한지주 갭상승 시 추격 매수보다 3% 내외 눌림목 분할 진입 권고. IT/플랫폼(-4.42%) 섹터는 단기 반등 매도(숏 커버) 관점 접근, 나스닥 선물 야간 흐름 확인 후 09:30 이후 포지션 결정. 환율 1,500원 지지 여부에 따라 수출주 비중 조절.",
-    "risk": "원/달러 1,510원 돌파 시 외국인 매도 가속화 리스크 경계, 금융주는 전일 급등분 5% 이상 되돌림 시 손절. 나스닥 선물 추가 하락(-1% 이상) 시 반도체·IT 익스포저 즉시 축소. 주말 리스크 감안해 금요일 장 마감 30분 전 포지션 50% 이상 정리 권고.",
-    "watchlist": "NH투자증권: 거래량 동반 6.59% 급등, 증권업 실적 모멘텀 확인 필요\n현대제철: 철강 업황 개선 기대감, 4.46% 상승 후 37,000원 지지 여부 관찰\n삼성전자: 반도체 -0.11% 약보합, 나스닥 하락 영향권 내 외국인 수급 체크\n카카오/네이버: IT플랫폼 -4.42% 급락, 기술적 반등 구간 단타 기회 탐색",
-    "date": "2026년 03월 21일 01:48 KST"
+    "overview": "미국 기술주 급락(-1.67%)에도 불구하고 한국 증시는 금융·방어주 중심으로 혼조세 마감. 글로벌 리스크오프 환경에서 섹터 로테이션이 기술→금융/에너지/통신으로 뚜렷하게 진행 중이며, 원화 약세(1,503원)가 수출주보다 내수·금융주에 유리한 환경 조성.",
+    "action": "금융섹터 롱 포지션 유지, IT/플랫폼 숏 헷지 병행 전략 권고. NH투자증권·신한지주는 장 초반 갭업 시 분할 익절, 눌림목 시 재진입 고려. 반도체는 관망하되 삼성전자 전저점 이탈 시 단기 숏 진입 검토.",
+    "risk": "미국 나스닥 추가 하락 시 월요일 한국 기술주 갭다운 리스크 상존. 원/달러 1,510원 돌파 시 외국인 매도 가속화 가능성. 금융주 롱은 전일 종가 대비 -2.5% 손절, 숏 포지션은 +1.5% 역돌파 시 청산.",
+    "watchlist": "NH투자증권: 거래량 동반 급등, 증권업종 모멘텀 리더로 단기 추세 지속 여부 확인\n현대제철: 철강 섹터 반등 신호, 중국 부양책 수혜 기대감 모니터링\n삼성전자: 반도체 약세 지속 시 지지선(하방) 테스트 가능, 숏 트리거 관찰\nLG유플러스: 방어주 순환매 수혜, 배당주 선호 환경에서 안정적 흐름 기대",
+    "date": "2026년 03월 21일 02:37 KST"
   },
   "consensus": {
     "kospi": {
