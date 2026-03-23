@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 23일 18:09 KST",
+  "updated_at": "2026년 03월 23일 19:55 KST",
   "indices": {
     "kospi": {
       "value": 5405.75,
@@ -22,15 +22,15 @@
       "change_pct": -0.96
     },
     "usdkrw": {
-      "value": 1511.65,
-      "change_pct": 0.45
+      "value": 1515.38,
+      "change_pct": 0.7
     }
   },
   "kr": {
     "sectors": [
       {
         "name": "반도체",
-        "change_pct": -5.99
+        "change_pct": -6.14
       },
       {
         "name": "IT/플랫폼",
@@ -38,23 +38,23 @@
       },
       {
         "name": "금융",
-        "change_pct": -6.75
+        "change_pct": -6.78
       },
       {
         "name": "자동차",
-        "change_pct": -5.37
+        "change_pct": -5.41
       },
       {
         "name": "헬스케어",
-        "change_pct": -7.17
+        "change_pct": -7.21
       },
       {
         "name": "화학/에너지",
-        "change_pct": -5.61
+        "change_pct": -5.56
       },
       {
         "name": "철강/소재",
-        "change_pct": -7.75
+        "change_pct": -7.66
       },
       {
         "name": "통신",
@@ -67,11 +67,11 @@
         "name": "한화에어로스페이스",
         "sector": "헬스케어",
         "price": 1278000.0,
-        "change_pct": -2.74,
-        "volume": 232870,
-        "trading_value": 297607860000,
-        "vol_surge": 0.76,
-        "score": -2.74
+        "change_pct": -3.18,
+        "volume": 245950,
+        "trading_value": 314324100000,
+        "vol_surge": 0.8,
+        "score": -3.18
       },
       {
         "ticker": "011170.KS",
@@ -79,9 +79,9 @@
         "sector": "화학/에너지",
         "price": 81300.0,
         "change_pct": -3.44,
-        "volume": 204132,
-        "trading_value": 16595931600,
-        "vol_surge": 0.83,
+        "volume": 210655,
+        "trading_value": 17126251500,
+        "vol_surge": 0.85,
         "score": -3.44
       },
       {
@@ -90,9 +90,9 @@
         "sector": "반도체",
         "price": 297000.0,
         "change_pct": -4.04,
-        "volume": 788575,
-        "trading_value": 234206775000,
-        "vol_surge": 0.35,
+        "volume": 821634,
+        "trading_value": 244025298000,
+        "vol_surge": 0.37,
         "score": -4.04
       },
       {
@@ -101,9 +101,9 @@
         "sector": "자동차",
         "price": 161700.0,
         "change_pct": -4.04,
-        "volume": 1347768,
-        "trading_value": 217934085600,
-        "vol_surge": 0.75,
+        "volume": 1427176,
+        "trading_value": 230774359200,
+        "vol_surge": 0.79,
         "score": -4.04
       },
       {
@@ -112,9 +112,9 @@
         "sector": "통신",
         "price": 15130.0,
         "change_pct": -4.36,
-        "volume": 1008828,
-        "trading_value": 15263567640,
-        "vol_surge": 0.84,
+        "volume": 1110206,
+        "trading_value": 16797416780,
+        "vol_surge": 0.92,
         "score": -4.36
       },
       {
@@ -123,9 +123,9 @@
         "sector": "통신",
         "price": 57800.0,
         "change_pct": -4.78,
-        "volume": 355037,
-        "trading_value": 20521138600,
-        "vol_surge": 0.69,
+        "volume": 1029495,
+        "trading_value": 59504811000,
+        "vol_surge": 2.01,
         "score": -4.78
       },
       {
@@ -140,14 +140,25 @@
         "score": -4.83
       },
       {
+        "ticker": "012330.KS",
+        "name": "현대모비스",
+        "sector": "자동차",
+        "price": 381000.0,
+        "change_pct": -4.87,
+        "volume": 312826,
+        "trading_value": 119186706000,
+        "vol_surge": 0.67,
+        "score": -4.87
+      },
+      {
         "ticker": "207940.KS",
         "name": "삼성바이오로직스",
         "sector": "헬스케어",
         "price": 1523000.0,
         "change_pct": -4.87,
-        "volume": 34708,
-        "trading_value": 52860284000,
-        "vol_surge": 0.6,
+        "volume": 32660,
+        "trading_value": 49741180000,
+        "vol_surge": 0.57,
         "score": -4.87
       },
       {
@@ -160,17 +171,6 @@
         "trading_value": 10148590900,
         "vol_surge": 0.75,
         "score": -4.97
-      },
-      {
-        "ticker": "012330.KS",
-        "name": "현대모비스",
-        "sector": "자동차",
-        "price": 381000.0,
-        "change_pct": -5.22,
-        "volume": 291322,
-        "trading_value": 110993682000,
-        "vol_surge": 0.62,
-        "score": -5.22
       }
     ]
   },
@@ -190,11 +190,11 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.68
+        "change_pct": -0.85
       },
       {
         "name": "산업재",
-        "change_pct": -1.11
+        "change_pct": -1.12
       },
       {
         "name": "임의소비재",
@@ -210,7 +210,7 @@
       },
       {
         "name": "부동산",
-        "change_pct": -1.02
+        "change_pct": -0.25
       },
       {
         "name": "유틸리티",
@@ -218,7 +218,7 @@
       },
       {
         "name": "통신서비스",
-        "change_pct": -1.08
+        "change_pct": -0.68
       }
     ],
     "top_stocks": [
@@ -234,26 +234,26 @@
         "score": 8.1523
       },
       {
-        "ticker": "MRK",
-        "name": "Merck & Company, I",
-        "sector": "헬스케어",
-        "price": 114.18,
-        "change_pct": 0.25,
-        "volume": 10340802,
-        "trading_value": 1180712775,
-        "vol_surge": 0.88,
-        "score": 2.0069
-      },
-      {
         "ticker": "PLD",
         "name": "Prologis, Inc.",
         "sector": "부동산",
         "price": 128.01,
-        "change_pct": 0.01,
+        "change_pct": 0.85,
         "volume": 2998972,
         "trading_value": 383898389,
         "vol_surge": 0.91,
-        "score": 0.0778
+        "score": 6.6091
+      },
+      {
+        "ticker": "T",
+        "name": "AT&T Inc.",
+        "sector": "통신서비스",
+        "price": 28.31,
+        "change_pct": -0.04,
+        "volume": 64571587,
+        "trading_value": 1828021593,
+        "vol_surge": 1.51,
+        "score": -0.04
       },
       {
         "ticker": "CVX",
@@ -289,17 +289,6 @@
         "score": -0.14
       },
       {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 959.16,
-        "change_pct": -0.27,
-        "volume": 1817929,
-        "trading_value": 1743684730,
-        "vol_surge": 2.9,
-        "score": -0.27
-      },
-      {
         "ticker": "AMT",
         "name": "American Tower Cor",
         "sector": "부동산",
@@ -311,35 +300,46 @@
         "score": -0.29
       },
       {
+        "ticker": "VZ",
+        "name": "Verizon Communicat",
+        "sector": "통신서비스",
+        "price": 49.98,
+        "change_pct": -0.31,
+        "volume": 52812122,
+        "trading_value": 2639549833,
+        "vol_surge": 1.7,
+        "score": -0.31
+      },
+      {
         "ticker": "BRK-B",
         "name": "Berkshire Hathaway",
         "sector": "금융",
         "price": 480.94,
-        "change_pct": -0.32,
+        "change_pct": -0.35,
         "volume": 7770997,
         "trading_value": 3737383316,
         "vol_surge": 1.63,
-        "score": -0.32
+        "score": -0.35
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft Corporat",
         "sector": "기술",
         "price": 381.85,
-        "change_pct": -0.45,
+        "change_pct": -0.46,
         "volume": 50853154,
         "trading_value": 19418277165,
         "vol_surge": 1.51,
-        "score": -0.45
+        "score": -0.46
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 급락세(-6.49%)로 패닉 셀링 양상이며, 미국 대비 3-4배 낙폭으로 외국인 대량 매도 추정. IT/플랫폼(-9.30%), 금융(-6.75%) 중심 전 섹터 동반 급락으로 리스크오프 심화, 원화 약세(1,511원)가 외인 이탈 가속화.",
-    "action": "신규 롱 진입 금지, 기존 포지션 50% 이상 현금화 권고. 반등 시 KOSPI 5,300선 지지 확인 전까지 관망, 숏커버 랠리 노린 단타만 허용. VIX 급등 환경에서 변동성 매도(풋옵션 매도) 전략은 금일 회피.",
-    "risk": "추가 하락 시 KOSPI 5,200 이탈 가능성 대비, 손절 기준은 전일 종가 대비 -3% 추가 하락 시 전량 청산. 원/달러 1,520원 돌파 시 외인 매도 2차 파동 경계, 월요일 미국 선물 야간 동향 필수 체크.",
-    "watchlist": "한화에어로스페이스: 방산주 상대적 선방(-2.74%), 낙폭 과대 반등 1순위 후보\nEOG Resources: 미국 에너지 유일 강세 섹터, 글로벌 헷지 수단으로 관찰\n삼성전자: 반도체 대장주 낙폭 확인 후 기술적 반등 타점 탐색\nKODEX 인버스: 추가 하락 헷지용, KOSPI 5,350 하회 시 비중 확대 검토",
-    "date": "2026년 03월 23일 18:08 KST"
+    "overview": "한국 시장 급락(-6.49%)과 함께 전 섹터 동반 하락하는 강한 약세장. 미국 대비 낙폭이 4배 이상으로 외국인 이탈 및 원화 약세(1,515원)가 동반되며 패닉셀링 양상. 미국은 에너지 섹터만 방어되며 기술주 중심 조정 지속.",
+    "action": "신규 롱 진입 자제, 현금 비중 70% 이상 유지 권고. 기존 보유 종목은 손절라인(-3%) 엄격 적용하여 리스크 축소. 단기 반등 시 KOSPI 인버스 ETF(KODEX 인버스) 또는 달러 롱 포지션으로 헤지, 반등 확인 전까지 공격적 매수 금지.",
+    "risk": "환율 1,520원 돌파 시 추가 외국인 매도 가속화 위험. KOSPI 5,300선 이탈 시 기술적 지지선 붕괴로 추가 5% 하락 가능. 손절 기준은 진입가 대비 -2~3% 또는 전일 저점 이탈 시 즉시 청산.",
+    "watchlist": "KODEX 인버스: 하락장 헤지용, 추가 하락 시 수익 구간\n한화에어로스페이스: 방산주 상대적 선방(-3.18%), 반등 시 선도주 가능성\nEOG Resources: 미국 에너지 유일 강세, 달러 강세 수혜 글로벌 분산 대안\n삼성전자: 반도체 낙폭과대 구간 진입 여부 모니터링, 25만원대 지지 확인 필요",
+    "date": "2026년 03월 23일 19:54 KST"
   },
   "consensus": {
     "kospi": {
