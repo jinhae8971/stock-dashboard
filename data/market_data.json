@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 23일 17:04 KST",
+  "updated_at": "2026년 03월 23일 18:09 KST",
   "indices": {
     "kospi": {
       "value": 5405.75,
@@ -22,8 +22,8 @@
       "change_pct": -0.96
     },
     "usdkrw": {
-      "value": 1513.38,
-      "change_pct": 0.57
+      "value": 1511.65,
+      "change_pct": 0.45
     }
   },
   "kr": {
@@ -182,7 +182,7 @@
       },
       {
         "name": "금융",
-        "change_pct": -0.06
+        "change_pct": -0.75
       },
       {
         "name": "에너지",
@@ -190,31 +190,31 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.03
+        "change_pct": -0.68
       },
       {
         "name": "산업재",
-        "change_pct": -1.77
+        "change_pct": -1.11
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.81
+        "change_pct": -1.89
       },
       {
         "name": "필수소비재",
-        "change_pct": -1.17
+        "change_pct": -1.14
       },
       {
         "name": "소재",
-        "change_pct": -1.9
+        "change_pct": -1.28
       },
       {
         "name": "부동산",
-        "change_pct": -3.16
+        "change_pct": -1.02
       },
       {
         "name": "유틸리티",
-        "change_pct": -4.33
+        "change_pct": -1.09
       },
       {
         "name": "통신서비스",
@@ -223,103 +223,92 @@
     ],
     "top_stocks": [
       {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 28.31,
-        "change_pct": 1.87,
-        "volume": 64571587,
-        "trading_value": 1828021593,
-        "vol_surge": 1.51,
-        "score": 26.1388
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 126.92,
-        "change_pct": 0.5,
-        "volume": 31949449,
-        "trading_value": 4055024008,
-        "vol_surge": 3.43,
-        "score": 16.4946
-      },
-      {
-        "ticker": "VZ",
-        "name": "Verizon Communicat",
-        "sector": "통신서비스",
-        "price": 49.98,
-        "change_pct": 1.01,
-        "volume": 52812122,
-        "trading_value": 2639549833,
-        "vol_surge": 1.7,
-        "score": 16.2143
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
-        "sector": "금융",
-        "price": 496.32,
-        "change_pct": 0.88,
-        "volume": 5756518,
-        "trading_value": 2857075055,
-        "vol_surge": 1.54,
-        "score": 12.8099
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 159.67,
-        "change_pct": 0.9,
-        "volume": 27751863,
-        "trading_value": 4431139914,
-        "vol_surge": 1.36,
-        "score": 11.8284
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 813.53,
-        "change_pct": 0.06,
-        "volume": 2883596,
-        "trading_value": 2345891938,
-        "vol_surge": 1.2,
-        "score": 0.6763
+        "price": 138.73,
+        "change_pct": 0.3,
+        "volume": 15006503,
+        "trading_value": 2081852097,
+        "vol_surge": 2.92,
+        "score": 8.1523
       },
       {
         "ticker": "MRK",
         "name": "Merck & Company, I",
         "sector": "헬스케어",
         "price": 114.18,
-        "change_pct": -0.02,
+        "change_pct": 0.25,
         "volume": 10340802,
         "trading_value": 1180712775,
         "vol_surge": 0.88,
-        "score": -0.02
+        "score": 2.0069
+      },
+      {
+        "ticker": "PLD",
+        "name": "Prologis, Inc.",
+        "sector": "부동산",
+        "price": 128.01,
+        "change_pct": 0.01,
+        "volume": 2998972,
+        "trading_value": 383898389,
+        "vol_surge": 0.91,
+        "score": 0.0778
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
         "price": 201.73,
-        "change_pct": -0.03,
+        "change_pct": -0.13,
         "volume": 35212344,
         "trading_value": 7103386004,
         "vol_surge": 2.9,
-        "score": -0.03
+        "score": -0.13
       },
       {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 138.73,
-        "change_pct": -0.08,
-        "volume": 15006503,
-        "trading_value": 2081852097,
-        "vol_surge": 2.92,
-        "score": -0.08
+        "price": 159.67,
+        "change_pct": -0.14,
+        "volume": 27751863,
+        "trading_value": 4431139914,
+        "vol_surge": 1.36,
+        "score": -0.14
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 126.92,
+        "change_pct": -0.14,
+        "volume": 31949449,
+        "trading_value": 4055024008,
+        "vol_surge": 3.43,
+        "score": -0.14
+      },
+      {
+        "ticker": "EQIX",
+        "name": "Equinix, Inc.",
+        "sector": "부동산",
+        "price": 959.16,
+        "change_pct": -0.27,
+        "volume": 1817929,
+        "trading_value": 1743684730,
+        "vol_surge": 2.9,
+        "score": -0.27
+      },
+      {
+        "ticker": "AMT",
+        "name": "American Tower Cor",
+        "sector": "부동산",
+        "price": 176.79,
+        "change_pct": -0.29,
+        "volume": 3908728,
+        "trading_value": 691023996,
+        "vol_surge": 1.27,
+        "score": -0.29
       },
       {
         "ticker": "BRK-B",
@@ -331,15 +320,26 @@
         "trading_value": 3737383316,
         "vol_surge": 1.63,
         "score": -0.32
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 381.85,
+        "change_pct": -0.45,
+        "volume": 50853154,
+        "trading_value": 19418277165,
+        "vol_surge": 1.51,
+        "score": -0.45
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 전반 급락세로 강한 약세장 진입. KOSPI -6.49%, KOSDAQ -5.56%의 패닉셀링 양상이며, IT/플랫폼(-9.30%)과 금융(-6.75%) 중심 대규모 매도 압력 확인. 미국 대비 한국 낙폭이 3~4배로 외국인 대량 이탈 및 원화 약세(1,513원) 동반, 위험회피 심리 극대화 상태.",
-    "action": "신규 롱 진입 금지, 기존 포지션 50% 이상 현금화 권고. 반등 시 KOSPI 인버스 ETF(KODEX 인버스) 숏커버 또는 신규 숏 포지션 유지. 추가 하락 대비 KOSPI 5,200 지지선 이탈 시 전량 청산 후 관망. 단기 반등 시 5,500 저항선에서 숏 재진입 고려.",
-    "risk": "원/달러 1,520원 돌파 시 외국인 추가 매도 가속화 리스크. 글로벌 연쇄 하락 가능성 및 월요일 갭다운 리스크 존재. 손절 기준: 보유 종목 -3% 추가 하락 시 즉시 청산, 인버스 포지션은 KOSPI 5,550 상향 돌파 시 손절.",
-    "watchlist": "KODEX 200선물인버스2X: 하락장 헷지 및 추가 하락 시 수익 극대화 수단\n한화에어로스페이스: 방산주 상대적 선방(-2.74%), 반등 시 첫 매수 후보로 관찰\n삼성전자: 반도체 섹터 대장주, 패닉 저점 형성 여부 확인 후 분할매수 대기\nExxon Mobil: 미국 에너지 섹터 유일 강세, 달러 강세 수혜 글로벌 헷지 포지션 고려",
-    "date": "2026년 03월 23일 17:03 KST"
+    "overview": "한국 시장 급락세(-6.49%)로 패닉 셀링 양상이며, 미국 대비 3-4배 낙폭으로 외국인 대량 매도 추정. IT/플랫폼(-9.30%), 금융(-6.75%) 중심 전 섹터 동반 급락으로 리스크오프 심화, 원화 약세(1,511원)가 외인 이탈 가속화.",
+    "action": "신규 롱 진입 금지, 기존 포지션 50% 이상 현금화 권고. 반등 시 KOSPI 5,300선 지지 확인 전까지 관망, 숏커버 랠리 노린 단타만 허용. VIX 급등 환경에서 변동성 매도(풋옵션 매도) 전략은 금일 회피.",
+    "risk": "추가 하락 시 KOSPI 5,200 이탈 가능성 대비, 손절 기준은 전일 종가 대비 -3% 추가 하락 시 전량 청산. 원/달러 1,520원 돌파 시 외인 매도 2차 파동 경계, 월요일 미국 선물 야간 동향 필수 체크.",
+    "watchlist": "한화에어로스페이스: 방산주 상대적 선방(-2.74%), 낙폭 과대 반등 1순위 후보\nEOG Resources: 미국 에너지 유일 강세 섹터, 글로벌 헷지 수단으로 관찰\n삼성전자: 반도체 대장주 낙폭 확인 후 기술적 반등 타점 탐색\nKODEX 인버스: 추가 하락 헷지용, KOSPI 5,350 하회 시 비중 확대 검토",
+    "date": "2026년 03월 23일 18:08 KST"
   },
   "consensus": {
     "kospi": {
