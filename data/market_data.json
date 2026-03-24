@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 25일 04:07 KST",
+  "updated_at": "2026년 03월 25일 05:44 KST",
   "indices": {
     "kospi": {
       "value": 5553.92,
@@ -10,20 +10,20 @@
       "change_pct": 2.24
     },
     "sp500": {
-      "value": 6576.47,
-      "change_pct": -0.07
+      "value": 6556.37,
+      "change_pct": -0.37
     },
     "nasdaq": {
-      "value": 21831.15,
-      "change_pct": -0.53
+      "value": 21761.89,
+      "change_pct": -0.84
     },
     "dow": {
-      "value": 46279.46,
-      "change_pct": 0.15
+      "value": 46124.06,
+      "change_pct": -0.18
     },
     "usdkrw": {
-      "value": 1499.09,
-      "change_pct": 0.86
+      "value": 1496.19,
+      "change_pct": 0.67
     }
   },
   "kr": {
@@ -112,47 +112,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.61
+        "change_pct": -0.84
       },
       {
         "name": "금융",
-        "change_pct": 0.22
+        "change_pct": -0.1
       },
       {
         "name": "에너지",
-        "change_pct": 2.03
+        "change_pct": 2.19
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.17
+        "change_pct": -0.13
       },
       {
         "name": "산업재",
-        "change_pct": 0.53
+        "change_pct": 0.3
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.12
+        "change_pct": -0.43
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.34
+        "change_pct": -0.17
       },
       {
         "name": "소재",
-        "change_pct": 2.1
+        "change_pct": 1.64
       },
       {
         "name": "부동산",
-        "change_pct": -0.44
+        "change_pct": -1.03
       },
       {
         "name": "유틸리티",
-        "change_pct": 1.33
+        "change_pct": 0.74
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.98
+        "change_pct": -1.4
       }
     ],
     "top_stocks": [
@@ -160,126 +160,126 @@
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 165.02,
-        "change_pct": 2.54,
-        "volume": 18111681,
-        "trading_value": 2988842184,
-        "vol_surge": 0.86,
-        "score": 20.6037
-      },
-      {
-        "ticker": "FCX",
-        "name": "Freeport-McMoRan, ",
-        "sector": "소재",
-        "price": 56.51,
-        "change_pct": 2.87,
-        "volume": 11696669,
-        "trading_value": 661037241,
-        "vol_surge": 0.57,
-        "score": 14.3912
+        "price": 165.38,
+        "change_pct": 2.76,
+        "volume": 26024683,
+        "trading_value": 4303962201,
+        "vol_surge": 1.23,
+        "score": 32.7071
       },
       {
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 50.47,
-        "change_pct": 2.48,
-        "volume": 12710352,
-        "trading_value": 641491480,
-        "vol_surge": 0.63,
-        "score": 13.8546
+        "price": 50.51,
+        "change_pct": 2.56,
+        "volume": 16316986,
+        "trading_value": 824170935,
+        "vol_surge": 0.81,
+        "score": 18.5864
       },
       {
-        "ticker": "CAT",
-        "name": "Caterpillar, Inc.",
-        "sector": "산업재",
-        "price": 719.66,
-        "change_pct": 2.69,
-        "volume": 1211083,
-        "trading_value": 871574020,
-        "vol_surge": 0.43,
-        "score": 10.3774
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan, ",
+        "sector": "소재",
+        "price": 56.48,
+        "change_pct": 2.8,
+        "volume": 14800389,
+        "trading_value": 835925963,
+        "vol_surge": 0.72,
+        "score": 17.9711
       },
       {
         "ticker": "APD",
         "name": "Air Products and C",
         "sector": "소재",
-        "price": 287.1,
-        "change_pct": 3.28,
-        "volume": 547174,
-        "trading_value": 157093658,
-        "vol_surge": 0.37,
-        "score": 9.8205
-      },
-      {
-        "ticker": "NEE",
-        "name": "NextEra Energy, In",
-        "sector": "유틸리티",
-        "price": 92.19,
-        "change_pct": 1.73,
-        "volume": 5360369,
-        "trading_value": 494172431,
-        "vol_surge": 0.56,
-        "score": 8.4011
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 128.94,
-        "change_pct": 1.53,
-        "volume": 5496719,
-        "trading_value": 708746961,
-        "vol_surge": 0.58,
-        "score": 7.8668
-      },
-      {
-        "ticker": "NEM",
-        "name": "Newmont Corporatio",
-        "sector": "소재",
-        "price": 99.14,
-        "change_pct": 1.16,
-        "volume": 7618478,
-        "trading_value": 755295904,
-        "vol_surge": 0.74,
-        "score": 7.5809
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 142.29,
-        "change_pct": 1.64,
-        "volume": 2454661,
-        "trading_value": 349273697,
-        "vol_surge": 0.47,
-        "score": 6.559
+        "price": 286.25,
+        "change_pct": 2.97,
+        "volume": 940003,
+        "trading_value": 269075858,
+        "vol_surge": 0.63,
+        "score": 15.7119
       },
       {
         "ticker": "DE",
         "name": "Deere & Company",
         "sector": "산업재",
-        "price": 582.6,
-        "change_pct": 2.21,
-        "volume": 538496,
-        "trading_value": 313727756,
-        "vol_surge": 0.34,
-        "score": 6.4139
+        "price": 583.02,
+        "change_pct": 2.28,
+        "volume": 1141800,
+        "trading_value": 665692258,
+        "vol_surge": 0.72,
+        "score": 14.5701
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 129.35,
+        "change_pct": 1.85,
+        "volume": 8093527,
+        "trading_value": 1046897766,
+        "vol_surge": 0.86,
+        "score": 14.2741
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporatio",
+        "sector": "에너지",
+        "price": 206.79,
+        "change_pct": 0.92,
+        "volume": 16558592,
+        "trading_value": 3424151128,
+        "vol_surge": 1.34,
+        "score": 11.7236
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar, Inc.",
+        "sector": "산업재",
+        "price": 716.63,
+        "change_pct": 2.26,
+        "volume": 1550964,
+        "trading_value": 1111467338,
+        "vol_surge": 0.55,
+        "score": 11.2972
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 142.53,
+        "change_pct": 1.81,
+        "volume": 3148402,
+        "trading_value": 448741733,
+        "vol_surge": 0.6,
+        "score": 9.403
+      },
+      {
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 91.62,
+        "change_pct": 1.1,
+        "volume": 8777721,
+        "trading_value": 804214822,
+        "vol_surge": 0.91,
+        "score": 8.96
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 반도체·IT 주도의 강한 기술주 랠리(+2.74%)를 보이는 반면, 미국은 기술주 약세 속 에너지·소재 섹터로 로테이션이 진행 중인 혼조 장세. 원/달러 1,499원대의 원화 약세가 수출주에 우호적이나, 미국 기술주 약세가 내일 한국 시장에 부담으로 작용할 가능성 존재.",
-    "action": "반도체 장비주(원익IPS, 리노공업) 단기 모멘텀 롱 포지션 유지하되, 급등 종목은 장 초반 갭상승 시 일부 익절(5-7% 수익권). 신규 진입은 시가 대비 2-3% 눌림목에서 분할 매수, 미국 기술주 약세 감안해 오후장 변동성 확대 구간에서는 포지션 축소 권장.",
-    "risk": "미국 나스닥 -0.53% 하락이 국내 기술주 차익실현 압력으로 전이될 수 있음. 원/달러 1,500원 심리적 저항선 돌파 시 외국인 매도 가속화 리스크 주의. 손절 기준은 전일 종가 대비 -3% 또는 당일 시가 이탈 시 즉시 청산.",
-    "watchlist": "원익IPS: 반도체 장비 대장주, +15.9% 급등 후 연속 상승 모멘텀 vs 차익실현 분기점 관찰\n동진쎄미켐: 소부장 테마 수혜, 거래량 동반 상승으로 추세 지속 여부 확인\n리노공업: 반도체 후공정 대표주, 상대적 저평가로 순환매 유입 가능성\n삼성전자: 반도체 섹터 +4.88% 대비 수급 방향성 확인용 벤치마크로 활용",
-    "date": "2026년 03월 25일 04:06 KST"
+    "overview": "한국 증시는 반도체·IT 주도로 강세(KOSPI +2.74%), 미국은 기술주 약세 속 에너지·소재 섹터로 로테이션 진행. 원/달러 1,496원대 급등으로 수출주 환차익 기대감 유입되며 한미 증시 디커플링 장세 연출. 글로벌 자금이 미국 기술주에서 원자재·신흥국으로 이동하는 흐름 포착.",
+    "action": "장 초반 반도체 섹터 갭상승 시 원익IPS, 동진쎄미켐 등 급등주는 추격매수 자제하고 5% 이상 눌림목에서 분할 진입. 전일 미국 기술주 약세 감안, KOSDAQ 고PER 성장주는 오전 단타 수익 실현 권고. 환율 수혜 대형 수출주(삼성전자, 현대차) 중심으로 롱 포지션 유지.",
+    "risk": "원/달러 1,500원 심리적 저항선 근접으로 당국 구두개입 및 변동성 확대 경계. 미국 기술주 추가 하락 시 외국인 선물 매도 전환 가능성 주시. 손절 기준은 KOSPI 5,470(전일 종가 -1.5%) 이탈 시 전량 청산.",
+    "watchlist": "원익IPS: +15.9% 급등 후 단기 과열, 130,000원 지지 여부 확인 후 재진입 검토\n삼성전자: 환율 수혜 + 반도체 섹터 강세 수혜, 외국인 수급 확인 필수\n에쓰오일: 미국 에너지 섹터 강세 연동, 정유주 동반 상승 기대\nFreeport-McMoRan: 구리 가격 상승 베팅용, 미국장 소재 섹터 모멘텀 지속 여부 관찰",
+    "date": "2026년 03월 25일 05:44 KST"
   },
   "consensus": {
     "kospi": {
       "current": 5553.92,
-      "target_avg": 7488,
-      "upside_pct": 34.8,
+      "target_avg": 7497,
+      "upside_pct": 35.0,
       "firms_count": 27,
       "firms": [
         {
@@ -406,8 +406,8 @@
     },
     "kosdaq": {
       "current": 1121.44,
-      "target_avg": 1312,
-      "upside_pct": 17.0,
+      "target_avg": 1322,
+      "upside_pct": 17.9,
       "firms_count": 25,
       "firms": [
         {
@@ -441,12 +441,6 @@
           "stocks": 1
         },
         {
-          "name": "신한투자",
-          "target": 1480,
-          "upside_pct": 32.0,
-          "stocks": 2
-        },
-        {
           "name": "LS",
           "target": 1466,
           "upside_pct": 30.8,
@@ -457,6 +451,12 @@
           "target": 1453,
           "upside_pct": 29.5,
           "stocks": 1
+        },
+        {
+          "name": "신한투자",
+          "target": 1440,
+          "upside_pct": 28.4,
+          "stocks": 3
         },
         {
           "name": "키움",
@@ -475,6 +475,12 @@
           "target": 1376,
           "upside_pct": 22.7,
           "stocks": 3
+        },
+        {
+          "name": "한화투자",
+          "target": 1336,
+          "upside_pct": 19.2,
+          "stocks": 1
         },
         {
           "name": "NH투자",
@@ -523,12 +529,6 @@
           "target": 1143,
           "upside_pct": 1.9,
           "stocks": 2
-        },
-        {
-          "name": "한국투자",
-          "target": 1118,
-          "upside_pct": -0.3,
-          "stocks": 1
         }
       ]
     }
