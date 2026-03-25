@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 25일 22:17 KST",
+  "updated_at": "2026년 03월 26일 00:03 KST",
   "indices": {
     "kospi": {
       "value": 5642.21,
@@ -10,20 +10,20 @@
       "change_pct": 3.4
     },
     "sp500": {
-      "value": 6556.37,
-      "change_pct": -0.37
+      "value": 6611.57,
+      "change_pct": 0.83
     },
     "nasdaq": {
-      "value": 21761.89,
-      "change_pct": -0.84
+      "value": 22029.34,
+      "change_pct": 1.23
     },
     "dow": {
-      "value": 46124.06,
-      "change_pct": -0.18
+      "value": 46526.93,
+      "change_pct": 0.86
     },
     "usdkrw": {
-      "value": 1497.68,
-      "change_pct": -0.04
+      "value": 1498.25,
+      "change_pct": -0.01
     }
   },
   "kr": {
@@ -71,7 +71,7 @@
         "volume": 388512,
         "trading_value": 28167120000,
         "vol_surge": 0.91,
-        "score": 49.4635
+        "score": 49.5431
       },
       {
         "ticker": "012450.KS",
@@ -82,7 +82,7 @@
         "volume": 237552,
         "trading_value": 332572800000,
         "vol_surge": 0.76,
-        "score": 42.4822
+        "score": 42.6608
       },
       {
         "ticker": "005940.KS",
@@ -93,7 +93,7 @@
         "volume": 1009888,
         "trading_value": 34639158400,
         "vol_surge": 0.8,
-        "score": 34.4085
+        "score": 34.5298
       },
       {
         "ticker": "010950.KS",
@@ -104,7 +104,7 @@
         "volume": 511794,
         "trading_value": 57986260200,
         "vol_surge": 0.59,
-        "score": 28.4998
+        "score": 28.7047
       },
       {
         "ticker": "086790.KS",
@@ -115,7 +115,7 @@
         "volume": 1100025,
         "trading_value": 119572717500,
         "vol_surge": 1.17,
-        "score": 26.8503
+        "score": 26.7714
       },
       {
         "ticker": "017670.KS",
@@ -125,8 +125,8 @@
         "change_pct": 4.18,
         "volume": 805754,
         "trading_value": 64299169200,
-        "vol_surge": 0.57,
-        "score": 25.9709
+        "vol_surge": 0.58,
+        "score": 26.1627
       },
       {
         "ticker": "096770.KS",
@@ -137,7 +137,7 @@
         "volume": 429196,
         "trading_value": 48971263600,
         "vol_surge": 0.63,
-        "score": 24.447
+        "score": 24.604
       },
       {
         "ticker": "055550.KS",
@@ -148,7 +148,7 @@
         "volume": 1422006,
         "trading_value": 130966752600,
         "vol_surge": 0.85,
-        "score": 22.0751
+        "score": 22.1315
       },
       {
         "ticker": "105560.KS",
@@ -159,7 +159,7 @@
         "volume": 1431022,
         "trading_value": 213794686800,
         "vol_surge": 1.12,
-        "score": 21.5622
+        "score": 21.5179
       },
       {
         "ticker": "000100.KS",
@@ -170,7 +170,7 @@
         "volume": 220856,
         "trading_value": 21842658400,
         "vol_surge": 0.58,
-        "score": 20.6721
+        "score": 20.8231
       }
     ]
   },
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.01
+        "change_pct": 0.04
       },
       {
         "name": "금융",
-        "change_pct": -0.79
+        "change_pct": -0.34
       },
       {
         "name": "에너지",
-        "change_pct": 0.48
+        "change_pct": 0.26
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.47
+        "change_pct": 0.49
       },
       {
         "name": "산업재",
-        "change_pct": -0.91
+        "change_pct": -0.08
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.41
+        "change_pct": 0.67
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.38
+        "change_pct": -0.36
       },
       {
         "name": "소재",
-        "change_pct": -0.57
+        "change_pct": 0.92
       },
       {
         "name": "부동산",
-        "change_pct": -0.88
+        "change_pct": -0.81
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.66
+        "change_pct": -0.01
       },
       {
         "name": "통신서비스",
-        "change_pct": -1.1
+        "change_pct": -0.67
       }
     ],
     "top_stocks": [
       {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 165.38,
-        "change_pct": 0.71,
-        "volume": 26102420,
-        "trading_value": 4316818347,
-        "vol_surge": 1.21,
-        "score": 8.3094
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 129.35,
-        "change_pct": 0.78,
-        "volume": 8093527,
-        "trading_value": 1046897766,
-        "vol_surge": 0.85,
-        "score": 5.9656
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 206.79,
-        "change_pct": 0.45,
-        "volume": 16558592,
-        "trading_value": 3424151128,
-        "vol_surge": 1.31,
-        "score": 5.6259
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 219.1,
+        "change_pct": 5.87,
+        "volume": 19826519,
+        "trading_value": 4343986198,
+        "vol_surge": 0.54,
+        "score": 30.7117
       },
       {
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 50.51,
-        "change_pct": 0.52,
-        "volume": 19700622,
-        "trading_value": 995078384,
-        "vol_surge": 0.97,
-        "score": 4.5368
+        "price": 51.76,
+        "change_pct": 3.0,
+        "volume": 6436943,
+        "trading_value": 333143991,
+        "vol_surge": 0.32,
+        "score": 8.1003
       },
       {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 142.53,
-        "change_pct": 0.68,
-        "volume": 3148402,
-        "trading_value": 448741733,
-        "vol_surge": 0.6,
-        "score": 3.5159
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 180.33,
+        "change_pct": 1.91,
+        "volume": 64882895,
+        "trading_value": 11700378115,
+        "vol_surge": 0.37,
+        "score": 7.0725
       },
       {
-        "ticker": "APD",
-        "name": "Air Products and C",
-        "sector": "소재",
-        "price": 286.25,
-        "change_pct": 0.1,
-        "volume": 940003,
-        "trading_value": 269075858,
-        "vol_surge": 0.63,
-        "score": 0.5273
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 393.32,
+        "change_pct": 1.7,
+        "volume": 20063920,
+        "trading_value": 7891541161,
+        "vol_surge": 0.33,
+        "score": 5.5068
       },
       {
-        "ticker": "LLY",
-        "name": "Eli Lilly and Comp",
-        "sector": "헬스케어",
-        "price": 903.02,
-        "change_pct": -0.04,
-        "volume": 1728145,
-        "trading_value": 1560549531,
-        "vol_surge": 0.56,
-        "score": -0.04
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 235.27,
-        "change_pct": -0.06,
-        "volume": 5184429,
-        "trading_value": 1219740632,
-        "vol_surge": 0.6,
-        "score": -0.06
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 272.28,
-        "change_pct": -0.25,
-        "volume": 5890739,
-        "trading_value": 1603930407,
-        "vol_surge": 0.62,
-        "score": -0.25
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 211.91,
+        "change_pct": 1.43,
+        "volume": 12193138,
+        "trading_value": 2583908757,
+        "vol_surge": 0.25,
+        "score": 3.3349
       },
       {
         "ticker": "MRK",
         "name": "Merck & Company, I",
         "sector": "헬스케어",
-        "price": 116.37,
-        "change_pct": -0.27,
-        "volume": 4771675,
-        "trading_value": 555279832,
-        "vol_surge": 0.4,
-        "score": -0.27
+        "price": 118.89,
+        "change_pct": 1.89,
+        "volume": 2389054,
+        "trading_value": 284022689,
+        "vol_surge": 0.2,
+        "score": 3.1837
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 239.65,
+        "change_pct": 1.81,
+        "volume": 1426242,
+        "trading_value": 341806024,
+        "vol_surge": 0.16,
+        "score": 2.5241
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 207.84,
+        "change_pct": 1.28,
+        "volume": 1176685,
+        "trading_value": 244556334,
+        "vol_surge": 0.16,
+        "score": 1.7665
+      },
+      {
+        "ticker": "MCD",
+        "name": "McDonald's Corpora",
+        "sector": "임의소비재",
+        "price": 310.7,
+        "change_pct": 0.56,
+        "volume": 932183,
+        "trading_value": 289633906,
+        "vol_surge": 0.29,
+        "score": 1.3588
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 912.77,
+        "change_pct": 1.04,
+        "volume": 446259,
+        "trading_value": 407331836,
+        "vol_surge": 0.14,
+        "score": 1.2914
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 강세(KOSPI +1.59%, KOSDAQ +3.40%)인 반면 미국은 기술주 중심 약세로 혼조세 양상. 금융·에너지·방산 섹터로의 로테이션이 뚜렷하며, IT/플랫폼(-2.62%)에서 자금 이탈 중. 미국 에너지 섹터만 유일한 강세로 원자재 관련 모멘텀 지속.",
-    "action": "국내 금융주(NH투자증권, 하나금융지주) 롱 포지션 유지하되 장중 +2% 이상 추가 상승 시 일부 익절. 반도체는 미국 나스닥 약세 영향으로 관망, IT/플랫폼 숏 헷지 고려. 에너지(S-Oil) 단기 모멘텀 트레이딩으로 114,000원 돌파 시 진입, 111,500원 손절.",
-    "risk": "미국 기술주 추가 하락 시 내일 코스닥 갭다운 리스크 존재. 환율 1,500원 심리적 저항선 근접으로 외국인 매도 전환 가능성 주시. 손절 기준은 진입가 대비 -2% 일괄 적용.",
-    "watchlist": "NH투자증권: 금융 섹터 강세 지속, 거래량 동반 상승 확인 필요\nS-Oil: 에너지 모멘텀 + 미국 에너지 섹터 강세 수혜주\n한화에어로스페이스: 방산 테마 지속, 고가 부담 있으나 추세 유효\n삼성전자: 반도체 +0.57%로 소폭 강세, 나스닥 약세 영향 내일 확인용",
-    "date": "2026년 03월 25일 22:16 KST"
+    "overview": "한국 시장은 KOSPI +1.59%, KOSDAQ +3.40%로 강한 상승세를 보이며 금융·소재 섹터 주도의 순환매 장세가 전개 중입니다. 미국 반도체(AMD +5.87%, NVIDIA +1.91%) 강세가 국내 반도체 섹터에 온기를 전달할 것으로 예상되나, IT/플랫폼의 -2.62% 하락은 성장주에서 가치주로의 로테이션 신호입니다.",
+    "action": "금융주(NH투자증권, 하나금융지주) 롱 포지션 유지하되, 반도체 섹터는 장 초반 갭업 시 단기 차익실현 후 눌림목 재진입 전략을 권장합니다. IT/플랫폼 섹터는 반등 시 숏 헷지 비중을 5-10% 유지하고, 진입가 대비 +2% 수익 시 50% 부분 청산하세요.",
+    "risk": "원/달러 1,498원대 고착화로 외국인 수급 변동성 확대 가능하며, KOSDAQ 급등(+3.40%) 후 차익실현 매물 출회에 대비해야 합니다. 손절 기준은 개별 종목 진입가 대비 -2.5%, 지수 선물은 전일 저점 이탈 시 즉시 청산하세요.",
+    "watchlist": "NH투자증권: 금융 섹터 강세 지속 + 거래대금 증가에 따른 수혜 기대\n세아베스틸: +5.22% 급등 후 단기 과열 여부 모니터링, 눌림목 매수 기회 탐색\n삼성전자/SK하이닉스: 미국 반도체 랠리(AMD·NVIDIA) 수혜 연동 여부 확인\nNAVER/카카오: IT/플랫폼 -2.62% 하락 속 기술적 지지선 이탈 여부 관찰",
+    "date": "2026년 03월 26일 00:02 KST"
   },
   "consensus": {
     "kospi": {
