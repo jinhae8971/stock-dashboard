@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 26일 16:13 KST",
+  "updated_at": "2026년 03월 26일 18:01 KST",
   "indices": {
     "kospi": {
       "value": 5460.46,
@@ -22,8 +22,8 @@
       "change_pct": 0.66
     },
     "usdkrw": {
-      "value": 1503.95,
-      "change_pct": 0.13
+      "value": 1504.63,
+      "change_pct": 0.18
     }
   },
   "kr": {
@@ -79,10 +79,10 @@
         "sector": "금융",
         "price": 152200.0,
         "change_pct": 1.87,
-        "volume": 1212447,
-        "trading_value": 184534433400,
-        "vol_surge": 0.95,
-        "score": 19.9412
+        "volume": 1058672,
+        "trading_value": 161129878400,
+        "vol_surge": 0.83,
+        "score": 17.321
       },
       {
         "ticker": "055550.KS",
@@ -90,10 +90,10 @@
         "sector": "금융",
         "price": 93400.0,
         "change_pct": 1.41,
-        "volume": 1308067,
-        "trading_value": 122173457800,
-        "vol_surge": 0.79,
-        "score": 12.3076
+        "volume": 1065802,
+        "trading_value": 99545906800,
+        "vol_surge": 0.64,
+        "score": 9.9476
       },
       {
         "ticker": "011170.KS",
@@ -101,10 +101,10 @@
         "sector": "화학/에너지",
         "price": 80500.0,
         "change_pct": 0.88,
-        "volume": 276781,
-        "trading_value": 22280870500,
-        "vol_surge": 1.1,
-        "score": 10.0143
+        "volume": 266407,
+        "trading_value": 21445763500,
+        "vol_surge": 1.06,
+        "score": 9.6235
       },
       {
         "ticker": "316140.KS",
@@ -112,10 +112,10 @@
         "sector": "금융",
         "price": 33200.0,
         "change_pct": 0.61,
-        "volume": 1868366,
-        "trading_value": 62029751200,
-        "vol_surge": 0.76,
-        "score": 4.9727
+        "volume": 1583232,
+        "trading_value": 52563302400,
+        "vol_surge": 0.64,
+        "score": 4.1857
       },
       {
         "ticker": "017670.KS",
@@ -123,10 +123,10 @@
         "sector": "통신",
         "price": 80000.0,
         "change_pct": 0.25,
-        "volume": 903755,
-        "trading_value": 72300400000,
-        "vol_surge": 0.65,
-        "score": 1.7649
+        "volume": 830301,
+        "trading_value": 66424080000,
+        "vol_surge": 0.6,
+        "score": 1.616
       },
       {
         "ticker": "251270.KS",
@@ -156,10 +156,10 @@
         "sector": "철강/소재",
         "price": 342500.0,
         "change_pct": 0.15,
-        "volume": 282671,
-        "trading_value": 96814817500,
-        "vol_surge": 0.44,
-        "score": 0.7288
+        "volume": 258690,
+        "trading_value": 88601325000,
+        "vol_surge": 0.4,
+        "score": 0.6646
       },
       {
         "ticker": "000100.KS",
@@ -167,8 +167,8 @@
         "sector": "헬스케어",
         "price": 99000.0,
         "change_pct": 0.1,
-        "volume": 210814,
-        "trading_value": 20870586000,
+        "volume": 210816,
+        "trading_value": 20870784000,
         "vol_surge": 0.56,
         "score": 0.5753
       }
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.57
+        "change_pct": 0.26
       },
       {
         "name": "금융",
-        "change_pct": -0.66
+        "change_pct": 0.02
       },
       {
         "name": "에너지",
-        "change_pct": 0.03
+        "change_pct": -0.13
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.52
+        "change_pct": -0.05
       },
       {
         "name": "산업재",
-        "change_pct": -0.24
+        "change_pct": 0.56
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.32
+        "change_pct": -0.24
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.11
+        "change_pct": 0.16
       },
       {
         "name": "소재",
-        "change_pct": 1.4
+        "change_pct": -0.02
       },
       {
         "name": "부동산",
-        "change_pct": -0.93
+        "change_pct": 0.0
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.31
+        "change_pct": -0.13
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.83
+        "change_pct": 0.85
       }
     ],
     "top_stocks": [
       {
-        "ticker": "SLB",
-        "name": "SLB Limited",
-        "sector": "에너지",
-        "price": 51.89,
-        "change_pct": 3.27,
-        "volume": 24084004,
-        "trading_value": 1249718952,
-        "vol_surge": 1.18,
-        "score": 35.1537
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 594.89,
+        "change_pct": 0.47,
+        "volume": 12161179,
+        "trading_value": 7234563953,
+        "vol_surge": 0.84,
+        "score": 3.8927
       },
       {
-        "ticker": "MRK",
-        "name": "Merck & Company, I",
-        "sector": "헬스케어",
-        "price": 119.37,
-        "change_pct": 2.31,
-        "volume": 10184772,
-        "trading_value": 1215756261,
-        "vol_surge": 0.85,
-        "score": 17.8719
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 178.68,
+        "change_pct": 0.36,
+        "volume": 162047260,
+        "trading_value": 28954603229,
+        "vol_surge": 0.92,
+        "score": 3.4639
       },
       {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 239.93,
-        "change_pct": 1.92,
-        "volume": 6454367,
-        "trading_value": 1548596227,
-        "vol_surge": 0.74,
-        "score": 13.1042
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 290.93,
+        "change_pct": 0.29,
+        "volume": 29331608,
+        "trading_value": 8533444500,
+        "vol_surge": 0.89,
+        "score": 2.5614
       },
       {
-        "ticker": "LIN",
-        "name": "Linde plc",
-        "sector": "소재",
-        "price": 492.34,
-        "change_pct": 1.51,
-        "volume": 1901545,
-        "trading_value": 936206658,
-        "vol_surge": 0.71,
-        "score": 9.6697
+        "ticker": "HON",
+        "name": "Honeywell Internat",
+        "sector": "산업재",
+        "price": 225.79,
+        "change_pct": 0.26,
+        "volume": 4562978,
+        "trading_value": 1030274771,
+        "vol_surge": 1.07,
+        "score": 2.506
       },
       {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 211.71,
-        "change_pct": 1.34,
-        "volume": 35103651,
-        "trading_value": 7431794188,
-        "vol_surge": 0.72,
-        "score": 9.4796
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 220.27,
+        "change_pct": 0.17,
+        "volume": 47234598,
+        "trading_value": 10404365103,
+        "vol_surge": 1.29,
+        "score": 2.1918
       },
       {
-        "ticker": "APD",
-        "name": "Air Products and C",
-        "sector": "소재",
-        "price": 290.09,
-        "change_pct": 1.44,
-        "volume": 995815,
-        "trading_value": 288875969,
-        "vol_surge": 0.66,
-        "score": 8.0971
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 318.81,
+        "change_pct": 0.28,
+        "volume": 19852634,
+        "trading_value": 6329218197,
+        "vol_surge": 0.76,
+        "score": 2.0727
       },
       {
-        "ticker": "LLY",
-        "name": "Eli Lilly and Comp",
-        "sector": "헬스케어",
-        "price": 916.31,
-        "change_pct": 1.43,
-        "volume": 1603428,
-        "trading_value": 1469237106,
-        "vol_surge": 0.52,
-        "score": 6.847
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 295.42,
+        "change_pct": 0.14,
+        "volume": 12163728,
+        "trading_value": 3593408689,
+        "vol_surge": 1.1,
+        "score": 1.4745
       },
       {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 143.21,
-        "change_pct": 1.16,
-        "volume": 3537566,
-        "trading_value": 506614850,
-        "vol_surge": 0.67,
-        "score": 6.796
+        "ticker": "CAT",
+        "name": "Caterpillar, Inc.",
+        "sector": "산업재",
+        "price": 719.04,
+        "change_pct": 0.28,
+        "volume": 1587998,
+        "trading_value": 1141834047,
+        "vol_surge": 0.57,
+        "score": 1.4355
       },
       {
-        "ticker": "MCD",
-        "name": "McDonald's Corpora",
-        "sector": "임의소비재",
-        "price": 311.7,
-        "change_pct": 0.88,
-        "volume": 2755098,
-        "trading_value": 858764080,
-        "vol_surge": 0.85,
-        "score": 6.6796
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 502.76,
+        "change_pct": 0.28,
+        "volume": 1884031,
+        "trading_value": 947215443,
+        "vol_surge": 0.5,
+        "score": 1.2564
       },
       {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 207.18,
-        "change_pct": 0.96,
-        "volume": 3954057,
-        "trading_value": 819201500,
-        "vol_surge": 0.56,
-        "score": 4.7657
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 371.04,
+        "change_pct": 0.13,
+        "volume": 30437226,
+        "trading_value": 11293428595,
+        "vol_surge": 0.88,
+        "score": 1.1481
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI -3.22% 급락으로 강한 약세장, 반도체·IT 섹터 중심 대규모 매도세가 출회된 반면 미국 증시는 소폭 상승하며 디커플링 심화. 금융·통신 등 방어주로 급격한 섹터 로테이션이 진행 중이며, 원/달러 1,500원대 돌파로 외국인 이탈 압력 가중.",
-    "action": "반도체·IT 섹터 숏 포지션 유지하되 급락 후 기술적 반등 구간(KOSPI 5,400선)에서 일부 청산 고려. 금융주(KB금융, 신한지주) 단기 롱 진입 가능하나 비중 10% 이내로 제한하고, 환율 헷지 필수. 신규 매수는 장 후반 변동성 완화 확인 후 분할 진입.",
-    "risk": "원/달러 1,510원 돌파 시 외국인 추가 매도 가속화 가능, KOSPI 5,400선 붕괴 시 추가 하락 5~7% 열림. 반도체 숏 손절은 삼성전자 기준 +3% 반등 시 설정, 전체 포트폴리오 손실 한도 -2% 엄수.",
-    "watchlist": "삼성전자: 반도체 급락 주도주로 기술적 반등 및 추가 하락 방향성 확인 필요\nKB금융: 금융 섹터 강세 주도, 152,000원 지지 여부 관찰\nLG유플러스: 방어주 수급 집중, 16,000원 돌파 시 추가 상승 모멘텀\n네이버: IT 섹터 낙폭과대 종목으로 반등 시 단기 트레이딩 기회 탐색",
-    "date": "2026년 03월 26일 16:13 KST"
+    "overview": "한국 시장은 KOSPI -3.22% 급락으로 강한 약세장 진입, 반도체(-6.09%)와 IT/플랫폼(-5.19%) 섹터가 폭락하며 기술주 투매 양상. 반면 미국 증시는 소폭 상승 마감해 한미 디커플링 심화, 원화 약세(1,504원)와 금융 섹터로의 방어적 로테이션이 뚜렷함.",
+    "action": "반도체/IT 섹터 숏 포지션 유지 또는 신규 진입 고려, KOSPI 5,400 지지선 이탈 시 추가 숏 확대. 금융주(KB금융, 신한지주)는 단기 트레이딩 롱 관점으로 접근하되, 지수 반등 시 절반 익절 후 관망. 기술주 저가 매수는 KOSPI 5,300대 진입 전까지 보류.",
+    "risk": "원달러 1,510원 돌파 시 외국인 추가 이탈 가속화 리스크, 반도체 섹터 추가 하락 여력 상존. 숏 포지션 손절은 KOSPI 5,520 회복 시 즉시 청산, 롱 포지션은 -2% 손실 시 기계적 손절 적용.",
+    "watchlist": "삼성전자: 반도체 대장주 급락 후 기술적 반등 가능성 모니터링, 외국인 수급 확인 필수\nKB금융: 방어주 선호 흐름 수혜, 15만원 지지 여부가 추가 상승 관건\nLG유플러스: 통신 방어주로 상대적 강세, 16,000원 돌파 시 모멘텀 가속\nNVIDIA: 미국 기술주 흐름 선행지표, 한국 반도체 섹터 방향성 가늠용",
+    "date": "2026년 03월 26일 18:00 KST"
   },
   "consensus": {
     "kospi": {
