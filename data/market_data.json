@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 28일 04:43 KST",
+  "updated_at": "2026년 03월 28일 05:42 KST",
   "indices": {
     "kospi": {
       "value": 5438.87,
@@ -10,20 +10,20 @@
       "change_pct": 0.43
     },
     "sp500": {
-      "value": 6368.18,
-      "change_pct": -1.68
+      "value": 6368.85,
+      "change_pct": -1.67
     },
     "nasdaq": {
-      "value": 20945.09,
-      "change_pct": -2.16
+      "value": 20948.36,
+      "change_pct": -2.15
     },
     "dow": {
-      "value": 45140.37,
-      "change_pct": -1.77
+      "value": 45166.64,
+      "change_pct": -1.73
     },
     "usdkrw": {
-      "value": 1510.65,
-      "change_pct": 0.1
+      "value": 1507.95,
+      "change_pct": -0.08
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -2.56
+        "change_pct": -2.43
       },
       {
         "name": "금융",
-        "change_pct": -2.81
+        "change_pct": -2.83
       },
       {
         "name": "에너지",
-        "change_pct": 1.49
+        "change_pct": 1.57
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.94
+        "change_pct": -1.99
       },
       {
         "name": "산업재",
-        "change_pct": -2.08
+        "change_pct": -2.07
       },
       {
         "name": "임의소비재",
-        "change_pct": -3.81
+        "change_pct": -3.79
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.86
+        "change_pct": 0.88
       },
       {
         "name": "소재",
-        "change_pct": -0.94
+        "change_pct": -0.89
       },
       {
         "name": "부동산",
-        "change_pct": -0.74
+        "change_pct": -0.82
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.27
+        "change_pct": 0.2
       },
       {
         "name": "통신서비스",
-        "change_pct": -1.66
+        "change_pct": -1.71
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 170.41,
-        "change_pct": 3.11,
-        "volume": 23316510,
-        "trading_value": 3973366554,
-        "vol_surge": 1.08,
-        "score": 32.2365
+        "price": 170.99,
+        "change_pct": 3.46,
+        "volume": 26461934,
+        "trading_value": 4524726240,
+        "vol_surge": 1.23,
+        "score": 40.9418
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 211.11,
-        "change_pct": 1.62,
-        "volume": 10702424,
-        "trading_value": 2259388737,
-        "vol_surge": 0.84,
-        "score": 12.7803
+        "price": 211.15,
+        "change_pct": 1.64,
+        "volume": 13880692,
+        "trading_value": 2930908031,
+        "vol_surge": 1.09,
+        "score": 16.983
       },
       {
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 53.17,
-        "change_pct": 1.58,
-        "volume": 13924478,
-        "trading_value": 740434107,
-        "vol_surge": 0.68,
-        "score": 9.4849
-      },
-      {
-        "ticker": "PEP",
-        "name": "Pepsico, Inc.",
-        "sector": "필수소비재",
-        "price": 153.32,
-        "change_pct": 1.73,
-        "volume": 4455320,
-        "trading_value": 683089695,
-        "vol_surge": 0.56,
-        "score": 8.5795
+        "price": 53.5,
+        "change_pct": 2.2,
+        "volume": 17116385,
+        "trading_value": 915726597,
+        "vol_surge": 0.83,
+        "score": 16.4031
       },
       {
         "ticker": "AEP",
         "name": "American Electric ",
         "sector": "유틸리티",
-        "price": 130.3,
-        "change_pct": 1.3,
-        "volume": 2428697,
-        "trading_value": 316471344,
-        "vol_surge": 0.67,
-        "score": 7.3712
+        "price": 130.1,
+        "change_pct": 1.14,
+        "volume": 4382676,
+        "trading_value": 570186174,
+        "vol_surge": 1.2,
+        "score": 12.0153
+      },
+      {
+        "ticker": "PEP",
+        "name": "Pepsico, Inc.",
+        "sector": "필수소비재",
+        "price": 153.04,
+        "change_pct": 1.54,
+        "volume": 6633305,
+        "trading_value": 1015160952,
+        "vol_surge": 0.84,
+        "score": 11.5922
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 101.68,
-        "change_pct": 0.92,
-        "volume": 7101240,
-        "trading_value": 722064758,
-        "vol_surge": 0.67,
-        "score": 5.4484
+        "price": 102.1,
+        "change_pct": 1.34,
+        "volume": 8324245,
+        "trading_value": 849905401,
+        "vol_surge": 0.78,
+        "score": 9.3767
       },
       {
         "ticker": "KO",
         "name": "Coca-Cola Company ",
         "sector": "필수소비재",
-        "price": 75.55,
-        "change_pct": 1.0,
-        "volume": 10225013,
-        "trading_value": 772499763,
-        "vol_surge": 0.56,
-        "score": 5.0212
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 133.88,
-        "change_pct": 0.63,
-        "volume": 6821157,
-        "trading_value": 913216532,
-        "vol_surge": 0.71,
-        "score": 4.0074
+        "price": 75.71,
+        "change_pct": 1.22,
+        "volume": 12478543,
+        "trading_value": 944750479,
+        "vol_surge": 0.69,
+        "score": 7.5494
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 91.24,
-        "change_pct": 0.81,
-        "volume": 4569952,
-        "trading_value": 416939573,
-        "vol_surge": 0.47,
-        "score": 3.2816
+        "price": 91.4,
+        "change_pct": 0.99,
+        "volume": 5665980,
+        "trading_value": 517870580,
+        "vol_surge": 0.58,
+        "score": 5.0271
       },
       {
-        "ticker": "DUK",
-        "name": "Duke Energy Corpor",
-        "sector": "유틸리티",
-        "price": 130.16,
-        "change_pct": 0.43,
-        "volume": 2962482,
-        "trading_value": 385596667,
-        "vol_surge": 0.67,
-        "score": 2.4583
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "sector": "에너지",
+        "price": 133.8,
+        "change_pct": 0.57,
+        "volume": 9164626,
+        "trading_value": 1226226986,
+        "vol_surge": 0.95,
+        "score": 4.941
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 983.86,
+        "change_pct": 0.39,
+        "volume": 1402656,
+        "trading_value": 1380017111,
+        "vol_surge": 0.63,
+        "score": 2.2535
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술주 급락(-2.16%)에도 한국 시장은 상대적으로 선방하며 혼조세 마감. 글로벌 리스크오프 심리 속 에너지·방어주로 섹터 로테이션이 진행 중이며, 국내는 금융주가 강세를 보이고 있음.",
-    "action": "미국 기술주 약세 여파로 오전 갭다운 시 금융섹터(NH투자증권, 하나금융) 분할 매수 진입. KOSPI 5,400 지지 확인 후 롱 포지션, 5,380 이탈 시 숏 전환. 반도체는 관망하며 낙폭과대 시에만 단기 트레이딩.",
-    "risk": "원/달러 1,510원대 고착화로 외국인 매도세 지속 가능성 주의. 나스닥 추가 하락 시 국내 IT섹터 동반 급락 리스크 존재. 손절 기준은 진입가 대비 -2%, KOSPI 5,350 이탈 시 전량 청산.",
-    "watchlist": "NH투자증권: 금융섹터 모멘텀 + 거래대금 증가, 34,000원 지지 확인 시 추가 매수\n하나금융지주: 외국인 순매수 지속 + 배당매력, 11만원대 안착 여부 관찰\n롯데케미칼: 유가 상승 수혜주로 단기 반등세, 83,000원 돌파 시 추세 전환 가능\n삼성전자: 반도체 섹터 0% 횡보 중 낙폭과대 구간 진입 여부 모니터링",
-    "date": "2026년 03월 28일 04:42 KST"
+    "overview": "미국 기술주 급락(-2.15%)에도 코스피는 선방하며 혼조세를 보이고, 글로벌 에너지 강세와 금융 섹터로의 로테이션이 뚜렷합니다. 한국은 금융주 중심 방어적 흐름, 미국은 경기방어주(에너지/유틸리티/필수소비재)로 자금 이동 중입니다.",
+    "action": "코스피 금융주(증권/지주) 롱 포지션 유지하며, 나스닥 하락 영향으로 국내 IT/반도체는 단기 숏 헷지 병행을 권고합니다. 금융주는 전일 종가 대비 +1% 이상 갭업 시 분할 익절, 기술주는 장 초반 30분 관망 후 반등 실패 시 숏 진입하세요.",
+    "risk": "원/달러 1,507원대 고환율 지속으로 외국인 매도 압력 주의하며, S&P 500 추가 하락 시 코스피 동반 조정 가능성이 있습니다. 손절 기준은 금융 롱 -2%, 기술 숏은 나스닥 선물 +1% 반등 시 청산하세요.",
+    "watchlist": "NH투자증권: 금융 섹터 주도주, 거래량 동반 상승세로 모멘텀 지속 기대\n하나금융지주: 배당주 특성상 방어적 매수세 유입, 110,000원 지지 확인 필요\n롯데케미칼: 에너지 섹터 글로벌 강세 수혜, 단기 기술적 반등 구간\n삼성전자: 반도체 0% 보합으로 방향성 탐색 중, 나스닥 영향 확인 후 대응",
+    "date": "2026년 03월 28일 05:41 KST"
   },
   "consensus": {
     "kospi": {
