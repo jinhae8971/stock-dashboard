@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 03월 31일 01:12 KST",
+  "updated_at": "2026년 03월 31일 02:57 KST",
   "indices": {
     "kospi": {
       "value": 5277.3,
@@ -10,20 +10,20 @@
       "change_pct": -3.02
     },
     "sp500": {
-      "value": 6389.4,
-      "change_pct": 0.34
+      "value": 6359.24,
+      "change_pct": -0.13
     },
     "nasdaq": {
-      "value": 20962.05,
-      "change_pct": 0.07
+      "value": 20842.48,
+      "change_pct": -0.51
     },
     "dow": {
-      "value": 45494.06,
-      "change_pct": 0.74
+      "value": 45312.49,
+      "change_pct": 0.34
     },
     "usdkrw": {
-      "value": 1517.78,
-      "change_pct": 0.64
+      "value": 1518.2,
+      "change_pct": 0.67
     }
   },
   "kr": {
@@ -61,164 +61,53 @@
         "change_pct": -2.12
       }
     ],
-    "top_stocks": [
-      {
-        "ticker": "051910.KS",
-        "name": "LG화학",
-        "sector": "화학/에너지",
-        "price": 322000.0,
-        "change_pct": 2.88,
-        "volume": 387305,
-        "trading_value": 124712210000,
-        "vol_surge": 0.97,
-        "score": 31.1527
-      },
-      {
-        "ticker": "096770.KS",
-        "name": "SK이노베이션",
-        "sector": "화학/에너지",
-        "price": 113400.0,
-        "change_pct": 1.8,
-        "volume": 494381,
-        "trading_value": 56062805400,
-        "vol_surge": 0.72,
-        "score": 13.9285
-      },
-      {
-        "ticker": "010950.KS",
-        "name": "S-Oil",
-        "sector": "화학/에너지",
-        "price": 110100.0,
-        "change_pct": 0.36,
-        "volume": 423741,
-        "trading_value": 46653884100,
-        "vol_surge": 0.48,
-        "score": 1.8527
-      },
-      {
-        "ticker": "005490.KS",
-        "name": "POSCO홀딩스",
-        "sector": "철강/소재",
-        "price": 343000.0,
-        "change_pct": 0.0,
-        "volume": 325602,
-        "trading_value": 111681486000,
-        "vol_surge": 0.51,
-        "score": 0.0
-      },
-      {
-        "ticker": "030200.KS",
-        "name": "KT",
-        "sector": "통신",
-        "price": 60800.0,
-        "change_pct": 0.0,
-        "volume": 355357,
-        "trading_value": 21605705600,
-        "vol_surge": 0.67,
-        "score": 0.0
-      },
-      {
-        "ticker": "011170.KS",
-        "name": "롯데케미칼",
-        "sector": "화학/에너지",
-        "price": 82100.0,
-        "change_pct": -0.73,
-        "volume": 249577,
-        "trading_value": 20490271700,
-        "vol_surge": 0.95,
-        "score": -0.73
-      },
-      {
-        "ticker": "005930.KS",
-        "name": "삼성전자",
-        "sector": "반도체",
-        "price": 176300.0,
-        "change_pct": -1.89,
-        "volume": 24154952,
-        "trading_value": 4258518037600,
-        "vol_surge": 0.76,
-        "score": -1.89
-      },
-      {
-        "ticker": "000100.KS",
-        "name": "유한양행",
-        "sector": "헬스케어",
-        "price": 98500.0,
-        "change_pct": -1.89,
-        "volume": 167491,
-        "trading_value": 16497863500,
-        "vol_surge": 0.45,
-        "score": -1.89
-      },
-      {
-        "ticker": "017670.KS",
-        "name": "SK텔레콤",
-        "sector": "통신",
-        "price": 78300.0,
-        "change_pct": -2.0,
-        "volume": 842066,
-        "trading_value": 65933767800,
-        "vol_surge": 0.6,
-        "score": -2.0
-      },
-      {
-        "ticker": "012450.KS",
-        "name": "한화에어로스페이스",
-        "sector": "헬스케어",
-        "price": 1308000.0,
-        "change_pct": -2.02,
-        "volume": 160318,
-        "trading_value": 209695944000,
-        "vol_surge": 0.52,
-        "score": -2.02
-      }
-    ]
+    "top_stocks": []
   },
   "us": {
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.71
+        "change_pct": -1.31
       },
       {
         "name": "금융",
-        "change_pct": 1.81
+        "change_pct": 1.42
       },
       {
         "name": "에너지",
-        "change_pct": 0.18
+        "change_pct": -0.62
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.74
+        "change_pct": 0.6
       },
       {
         "name": "산업재",
-        "change_pct": -0.35
+        "change_pct": -0.94
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.95
+        "change_pct": -0.03
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.5
+        "change_pct": 0.17
       },
       {
         "name": "소재",
-        "change_pct": 0.72
+        "change_pct": 0.18
       },
       {
         "name": "부동산",
-        "change_pct": 1.45
+        "change_pct": 0.74
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.72
+        "change_pct": 0.51
       },
       {
         "name": "통신서비스",
-        "change_pct": 1.58
+        "change_pct": 1.25
       }
     ],
     "top_stocks": [
@@ -226,120 +115,120 @@
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 538.2,
-        "change_pct": 3.5,
-        "volume": 11110523,
-        "trading_value": 5979682257,
-        "vol_surge": 0.73,
-        "score": 25.019
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 203.0,
-        "change_pct": 2.24,
-        "volume": 17486630,
-        "trading_value": 3549785890,
-        "vol_surge": 0.35,
-        "score": 7.5406
+        "price": 537.46,
+        "change_pct": 3.35,
+        "volume": 13966329,
+        "trading_value": 7506273591,
+        "vol_surge": 0.92,
+        "score": 30.4059
       },
       {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "금융",
-        "price": 300.63,
-        "change_pct": 2.08,
-        "volume": 2996536,
-        "trading_value": 900848632,
-        "vol_surge": 0.38,
-        "score": 7.0621
-      },
-      {
-        "ticker": "CCI",
-        "name": "Crown Castle Inc.",
-        "sector": "부동산",
-        "price": 80.96,
-        "change_pct": 2.87,
-        "volume": 849558,
-        "trading_value": 68780214,
-        "vol_surge": 0.25,
-        "score": 5.699
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
-        "sector": "금융",
-        "price": 494.92,
-        "change_pct": 2.44,
-        "volume": 948164,
-        "trading_value": 469265339,
-        "vol_surge": 0.25,
-        "score": 5.2387
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "sector": "헬스케어",
-        "price": 213.04,
-        "change_pct": 2.06,
-        "volume": 2087488,
-        "trading_value": 444718429,
-        "vol_surge": 0.29,
-        "score": 5.1959
+        "price": 299.45,
+        "change_pct": 1.68,
+        "volume": 3950936,
+        "trading_value": 1183127486,
+        "vol_surge": 0.5,
+        "score": 7.6201
       },
       {
         "ticker": "EQIX",
         "name": "Equinix, Inc.",
         "sector": "부동산",
-        "price": 972.71,
-        "change_pct": 2.39,
-        "volume": 157224,
-        "trading_value": 152933360,
-        "vol_surge": 0.25,
-        "score": 4.8114
+        "price": 965.81,
+        "change_pct": 1.66,
+        "volume": 343760,
+        "trading_value": 332006844,
+        "vol_surge": 0.54,
+        "score": 7.6072
       },
       {
-        "ticker": "AMT",
-        "name": "American Tower Cor",
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 889.1,
+        "change_pct": 1.64,
+        "volume": 1541069,
+        "trading_value": 1370172123,
+        "vol_surge": 0.5,
+        "score": 7.4676
+      },
+      {
+        "ticker": "CCI",
+        "name": "Crown Castle Inc.",
         "sector": "부동산",
-        "price": 172.61,
-        "change_pct": 2.14,
-        "volume": 802898,
-        "trading_value": 138588224,
-        "vol_surge": 0.25,
-        "score": 4.3811
+        "price": 80.44,
+        "change_pct": 2.21,
+        "volume": 1348620,
+        "trading_value": 108489735,
+        "vol_surge": 0.4,
+        "score": 7.1423
+      },
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 213.07,
+        "change_pct": 2.07,
+        "volume": 2679184,
+        "trading_value": 570853754,
+        "vol_surge": 0.37,
+        "score": 6.785
+      },
+      {
+        "ticker": "SO",
+        "name": "Southern Company (",
+        "sector": "유틸리티",
+        "price": 97.33,
+        "change_pct": 1.75,
+        "volume": 2529767,
+        "trading_value": 246222226,
+        "vol_surge": 0.42,
+        "score": 6.2007
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 492.46,
+        "change_pct": 1.94,
+        "volume": 1263677,
+        "trading_value": 622310364,
+        "vol_surge": 0.33,
+        "score": 5.6297
       },
       {
         "ticker": "BRK-B",
         "name": "Berkshire Hathaway",
         "sector": "금융",
-        "price": 476.58,
-        "change_pct": 1.71,
-        "volume": 1333515,
-        "trading_value": 635526560,
-        "vol_surge": 0.28,
-        "score": 4.1491
+        "price": 476.21,
+        "change_pct": 1.63,
+        "volume": 1860600,
+        "trading_value": 886045622,
+        "vol_surge": 0.38,
+        "score": 5.6087
       },
       {
-        "ticker": "NFLX",
-        "name": "Netflix, Inc.",
-        "sector": "통신서비스",
-        "price": 94.13,
-        "change_pct": 1.5,
-        "volume": 14027619,
-        "trading_value": 1320419737,
-        "vol_surge": 0.29,
-        "score": 3.9394
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
+        "sector": "유틸리티",
+        "price": 92.37,
+        "change_pct": 1.84,
+        "volume": 3346841,
+        "trading_value": 309147712,
+        "vol_surge": 0.35,
+        "score": 5.3947
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 -3% 급락하며 강한 약세장 진입, 반면 미국은 보합권 유지로 디커플링 심화. 원화 약세(1,517원대)와 함께 외국인 매도세가 반도체·IT 중심으로 집중되고, 화학/에너지 섹터로 방어적 로테이션 발생 중.",
-    "action": "급락 후 기술적 반등 가능성에 대비해 오전장 추가 하락 시 화학/에너지 대형주(LG화학, SK이노베이션) 소량 롱 진입 검토. 반도체/IT 숏 포지션 유지하되, KOSPI 5,200선 이탈 시 숏 비중 확대. 반등 시 5,350 저항선에서 롱 청산.",
-    "risk": "원화 급락세 지속 시 외국인 매도 가속화 리스크 주의, 환율 1,530원 돌파 시 전체 포지션 50% 축소. 손절 기준은 롱 포지션 -2%, 숏 포지션 +3% 역행 시 즉시 청산.",
-    "watchlist": "LG화학: 급락장에서 유일한 강세 섹터 대장주, 반등 시 모멘텀 기대\n삼성전자: 반도체 섹터 -4.21% 급락의 핵심, 기술적 지지선 확인 필요\nSK하이닉스: 외국인 매도 집중 종목으로 숏 포지션 유지 관찰\nPOSCO홀딩스: 보합 방어주로 시장 안정 시 매수 후보",
-    "date": "2026년 03월 31일 01:11 KST"
+    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 -3% 급락하며 강한 약세장 진입, 반도체·IT·금융 전 섹터 동반 하락 중. 미국은 상대적으로 보합세이나 기술주 약세, 금융·부동산 방어주로 로테이션 진행 중이며, 원/달러 1,518원 돌파로 외국인 자금 이탈 압력 가중.",
+    "action": "한국 시장 롱 진입은 금지, 기존 보유 포지션 장 초반 30분 내 50% 이상 축소 권고. KOSPI 인버스 ETF(KODEX 인버스) 또는 선물 숏 포지션으로 헷지, 반등 시 5,350pt 저항선 부근에서 숏 추가 고려. 미국은 금융(Visa) 및 방어주 위주로 소규모 롱 유지.",
+    "risk": "원화 급락(1,520원 돌파 시 추가 외인 매도 가속), 분기말 윈도드레싱 실패에 따른 기관 투매 가능성 주의. KOSPI 5,200pt 이탈 시 손절, 숏 포지션은 5,400pt 회복 시 청산 기준 설정.",
+    "watchlist": "KODEX 인버스: KOSPI 추가 하락 대비 헷지 및 수익 수단\n삼성전자: 반도체 섹터 -4.21% 급락 주도, 외인 순매도 규모 확인 후 기술적 반등 매매 기회 탐색\nVisa: 미국 금융 섹터 강세 수혜, 안전자산 선호 흐름에 부합\nMeta Platforms: +3.35% 상승으로 기술주 내 상대강도 우위, 단기 모멘텀 추종 가능",
+    "date": "2026년 03월 31일 02:56 KST"
   },
   "consensus": {
     "kospi": {
