@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 01일 04:59 KST",
+  "updated_at": "2026년 04월 01일 05:46 KST",
   "indices": {
     "kospi": {
       "value": 5052.46,
@@ -10,19 +10,19 @@
       "change_pct": -4.94
     },
     "sp500": {
-      "value": 6521.66,
-      "change_pct": 2.8
+      "value": 6528.52,
+      "change_pct": 2.91
     },
     "nasdaq": {
-      "value": 21570.8,
-      "change_pct": 3.73
+      "value": 21590.63,
+      "change_pct": 3.83
     },
     "dow": {
-      "value": 46276.31,
-      "change_pct": 2.34
+      "value": 46341.51,
+      "change_pct": 2.49
     },
     "usdkrw": {
-      "value": 1504.54,
+      "value": 1504.57,
       "change_pct": -0.86
     }
   },
@@ -178,43 +178,43 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 4.9
+        "change_pct": 4.93
       },
       {
         "name": "금융",
-        "change_pct": 2.11
+        "change_pct": 2.19
       },
       {
         "name": "에너지",
-        "change_pct": -1.49
+        "change_pct": -1.35
       },
       {
         "name": "헬스케어",
-        "change_pct": 1.68
+        "change_pct": 1.75
       },
       {
         "name": "산업재",
-        "change_pct": 3.31
+        "change_pct": 3.4
       },
       {
         "name": "임의소비재",
-        "change_pct": 3.36
+        "change_pct": 3.45
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.05
+        "change_pct": 0.1
       },
       {
         "name": "소재",
-        "change_pct": 1.5
+        "change_pct": 1.57
       },
       {
         "name": "부동산",
-        "change_pct": 1.3
+        "change_pct": 1.31
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.34
+        "change_pct": -0.22
       },
       {
         "name": "통신서비스",
@@ -226,120 +226,120 @@
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 572.11,
+        "price": 572.13,
         "change_pct": 7.12,
-        "volume": 23875777,
-        "trading_value": 13659689925,
-        "vol_surge": 1.54,
-        "score": 110.9376
+        "volume": 32156046,
+        "trading_value": 18397438754,
+        "vol_surge": 2.07,
+        "score": 151.3177
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 174.22,
-        "change_pct": 6.54,
-        "volume": 179563062,
-        "trading_value": 31283476880,
-        "vol_surge": 1.0,
-        "score": 68.6056
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla, Inc.",
-        "sector": "임의소비재",
-        "price": 371.26,
-        "change_pct": 5.43,
-        "volume": 62310063,
-        "trading_value": 23133226991,
-        "vol_surge": 1.02,
-        "score": 57.2753
+        "price": 174.4,
+        "change_pct": 6.65,
+        "volume": 214649476,
+        "trading_value": 37434867304,
+        "vol_surge": 1.19,
+        "score": 84.0098
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet Inc.",
         "sector": "통신서비스",
-        "price": 287.48,
-        "change_pct": 5.61,
-        "volume": 29108671,
-        "trading_value": 8368161058,
-        "vol_surge": 0.86,
-        "score": 47.6543
+        "price": 287.56,
+        "change_pct": 5.64,
+        "volume": 42262462,
+        "trading_value": 12152993469,
+        "vol_surge": 1.24,
+        "score": 70.6946
       },
       {
-        "ticker": "CAT",
-        "name": "Caterpillar, Inc.",
-        "sector": "산업재",
-        "price": 707.05,
-        "change_pct": 6.3,
-        "volume": 2155028,
-        "trading_value": 1523712521,
-        "vol_surge": 0.76,
-        "score": 43.8371
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 371.75,
+        "change_pct": 5.57,
+        "volume": 73430516,
+        "trading_value": 27297794323,
+        "vol_surge": 1.2,
+        "score": 69.7177
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 309.44,
-        "change_pct": 6.03,
-        "volume": 19441690,
-        "trading_value": 6016036601,
-        "vol_surge": 0.73,
-        "score": 43.1191
+        "price": 309.51,
+        "change_pct": 6.05,
+        "volume": 26736146,
+        "trading_value": 8275104809,
+        "vol_surge": 1.01,
+        "score": 60.3363
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar, Inc.",
+        "sector": "산업재",
+        "price": 708.46,
+        "change_pct": 6.52,
+        "volume": 2760709,
+        "trading_value": 1955851958,
+        "vol_surge": 0.97,
+        "score": 58.805
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 203.37,
-        "change_pct": 4.94,
-        "volume": 33494013,
-        "trading_value": 6811677260,
-        "vol_surge": 0.89,
-        "score": 43.0224
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 844.64,
-        "change_pct": 4.59,
-        "volume": 1962532,
-        "trading_value": 1657633057,
-        "vol_surge": 0.79,
-        "score": 33.618
-      },
-      {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 283.44,
-        "change_pct": 3.98,
-        "volume": 5094641,
-        "trading_value": 1444025057,
-        "vol_surge": 0.9,
-        "score": 32.7642
+        "price": 203.43,
+        "change_pct": 4.97,
+        "volume": 41370319,
+        "trading_value": 8415963691,
+        "vol_surge": 1.09,
+        "score": 53.9614
       },
       {
         "ticker": "AMZN",
         "name": "Amazon.com, Inc.",
         "sector": "임의소비재",
-        "price": 208.11,
-        "change_pct": 3.93,
-        "volume": 40198924,
-        "trading_value": 8365798098,
-        "vol_surge": 0.8,
-        "score": 31.0404
+        "price": 208.27,
+        "change_pct": 4.01,
+        "volume": 55463126,
+        "trading_value": 11551305488,
+        "vol_surge": 1.1,
+        "score": 44.3158
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 370.17,
+        "change_pct": 3.32,
+        "volume": 42889608,
+        "trading_value": 15876446769,
+        "vol_surge": 1.19,
+        "score": 40.2751
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "sector": "통신서비스",
+        "price": 96.15,
+        "change_pct": 3.8,
+        "volume": 53674277,
+        "trading_value": 5160781815,
+        "vol_surge": 1.09,
+        "score": 40.2142
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI -4.26%, KOSDAQ -4.94%로 급락하며 전 섹터 약세, 반면 미국은 기술주 주도로 S&P +2.80%, NASDAQ +3.73% 강세로 극심한 디커플링 발생. 원/달러 1,504원대의 원화 약세가 외국인 이탈을 가속화하고 있으며, 반도체(-4.99%) 중심 하락이 지수 낙폭을 주도하는 전형적인 리스크오프 장세.",
-    "action": "개장 초 반등 시도 시 KOSPI200 선물 숏 진입 권고, 전일 종가 대비 -1.5% 추가 하락 시 숏 포지션 청산. 현물은 방어주(통신, 유틸리티) 소량 분할매수만 허용하고, 반도체·IT 섹터는 낙폭 확대 가능성 높아 매수 금지. 미국 선물 갭업 마감 감안 시 한국 반등은 제한적이므로 추격 롱 자제.",
-    "risk": "4월 1일 분기 시작일로 기관 리밸런싱 물량 출회, 원화 1,510원 돌파 시 외국인 추가 매도 가속화 리스크. KOSPI 5,000선 붕괴 시 패닉셀 가능성 대비 필요, 숏 포지션 손절은 KOSPI 5,100pt(전일 대비 +1%) 돌파 시 즉시 청산.",
-    "watchlist": "LG유플러스: 유일한 양봉 방어주, 배당+통신 안정성으로 자금 유입 관찰\n삼성전자: 반도체 급락 핵심 종목, 외국인 수급 및 8만원 지지 여부 확인\nKODEX 인버스: 지수 추가 하락 헷지용, 거래량 급증 시 시장 패닉 신호로 활용\nNVIDIA(야간선물): 미국 기술주 랠리 지속 여부가 내일 한국 반도체 방향 결정",
-    "date": "2026년 04월 01일 04:58 KST"
+    "overview": "한미 시장 극심한 디커플링 발생. 미국은 기술주 중심 강한 반등(+3~4%)을 보인 반면, 한국은 반도체(-5%) 주도로 전 섹터 급락하며 코스피 5,000선 위협. 원화 강세에도 외국인 매도세가 지속되는 수급 악화 국면으로 방어적 대응 필요.",
+    "action": "한국 시장은 기술적 반등 시 숏 진입 또는 관망 권고. 코스피 5,000 지지 테스트 구간으로 반도체 ETF(KODEX 반도체) 숏 헤지 유지. 미국 기술주 강세 수혜 가능한 통신/방어주 위주 선별적 롱 검토하되, 비중은 30% 이하로 제한.",
+    "risk": "코스피 5,000 하회 시 추가 하락 가속화 리스크 존재하며, 손절 기준은 진입가 대비 -2% 엄격 적용. 미국 증시 반등의 지속성 불확실하고, 4월 1일 분기 시작일로 기관 리밸런싱 물량 출회 가능성 경계 필요.",
+    "watchlist": "LG유플러스: 유일한 상승 종목, 방어주 성격으로 하락장 대피처 역할 기대\n삼성전자: 반도체 섹터 급락 핵심 종목, 5,000원대 지지 여부가 시장 방향성 결정\nKODEX 인버스: 지수 추가 하락 대비 헤지 수단으로 활용\n동진쎄미켐: 반도체 소재주 중 상대적 강세, 섹터 내 로테이션 수혜 가능성",
+    "date": "2026년 04월 01일 05:46 KST"
   },
   "consensus": {
     "kospi": {
