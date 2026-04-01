@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 02일 05:02 KST",
+  "updated_at": "2026년 04월 02일 05:48 KST",
   "indices": {
     "kospi": {
       "value": 5478.7,
@@ -10,7 +10,7 @@
       "change_pct": 6.06
     },
     "sp500": {
-      "value": 6575.4,
+      "value": 6575.32,
       "change_pct": 0.72
     },
     "nasdaq": {
@@ -18,12 +18,12 @@
       "change_pct": 1.16
     },
     "dow": {
-      "value": 46566.48,
-      "change_pct": 0.49
+      "value": 46565.74,
+      "change_pct": 0.48
     },
     "usdkrw": {
-      "value": 1513.94,
-      "change_pct": 0.65
+      "value": 1512.56,
+      "change_pct": 0.56
     }
   },
   "kr": {
@@ -178,11 +178,11 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.98
+        "change_pct": 0.94
       },
       {
         "name": "금융",
-        "change_pct": -0.14
+        "change_pct": -0.06
       },
       {
         "name": "에너지",
@@ -190,7 +190,7 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.75
+        "change_pct": 0.68
       },
       {
         "name": "산업재",
@@ -198,27 +198,27 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.61
+        "change_pct": 0.6
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.49
+        "change_pct": -0.54
       },
       {
         "name": "소재",
-        "change_pct": 1.06
+        "change_pct": 1.04
       },
       {
         "name": "부동산",
-        "change_pct": 0.22
+        "change_pct": 0.19
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.46
+        "change_pct": 0.5
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.03
+        "change_pct": 0.04
       }
     ],
     "top_stocks": [
@@ -226,23 +226,23 @@
         "ticker": "LLY",
         "name": "Eli Lilly and Comp",
         "sector": "헬스케어",
-        "price": 954.28,
-        "change_pct": 3.73,
+        "price": 954.52,
+        "change_pct": 3.75,
         "volume": 4994728,
-        "trading_value": 4766369182,
+        "trading_value": 4767567868,
         "vol_surge": 1.57,
-        "score": 56.7804
+        "score": 57.0855
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 113.78,
-        "change_pct": 3.91,
-        "volume": 10132645,
-        "trading_value": 1152892335,
-        "vol_surge": 0.94,
-        "score": 33.2379
+        "price": 113.79,
+        "change_pct": 3.92,
+        "volume": 11413372,
+        "trading_value": 1298727610,
+        "vol_surge": 1.06,
+        "score": 37.7491
       },
       {
         "ticker": "AMD",
@@ -250,43 +250,43 @@
         "sector": "기술",
         "price": 210.21,
         "change_pct": 2.59,
-        "volume": 39463354,
-        "trading_value": 8295591909,
-        "vol_surge": 1.03,
-        "score": 26.5233
+        "volume": 40279250,
+        "trading_value": 8467101412,
+        "vol_surge": 1.05,
+        "score": 27.0959
       },
       {
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
-        "price": 61.22,
-        "change_pct": 2.9,
+        "price": 61.2,
+        "change_pct": 2.86,
         "volume": 20015240,
-        "trading_value": 1225433038,
+        "trading_value": 1224932703,
         "vol_surge": 0.96,
-        "score": 25.2574
+        "score": 24.9085
       },
       {
         "ticker": "CAT",
         "name": "Caterpillar, Inc.",
         "sector": "산업재",
-        "price": 730.18,
-        "change_pct": 2.84,
+        "price": 730.32,
+        "change_pct": 2.86,
         "volume": 2045367,
-        "trading_value": 1493486061,
+        "trading_value": 1493772442,
         "vol_surge": 0.71,
-        "score": 18.5416
+        "score": 18.6724
       },
       {
         "ticker": "GE",
         "name": "GE Aerospace",
         "sector": "산업재",
-        "price": 292.76,
-        "change_pct": 2.65,
+        "price": 292.68,
+        "change_pct": 2.62,
         "volume": 4366639,
-        "trading_value": 1278377276,
+        "trading_value": 1278027870,
         "vol_surge": 0.76,
-        "score": 18.3108
+        "score": 18.1033
       },
       {
         "ticker": "TSLA",
@@ -303,43 +303,43 @@
         "ticker": "SHW",
         "name": "Sherwin-Williams C",
         "sector": "소재",
-        "price": 325.78,
-        "change_pct": 1.08,
+        "price": 325.7,
+        "change_pct": 1.05,
         "volume": 1470587,
-        "trading_value": 479087831,
+        "trading_value": 478970203,
         "vol_surge": 0.8,
-        "score": 7.5439
-      },
-      {
-        "ticker": "SBUX",
-        "name": "Starbucks Corporat",
-        "sector": "임의소비재",
-        "price": 90.43,
-        "change_pct": 0.8,
-        "volume": 7802500,
-        "trading_value": 705580077,
-        "vol_surge": 0.83,
-        "score": 5.8763
+        "score": 7.3342
       },
       {
         "ticker": "DE",
         "name": "Deere & Company",
         "sector": "산업재",
-        "price": 569.79,
-        "change_pct": 0.8,
+        "price": 570.7,
+        "change_pct": 0.97,
         "volume": 1304165,
-        "trading_value": 743100146,
+        "trading_value": 744286981,
         "vol_surge": 0.8,
-        "score": 5.7099
+        "score": 6.9237
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 273.98,
+        "change_pct": 1.23,
+        "volume": 5446163,
+        "trading_value": 1492139798,
+        "vol_surge": 0.55,
+        "score": 6.2602
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 급등세(KOSPI +8.44%)로 강한 리스크온 장세, 반도체 섹터가 +10.3%로 압도적 주도. 미국은 기술주 소폭 강세에 그쳐 한국 독자 상승 구간이며, 원화 약세(1,513원)에도 외국인 매수세 유입 추정. 갭 상승 후 차익실현 매물과 추격 매수 간 힘겨루기 예상.",
-    "action": "반도체 대형주는 장초반 갭업 후 눌림목에서 분할 매수 전략, 삼성전자 185,000원/SK하이닉스 870,000원 지지 확인 시 진입. 전일 급등 피로감으로 오전 고점 추격 매수 자제, 오후 2시 이후 거래량 동반 돌파 시에만 추가 롱. 철강/소재는 단기 과열로 익절 우선.",
-    "risk": "단일 세션 8%+ 급등은 평균회귀 리스크 높음, KOSPI 5,400 이탈 시 전량 청산 고려. 원화 약세 지속 시 외국인 차익실현 가능성, 환율 1,520원 돌파 시 포지션 50% 축소. 미국 선물 야간 움직임과 중국 시장 개장 동향 필수 모니터링.",
-    "watchlist": "삼성전자: 13% 급등 후 기관 수급 확인 필요, 190,000원 안착 여부가 추세 지속 핵심\nSK하이닉스: HBM 모멘텀 지속, 900,000원 심리적 저항선 돌파 시 신고가 도전 가능\n삼성중공업: 조선 수주 모멘텀 + 철강 동반 상승, 27,000원 돌파 시 단기 추가 상승 여력\nAMD(미국): 한국 반도체 강세 연동 가능, 기술섹터 내 상대강도 우위로 야간 선물 참고용",
-    "date": "2026년 04월 02일 05:01 KST"
+    "overview": "한국 시장이 KOSPI +8.44%, KOSDAQ +6.06%로 이례적인 폭등세를 보이며 반도체 섹터(+10.3%)가 강력히 주도하는 강세장입니다. 미국 시장은 기술주 중심 소폭 상승에 그쳐 한국 단독 호재(정책/수급)가 작용한 것으로 보이며, 원화 약세(1,512원)에도 외국인 매수세가 유입된 점이 주목됩니다.",
+    "action": "반도체 대형주(삼성전자, SK하이닉스)는 갭상승 후 단기 과열 구간이므로 신규 진입보다 보유자는 5-7% 익절 분할 청산을 권장합니다. 철강/소재(삼성중공업, 세아베스틸) 섹터는 상대적 후행주로 눌림목 진입 기회 탐색하되, 장 초반 30분 거래량 확인 후 매수 결정하세요. 숏 포지션은 당일 진입 자제, 오후 2시 이후 상승 피로도 확인 시 헷지용으로만 소규모 운용.",
+    "risk": "하루 8%대 급등 후 차익실현 매물 출회 가능성이 높으며, 원/달러 1,520원 돌파 시 외국인 이탈 리스크가 있습니다. 반도체 주도주 기준 당일 고점 대비 -3% 이탈 시 손절, 전체 포트폴리오 손실 한도 -1.5% 내 엄격히 관리하세요.",
+    "watchlist": "삼성전자: 거래대금 집중 여부로 외국인 수급 지속성 확인\nSK하이닉스: 90만원 심리적 저항선 돌파 후 안착 여부 관찰\n삼성중공업: 조선/방산 모멘텀 연속성 및 10% 상승 후 눌림 지지선 테스트\n리노공업: 반도체 후공정 테마 확산 시 중소형주 대안으로 주목",
+    "date": "2026년 04월 02일 05:47 KST"
   },
   "consensus": {
     "kospi": {
