@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 02일 22:19 KST",
+  "updated_at": "2026년 04월 03일 00:00 KST",
   "indices": {
     "kospi": {
       "value": 5234.05,
@@ -10,20 +10,20 @@
       "change_pct": -5.36
     },
     "sp500": {
-      "value": 6575.32,
-      "change_pct": 0.72
+      "value": 6580.92,
+      "change_pct": 0.09
     },
     "nasdaq": {
-      "value": 21840.95,
-      "change_pct": 1.16
+      "value": 21842.37,
+      "change_pct": 0.01
     },
     "dow": {
-      "value": 46565.74,
-      "change_pct": 0.48
+      "value": 46567.48,
+      "change_pct": 0.01
     },
     "usdkrw": {
-      "value": 1517.18,
-      "change_pct": 0.26
+      "value": 1509.62,
+      "change_pct": -0.24
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.06
+        "change_pct": 0.34
       },
       {
         "name": "금융",
-        "change_pct": -0.12
+        "change_pct": 0.07
       },
       {
         "name": "에너지",
-        "change_pct": 0.44
+        "change_pct": 1.11
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.18
+        "change_pct": 0.03
       },
       {
         "name": "산업재",
-        "change_pct": -0.22
-      },
-      {
-        "name": "임의소비재",
-        "change_pct": 0.05
-      },
-      {
-        "name": "필수소비재",
-        "change_pct": -0.05
-      },
-      {
-        "name": "소재",
         "change_pct": -0.28
       },
       {
+        "name": "임의소비재",
+        "change_pct": -0.93
+      },
+      {
+        "name": "필수소비재",
+        "change_pct": 0.31
+      },
+      {
+        "name": "소재",
+        "change_pct": -0.31
+      },
+      {
         "name": "부동산",
-        "change_pct": -0.25
+        "change_pct": 0.7
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.22
+        "change_pct": 0.97
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.14
+        "change_pct": 0.37
       }
     ],
     "top_stocks": [
       {
-        "ticker": "AEP",
-        "name": "American Electric ",
-        "sector": "유틸리티",
-        "price": 131.67,
-        "change_pct": 2.19,
-        "volume": 2582500,
-        "trading_value": 340037770,
-        "vol_surge": 0.71,
-        "score": 13.3211
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 160.78,
-        "change_pct": 0.8,
-        "volume": 37900200,
-        "trading_value": 6093594109,
-        "vol_surge": 1.67,
-        "score": 13.0387
-      },
-      {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 197.41,
-        "change_pct": 0.62,
-        "volume": 23040700,
-        "trading_value": 4548464671,
-        "vol_surge": 1.74,
-        "score": 10.3917
+        "price": 200.11,
+        "change_pct": 1.99,
+        "volume": 5087229,
+        "trading_value": 1018015023,
+        "vol_surge": 0.38,
+        "score": 6.8686
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 213.44,
+        "change_pct": 1.44,
+        "volume": 13904388,
+        "trading_value": 2967752608,
+        "vol_surge": 0.36,
+        "score": 4.9566
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "sector": "통신서비스",
+        "price": 97.56,
+        "change_pct": 2.36,
+        "volume": 10498490,
+        "trading_value": 1024251561,
+        "vol_surge": 0.21,
+        "score": 4.5142
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 128.38,
-        "change_pct": 0.66,
-        "volume": 12975900,
-        "trading_value": 1665846105,
-        "vol_surge": 1.3,
-        "score": 7.9311
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 140.42,
-        "change_pct": 0.81,
-        "volume": 5707200,
-        "trading_value": 801405013,
-        "vol_surge": 1.06,
-        "score": 7.6108
-      },
-      {
-        "ticker": "SLB",
-        "name": "SLB Limited",
-        "sector": "에너지",
-        "price": 50.03,
-        "change_pct": 0.91,
-        "volume": 19571800,
-        "trading_value": 979177130,
-        "vol_surge": 0.92,
-        "score": 7.5287
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 210.57,
-        "change_pct": 0.32,
-        "volume": 45850900,
-        "trading_value": 9654824348,
-        "vol_surge": 0.9,
-        "score": 2.8739
+        "price": 129.74,
+        "change_pct": 1.73,
+        "volume": 2524009,
+        "trading_value": 327477535,
+        "vol_surge": 0.25,
+        "score": 3.734
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 92.85,
-        "change_pct": 0.38,
-        "volume": 7754900,
-        "trading_value": 720042453,
-        "vol_surge": 0.78,
-        "score": 2.623
+        "price": 93.88,
+        "change_pct": 1.49,
+        "volume": 2368732,
+        "trading_value": 222364716,
+        "vol_surge": 0.24,
+        "score": 2.9606
       },
       {
-        "ticker": "SBUX",
-        "name": "Starbucks Corporat",
-        "sector": "임의소비재",
-        "price": 90.43,
-        "change_pct": 0.24,
-        "volume": 8044000,
-        "trading_value": 727418922,
-        "vol_surge": 0.86,
-        "score": 1.8244
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 132.9,
+        "change_pct": 3.14,
+        "volume": 415377,
+        "trading_value": 55201528,
+        "vol_surge": 0.11,
+        "score": 2.7877
       },
       {
-        "ticker": "META",
-        "name": "Meta Platforms, In",
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 141.87,
+        "change_pct": 1.85,
+        "volume": 995283,
+        "trading_value": 141200794,
+        "vol_surge": 0.18,
+        "score": 2.7747
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 160.42,
+        "change_pct": 0.58,
+        "volume": 9710478,
+        "trading_value": 1557754862,
+        "vol_surge": 0.43,
+        "score": 2.2754
+      },
+      {
+        "ticker": "DUK",
+        "name": "Duke Energy Corpor",
+        "sector": "유틸리티",
+        "price": 132.49,
+        "change_pct": 0.76,
+        "volume": 645432,
+        "trading_value": 85510058,
+        "vol_surge": 0.14,
+        "score": 0.8507
+      },
+      {
+        "ticker": "VZ",
+        "name": "Verizon Communicat",
         "sector": "통신서비스",
-        "price": 579.23,
-        "change_pct": 0.11,
-        "volume": 23569600,
-        "trading_value": 13652218947,
-        "vol_surge": 1.47,
-        "score": 1.6358
+        "price": 49.71,
+        "change_pct": 0.65,
+        "volume": 4577670,
+        "trading_value": 227555971,
+        "vol_surge": 0.14,
+        "score": 0.7722
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI -4.47%, KOSDAQ -5.36%의 패닉셀링 수준 급락세로 반도체·IT 중심 전면 약세장 진입. 반면 미국은 S&P +0.72%, NASDAQ +1.16%로 상승 마감하여 극심한 디커플링 발생. 원화 약세(1,517원)와 함께 외국인 대규모 이탈 조짐으로 방어주(헬스케어, 에너지) 중심 섹터 로테이션 진행 중.",
-    "action": "급락 당일 저가 매수는 금지, 내일 갭하락 추가 가능성 대비 관망 우선. 단기 숏 포지션은 KOSPI200 선물 또는 인버스 ETF(KODEX 인버스) 활용, 2,600pt 지지선 붕괴 시 추가 숏 진입. 롱 진입은 VIX 안정화 및 외국인 순매수 전환 확인 후 방어주 한정으로 분할 매수 고려.",
-    "risk": "미국 야간선물 변동성, 추가 원화 약세(1,530원 돌파 시 외인 추가 매도 가속), 반도체 대형주 신용반대매매 물량 주시. 기존 롱 포지션은 -3% 손절 원칙 준수, 반등 시에도 전고점 대비 -7% 이상 손실 종목은 즉시 청산.",
-    "watchlist": "한화에어로스페이스: 유일한 대형주 강세(+6.3%), 방산/헬스케어 모멘텀 지속 여부 확인\n삼성전자: 반도체 섹터 -6.45% 급락의 핵심, 외국인 수급 및 6만원 지지선 모니터링\nKODEX 인버스: 추가 하락 헷지용, 내일 갭상승 출발 시 청산 타이밍\nSK이노베이션: 에너지 섹터 상대적 강세(+0.87%), 원화약세 수혜 가능성 체크",
-    "date": "2026년 04월 02일 22:19 KST"
+    "overview": "한국 시장은 KOSPI -4.47%, KOSDAQ -5.36%의 급락세로 패닉 매도 양상이며, 반도체·IT 섹터 중심의 대량 손절이 발생한 반면 미국 시장은 보합권으로 디커플링 심화. 방산/헬스케어로 자금 쏠림 현상이 뚜렷하며, 환율 1,509원대 안정은 외국인 추가 이탈 제한 요인으로 작용 가능.",
+    "action": "급락 후 기술적 반등 가능성에 대비해 내일 장 초반 갭다운 시 KOSPI200 선물 단기 롱 진입 고려하되, 전일 저점 이탈 시 즉시 청산. 반도체 숏 포지션은 추가 하락 여력 제한적이므로 50% 익절하고, 방산/헬스케어는 차익실현 매물 출회 예상되어 신규 진입 자제.",
+    "risk": "미국 시간외 선물 약세 전환 여부와 외국인 프로그램 매도 지속 여부가 핵심 리스크. KOSPI 5,150pt 이탈 시 추가 하락 가속화 우려되며, 롱 포지션 손절라인은 -2% 기계적 적용 필수.",
+    "watchlist": "한화에어로스페이스: 유일한 대형주 강세, 6.3% 급등 후 차익실현 vs 추세 지속 여부 관찰\n삼성전자: 반도체 섹터 대장주로 낙폭과대 반등 후보, 시가 기준 5% 갭다운 시 단타 롱 검토\nKODEX 인버스: 추가 하락 헷지용, KOSPI 5,200pt 재이탈 시 비중 확대\nSK이노베이션: 에너지 섹터 미국 강세 연동 +0.87% 방어, 원유 관련 모멘텀 지속 시 관심",
+    "date": "2026년 04월 02일 23:59 KST"
   },
   "consensus": {
     "kospi": {
