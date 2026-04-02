@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 02일 17:09 KST",
+  "updated_at": "2026년 04월 02일 19:04 KST",
   "indices": {
     "kospi": {
       "value": 5234.05,
@@ -22,8 +22,8 @@
       "change_pct": 0.48
     },
     "usdkrw": {
-      "value": 1515.78,
-      "change_pct": 0.17
+      "value": 1513.88,
+      "change_pct": 0.04
     }
   },
   "kr": {
@@ -68,10 +68,10 @@
         "sector": "헬스케어",
         "price": 1417000.0,
         "change_pct": 6.3,
-        "volume": 437242,
-        "trading_value": 619571914000,
+        "volume": 437390,
+        "trading_value": 619781630000,
         "vol_surge": 1.42,
-        "score": 105.279
+        "score": 105.316
       },
       {
         "ticker": "096770.KS",
@@ -79,10 +79,10 @@
         "sector": "화학/에너지",
         "price": 115500.0,
         "change_pct": 0.87,
-        "volume": 934577,
-        "trading_value": 107943643500,
-        "vol_surge": 1.38,
-        "score": 13.2595
+        "volume": 906129,
+        "trading_value": 104657899500,
+        "vol_surge": 1.34,
+        "score": 12.8403
       },
       {
         "ticker": "207940.KS",
@@ -101,9 +101,9 @@
         "sector": "철강/소재",
         "price": 26900.0,
         "change_pct": -0.37,
-        "volume": 8139291,
-        "trading_value": 218946927900,
-        "vol_surge": 1.29,
+        "volume": 8177473,
+        "trading_value": 219974023700,
+        "vol_surge": 1.3,
         "score": -0.37
       },
       {
@@ -123,9 +123,9 @@
         "sector": "통신",
         "price": 15500.0,
         "change_pct": -0.9,
-        "volume": 1088250,
-        "trading_value": 16867875000,
-        "vol_surge": 0.86,
+        "volume": 1125308,
+        "trading_value": 17442274000,
+        "vol_surge": 0.89,
         "score": -0.9
       },
       {
@@ -134,8 +134,8 @@
         "sector": "금융",
         "price": 146500.0,
         "change_pct": -1.21,
-        "volume": 981023,
-        "trading_value": 143719869500,
+        "volume": 983517,
+        "trading_value": 144085240500,
         "vol_surge": 0.73,
         "score": -1.21
       },
@@ -156,8 +156,8 @@
         "sector": "금융",
         "price": 91700.0,
         "change_pct": -1.71,
-        "volume": 1036978,
-        "trading_value": 95090882600,
+        "volume": 1038396,
+        "trading_value": 95220913200,
         "vol_surge": 0.61,
         "score": -1.71
       },
@@ -167,8 +167,8 @@
         "sector": "금융",
         "price": 110400.0,
         "change_pct": -2.13,
-        "volume": 1096258,
-        "trading_value": 121026883200,
+        "volume": 1097382,
+        "trading_value": 121150972800,
         "vol_surge": 1.13,
         "score": -2.13
       }
@@ -190,11 +190,11 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.15
+        "change_pct": -0.18
       },
       {
         "name": "산업재",
-        "change_pct": -0.51
+        "change_pct": -0.22
       },
       {
         "name": "임의소비재",
@@ -210,11 +210,11 @@
       },
       {
         "name": "부동산",
-        "change_pct": 0.19
+        "change_pct": -0.25
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.04
+        "change_pct": 0.22
       },
       {
         "name": "통신서비스",
@@ -243,17 +243,6 @@
         "trading_value": 6093594109,
         "vol_surge": 1.67,
         "score": 13.0387
-      },
-      {
-        "ticker": "PLD",
-        "name": "Prologis, Inc.",
-        "sector": "부동산",
-        "price": 133.33,
-        "change_pct": 1.31,
-        "volume": 3707900,
-        "trading_value": 494374313,
-        "vol_surge": 1.05,
-        "score": 11.954
       },
       {
         "ticker": "CVX",
@@ -300,46 +289,57 @@
         "score": 7.5287
       },
       {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
-        "sector": "부동산",
-        "price": 995.98,
-        "change_pct": 1.11,
-        "volume": 476800,
-        "trading_value": 474883254,
-        "vol_surge": 0.73,
-        "score": 7.0384
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 210.57,
+        "change_pct": 0.32,
+        "volume": 45850900,
+        "trading_value": 9654824348,
+        "vol_surge": 0.9,
+        "score": 2.8739
       },
       {
-        "ticker": "CCI",
-        "name": "Crown Castle Inc.",
-        "sector": "부동산",
-        "price": 80.83,
-        "change_pct": 1.04,
-        "volume": 2485900,
-        "trading_value": 200935301,
-        "vol_surge": 0.73,
-        "score": 6.3022
-      },
-      {
-        "ticker": "D",
-        "name": "Dominion Energy, I",
+        "ticker": "NEE",
+        "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 62.05,
-        "change_pct": 0.96,
-        "volume": 3674900,
-        "trading_value": 228027542,
-        "vol_surge": 0.66,
-        "score": 5.2723
+        "price": 92.85,
+        "change_pct": 0.38,
+        "volume": 7754900,
+        "trading_value": 720042453,
+        "vol_surge": 0.78,
+        "score": 2.623
+      },
+      {
+        "ticker": "SBUX",
+        "name": "Starbucks Corporat",
+        "sector": "임의소비재",
+        "price": 90.43,
+        "change_pct": 0.24,
+        "volume": 8044000,
+        "trading_value": 727418922,
+        "vol_surge": 0.86,
+        "score": 1.8244
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 579.23,
+        "change_pct": 0.11,
+        "volume": 23569600,
+        "trading_value": 13652218947,
+        "vol_surge": 1.47,
+        "score": 1.6358
       }
     ]
   },
   "strategy": {
-    "overview": "한국 증시는 KOSPI -4.47%, KOSDAQ -5.36%로 패닉셀링 수준의 급락세를 보이며, 반도체·IT 중심의 대형주가 붕괴되는 전형적인 리스크오프 장세. 미국 증시는 소폭 상승하며 디커플링이 발생했고, 원화 약세(1,515원대)가 외국인 이탈을 가속화하고 있어 방어주·현금 비중 확대가 필수적인 국면.",
-    "action": "한국 시장 신규 롱 진입은 자제하고, 반도체·IT 섹터는 기술적 반등 시 숏 커버 또는 헷지 포지션 유지. 방어주(헬스케어·통신·유틸리티) 중심으로 제한적 분할 매수 검토하되, VIX 급등 및 외국인 순매도 지속 시 현금 비중 50% 이상 유지. 반등 시 KOSPI 5,150선 하방 이탈 여부를 확인 후 추가 대응.",
-    "risk": "외국인 매도세 지속과 환율 1,520원 돌파 시 추가 급락 가능성이 높으며, 글로벌 매크로 이벤트(연준 발언, 지정학적 리스크) 주시 필요. 손절 기준은 개별 종목 -3~5%, 지수 추가 -2% 하락 시 전량 청산 원칙 적용.",
-    "watchlist": "한화에어로스페이스: 급락장에서 유일한 +6.3% 강세, 방산·헬스케어 모멘텀 지속 여부 확인\n삼성바이오로직스: 방어주 성격으로 상대적 강세, 1,600,000원 저항선 돌파 시 추가 상승 가능\nSK텔레콤: 통신 방어주로 낙폭 제한적, 배당 매력 부각 시 저점 매수 기회\n삼성전자: 반도체 섹터 -6.45% 급락의 핵심 종목, 기술적 지지선 확인 후 반등 매매 대상",
-    "date": "2026년 04월 02일 17:08 KST"
+    "overview": "한국 시장은 KOSPI -4.47%, KOSDAQ -5.36%로 패닉 셀링 수준의 급락세를 보이며, 반도체(-6.45%)와 IT/플랫폼(-7.13%) 중심의 기술주가 폭락했습니다. 반면 미국 시장은 S&P +0.72%, 나스닥 +1.16%로 상승 마감하여 한미 증시 디커플링이 극심하며, 한국 시장 특유의 악재(외국인 이탈, 지정학적 리스크 등)가 작용한 것으로 보입니다. 방산/헬스케어로의 급격한 섹터 로테이션이 진행 중입니다.",
+    "action": "오늘은 기술주 저가 매수보다 방어적 포지션 유지를 권고하며, 반도체/IT 숏 포지션 또는 인버스 ETF로 추가 하락 헷지를 고려하세요. 한화에어로스페이스, 삼성바이오 등 상대강도 우위 종목만 선별적 롱 진입하되, 반등 시 KOSPI 5,300 저항선 근처에서 숏 포지션 비중을 늘리는 전략이 유효합니다. 진입은 장 초반 30분 변동성 확인 후, 청산은 당일 단타 원칙으로 접근하세요.",
+    "risk": "원/달러 1,513원대의 고환율이 외국인 매도세를 가속화할 수 있으며, 추가 지정학적 이벤트나 미국 관세 관련 뉴스에 촉각을 세워야 합니다. 기술주 롱 포지션은 전일 종가 대비 -3% 손절 엄수, 전체 포트폴리오 현금 비중을 최소 40% 이상 유지하여 변동성에 대비하세요.",
+    "watchlist": "한화에어로스페이스: 유일한 대형주 강세(+6.3%), 방산 테마 지속 시 추가 상승 모멘텀 기대\n삼성전자: 반도체 섹터 대장주로 낙폭 과대 시 기술적 반등 가능성 모니터링\nKODEX 200선물인버스2X: 시장 추가 하락 헷지 수단으로 활용, 변동성 확대 시 유효\n삼성바이오로직스: 방어주 성격의 헬스케어 대장주, 시장 약세에도 상대강도 유지 중",
+    "date": "2026년 04월 02일 19:03 KST"
   },
   "consensus": {
     "kospi": {
