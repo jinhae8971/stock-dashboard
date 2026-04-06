@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 06일 22:17 KST",
+  "updated_at": "2026년 04월 06일 23:52 KST",
   "indices": {
     "kospi": {
       "value": 5450.33,
@@ -10,20 +10,20 @@
       "change_pct": -1.54
     },
     "sp500": {
-      "value": 6582.69,
-      "change_pct": 0.11
+      "value": 6592.26,
+      "change_pct": 0.16
     },
     "nasdaq": {
-      "value": 21879.18,
-      "change_pct": 0.18
+      "value": 21924.68,
+      "change_pct": 0.21
     },
     "dow": {
-      "value": 46504.67,
-      "change_pct": -0.13
+      "value": 46552.71,
+      "change_pct": 0.1
     },
     "usdkrw": {
-      "value": 1503.83,
-      "change_pct": -0.44
+      "value": 1505.01,
+      "change_pct": -0.37
     }
   },
   "kr": {
@@ -178,60 +178,71 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.12
+        "change_pct": 0.26
       },
       {
         "name": "금융",
-        "change_pct": -0.06
+        "change_pct": 0.49
       },
       {
         "name": "에너지",
-        "change_pct": -0.13
+        "change_pct": -0.08
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.03
+        "change_pct": -0.07
       },
       {
         "name": "산업재",
-        "change_pct": -0.22
+        "change_pct": -0.2
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.44
+        "change_pct": -0.16
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.12
+        "change_pct": 0.41
       },
       {
         "name": "소재",
-        "change_pct": -0.69
+        "change_pct": -1.26
       },
       {
         "name": "부동산",
-        "change_pct": -0.17
+        "change_pct": 0.22
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.06
+        "change_pct": 0.38
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.09
+        "change_pct": 0.88
       }
     ],
     "top_stocks": [
       {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 177.39,
-        "change_pct": 0.41,
-        "volume": 143143200,
-        "trading_value": 25392172160,
-        "vol_surge": 0.79,
-        "score": 3.3719
+        "price": 220.16,
+        "change_pct": 1.39,
+        "volume": 14428319,
+        "trading_value": 3176538763,
+        "vol_surge": 0.38,
+        "score": 4.9759
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "기술",
+        "price": 259.87,
+        "change_pct": 1.77,
+        "volume": 8573484,
+        "trading_value": 2228007467,
+        "vol_surge": 0.18,
+        "score": 2.9688
       },
       {
         "ticker": "NFLX",
@@ -239,107 +250,96 @@
         "sector": "통신서비스",
         "price": 98.66,
         "change_pct": 0.39,
-        "volume": 37068000,
-        "trading_value": 3657129015,
-        "vol_surge": 0.75,
-        "score": 2.7992
+        "volume": 15391930,
+        "trading_value": 1518567870,
+        "vol_surge": 0.31,
+        "score": 1.1159
       },
       {
-        "ticker": "MRK",
-        "name": "Merck & Company, I",
-        "sector": "헬스케어",
-        "price": 120.87,
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 498.51,
+        "change_pct": 0.92,
+        "volume": 514937,
+        "trading_value": 256701248,
+        "vol_surge": 0.13,
+        "score": 1.0099
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 297.3,
         "change_pct": 0.49,
-        "volume": 6387900,
-        "trading_value": 772105490,
-        "vol_surge": 0.53,
-        "score": 2.3291
+        "volume": 4101224,
+        "trading_value": 1219314371,
+        "vol_surge": 0.12,
+        "score": 0.5317
       },
       {
-        "ticker": "AMD",
-        "name": "Advanced Micro Dev",
-        "sector": "기술",
-        "price": 217.5,
-        "change_pct": 0.17,
-        "volume": 38463500,
-        "trading_value": 8365811250,
-        "vol_surge": 1.0,
-        "score": 1.6941
+        "ticker": "WMT",
+        "name": "Walmart Inc.",
+        "sector": "필수소비재",
+        "price": 126.53,
+        "change_pct": 0.62,
+        "volume": 2579478,
+        "trading_value": 326368457,
+        "vol_surge": 0.08,
+        "score": 0.5278
       },
       {
-        "ticker": "AAPL",
-        "name": "Apple Inc.",
-        "sector": "기술",
-        "price": 255.92,
-        "change_pct": 0.22,
-        "volume": 31289400,
-        "trading_value": 8007583190,
-        "vol_surge": 0.65,
-        "score": 1.4267
-      },
-      {
-        "ticker": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "헬스케어",
-        "price": 243.04,
-        "change_pct": 0.1,
-        "volume": 6878700,
-        "trading_value": 1671799201,
-        "vol_surge": 0.78,
-        "score": 0.7153
-      },
-      {
-        "ticker": "AVGO",
-        "name": "Broadcom Inc.",
-        "sector": "기술",
-        "price": 314.55,
-        "change_pct": 0.11,
-        "volume": 14021100,
-        "trading_value": 4410336833,
-        "vol_surge": 0.53,
-        "score": 0.5611
+        "ticker": "KO",
+        "name": "Coca-Cola Company ",
+        "sector": "필수소비재",
+        "price": 77.12,
+        "change_pct": 0.6,
+        "volume": 1668945,
+        "trading_value": 128708877,
+        "vol_surge": 0.09,
+        "score": 0.4866
       },
       {
         "ticker": "T",
         "name": "AT&T Inc.",
         "sector": "통신서비스",
-        "price": 28.33,
-        "change_pct": 0.04,
-        "volume": 34996200,
-        "trading_value": 991442343,
-        "vol_surge": 0.76,
-        "score": 0.2744
+        "price": 28.48,
+        "change_pct": 0.55,
+        "volume": 4315158,
+        "trading_value": 122874125,
+        "vol_surge": 0.09,
+        "score": 0.4449
       },
       {
-        "ticker": "SO",
-        "name": "Southern Company (",
+        "ticker": "DUK",
+        "name": "Duke Energy Corpor",
         "sector": "유틸리티",
-        "price": 97.45,
-        "change_pct": 0.04,
-        "volume": 4566600,
-        "trading_value": 445015156,
-        "vol_surge": 0.75,
-        "score": 0.258
+        "price": 132.62,
+        "change_pct": 0.36,
+        "volume": 651382,
+        "trading_value": 86386277,
+        "vol_surge": 0.14,
+        "score": 0.4053
       },
       {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 277.26,
-        "change_pct": 0.03,
-        "volume": 6407000,
-        "trading_value": 1776404882,
-        "vol_surge": 0.66,
-        "score": 0.1825
+        "ticker": "V",
+        "name": "Visa Inc.",
+        "sector": "금융",
+        "price": 302.55,
+        "change_pct": 0.47,
+        "volume": 656254,
+        "trading_value": 198552924,
+        "vol_surge": 0.08,
+        "score": 0.39
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 혼조세로, KOSPI는 대형주 중심 강세(+1.36%)를 보이나 KOSDAQ은 IT/플랫폼 급락(-4%)으로 약세. 화학/에너지 섹터로 뚜렷한 로테이션이 발생 중이며, 원화 강세(-0.44%)가 수출주보다 내수/정유주에 유리한 환경 조성. 미국 시장은 기술주 중심 보합권으로 방향성 탐색 중.",
-    "action": "화학/에너지 섹터 롱 포지션 유지, 특히 S-Oil·LG화학 중심으로 모멘텀 추종 전략. KOSDAQ/IT플랫폼은 반등 시 숏 또는 관망, 추격매수 금지. 삼성전자는 19만원 지지 확인 후 분할 매수 고려, 진입가 대비 -2% 손절 설정.",
-    "risk": "IT/플랫폼 -4% 급락이 투매로 확산될 경우 시장 전체 센티먼트 악화 가능성. 원/달러 1,500원 심리적 지지선 이탈 시 외국인 수급 변동 주의. 화학/에너지 섹터 단기 과열 구간으로 익일 차익실현 매물 경계, 손절라인 진입가 -3%.",
-    "watchlist": "S-Oil: 거래량 동반 +6% 급등, 정유 섹터 대장주로 모멘텀 지속 여부 확인\nLG화학: 화학 대형주 중 시총 최대, 기관 수급 유입 시 추가 상승 여력\n삼성전자: 반도체 섹터 유일 강세, 19만원 돌파 후 안착 여부가 지수 방향 결정\n카카오/네이버: IT플랫폼 급락 주도주, 낙폭과대 반등 또는 추가 하락 분기점 관찰",
-    "date": "2026년 04월 06일 22:16 KST"
+    "overview": "코스피는 강세(+1.36%), 코스닥은 약세(-1.54%)로 대형주 중심의 차별화 장세가 진행 중입니다. 화학/에너지 섹터가 전일 대비 급등하며 섹터 로테이션이 뚜렷하고, IT/플랫폼(-4.00%)은 급락하여 성장주에서 가치주로 자금 이동이 포착됩니다. 미국 시장은 소폭 상승 마감했으나 모멘텀이 약해 국내 독자적 흐름이 예상됩니다.",
+    "action": "화학/에너지 섹터 롱 포지션 유지 전략을 권고하며, S-Oil·LG화학 중심으로 전일 종가 대비 -2% 이탈 시 분할 매수 접근합니다. 코스닥 및 IT/플랫폼 섹터는 단기 숏 또는 관망하되, 기술적 반등 시 진입보다는 반등 매도 관점 유지하세요. 삼성전자는 19만원 지지 확인 후 추가 매수 고려, 장중 195,000원 돌파 시 단기 트레이딩 롱 가능합니다.",
+    "risk": "환율 1,505원대로 여전히 고환율 부담이 있어 외국인 수급 이탈 가능성에 주의해야 합니다. 코스닥 급락(-1.54%)이 연속될 경우 투매 심리 확산 리스크가 있으며, 화학/에너지 포지션은 전일 종가 대비 -3% 손절 기준을 엄수하세요. IT/플랫폼 숏 포지션은 -2% 반등 시 손절 권고합니다.",
+    "watchlist": "S-Oil: 에너지 섹터 대장주, 거래량 동반 급등으로 추세 지속 여부 확인\nLG화학: 화학 대형주 중 시가총액 상위, 기관 수급 유입 시 추가 상승 여력\n삼성전자: 반도체 섹터 로테이션 수혜 가능, 19만원 지지선 테스트 주목\n카카오/네이버: IT플랫폼 급락 후 기술적 반등 매도 타이밍 포착용 모니터링",
+    "date": "2026년 04월 06일 23:51 KST"
   },
   "consensus": {
     "kospi": {
