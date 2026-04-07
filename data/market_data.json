@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 08일 04:08 KST",
+  "updated_at": "2026년 04월 08일 05:52 KST",
   "indices": {
     "kospi": {
       "value": 5494.78,
@@ -10,20 +10,20 @@
       "change_pct": -1.02
     },
     "sp500": {
-      "value": 6560.38,
-      "change_pct": -0.77
+      "value": 6616.85,
+      "change_pct": 0.08
     },
     "nasdaq": {
-      "value": 21769.71,
-      "change_pct": -1.03
+      "value": 22017.85,
+      "change_pct": 0.1
     },
     "dow": {
-      "value": 46271.46,
-      "change_pct": -0.85
+      "value": 46584.46,
+      "change_pct": -0.18
     },
     "usdkrw": {
-      "value": 1503.12,
-      "change_pct": -0.38
+      "value": 1496.35,
+      "change_pct": -0.83
     }
   },
   "kr": {
@@ -178,193 +178,193 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.81
+        "change_pct": 0.54
       },
       {
         "name": "금융",
-        "change_pct": -0.37
+        "change_pct": 0.04
       },
       {
         "name": "에너지",
-        "change_pct": 0.76
+        "change_pct": 1.02
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.83
+        "change_pct": -0.53
       },
       {
         "name": "산업재",
-        "change_pct": -0.41
+        "change_pct": 0.38
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.59
+        "change_pct": -0.69
       },
       {
         "name": "필수소비재",
-        "change_pct": -1.72
+        "change_pct": -1.64
       },
       {
         "name": "소재",
-        "change_pct": -0.87
+        "change_pct": -0.12
       },
       {
         "name": "부동산",
-        "change_pct": -0.48
+        "change_pct": -0.14
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.11
+        "change_pct": 0.26
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.49
+        "change_pct": 0.07
       }
     ],
     "top_stocks": [
       {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 145.39,
-        "change_pct": 1.86,
-        "volume": 2487604,
-        "trading_value": 361672744,
-        "vol_surge": 0.46,
-        "score": 7.3615
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 333.97,
+        "change_pct": 3.7,
+        "volume": 28781018,
+        "trading_value": 9611996616,
+        "vol_surge": 1.1,
+        "score": 40.5939
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 305.46,
+        "change_pct": 2.12,
+        "volume": 20742991,
+        "trading_value": 6336153853,
+        "vol_surge": 0.61,
+        "score": 12.6135
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 201.09,
-        "change_pct": 1.17,
-        "volume": 7760215,
-        "trading_value": 1560462885,
-        "vol_surge": 0.61,
-        "score": 6.5244
+        "price": 201.54,
+        "change_pct": 1.4,
+        "volume": 9822254,
+        "trading_value": 1979577005,
+        "vol_surge": 0.77,
+        "score": 9.9924
+      },
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 221.53,
+        "change_pct": 1.16,
+        "volume": 24796216,
+        "trading_value": 5493105700,
+        "vol_surge": 0.65,
+        "score": 7.3241
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 178.1,
+        "change_pct": 0.76,
+        "volume": 124981494,
+        "trading_value": 22259204844,
+        "vol_surge": 0.69,
+        "score": 5.4628
       },
       {
         "ticker": "NEE",
         "name": "NextEra Energy, In",
         "sector": "유틸리티",
-        "price": 93.17,
-        "change_pct": 0.72,
-        "volume": 3630607,
-        "trading_value": 338263647,
-        "vol_surge": 0.36,
-        "score": 2.2378
+        "price": 93.67,
+        "change_pct": 1.26,
+        "volume": 4804397,
+        "trading_value": 450027858,
+        "vol_surge": 0.48,
+        "score": 5.2576
       },
       {
-        "ticker": "SPG",
-        "name": "Simon Property Gro",
-        "sector": "부동산",
-        "price": 189.98,
-        "change_pct": 1.05,
-        "volume": 441633,
-        "trading_value": 83901435,
-        "vol_surge": 0.25,
-        "score": 2.1186
-      },
-      {
-        "ticker": "SO",
-        "name": "Southern Company (",
-        "sector": "유틸리티",
-        "price": 97.07,
-        "change_pct": 0.7,
-        "volume": 1844251,
-        "trading_value": 179012227,
-        "vol_surge": 0.3,
-        "score": 1.742
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 144.23,
+        "change_pct": 1.04,
+        "volume": 3098090,
+        "trading_value": 446837507,
+        "vol_surge": 0.58,
+        "score": 5.1812
       },
       {
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 50.06,
-        "change_pct": 0.8,
-        "volume": 4914035,
-        "trading_value": 245972023,
-        "vol_surge": 0.24,
-        "score": 1.6211
+        "price": 50.35,
+        "change_pct": 1.39,
+        "volume": 7220432,
+        "trading_value": 363548740,
+        "vol_surge": 0.35,
+        "score": 4.2223
       },
       {
         "ticker": "AEP",
         "name": "American Electric ",
         "sector": "유틸리티",
-        "price": 132.74,
-        "change_pct": 0.94,
-        "volume": 700917,
-        "trading_value": 93036218,
-        "vol_surge": 0.2,
-        "score": 1.4685
+        "price": 132.92,
+        "change_pct": 1.08,
+        "volume": 1559759,
+        "trading_value": 207323163,
+        "vol_surge": 0.44,
+        "score": 3.9185
       },
       {
-        "ticker": "D",
-        "name": "Dominion Energy, I",
-        "sector": "유틸리티",
-        "price": 62.5,
-        "change_pct": 0.47,
-        "volume": 1408356,
-        "trading_value": 88022250,
-        "vol_surge": 0.26,
-        "score": 0.9563
-      },
-      {
-        "ticker": "DUK",
-        "name": "Duke Energy Corpor",
-        "sector": "유틸리티",
-        "price": 131.82,
-        "change_pct": 0.39,
-        "volume": 1358995,
-        "trading_value": 179142730,
-        "vol_surge": 0.3,
-        "score": 0.9534
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 295.86,
-        "change_pct": 0.29,
-        "volume": 3118575,
-        "trading_value": 922646040,
-        "vol_surge": 0.28,
-        "score": 0.7175
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 163.91,
+        "change_pct": 0.42,
+        "volume": 19628388,
+        "trading_value": 3217289148,
+        "vol_surge": 0.86,
+        "score": 3.4524
       }
     ]
   },
   "strategy": {
-    "overview": "한미 시장 혼조세로, 미국은 기술주 약세 속 에너지·유틸리티 방어주로 로테이션 진행 중이며, 한국은 반도체 섹터가 강하게 주도하며 KOSPI 상승을 견인. 코스닥 약세와 원화 강세가 동반되어 외국인 수급 변동성에 주의 필요.",
-    "action": "반도체 섹터 롱 포지션 유지하되, SK하이닉스 920,000원 돌파 시 추가 매수, 910,000원 이탈 시 부분 익절. 코스닥 숏 헤지를 병행하고, 미국 기술주 반등 확인 전까지 신규 IT 롱은 보류.",
-    "risk": "미국 기술주 추가 하락 시 한국 반도체 연동 조정 가능성 존재하며, USD/KRW 1,500원 이탈 시 수출주 모멘텀 약화 우려. 손절 기준은 KOSPI 5,450pt, 개별 종목 -2.5% 설정.",
-    "watchlist": "SK하이닉스: 반도체 주도주로 외국인 매수세 집중, 920K 저항 돌파 여부 확인\n리노공업: 반도체 후공정 테마 수혜, 거래량 증가 시 단기 모멘텀 기대\n한화에어로스페이스: +6% 급등 후 차익실현 압력 vs 추가 상승 여부 모니터링\n카카오: IT섹터 약세 속 상대적 강세, 47,000원 돌파 시 추세 전환 신호",
-    "date": "2026년 04월 08일 04:07 KST"
+    "overview": "KOSPI는 반도체 섹터 강세로 상승했으나 KOSDAQ은 약세를 보이며 대형주 중심의 차별화 장세가 연출됨. 미국 기술주와 에너지 섹터가 견조하고 원화 강세(USD/KRW -0.83%)가 외국인 수급에 긍정적 신호로 작용할 수 있음. 반도체-방산 섹터로의 로테이션이 뚜렷하며, 중소형주는 관망세 유지 필요.",
+    "action": "SK하이닉스·리노공업 등 반도체 대형주 중심으로 장 초반 갭상승 시 눌림목 매수 전략 유효하며, 진입가 대비 +2~3% 구간에서 분할 익절 권장. KOSDAQ 약세 지속 시 중소형 기술주 숏 헷지 병행, 오후장 외국인 순매수 전환 여부 확인 후 추가 진입 판단.",
+    "risk": "원화 급등세가 수출주 실적 전망에 부담으로 작용할 수 있으며, KOSDAQ 이탈(-1%↓) 지속 시 투자심리 악화 경계 필요. 반도체 주도주는 전고점 부근 저항 매물대 존재하므로 SK하이닉스 900,000원, 리노공업 106,000원 이탈 시 손절 대응.",
+    "watchlist": "SK하이닉스: 반도체 섹터 대장주, 외국인 수급과 HBM 모멘텀 지속 여부 확인\n한화에어로스페이스: 방산 테마 강세 지속, +6% 급등 후 차익실현 매물 소화력 관찰\n카카오: IT 플랫폼 섹터 내 상대강도 우위, 46,000원 지지 여부가 단기 방향성 결정\nBroadcom: 미국 기술주 강세 선도, 국내 반도체 연관주 동반 모멘텀 가늠 지표",
+    "date": "2026년 04월 08일 05:51 KST"
   },
   "consensus": {
     "kospi": {
       "current": 5494.78,
-      "target_avg": 7541,
-      "upside_pct": 37.2,
+      "target_avg": 7554,
+      "upside_pct": 37.5,
       "firms_count": 27,
       "firms": [
         {
           "name": "KB",
-          "target": 8400,
-          "upside_pct": 52.9,
+          "target": 8512,
+          "upside_pct": 54.9,
           "stocks": 10
         },
         {
           "name": "한국투자",
-          "target": 8213,
-          "upside_pct": 49.5,
+          "target": 8291,
+          "upside_pct": 50.9,
           "stocks": 15
         },
         {
           "name": "SK",
-          "target": 8131,
-          "upside_pct": 48.0,
-          "stocks": 8
+          "target": 7982,
+          "upside_pct": 45.3,
+          "stocks": 9
         },
         {
           "name": "대신",
@@ -380,15 +380,15 @@
         },
         {
           "name": "DS투자",
-          "target": 7772,
-          "upside_pct": 41.5,
+          "target": 7877,
+          "upside_pct": 43.4,
           "stocks": 8
         },
         {
           "name": "유안타",
-          "target": 7761,
-          "upside_pct": 41.2,
-          "stocks": 15
+          "target": 7746,
+          "upside_pct": 41.0,
+          "stocks": 14
         },
         {
           "name": "흥국",
@@ -409,6 +409,12 @@
           "stocks": 11
         },
         {
+          "name": "메리츠",
+          "target": 7577,
+          "upside_pct": 37.9,
+          "stocks": 14
+        },
+        {
           "name": "하나",
           "target": 7566,
           "upside_pct": 37.7,
@@ -419,12 +425,6 @@
           "target": 7556,
           "upside_pct": 37.5,
           "stocks": 12
-        },
-        {
-          "name": "삼성",
-          "target": 7530,
-          "upside_pct": 37.0,
-          "stocks": 15
         },
         {
           "name": "교보",
@@ -439,9 +439,9 @@
           "stocks": 12
         },
         {
-          "name": "메리츠",
-          "target": 7468,
-          "upside_pct": 35.9,
+          "name": "삼성",
+          "target": 7430,
+          "upside_pct": 35.2,
           "stocks": 15
         },
         {
@@ -458,8 +458,8 @@
         },
         {
           "name": "한화투자",
-          "target": 7315,
-          "upside_pct": 33.1,
+          "target": 7340,
+          "upside_pct": 33.6,
           "stocks": 12
         },
         {
@@ -472,8 +472,8 @@
     },
     "kosdaq": {
       "current": 1036.73,
-      "target_avg": 1246,
-      "upside_pct": 20.2,
+      "target_avg": 1270,
+      "upside_pct": 22.5,
       "firms_count": 26,
       "firms": [
         {
@@ -481,6 +481,12 @@
           "target": 1724,
           "upside_pct": 66.3,
           "stocks": 1
+        },
+        {
+          "name": "DS투자",
+          "target": 1585,
+          "upside_pct": 52.8,
+          "stocks": 2
         },
         {
           "name": "다올투자",
@@ -525,15 +531,15 @@
           "stocks": 2
         },
         {
+          "name": "한국투자",
+          "target": 1346,
+          "upside_pct": 29.9,
+          "stocks": 2
+        },
+        {
           "name": "신한투자",
           "target": 1309,
           "upside_pct": 26.3,
-          "stocks": 3
-        },
-        {
-          "name": "DS투자",
-          "target": 1299,
-          "upside_pct": 25.3,
           "stocks": 3
         },
         {
@@ -589,12 +595,6 @@
           "target": 1132,
           "upside_pct": 9.2,
           "stocks": 1
-        },
-        {
-          "name": "미래에셋",
-          "target": 1079,
-          "upside_pct": 4.1,
-          "stocks": 2
         }
       ]
     }
