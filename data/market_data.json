@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 09일 16:27 KST",
+  "updated_at": "2026년 04월 09일 18:12 KST",
   "indices": {
     "kospi": {
       "value": 5778.01,
@@ -22,8 +22,8 @@
       "change_pct": 2.85
     },
     "usdkrw": {
-      "value": 1481.11,
-      "change_pct": 0.18
+      "value": 1479.91,
+      "change_pct": 0.1
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.09
+        "change_pct": 0.31
       },
       {
         "name": "금융",
-        "change_pct": 0.79
+        "change_pct": 0.16
       },
       {
         "name": "에너지",
-        "change_pct": 1.66
+        "change_pct": -0.14
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.99
+        "change_pct": 0.15
       },
       {
         "name": "산업재",
-        "change_pct": 1.13
+        "change_pct": 0.15
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.12
+        "change_pct": -0.29
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.83
+        "change_pct": 0.45
       },
       {
         "name": "소재",
-        "change_pct": 1.47
+        "change_pct": 0.29
       },
       {
         "name": "부동산",
-        "change_pct": 0.73
+        "change_pct": 0.16
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.36
+        "change_pct": -0.04
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.43
+        "change_pct": -0.11
       }
     ],
     "top_stocks": [
       {
-        "ticker": "SLB",
-        "name": "SLB Limited",
-        "sector": "에너지",
-        "price": 51.88,
-        "change_pct": 7.3,
-        "volume": 17709432,
-        "trading_value": 918765332,
-        "vol_surge": 0.88,
-        "score": 57.396
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 350.63,
+        "change_pct": 0.84,
+        "volume": 31512400,
+        "trading_value": 11049192965,
+        "vol_surge": 1.19,
+        "score": 10.025
       },
       {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 308.06,
-        "change_pct": 3.9,
-        "volume": 5546893,
-        "trading_value": 1708775857,
-        "vol_surge": 0.96,
-        "score": 34.5348
-      },
-      {
-        "ticker": "CAT",
-        "name": "Caterpillar, Inc.",
-        "sector": "산업재",
-        "price": 771.58,
-        "change_pct": 3.22,
-        "volume": 2925780,
-        "trading_value": 2257473332,
-        "vol_surge": 1.04,
-        "score": 31.4452
-      },
-      {
-        "ticker": "DE",
-        "name": "Deere & Company",
-        "sector": "산업재",
-        "price": 609.32,
-        "change_pct": 3.46,
-        "volume": 1449793,
-        "trading_value": 883387870,
-        "vol_surge": 0.9,
-        "score": 27.9671
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 139.05,
-        "change_pct": 2.96,
-        "volume": 4954440,
-        "trading_value": 688914882,
+        "ticker": "AMD",
+        "name": "Advanced Micro Dev",
+        "sector": "기술",
+        "price": 231.82,
+        "change_pct": 0.92,
+        "volume": 35397200,
+        "trading_value": 8205779163,
         "vol_surge": 0.92,
-        "score": 23.9569
+        "score": 8.4238
       },
       {
-        "ticker": "SHW",
-        "name": "Sherwin-Williams C",
+        "ticker": "NEM",
+        "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 335.67,
-        "change_pct": 2.84,
-        "volume": 1649022,
-        "trading_value": 553527214,
-        "vol_surge": 0.91,
-        "score": 22.5637
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 125.22,
-        "change_pct": 1.75,
-        "volume": 12710388,
-        "trading_value": 1591594785,
-        "vol_surge": 1.29,
-        "score": 20.8387
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 156.22,
-        "change_pct": 1.33,
-        "volume": 31274177,
-        "trading_value": 4885651930,
-        "vol_surge": 1.36,
-        "score": 17.5499
-      },
-      {
-        "ticker": "PG",
-        "name": "Procter & Gamble C",
-        "sector": "필수소비재",
-        "price": 144.9,
-        "change_pct": 1.82,
-        "volume": 10847282,
-        "trading_value": 1571771161,
-        "vol_surge": 0.95,
-        "score": 15.8184
+        "price": 118.15,
+        "change_pct": 0.9,
+        "volume": 8547200,
+        "trading_value": 1009851693,
+        "vol_surge": 0.79,
+        "score": 6.4335
       },
       {
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
         "price": 65.1,
-        "change_pct": 1.99,
-        "volume": 16146694,
-        "trading_value": 1051149779,
-        "vol_surge": 0.79,
-        "score": 14.2534
+        "change_pct": 0.69,
+        "volume": 20324900,
+        "trading_value": 1323150958,
+        "vol_surge": 1.0,
+        "score": 6.2688
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 182.08,
+        "change_pct": 0.63,
+        "volume": 147293100,
+        "trading_value": 26819127917,
+        "vol_surge": 0.82,
+        "score": 5.4013
+      },
+      {
+        "ticker": "APD",
+        "name": "Air Products and C",
+        "sector": "소재",
+        "price": 296.61,
+        "change_pct": 0.49,
+        "volume": 1588900,
+        "trading_value": 471283605,
+        "vol_surge": 1.06,
+        "score": 4.5182
+      },
+      {
+        "ticker": "COST",
+        "name": "Costco Wholesale C",
+        "sector": "필수소비재",
+        "price": 1030.27,
+        "change_pct": 0.42,
+        "volume": 2263400,
+        "trading_value": 2331913162,
+        "vol_surge": 1.07,
+        "score": 4.1971
+      },
+      {
+        "ticker": "AMT",
+        "name": "American Tower Cor",
+        "sector": "부동산",
+        "price": 176.18,
+        "change_pct": 0.26,
+        "volume": 3465200,
+        "trading_value": 610498910,
+        "vol_surge": 1.04,
+        "score": 2.3738
+      },
+      {
+        "ticker": "WMT",
+        "name": "Walmart Inc.",
+        "sector": "필수소비재",
+        "price": 127.26,
+        "change_pct": 0.35,
+        "volume": 20172300,
+        "trading_value": 2567126941,
+        "vol_surge": 0.65,
+        "score": 2.1513
+      },
+      {
+        "ticker": "LIN",
+        "name": "Linde plc",
+        "sector": "소재",
+        "price": 500.48,
+        "change_pct": 0.17,
+        "volume": 2543500,
+        "trading_value": 1272970907,
+        "vol_surge": 0.94,
+        "score": 1.4598
       }
     ]
   },
   "strategy": {
-    "overview": "한미 증시 극명한 디커플링 장세로, 미국은 에너지·산업재 중심 강세 반면 한국은 반도체·IT 중심 전반적 약세. 원화 약세(1,481원)가 지속되며 외국인 이탈 압력이 가중되고 있으나, 화학/에너지·철강 등 원자재 섹터로의 로테이션 조짐이 포착됨.",
-    "action": "단기 롱 포지션은 화학/에너지(S-Oil, LG화학) 섹터에 집중하되, 장중 2-3% 추가 상승 시 분할 익절 권고. 반도체·IT는 반등 시 숏 헷지 또는 관망 유지. KOSPI 5,750 이탈 시 인버스 ETF로 단기 헷지, 5,800 회복 시 해제.",
-    "risk": "미중 무역갈등 재점화 및 원화 추가 약세(1,490원 돌파) 시 외국인 매도 가속화 리스크. 화학/에너지 종목 전일 급등분 고려해 -3% 손절라인 엄수. 미국 CPI 발표(4/10) 앞두고 변동성 확대 대비 필요.",
-    "watchlist": "S-Oil: +6.69% 강세, 에너지 섹터 모멘텀 지속 여부 확인, 12만원 저항 돌파 시 추가 상승 가능\nLG화학: 배터리+화학 동반 수혜, 36만원 안착 여부가 단기 방향성 결정\nSK텔레콤: 방어주 성격 부각, 통신 섹터 자금 유입 지속 시 9.5만원 목표\n삼성전자: 반도체 낙폭 과대 구간 진입 여부 모니터링, 외국인 수급 전환 시 반등 트리거",
-    "date": "2026년 04월 09일 16:26 KST"
+    "overview": "한미 시장 디커플링이 극명한 혼조장세로, 미국은 기술주 중심 강세(+2.5~2.8%)인 반면 한국은 전 섹터 약세(-1.3~1.6%). 한국 내 화학/에너지·철강 등 경기방어주로 자금이 이동하는 섹터 로테이션이 진행 중이며, 원화 약세(1,480원대)가 수출주보다 내수/방어주에 유리한 환경을 조성하고 있음.",
+    "action": "한국 시장은 반도체·IT 약세 지속 시 추격 숏보다는 화학/에너지(S-Oil, LG화학) 단기 롱 포지션 유지 전략 권고. 진입은 전일 종가 대비 -1% 이내 눌림목에서, 청산은 +3~5% 수익 구간 또는 섹터 모멘텀 전환 시. 미국 기술주 강세 연동 기대 시 KOSPI200 선물 롱 헤지 병행 고려.",
+    "risk": "원화 1,480원 돌파 시 외국인 이탈 가속화 리스크 주의. 반도체 섹터 추가 하락(-3% 이상) 시 지수 전체 급락 가능성 존재. 손절 기준은 개별 종목 -3%, 선물 포지션 -1.5%로 타이트하게 설정.",
+    "watchlist": "S-Oil: +6.69% 급등, 정유 마진 개선 기대감으로 모멘텀 지속 여부 확인\nLG화학: 화학 섹터 대장주로 외국인 수급 전환 시 추가 상승 여력\nSK텔레콤: 방어주 성격 부각, 배당주 선호 심리 수혜 관찰\n삼성전자: 반도체 섹터 -1.51% 하락의 핵심, 저점 매수 타이밍 탐색용 모니터링",
+    "date": "2026년 04월 09일 18:11 KST"
   },
   "consensus": {
     "kospi": {
