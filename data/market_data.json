@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 11일 00:57 KST",
+  "updated_at": "2026년 04월 11일 01:55 KST",
   "indices": {
     "kospi": {
       "value": 5858.87,
@@ -10,20 +10,20 @@
       "change_pct": 1.64
     },
     "sp500": {
-      "value": 6818.84,
+      "value": 6818.96,
       "change_pct": -0.07
     },
     "nasdaq": {
-      "value": 22888.95,
-      "change_pct": 0.29
+      "value": 22884.64,
+      "change_pct": 0.27
     },
     "dow": {
-      "value": 47961.7,
-      "change_pct": -0.46
+      "value": 47928.92,
+      "change_pct": -0.53
     },
     "usdkrw": {
-      "value": 1483.82,
-      "change_pct": 0.65
+      "value": 1483.3,
+      "change_pct": 0.62
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.5
+        "change_pct": 0.46
       },
       {
         "name": "금융",
-        "change_pct": -1.24
+        "change_pct": -1.04
       },
       {
         "name": "에너지",
-        "change_pct": -0.32
+        "change_pct": -0.44
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.29
+        "change_pct": -1.27
       },
       {
         "name": "산업재",
-        "change_pct": -0.24
+        "change_pct": -0.26
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.15
+        "change_pct": -0.24
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.85
+        "change_pct": -1.03
       },
       {
         "name": "소재",
-        "change_pct": 0.67
+        "change_pct": 0.81
       },
       {
         "name": "부동산",
-        "change_pct": 0.28
+        "change_pct": 0.3
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.25
+        "change_pct": -0.01
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.37
+        "change_pct": -0.29
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 372.81,
-        "change_pct": 4.78,
-        "volume": 14751780,
-        "trading_value": 5499643479,
-        "vol_surge": 0.56,
-        "score": 25.9311
+        "price": 372.73,
+        "change_pct": 4.76,
+        "volume": 17062574,
+        "trading_value": 6359733394,
+        "vol_surge": 0.64,
+        "score": 30.0611
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 245.41,
-        "change_pct": 4.05,
-        "volume": 20821489,
-        "trading_value": 5109801691,
-        "vol_surge": 0.54,
-        "score": 21.3336
+        "price": 245.23,
+        "change_pct": 3.98,
+        "volume": 24420642,
+        "trading_value": 5988581148,
+        "vol_surge": 0.64,
+        "score": 24.7633
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 188.27,
-        "change_pct": 2.87,
-        "volume": 84009892,
-        "trading_value": 15816961903,
-        "vol_surge": 0.47,
-        "score": 13.7442
+        "price": 188.44,
+        "change_pct": 2.96,
+        "volume": 97730886,
+        "trading_value": 18416408396,
+        "vol_surge": 0.55,
+        "score": 16.5973
       },
       {
         "ticker": "AMZN",
         "name": "Amazon.com, Inc.",
         "sector": "임의소비재",
-        "price": 238.12,
-        "change_pct": 2.31,
-        "volume": 29871794,
-        "trading_value": 7113071441,
-        "vol_surge": 0.59,
-        "score": 13.4158
+        "price": 237.9,
+        "change_pct": 2.21,
+        "volume": 34330451,
+        "trading_value": 8167214083,
+        "vol_surge": 0.68,
+        "score": 14.8406
       },
       {
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
-        "price": 67.52,
-        "change_pct": 2.07,
-        "volume": 7530663,
-        "trading_value": 508471144,
-        "vol_surge": 0.37,
-        "score": 6.6862
-      },
-      {
-        "ticker": "D",
-        "name": "Dominion Energy, I",
-        "sector": "유틸리티",
-        "price": 65.12,
-        "change_pct": 1.45,
-        "volume": 1811530,
-        "trading_value": 117967018,
-        "vol_surge": 0.34,
-        "score": 3.9468
+        "price": 67.71,
+        "change_pct": 2.36,
+        "volume": 8490059,
+        "trading_value": 574861887,
+        "vol_surge": 0.42,
+        "score": 8.6467
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 120.84,
-        "change_pct": 1.54,
-        "volume": 2168542,
-        "trading_value": 262046607,
-        "vol_surge": 0.2,
-        "score": 2.614
+        "price": 120.96,
+        "change_pct": 1.64,
+        "volume": 2649601,
+        "trading_value": 320495734,
+        "vol_surge": 0.25,
+        "score": 3.4367
+      },
+      {
+        "ticker": "D",
+        "name": "Dominion Energy, I",
+        "sector": "유틸리티",
+        "price": 64.79,
+        "change_pct": 0.93,
+        "volume": 2129799,
+        "trading_value": 137989679,
+        "vol_surge": 0.4,
+        "score": 3.0012
       },
       {
         "ticker": "SPG",
         "name": "Simon Property Gro",
         "sector": "부동산",
-        "price": 199.74,
-        "change_pct": 0.62,
-        "volume": 258778,
-        "trading_value": 51688319,
-        "vol_surge": 0.15,
-        "score": 0.7159
+        "price": 199.83,
+        "change_pct": 0.67,
+        "volume": 324370,
+        "trading_value": 64818857,
+        "vol_surge": 0.19,
+        "score": 0.9821
       },
       {
         "ticker": "AAPL",
         "name": "Apple Inc.",
         "sector": "기술",
-        "price": 260.86,
-        "change_pct": 0.34,
-        "volume": 9586079,
-        "trading_value": 2500672404,
-        "vol_surge": 0.2,
-        "score": 0.6473
+        "price": 260.31,
+        "change_pct": 0.12,
+        "volume": 11998038,
+        "trading_value": 3123208144,
+        "vol_surge": 0.25,
+        "score": 0.2889
       },
       {
-        "ticker": "PLD",
-        "name": "Prologis, Inc.",
-        "sector": "부동산",
-        "price": 137.43,
-        "change_pct": 0.23,
-        "volume": 638237,
-        "trading_value": 87709721,
-        "vol_surge": 0.18,
-        "score": 0.3308
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 137.5,
+        "change_pct": 0.22,
+        "volume": 545415,
+        "trading_value": 74994562,
+        "vol_surge": 0.15,
+        "score": 0.2666
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 1.4~1.6% 상승하며 강세 흐름, 금융(+2.89%)과 반도체(+1.30%)가 주도하는 반면 IT/플랫폼(-3.76%)은 급락. 미국은 기술주 강세 속 지수는 혼조세로 마감했으며, 원/달러 1,483원대 약세가 수출주에 우호적 환경 조성 중.",
-    "action": "금융·반도체 섹터 롱 포지션 유지, SK하이닉스는 103만원 돌파 시 추격 매수 고려. IT/플랫폼 섹터는 단기 숏 또는 관망하며, 장 초반 30분 거래량 확인 후 방향성 확정 시 진입. 원화 약세 지속 시 수출 비중 높은 반도체·철강주 비중 확대.",
-    "risk": "원/달러 1,490원 돌파 시 외국인 매도 가속화 가능성, IT/플랫폼 추가 하락 시 시장 심리 급랭 우려. SK하이닉스 100만원, 현대제철 39,500원 이탈 시 손절, 전체 포트폴리오 -2% 도달 시 전량 청산 기준 적용.",
-    "watchlist": "SK하이닉스: 미국 반도체주(NVDA, AMD, AVGO) 동반 강세로 갭업 가능성, 103만원 저항 돌파 모니터링\nBNK금융지주: 금융 섹터 강세 주도주로 5.67% 급등, 단기 차익실현 매물 소화 후 추가 상승 여력 확인\nLG유플러스: 거래량 동반 7.54% 급등, 이벤트성인지 추세 전환인지 장중 흐름 확인 필요\n현대제철: 원화 약세 수혜 + Freeport 강세로 소재 섹터 모멘텀, 40,000원 지지 여부 관찰",
-    "date": "2026년 04월 11일 00:56 KST"
+    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 1.4~1.6% 상승하며 강세 흐름, 금융(+2.89%)과 반도체(+1.30%) 주도의 섹터 로테이션 진행 중. 미국은 기술주 강세에도 S&P 보합권으로 혼조세이며, 원/달러 1,483원대 약세가 수출주에 우호적 환경 조성. IT/플랫폼 -3.76% 급락은 차익실현 또는 악재 반영으로 해석되어 선별적 접근 필요.",
+    "action": "금융·반도체 롱 포지션 유지하되, SK하이닉스는 102.7만원 돌파 시 추가 매수, 100만원 이탈 시 절반 청산. BNK금융지주는 1.85만원 지지 확인 후 단기 트레이딩 롱 진입, IT/플랫폼 섹터는 반등 시 숏 헷지 고려. 장 초반 30분 관망 후 방향성 확인되면 09:30 이후 포지션 확대.",
+    "risk": "원/달러 1,490원 돌파 시 외국인 매도 압력 가중 가능성 주의, 미국 금융섹터 -1.04% 약세가 국내 금융주에 후행 영향 줄 수 있음. 전체 포지션 대비 2% 손실 시 일괄 손절, 개별 종목은 -3% 기준 적용.",
+    "watchlist": "SK하이닉스: 반도체 대장주, 미국 AMD·NVIDIA 강세 수혜 기대, 100만원 지지 여부 확인\nBNK금융지주: 금융섹터 최강세주, 거래량 동반 상승 시 추가 모멘텀 가능\nLG유플러스: 전일 +7.54% 급등 후 차익실현 매물 소화 여부 관찰, 17,000원 지지선 테스트 예상\n카카오/네이버: IT/플랫폼 -3.76% 급락 원인 파악 필요, 기술적 반등 구간에서 단기 트레이딩 기회 탐색",
+    "date": "2026년 04월 11일 01:55 KST"
   },
   "consensus": {
     "kospi": {
