@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 11일 04:47 KST",
+  "updated_at": "2026년 04월 11일 05:41 KST",
   "indices": {
     "kospi": {
       "value": 5858.87,
@@ -10,20 +10,20 @@
       "change_pct": 1.64
     },
     "sp500": {
-      "value": 6814.9,
-      "change_pct": -0.13
+      "value": 6816.89,
+      "change_pct": -0.11
     },
     "nasdaq": {
-      "value": 22900.24,
-      "change_pct": 0.34
+      "value": 22902.89,
+      "change_pct": 0.35
     },
     "dow": {
-      "value": 47884.05,
-      "change_pct": -0.62
+      "value": 47916.57,
+      "change_pct": -0.56
     },
     "usdkrw": {
-      "value": 1483.11,
-      "change_pct": 0.61
+      "value": 1484.17,
+      "change_pct": 0.68
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.56
+        "change_pct": 0.52
       },
       {
         "name": "금융",
-        "change_pct": -1.04
+        "change_pct": -1.03
       },
       {
         "name": "에너지",
-        "change_pct": -0.47
+        "change_pct": -0.28
       },
       {
         "name": "헬스케어",
-        "change_pct": -1.75
+        "change_pct": -1.66
       },
       {
         "name": "산업재",
-        "change_pct": -0.52
+        "change_pct": -0.53
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.05
+        "change_pct": 0.17
       },
       {
         "name": "필수소비재",
-        "change_pct": -1.53
+        "change_pct": -1.29
       },
       {
         "name": "소재",
-        "change_pct": 0.69
+        "change_pct": 0.7
       },
       {
         "name": "부동산",
-        "change_pct": -0.02
+        "change_pct": 0.38
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.77
+        "change_pct": -0.72
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.42
+        "change_pct": -0.28
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 372.92,
-        "change_pct": 4.81,
-        "volume": 23683345,
-        "trading_value": 8831993335,
-        "vol_surge": 0.89,
-        "score": 42.7757
+        "price": 371.55,
+        "change_pct": 4.43,
+        "volume": 29100641,
+        "trading_value": 10812342808,
+        "vol_surge": 1.1,
+        "score": 48.8354
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 245.45,
-        "change_pct": 4.07,
-        "volume": 31513741,
-        "trading_value": 7735047632,
-        "vol_surge": 0.82,
-        "score": 33.0492
+        "price": 245.04,
+        "change_pct": 3.9,
+        "volume": 35893173,
+        "trading_value": 8795262870,
+        "vol_surge": 0.94,
+        "score": 36.2732
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 188.82,
-        "change_pct": 3.17,
-        "volume": 134522938,
-        "trading_value": 25400622138,
-        "vol_surge": 0.75,
-        "score": 24.7983
+        "price": 188.63,
+        "change_pct": 3.07,
+        "volume": 159395820,
+        "trading_value": 30066834304,
+        "vol_surge": 0.89,
+        "score": 28.6568
       },
       {
         "ticker": "AMZN",
         "name": "Amazon.com, Inc.",
         "sector": "임의소비재",
-        "price": 238.12,
-        "change_pct": 2.31,
-        "volume": 45694421,
-        "trading_value": 10880755305,
-        "vol_surge": 0.9,
-        "score": 20.9045
+        "price": 238.38,
+        "change_pct": 2.42,
+        "volume": 56515959,
+        "trading_value": 13472274582,
+        "vol_surge": 1.12,
+        "score": 27.3367
       },
       {
         "ticker": "FCX",
         "name": "Freeport-McMoRan, ",
         "sector": "소재",
-        "price": 68.14,
-        "change_pct": 3.0,
-        "volume": 11351468,
-        "trading_value": 773432296,
-        "vol_surge": 0.56,
-        "score": 14.9122
+        "price": 67.8,
+        "change_pct": 2.49,
+        "volume": 14541304,
+        "trading_value": 985900455,
+        "vol_surge": 0.72,
+        "score": 16.0432
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
         "sector": "임의소비재",
-        "price": 347.69,
-        "change_pct": 0.8,
-        "volume": 44364767,
-        "trading_value": 15425185946,
-        "vol_surge": 0.72,
-        "score": 5.8518
+        "price": 348.95,
+        "change_pct": 1.17,
+        "volume": 50310339,
+        "trading_value": 17555793408,
+        "vol_surge": 0.81,
+        "score": 9.7588
       },
       {
         "ticker": "NEM",
         "name": "Newmont Corporatio",
         "sector": "소재",
-        "price": 120.44,
-        "change_pct": 1.2,
-        "volume": 4238138,
-        "trading_value": 510441771,
-        "vol_surge": 0.39,
-        "score": 4.1178
-      },
-      {
-        "ticker": "NFLX",
-        "name": "Netflix, Inc.",
-        "sector": "통신서비스",
-        "price": 102.72,
-        "change_pct": 0.71,
-        "volume": 18721657,
-        "trading_value": 1923182186,
-        "vol_surge": 0.38,
-        "score": 2.5299
+        "price": 120.9,
+        "change_pct": 1.59,
+        "volume": 4894759,
+        "trading_value": 591776370,
+        "vol_surge": 0.46,
+        "score": 6.3479
       },
       {
         "ticker": "SPG",
         "name": "Simon Property Gro",
         "sector": "부동산",
-        "price": 199.87,
-        "change_pct": 0.69,
-        "volume": 618346,
-        "trading_value": 123588812,
-        "vol_surge": 0.36,
-        "score": 1.9972
+        "price": 200.57,
+        "change_pct": 1.04,
+        "volume": 787721,
+        "trading_value": 157993206,
+        "vol_surge": 0.46,
+        "score": 3.8854
       },
       {
-        "ticker": "LIN",
-        "name": "Linde plc",
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "기술",
+        "price": 260.48,
+        "change_pct": 0.19,
+        "volume": 28218689,
+        "trading_value": 7350404420,
+        "vol_surge": 0.6,
+        "score": 1.1179
+      },
+      {
+        "ticker": "SHW",
+        "name": "Sherwin-Williams C",
         "sector": "소재",
-        "price": 503.33,
-        "change_pct": 0.06,
-        "volume": 653734,
-        "trading_value": 329040673,
-        "vol_surge": 0.24,
-        "score": 0.1238
+        "price": 336.11,
+        "change_pct": 0.12,
+        "volume": 1160098,
+        "trading_value": 389920521,
+        "vol_surge": 0.64,
+        "score": 0.6628
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 금융(+2.89%), IT/플랫폼(+2.52%) 주도로 강세 흐름이며, 미국은 기술주 강세에도 지수는 혼조세를 보임. 원/달러 환율 상승(+0.61%)이 수출주에 우호적이나, 외국인 자금 이탈 가능성도 상존하는 양면적 장세.",
-    "action": "금융·IT 섹터 롱 포지션 유지하되, 장 초반 갭상승 시 추격매수 자제하고 09:30-10:00 눌림목에서 분할 진입. KOSPI 5,900 저항선 돌파 실패 시 보유 물량 50% 청산, 반도체는 미국 기술주 모멘텀 연동하여 오후장 강세 시 단기 트레이딩.",
-    "risk": "환율 1,490원 돌파 시 외국인 매도 압력 확대 리스크 주의. 손절 기준은 섹터 대비 -2% 이상 언더퍼폼 또는 전일 저점 이탈 시 즉시 청산. 미국 금융 섹터(-1.04%) 약세가 한국 금융주로 전이될 가능성도 모니터링 필요.",
-    "watchlist": "BNK금융지주: 금융 섹터 주도주로 거래량 동반 상승, 18,000원 지지 확인 시 추가 매수\n동진쎄미켐: +9.88% 급등 후 차익실현 매물 소화 여부 관찰, 48,000원 지지 시 재진입\n원익IPS: 미국 반도체 강세(NVDA +3.17%) 수혜 기대, 120,000원 지지선 유효\nLG유플러스: 통신주 이례적 강세, 17,000원 이상 유지 시 방어주 역할 기대",
-    "date": "2026년 04월 11일 04:46 KST"
+    "overview": "한국 시장 강세(KOSPI +1.40%, KOSDAQ +1.64%) vs 미국 혼조세로 디커플링 현상 발생. 금융(+2.89%), IT/플랫폼(+2.52%) 중심 섹터 로테이션이 진행 중이며, 원화 약세(1,484원)가 수출주에 우호적 환경 조성. 미국 기술주 반등(NVIDIA, AMD)이 국내 반도체 섹터 지지력으로 작용할 전망.",
+    "action": "금융·IT플랫폼 섹터 롱 포지션 유지, 장 초반 갭상승 시 추격매수보다 눌림목 분할진입 권장. 반도체는 미국 기술주 흐름 확인 후 오전 10시 이후 진입 고려. 전일 급등주(동진쎄미켐 +9.88%)는 차익실현 물량 출회 가능성 높아 단기 숏 또는 관망.",
+    "risk": "USD/KRW 1,490원 돌파 시 외국인 이탈 가속화 리스크 주의. 미국 금융섹터 약세(-1.03%)가 국내 금융주로 전이될 가능성 모니터링 필요. 손절 기준은 진입가 대비 -2% 또는 당일 저점 이탈 시 즉시 청산.",
+    "watchlist": "BNK금융지주: 금융섹터 모멘텀 + 저PBR 밸류에이션 매력, 추가 상승 여력 확인\n원익IPS: 반도체 장비주로 NVIDIA 반등 수혜 기대, 12만원 지지 여부 관찰\nLG유플러스: 통신 방어주 역할 + 거래량 동반 급등, 17,000원 지지 시 추가 매수\nNVIDIA(참조): 국내 반도체 섹터 방향성 결정 변수, 190달러 돌파 여부 체크",
+    "date": "2026년 04월 11일 05:41 KST"
   },
   "consensus": {
     "kospi": {
