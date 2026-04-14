@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 15일 05:07 KST",
+  "updated_at": "2026년 04월 15일 06:55 KST",
   "indices": {
     "kospi": {
       "value": 5967.75,
@@ -22,8 +22,8 @@
       "change_pct": 0.66
     },
     "usdkrw": {
-      "value": 1472.24,
-      "change_pct": -0.38
+      "value": 1470.92,
+      "change_pct": -0.47
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 1.24
+        "change_pct": 1.27
       },
       {
         "name": "금융",
-        "change_pct": 0.31
+        "change_pct": 0.33
       },
       {
         "name": "에너지",
-        "change_pct": -2.0
+        "change_pct": -1.96
       },
       {
         "name": "헬스케어",
-        "change_pct": 0.73
+        "change_pct": 0.76
       },
       {
         "name": "산업재",
-        "change_pct": 0.44
+        "change_pct": 0.41
       },
       {
         "name": "임의소비재",
-        "change_pct": 2.76
+        "change_pct": 2.79
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.23
+        "change_pct": -0.2
       },
       {
         "name": "소재",
-        "change_pct": -0.21
+        "change_pct": -0.23
       },
       {
         "name": "부동산",
-        "change_pct": 1.14
+        "change_pct": 1.12
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.26
+        "change_pct": 0.24
       },
       {
         "name": "통신서비스",
-        "change_pct": 1.33
+        "change_pct": 1.36
       }
     ],
     "top_stocks": [
@@ -239,32 +239,32 @@
         "sector": "통신서비스",
         "price": 662.49,
         "change_pct": 3.82,
-        "volume": 16177225,
-        "trading_value": 10717249632,
-        "vol_surge": 0.99,
-        "score": 37.9532
+        "volume": 17646349,
+        "trading_value": 11690529576,
+        "vol_surge": 1.08,
+        "score": 41.5558
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
-        "price": 196.46,
-        "change_pct": 3.94,
-        "volume": 152798383,
-        "trading_value": 30018771350,
-        "vol_surge": 0.85,
-        "score": 35.2661
+        "price": 196.51,
+        "change_pct": 3.97,
+        "volume": 159140019,
+        "trading_value": 31272604259,
+        "vol_surge": 0.89,
+        "score": 37.0722
       },
       {
         "ticker": "TSLA",
         "name": "Tesla, Inc.",
         "sector": "임의소비재",
-        "price": 364.16,
-        "change_pct": 3.08,
+        "price": 364.2,
+        "change_pct": 3.09,
         "volume": 56252996,
-        "trading_value": 20485259466,
+        "trading_value": 20487341829,
         "vol_surge": 0.91,
-        "score": 28.9923
+        "score": 29.0866
       },
       {
         "ticker": "GOOGL",
@@ -272,21 +272,21 @@
         "sector": "통신서비스",
         "price": 332.91,
         "change_pct": 3.6,
-        "volume": 25025632,
-        "trading_value": 8331283240,
-        "vol_surge": 0.75,
-        "score": 26.6946
+        "volume": 26545885,
+        "trading_value": 8837390672,
+        "vol_surge": 0.79,
+        "score": 28.3894
       },
       {
         "ticker": "NFLX",
         "name": "Netflix, Inc.",
         "sector": "통신서비스",
-        "price": 106.24,
-        "change_pct": 2.95,
-        "volume": 38109082,
-        "trading_value": 4048708790,
-        "vol_surge": 0.79,
-        "score": 22.3655
+        "price": 106.28,
+        "change_pct": 2.99,
+        "volume": 40183141,
+        "trading_value": 4270664176,
+        "vol_surge": 0.83,
+        "score": 23.9602
       },
       {
         "ticker": "AMD",
@@ -303,43 +303,43 @@
         "ticker": "MSFT",
         "name": "Microsoft Corporat",
         "sector": "기술",
-        "price": 393.01,
-        "change_pct": 1.64,
-        "volume": 35200044,
-        "trading_value": 13833828913,
-        "vol_surge": 0.95,
-        "score": 15.8016
+        "price": 393.11,
+        "change_pct": 1.67,
+        "volume": 36999810,
+        "trading_value": 14544994767,
+        "vol_surge": 1.0,
+        "score": 16.9497
       },
       {
         "ticker": "ABBV",
         "name": "AbbVie Inc.",
         "sector": "헬스케어",
-        "price": 210.33,
-        "change_pct": 2.02,
+        "price": 210.26,
+        "change_pct": 1.99,
         "volume": 4691298,
-        "trading_value": 986720716,
+        "trading_value": 986392291,
         "vol_surge": 0.65,
-        "score": 11.8892
+        "score": 11.7125
       },
       {
         "ticker": "SPG",
         "name": "Simon Property Gro",
         "sector": "부동산",
-        "price": 202.89,
-        "change_pct": 1.04,
+        "price": 202.96,
+        "change_pct": 1.07,
         "volume": 1512531,
-        "trading_value": 306877413,
+        "trading_value": 306983301,
         "vol_surge": 0.88,
-        "score": 7.7399
+        "score": 7.9633
       }
     ]
   },
   "strategy": {
-    "overview": "한미 증시 동반 강세로 위험선호 심리가 뚜렷하며, 반도체·빅테크 중심의 기술주 랠리가 핵심 테마입니다. 원화 강세(-0.38%)와 함께 외국인 자금 유입 기대감이 높고, 에너지 섹터만 약세를 보이는 전형적인 성장주 로테이션 장세입니다.",
-    "action": "SK하이닉스·삼성전자 중심 반도체 롱 포지션 유지하되, 장 초반 갭상승 시 추격 매수보다 5일선 부근 눌림목에서 분할 진입 권장합니다. KOSPI 5,950선을 지지 확인 후 레버리지 ETF 비중 확대, 장중 고점 대비 1.5% 이상 하락 시 절반 익절로 수익 확정하세요.",
-    "risk": "급등 후 차익실현 매물 출회 가능성이 높으며, 미국 선물 야간 흐름과 중국 경제지표 발표(10:00)에 주의 필요합니다. SK하이닉스 기준 1,070,000원(-3%), KOSPI 5,920선 이탈 시 전량 손절 기준으로 설정하세요.",
-    "watchlist": "SK하이닉스: 6%대 급등으로 모멘텀 최강, HBM 수혜 지속 여부 확인\n세아베스틸: 철강 섹터 이례적 강세, 수급 지속성과 거래량 검증 필요\nNVIDIA(야간참조): 미국 AI 랠리 바로미터, 국내 반도체 연동성 체크\nNH투자증권: 금융섹터 대장주로 증시 거래대금 증가 수혜 기대",
-    "date": "2026년 04월 15일 05:06 KST"
+    "overview": "미국 빅테크 주도의 강세장이 한국 시장으로 전이되며 KOSPI +2.74% 강한 상승 흐름. 반도체-IT 섹터가 주도하는 전형적인 리스크온 장세로, 원화 강세(-0.47%)도 외국인 자금 유입을 시사. 에너지 섹터 약세는 기술주 중심 로테이션이 지속됨을 의미.",
+    "action": "반도체 대형주 중심 롱 포지션 유지하되, 전일 급등분 감안해 추격매수보다 눌림목 분할매수 전략 권장. SK하이닉스 108-110만원, 삼성전자 20.3-20.5만원 지지 구간에서 진입 고려. 금융섹터(증권주)는 거래대금 증가 수혜로 단기 스윙 롱 유효하며, 장중 상승 탄력 둔화 시 반도체 비중 일부 차익실현.",
+    "risk": "급등 후 단기 과열 신호 주의, KOSPI 6,000pt 심리적 저항 돌파 실패 시 차익매물 출회 가능. 원/달러 1,465원 하회 시 수출주 단기 모멘텀 약화 리스크. 손절 기준: 개별 종목 전일 저가 이탈 또는 -2.5% 손실 시 기계적 청산.",
+    "watchlist": "SK하이닉스: AI/HBM 모멘텀 지속, 외국인 수급 확인 필요\n삼성전자: 반도체 대장주 갭상승 후 20만원대 안착 여부 관건\nNH투자증권: 거래대금 급증 수혜, 증권섹터 대표 수혜주\n세아베스틸: 철강 수급 이슈로 급등, 단기 과열 주의하며 되돌림 매매 관찰",
+    "date": "2026년 04월 15일 06:54 KST"
   },
   "consensus": {
     "kospi": {
