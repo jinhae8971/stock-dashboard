@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 17일 05:53 KST",
+  "updated_at": "2026년 04월 17일 06:47 KST",
   "indices": {
     "kospi": {
       "value": 6226.05,
@@ -22,8 +22,8 @@
       "change_pct": 0.24
     },
     "usdkrw": {
-      "value": 1479.47,
-      "change_pct": 0.3
+      "value": 1479.21,
+      "change_pct": 0.28
     }
   },
   "kr": {
@@ -234,6 +234,17 @@
         "score": 133.5299
       },
       {
+        "ticker": "T",
+        "name": "AT&T Inc.",
+        "sector": "통신서비스",
+        "price": 26.4,
+        "change_pct": 3.59,
+        "volume": 33356137,
+        "trading_value": 880602004,
+        "vol_surge": 0.74,
+        "score": 23.7832
+      },
+      {
         "ticker": "VZ",
         "name": "Verizon Communicat",
         "sector": "통신서비스",
@@ -256,26 +267,26 @@
         "score": 20.5402
       },
       {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 26.4,
-        "change_pct": 3.59,
-        "volume": 27189223,
-        "trading_value": 717795476,
-        "vol_surge": 0.6,
-        "score": 19.1937
-      },
-      {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
         "price": 121.57,
         "change_pct": 2.26,
-        "volume": 6800508,
-        "trading_value": 826737755,
+        "volume": 6803017,
+        "trading_value": 827042774,
         "vol_surge": 0.7,
-        "score": 14.0338
+        "score": 14.0393
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 151.98,
+        "change_pct": 2.07,
+        "volume": 15161023,
+        "trading_value": 2304172210,
+        "vol_surge": 0.66,
+        "score": 12.7794
       },
       {
         "ticker": "EOG",
@@ -283,10 +294,10 @@
         "sector": "에너지",
         "price": 134.07,
         "change_pct": 1.22,
-        "volume": 5793617,
-        "trading_value": 776750273,
+        "volume": 5794994,
+        "trading_value": 776934888,
         "vol_surge": 1.07,
-        "score": 11.6153
+        "score": 11.6182
       },
       {
         "ticker": "MSFT",
@@ -294,10 +305,21 @@
         "sector": "기술",
         "price": 420.26,
         "change_pct": 1.02,
-        "volume": 40943689,
-        "trading_value": 17206995138,
+        "volume": 41060589,
+        "trading_value": 17256123534,
         "vol_surge": 1.09,
-        "score": 11.3813
+        "score": 11.4152
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporatio",
+        "sector": "에너지",
+        "price": 188.15,
+        "change_pct": 1.97,
+        "volume": 7995452,
+        "trading_value": 1504344244,
+        "vol_surge": 0.63,
+        "score": 11.3129
       },
       {
         "ticker": "EQIX",
@@ -309,37 +331,15 @@
         "trading_value": 483488872,
         "vol_surge": 0.71,
         "score": 9.8015
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 151.98,
-        "change_pct": 2.07,
-        "volume": 11446046,
-        "trading_value": 1739570022,
-        "vol_surge": 0.5,
-        "score": 9.5222
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 188.15,
-        "change_pct": 1.97,
-        "volume": 5755952,
-        "trading_value": 1082982333,
-        "vol_surge": 0.45,
-        "score": 8.0176
       }
     ]
   },
   "strategy": {
-    "overview": "KOSPI +2.21% 강세장으로 자동차·IT플랫폼 섹터 주도의 명확한 로테이션 진행 중. 미국은 AMD 급등으로 기술주 반등 신호가 나타났으며, 에너지 섹터도 강세를 보여 리스크온 분위기. 원/달러 1,479원대 소폭 상승은 외국인 매도 압력 제한적임을 시사.",
-    "action": "자동차 섹터(현대차·기아) 갭상승 후 눌림목 매수 전략 권장, 전일 종가 대비 -1.5% 지지 확인 시 진입. IT플랫폼 연관 반도체(삼성전자·SK하이닉스) 단기 롱 포지션 유지하되, KOSPI 6,280 저항선 근접 시 50% 익절. 오전 외국인 순매수 지속 여부 확인 후 10시 이후 추가 진입.",
-    "risk": "KOSPI 급등 후 단기 과열 구간 진입 가능성 주의, RSI 70 이상 시 신규 매수 자제. 원화 약세 확대(1,490원 돌파) 시 외국인 이탈 리스크 부각되므로 손절라인은 진입가 -2% 엄수. 미국 증시 선물 약세 전환 시 후장 변동성 확대 대비 필요.",
-    "watchlist": "현대차: 자동차 섹터 대장주, +5% 갭상승 후 거래량 동반 여부 확인 필수\nSK하이닉스: 미국 AMD 급등 수혜 기대, 반도체 섹터 동반 상승 모멘텀 점검\nSK이노베이션: 미국 에너지 강세 연동, 배터리·정유 복합 테마로 추가 상승 여력 관찰\n셀트리온: 헬스케어 방어주 성격, 시장 조정 시 로테이션 대상으로 대기",
-    "date": "2026년 04월 17일 05:52 KST"
+    "overview": "한미 증시 모두 강세 흐름으로 리스크온 분위기가 지속되며, KOSPI가 2.21% 급등하며 6,200선을 돌파했습니다. 한국은 자동차/IT 플랫폼 섹터가 주도하고 있고, 미국은 AMD 급등에서 보듯 반도체/기술주 중심의 로테이션이 나타나고 있습니다. 환율 1,479원대 유지로 외국인 매수세 지속 가능성에 주목해야 합니다.",
+    "action": "자동차 섹터(현대차, 기아) 롱 포지션 유지하되 장초반 갭상승 시 분할매도로 익절 권장합니다. IT/플랫폼 섹터는 2%대 상승에 따른 단기 과열 구간이므로 신규 진입보다는 눌림목 대기 전략이 유효합니다. AMD 급등에 연동되는 국내 반도체 장비주는 시가대비 +1.5% 이상 시 추격매수 가능합니다.",
+    "risk": "KOSPI 단기 급등에 따른 차익실현 매물 출회 가능성이 높아 오후 장 변동성 확대에 대비하세요. 환율 1,480원 돌파 시 외국인 매도 전환 시그널로 판단하며, 자동차 섹터 롱 포지션은 현대차 기준 520,000원(-2.6%) 이탈 시 손절 권장합니다.",
+    "watchlist": "현대차: 자동차 섹터 대장주로 외국인 수급 집중, 530K 지지 여부 확인\nAMD 연동주(한미반도체 등): 전일 AMD +7.7% 급등 수혜, 반도체 장비 모멘텀 기대\n셀트리온: 헬스케어 방어주 역할 + 3.47% 상승 모멘텀 지속 여부 체크\nSK이노베이션: 에너지 섹터 미국 동조 흐름, 유가 방향성과 함께 관찰",
+    "date": "2026년 04월 17일 06:46 KST"
   },
   "consensus": {
     "kospi": {
