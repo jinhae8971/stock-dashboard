@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 18일 11:36 KST",
+  "updated_at": "2026년 04월 18일 14:09 KST",
   "indices": {
     "kospi": {
       "value": 6191.92,
@@ -228,10 +228,10 @@
         "sector": "임의소비재",
         "price": 400.62,
         "change_pct": 3.2,
-        "volume": 90217327,
-        "trading_value": 36142865102,
-        "vol_surge": 1.44,
-        "score": 48.5552
+        "volume": 90388400,
+        "trading_value": 36211400366,
+        "vol_surge": 1.43,
+        "score": 48.3083
       },
       {
         "ticker": "HD",
@@ -239,10 +239,10 @@
         "sector": "임의소비재",
         "price": 349.4,
         "change_pct": 3.63,
-        "volume": 4918193,
-        "trading_value": 1718416604,
+        "volume": 4923400,
+        "trading_value": 1720235929,
         "vol_surge": 1.2,
-        "score": 40.3833
+        "score": 40.2943
       },
       {
         "ticker": "MRK",
@@ -250,10 +250,10 @@
         "sector": "헬스케어",
         "price": 119.07,
         "change_pct": 2.9,
-        "volume": 16170587,
-        "trading_value": 1925431789,
-        "vol_surge": 1.44,
-        "score": 38.731
+        "volume": 16173200,
+        "trading_value": 1925742919,
+        "vol_surge": 1.43,
+        "score": 38.4654
       },
       {
         "ticker": "AAPL",
@@ -261,10 +261,10 @@
         "sector": "기술",
         "price": 270.23,
         "change_pct": 2.32,
-        "volume": 55211089,
-        "trading_value": 14919693187,
-        "vol_surge": 1.18,
-        "score": 27.8629
+        "volume": 61314800,
+        "trading_value": 16569099077,
+        "vol_surge": 1.3,
+        "score": 30.9266
       },
       {
         "ticker": "LLY",
@@ -272,21 +272,10 @@
         "sector": "헬스케어",
         "price": 927.03,
         "change_pct": 2.66,
-        "volume": 3232413,
-        "trading_value": 2996543918,
-        "vol_surge": 1.03,
-        "score": 26.0429
-      },
-      {
-        "ticker": "UNH",
-        "name": "UnitedHealth Group",
-        "sector": "헬스케어",
-        "price": 324.63,
-        "change_pct": 2.44,
-        "volume": 9380057,
-        "trading_value": 3045047949,
-        "vol_surge": 0.94,
-        "score": 21.6989
+        "volume": 3245500,
+        "trading_value": 3008675960,
+        "vol_surge": 1.04,
+        "score": 26.1375
       },
       {
         "ticker": "CAT",
@@ -294,32 +283,10 @@
         "sector": "산업재",
         "price": 794.65,
         "change_pct": 2.77,
-        "volume": 2252553,
-        "trading_value": 1789991296,
-        "vol_surge": 0.8,
-        "score": 20.4979
-      },
-      {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 304.13,
-        "change_pct": 1.87,
-        "volume": 6359644,
-        "trading_value": 1934158560,
-        "vol_surge": 1.08,
-        "score": 18.7632
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA Corporation",
-        "sector": "기술",
-        "price": 201.68,
-        "change_pct": 1.91,
-        "volume": 153662565,
-        "trading_value": 30990664983,
-        "vol_surge": 0.86,
-        "score": 17.3315
+        "volume": 2800800,
+        "trading_value": 2225655788,
+        "vol_surge": 0.99,
+        "score": 25.7498
       },
       {
         "ticker": "AMT",
@@ -327,19 +294,52 @@
         "sector": "부동산",
         "price": 182.36,
         "change_pct": 1.99,
-        "volume": 3140565,
-        "trading_value": 572713435,
-        "vol_surge": 0.96,
-        "score": 16.7089
+        "volume": 4708600,
+        "trading_value": 858660298,
+        "vol_surge": 1.43,
+        "score": 25.3755
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Aerospace",
+        "sector": "산업재",
+        "price": 304.13,
+        "change_pct": 1.87,
+        "volume": 7727400,
+        "trading_value": 2350134199,
+        "vol_surge": 1.31,
+        "score": 22.8908
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 324.63,
+        "change_pct": 2.44,
+        "volume": 9397500,
+        "trading_value": 3050710470,
+        "vol_surge": 0.94,
+        "score": 21.7623
+      },
+      {
+        "ticker": "CCI",
+        "name": "Crown Castle Inc.",
+        "sector": "부동산",
+        "price": 88.71,
+        "change_pct": 2.55,
+        "volume": 3436500,
+        "trading_value": 304851911,
+        "vol_surge": 1.0,
+        "score": 21.5572
       }
     ]
   },
   "strategy": {
-    "overview": "한미 증시 혼조세로 미국 기술주 강세에도 한국은 반도체·IT 약세로 KOSPI 하락 중. 철강/소재와 통신 섹터로 자금이 로테이션되며 방어적 성격 강화, 원화 강세(-0.89%)는 외국인 수급 개선 기대 요인.",
-    "action": "반도체·IT 숏 포지션 유지하며 철강/통신 섹터 단기 롱 진입 고려. POSCO홀딩스는 385,000원 돌파 시 추격 매수, SK텔레콤은 98,000원 지지 확인 후 분할 매수. KOSPI 6,150 이탈 시 전체 롱 포지션 50% 축소.",
-    "risk": "미국 에너지 섹터 급락(-2.83%)이 글로벌 경기 둔화 시그널일 수 있어 주의 필요. 반도체 섹터 추가 하락 시 KOSPI 6,150 붕괴 가능성 존재, 손절 기준은 진입가 대비 -2% 설정.",
-    "watchlist": "POSCO홀딩스: 철강 섹터 모멘텀 최상위, 거래량 동반 상승으로 추세 지속 기대\nSK텔레콤: 통신 방어주 선호 속 2.5% 상승, 배당 매력 부각\n삼성전자: 반도체 약세 핵심주, 미국 기술주 강세와 괴리 발생 여부 모니터링\n휴젤: 헬스케어 강세 지속, 미국 Eli Lilly 동반 상승 수혜 가능",
-    "date": "2026년 04월 18일 11:35 KST"
+    "overview": "한미 시장 혼조세로, 미국 기술주 강세에도 불구하고 국내 반도체·IT는 약세를 보이며 철강/통신으로 섹터 로테이션 진행 중. 원화 강세(-0.89%)가 수출주 부담으로 작용하며, 코스닥은 중소형주 중심 반등세 유지.",
+    "action": "철강/소재 섹터 모멘텀 롱 포지션 유지, POSCO홀딩스 390,000원 돌파 시 추가 매수 고려. 반도체(삼성전자, SK하이닉스) 단기 숏 헤지 유효하며, 코스닥 강세 종목 단타 매매 시 장중 고점 대비 -2% 이탈 시 청산.",
+    "risk": "원화 급등세 지속 시 수출주 추가 하락 가능성 주의, 미국 에너지 섹터 급락(-2.83%)이 글로벌 리스크오프 신호일 수 있음. 손절 기준은 진입가 대비 -1.5% 또는 당일 저점 이탈 시 즉시 청산.",
+    "watchlist": "세아베스틸: 거래량 동반 6%대 급등, 철강 랠리 선도주로 추가 모멘텀 확인 필요\nSK텔레콤: 통신 섹터 방어주 역할 + 배당 매력으로 기관 수급 유입 관찰\n삼성전자: 반도체 약세 속 지지선 테스트 구간, 숏커버 타이밍 포착용\nTesla: 미국 장 강세 주도, 국내 2차전지 관련주 연동 가능성 체크",
+    "date": "2026년 04월 18일 14:08 KST"
   },
   "consensus": {
     "kospi": {
