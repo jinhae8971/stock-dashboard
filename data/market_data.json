@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 23일 05:07 KST",
+  "updated_at": "2026년 04월 23일 06:54 KST",
   "indices": {
     "kospi": {
       "value": 6417.93,
@@ -22,8 +22,8 @@
       "change_pct": 0.69
     },
     "usdkrw": {
-      "value": 1479.44,
-      "change_pct": -0.49
+      "value": 1479.54,
+      "change_pct": -0.48
     }
   },
   "kr": {
@@ -178,43 +178,43 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 1.55
+        "change_pct": 1.54
       },
       {
         "name": "금융",
-        "change_pct": -0.61
+        "change_pct": -0.55
       },
       {
         "name": "에너지",
-        "change_pct": 1.02
+        "change_pct": 1.04
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.17
+        "change_pct": -0.14
       },
       {
         "name": "산업재",
-        "change_pct": -0.93
+        "change_pct": -0.9
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.36
+        "change_pct": -0.37
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.11
+        "change_pct": 0.13
       },
       {
         "name": "소재",
-        "change_pct": 1.45
+        "change_pct": 1.43
       },
       {
         "name": "부동산",
-        "change_pct": -0.58
+        "change_pct": -0.6
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.4
+        "change_pct": -0.36
       },
       {
         "name": "통신서비스",
@@ -228,10 +228,10 @@
         "sector": "기술",
         "price": 303.46,
         "change_pct": 5.49,
-        "volume": 48155451,
-        "trading_value": 14613252748,
-        "vol_surge": 1.3,
-        "score": 72.5783
+        "volume": 48843690,
+        "trading_value": 14822105750,
+        "vol_surge": 1.32,
+        "score": 73.6603
       },
       {
         "ticker": "AVGO",
@@ -250,32 +250,32 @@
         "sector": "기술",
         "price": 273.17,
         "change_pct": 2.08,
-        "volume": 40299306,
-        "trading_value": 11008561961,
-        "vol_surge": 0.87,
-        "score": 18.207
-      },
-      {
-        "ticker": "FCX",
-        "name": "Freeport-McMoRan, ",
-        "sector": "소재",
-        "price": 70.3,
-        "change_pct": 2.85,
-        "volume": 11794314,
-        "trading_value": 829140310,
-        "vol_surge": 0.61,
-        "score": 15.3952
+        "volume": 42729584,
+        "trading_value": 11672441035,
+        "vol_surge": 0.92,
+        "score": 19.3539
       },
       {
         "ticker": "SLB",
         "name": "SLB Limited",
         "sector": "에너지",
-        "price": 54.38,
-        "change_pct": 2.59,
-        "volume": 11646789,
-        "trading_value": 633352398,
-        "vol_surge": 0.6,
-        "score": 13.731
+        "price": 54.35,
+        "change_pct": 2.54,
+        "volume": 13948387,
+        "trading_value": 758094812,
+        "vol_surge": 0.72,
+        "score": 16.27
+      },
+      {
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan, ",
+        "sector": "소재",
+        "price": 70.36,
+        "change_pct": 2.94,
+        "volume": 11794314,
+        "trading_value": 829847940,
+        "vol_surge": 0.61,
+        "score": 15.8821
       },
       {
         "ticker": "MSFT",
@@ -292,21 +292,21 @@
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 122.62,
-        "change_pct": 1.93,
-        "volume": 5405395,
-        "trading_value": 662809549,
-        "vol_surge": 0.56,
-        "score": 9.538
+        "price": 122.6,
+        "change_pct": 1.91,
+        "volume": 6555934,
+        "trading_value": 803757498,
+        "vol_surge": 0.68,
+        "score": 11.5569
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 133.02,
+        "price": 133.01,
         "change_pct": 1.28,
         "volume": 4195333,
-        "trading_value": 558063213,
+        "trading_value": 558021219,
         "vol_surge": 0.78,
         "score": 8.7082
       },
@@ -316,10 +316,10 @@
         "sector": "통신서비스",
         "price": 339.32,
         "change_pct": 1.26,
-        "volume": 18567648,
-        "trading_value": 6300374455,
-        "vol_surge": 0.57,
-        "score": 7.0541
+        "volume": 19260580,
+        "trading_value": 6535500146,
+        "vol_surge": 0.59,
+        "score": 7.3293
       },
       {
         "ticker": "NVDA",
@@ -327,19 +327,19 @@
         "sector": "기술",
         "price": 202.5,
         "change_pct": 0.9,
-        "volume": 103825793,
-        "trading_value": 21024723082,
-        "vol_surge": 0.6,
-        "score": 5.5368
+        "volume": 106421485,
+        "trading_value": 21550350712,
+        "vol_surge": 0.61,
+        "score": 5.6811
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술주 강세에 힘입어 글로벌 증시 혼조세 속 한국은 IT/플랫폼 중심 로테이션 진행 중. 반도체(-0.74%)와 금융(-1.59%) 약세 반면 IT/플랫폼(+3.06%)으로 자금 집중, 원화 강세(-0.49%)는 외인 수급 개선 신호로 해석.",
-    "action": "IT/플랫폼 섹터 롱 포지션 유지하되, 장 초반 갭상승 시 추격매수 자제하고 오전 10시 이후 눌림목에서 분할 진입. 반도체/금융 숏 헷지 병행하며, KOSPI 6,450 돌파 시 롱 비중 확대, 6,380 이탈 시 전량 청산.",
-    "risk": "미국 기술주 과열 신호(나스닥 +1.64% 급등) 후 차익실현 가능성, 반도체 약세 지속 시 지수 하방 압력. 손절 기준은 진입가 대비 -2%, 섹터 로테이션 역전 시 즉시 포지션 정리.",
-    "watchlist": "동진쎄미켐: 전일 +10.42% 급등 후 갭 리스크 존재, 58,000원 지지 확인 시 재진입\nLG전자: IT/플랫폼 대장주, 130,000원 지지 시 추가 상승 여력\nAMD(참고): 미국 기술주 방향성 선행지표, 한국 반도체 연동 체크\n삼성중공업: 철강/소재 동반 강세, 30,500원 지지 여부 모니터링",
-    "date": "2026년 04월 23일 05:07 KST"
+    "overview": "미국 기술주 강세(나스닥 +1.64%)에 힘입어 한국 IT/플랫폼 섹터(+3.06%)가 시장을 주도하는 혼조장. 반도체(-0.74%)와 금융(-1.59%) 약세로 섹터 로테이션이 기술주 내에서도 선별적으로 진행 중이며, 원화 강세(-0.48%)가 외국인 수급에 긍정적 신호.",
+    "action": "IT/플랫폼 섹터 롱 포지션 유지하되, 장 초반 갭상승 시 추격매수 자제. LG전자·동진쎄미켐은 5일선 지지 확인 후 분할 진입, 반도체 약세 지속 시 삼성전자·SK하이닉스 숏 헷지 고려. 목표가 도달 시 2/3 청산, 잔여 1/3은 트레일링 스탑으로 관리.",
+    "risk": "미국 빅테크 실적 시즌 본격화로 애프터장 변동성 확대 가능성 주의. 원화 강세 전환이 수출주에 부담 요인이 될 수 있으며, 손절 기준은 진입가 대비 -2.5% 또는 전일 저점 이탈 시 즉시 청산.",
+    "watchlist": "동진쎄미켐: IT/플랫폼 최강세주, 반도체 소재 테마 수혜 가능성\nLG전자: 전일 갭상승 후 거래량 동반, 외국인 순매수 확인 필요\nAMD(미국): +5.49% 급등으로 국내 반도체 장비주 연동 모니터링\n삼성중공업: 조선주 모멘텀 지속 여부와 철강/소재 섹터 동반 강세 확인",
+    "date": "2026년 04월 23일 06:54 KST"
   },
   "consensus": {
     "kospi": {
