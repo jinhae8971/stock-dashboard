@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 22일 20:09 KST",
+  "updated_at": "2026년 04월 22일 22:46 KST",
   "indices": {
     "kospi": {
       "value": 6417.93,
@@ -10,20 +10,20 @@
       "change_pct": 0.18
     },
     "sp500": {
-      "value": 7064.01,
-      "change_pct": -0.63
+      "value": 7111.06,
+      "change_pct": 0.66
     },
     "nasdaq": {
-      "value": 24259.96,
-      "change_pct": -0.59
+      "value": 24459.31,
+      "change_pct": 0.82
     },
     "dow": {
-      "value": 49149.38,
-      "change_pct": -0.59
+      "value": 49438.35,
+      "change_pct": 0.59
     },
     "usdkrw": {
-      "value": 1477.76,
-      "change_pct": -0.6
+      "value": 1476.91,
+      "change_pct": -0.66
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.64
+        "change_pct": 0.32
       },
       {
         "name": "금융",
-        "change_pct": -0.38
+        "change_pct": -0.27
       },
       {
         "name": "에너지",
-        "change_pct": -0.16
+        "change_pct": 0.97
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.45
+        "change_pct": 0.39
       },
       {
         "name": "산업재",
-        "change_pct": -0.67
+        "change_pct": 0.08
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.34
+        "change_pct": -0.15
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.2
+        "change_pct": 0.2
       },
       {
         "name": "소재",
-        "change_pct": 1.31
+        "change_pct": 2.07
       },
       {
         "name": "부동산",
-        "change_pct": 0.13
+        "change_pct": 0.52
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.18
+        "change_pct": 0.82
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.37
+        "change_pct": -0.03
       }
     ],
     "top_stocks": [
       {
-        "ticker": "PLD",
-        "name": "Prologis, Inc.",
-        "sector": "부동산",
-        "price": 141.92,
-        "change_pct": 0.91,
-        "volume": 4323300,
-        "trading_value": 613562728,
-        "vol_surge": 1.21,
-        "score": 9.6794
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 352.99,
+        "change_pct": 2.32,
+        "volume": 1397475,
+        "trading_value": 493301680,
+        "vol_surge": 0.14,
+        "score": 2.7381
       },
       {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan, ",
+        "sector": "소재",
+        "price": 69.83,
+        "change_pct": 2.17,
+        "volume": 1331124,
+        "trading_value": 92952391,
+        "vol_surge": 0.07,
+        "score": 1.7291
+      },
+      {
+        "ticker": "SLB",
+        "name": "SLB Limited",
         "sector": "에너지",
-        "price": 132.43,
-        "change_pct": 0.84,
-        "volume": 3479300,
-        "trading_value": 460763673,
-        "vol_surge": 0.65,
-        "score": 4.6943
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1005.81,
-        "change_pct": 0.12,
-        "volume": 1366400,
-        "trading_value": 1374338780,
-        "vol_surge": 0.69,
-        "score": 0.7614
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 148.36,
-        "change_pct": 0.1,
-        "volume": 17505300,
-        "trading_value": 2597086318,
-        "vol_surge": 0.76,
-        "score": 0.7152
-      },
-      {
-        "ticker": "WMT",
-        "name": "Walmart Inc.",
-        "sector": "필수소비재",
-        "price": 129.6,
-        "change_pct": 0.05,
-        "volume": 17304900,
-        "trading_value": 2242715145,
-        "vol_surge": 0.78,
-        "score": 0.3654
+        "price": 53.94,
+        "change_pct": 1.75,
+        "volume": 1286670,
+        "trading_value": 69396548,
+        "vol_surge": 0.07,
+        "score": 1.3722
       },
       {
         "ticker": "CCI",
         "name": "Crown Castle Inc.",
         "sector": "부동산",
-        "price": 84.92,
-        "change_pct": 0.02,
-        "volume": 3552000,
-        "trading_value": 301635833,
-        "vol_surge": 1.03,
-        "score": 0.1754
+        "price": 86.46,
+        "change_pct": 1.84,
+        "volume": 186589,
+        "trading_value": 16133417,
+        "vol_surge": 0.05,
+        "score": 1.3262
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources, Inc",
+        "sector": "에너지",
+        "price": 133.44,
+        "change_pct": 1.61,
+        "volume": 108353,
+        "trading_value": 14459024,
+        "vol_surge": 0.02,
+        "score": 1.1528
       },
       {
         "ticker": "SHW",
         "name": "Sherwin-Williams C",
         "sector": "소재",
-        "price": 334.61,
-        "change_pct": -0.0,
-        "volume": 1490000,
-        "trading_value": 498568878,
-        "vol_surge": 0.84,
-        "score": -0.0
+        "price": 339.77,
+        "change_pct": 1.54,
+        "volume": 77803,
+        "trading_value": 26434737,
+        "vol_surge": 0.04,
+        "score": 1.143
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 185.98,
-        "change_pct": -0.01,
-        "volume": 9790700,
-        "trading_value": 1820874344,
-        "vol_surge": 0.77,
-        "score": -0.01
+        "price": 188.44,
+        "change_pct": 1.31,
+        "volume": 848643,
+        "trading_value": 159918288,
+        "vol_surge": 0.07,
+        "score": 1.0747
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 120.26,
-        "change_pct": -0.03,
-        "volume": 8134700,
-        "trading_value": 978279039,
-        "vol_surge": 0.84,
-        "score": -0.03
+        "price": 121.8,
+        "change_pct": 1.25,
+        "volume": 384648,
+        "trading_value": 46850127,
+        "vol_surge": 0.04,
+        "score": 0.9588
       },
       {
-        "ticker": "EQIX",
-        "name": "Equinix, Inc.",
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 149.87,
+        "change_pct": 1.12,
+        "volume": 1387386,
+        "trading_value": 207927533,
+        "vol_surge": 0.06,
+        "score": 0.9316
+      },
+      {
+        "ticker": "PLD",
+        "name": "Prologis, Inc.",
         "sector": "부동산",
-        "price": 1094.34,
-        "change_pct": -0.1,
-        "volume": 507400,
-        "trading_value": 555268098,
-        "vol_surge": 0.8,
-        "score": -0.1
+        "price": 142.28,
+        "change_pct": 1.16,
+        "volume": 106136,
+        "trading_value": 15101029,
+        "vol_surge": 0.03,
+        "score": 0.8328
       }
     ]
   },
   "strategy": {
-    "overview": "한국 증시는 강보합, 미국은 기술주 중심 약세로 혼조세 지속. IT/플랫폼과 조선/철강 섹터로 로테이션이 나타나며, 금융·반도체는 약세 흐름. 원화 강세(-0.60%)가 수출주보다 내수·플랫폼주에 우호적 환경 조성.",
-    "action": "IT/플랫폼 섹터 롱 포지션 유지, LG전자·삼성중공업 등 모멘텀 상위 종목 추격 매수보다는 눌림목 진입 권장. 금융·반도체는 단기 숏 또는 비중 축소, 장중 KOSPI 6,450 저항선 돌파 시 추가 롱 진입 검토.",
-    "risk": "미국 기술주 약세가 내일 KOSPI 갭다운 유발 가능성 존재, S&P 500 7,000선 이탈 시 경계 필요. 주도주 손절 기준은 전일 저가 -2% 이탈 시 청산, 환율 1,460원 이탈 시 수출주 포지션 재점검.",
-    "watchlist": "LG전자: IT/플랫폼 섹터 리더, +4.9% 강세로 추가 상승 모멘텀 확인 필요\n삼성중공업: 조선 수주 기대감 지속, 32,000원 돌파 시 단기 목표 34,000원\n한화에어로스페이스: 방산 테마 지속, 고가권 부담 있으나 142만원 지지 확인 시 매수 유효\n삼성전자: 반도체 섹터 약세 속 낙폭과대 반등 가능성, 저가 매수 관점 관찰",
-    "date": "2026년 04월 22일 20:08 KST"
+    "overview": "한미 증시 동반 강세 속 혼조 장세. 한국은 IT/플랫폼(+1.22%)으로 자금 유입되며 반도체·금융은 약세, 미국은 에너지·소재 중심 상승. 원화 강세(-0.66%)로 외국인 매수세 유입 가능성 존재하며, 섹터 로테이션이 성장주→가치주·산업재로 전환 조짐.",
+    "action": "IT/플랫폼 및 조선·방산 섹터 롱 포지션 유지, 금융·반도체는 단기 관망. LG전자·삼성중공업 장중 눌림목 시 132,000원/31,000원 부근 분할 매수 진입, 전고점 대비 +3% 도달 시 절반 익절. 원화 강세 수혜주 중심으로 포트폴리오 조정 권장.",
+    "risk": "반도체 섹터 연속 약세(-0.42%) 시 외국인 매도 전환 리스크 주의. 금융 섹터 -1.59% 급락은 금리 이슈 가능성 시사. 개별종목 손절 기준은 진입가 대비 -2.5%, 지수 급변동 시 선물 헷지 비중 20% 확대 필요.",
+    "watchlist": "LG전자: IT/플랫폼 섹터 주도주, 전일 대비 +4.9% 모멘텀 지속 여부 확인\n삼성중공업: 조선 수주 기대감 +5.3% 급등, 거래량 동반 시 추가 상승 여력\n한화에어로스페이스: 방산 테마 지속, 142만원 저항선 돌파 여부 관찰\n현대모비스: 자동차 섹터 회복 신호, 외국인 수급 흐름 모니터링 필요",
+    "date": "2026년 04월 22일 22:45 KST"
   },
   "consensus": {
     "kospi": {
