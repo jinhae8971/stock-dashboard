@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 28일 04:27 KST",
+  "updated_at": "2026년 04월 28일 06:06 KST",
   "indices": {
     "kospi": {
       "value": 6615.03,
@@ -10,20 +10,20 @@
       "change_pct": 1.86
     },
     "sp500": {
-      "value": 7174.53,
-      "change_pct": 0.14
+      "value": 7173.91,
+      "change_pct": 0.12
     },
     "nasdaq": {
-      "value": 24870.21,
-      "change_pct": 0.14
+      "value": 24887.1,
+      "change_pct": 0.2
     },
     "dow": {
-      "value": 49217.97,
-      "change_pct": -0.02
+      "value": 49167.79,
+      "change_pct": -0.13
     },
     "usdkrw": {
-      "value": 1473.6,
-      "change_pct": -0.18
+      "value": 1474.69,
+      "change_pct": -0.11
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.0
+        "change_pct": 0.18
       },
       {
         "name": "금융",
-        "change_pct": 0.81
+        "change_pct": 0.64
       },
       {
         "name": "에너지",
-        "change_pct": 0.06
+        "change_pct": -0.19
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.5
+        "change_pct": -0.65
       },
       {
         "name": "산업재",
-        "change_pct": -0.33
+        "change_pct": -0.39
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.64
+        "change_pct": -0.79
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.96
+        "change_pct": -1.08
       },
       {
         "name": "소재",
-        "change_pct": 0.08
+        "change_pct": -0.29
       },
       {
         "name": "부동산",
-        "change_pct": -0.87
+        "change_pct": -0.96
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.1
+        "change_pct": -0.02
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.09
+        "change_pct": -0.06
       }
     ],
     "top_stocks": [
       {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 216.61,
+        "change_pct": 4.08,
+        "volume": 184868860,
+        "trading_value": 40044443877,
+        "vol_surge": 1.06,
+        "score": 45.9953
+      },
+      {
         "ticker": "GOOGL",
         "name": "Alphabet Inc.",
         "sector": "통신서비스",
-        "price": 351.98,
-        "change_pct": 2.48,
-        "volume": 20623819,
-        "trading_value": 7259068818,
-        "vol_surge": 0.64,
-        "score": 15.6771
+        "price": 350.34,
+        "change_pct": 2.0,
+        "volume": 28218240,
+        "trading_value": 9885978098,
+        "vol_surge": 0.88,
+        "score": 17.5337
       },
       {
         "ticker": "VZ",
         "name": "Verizon Communicat",
         "sector": "통신서비스",
-        "price": 46.96,
-        "change_pct": 0.92,
-        "volume": 27949020,
-        "trading_value": 1312485953,
-        "vol_surge": 0.9,
-        "score": 7.5555
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 312.56,
-        "change_pct": 1.35,
-        "volume": 4383348,
-        "trading_value": 1370059240,
-        "vol_surge": 0.43,
-        "score": 5.2867
-      },
-      {
-        "ticker": "BRK-B",
-        "name": "Berkshire Hathaway",
-        "sector": "금융",
-        "price": 473.4,
-        "change_pct": 0.72,
-        "volume": 3249033,
-        "trading_value": 1538092202,
-        "vol_surge": 0.67,
-        "score": 4.417
-      },
-      {
-        "ticker": "GS",
-        "name": "Goldman Sachs Grou",
-        "sector": "금융",
-        "price": 939.08,
-        "change_pct": 1.37,
-        "volume": 764118,
-        "trading_value": 717567944,
-        "vol_surge": 0.33,
-        "score": 3.9537
+        "price": 47.1,
+        "change_pct": 1.23,
+        "volume": 37019629,
+        "trading_value": 1743624469,
+        "vol_surge": 1.19,
+        "score": 13.5606
       },
       {
         "ticker": "SO",
         "name": "Southern Company (",
         "sector": "유틸리티",
-        "price": 93.85,
-        "change_pct": 1.11,
-        "volume": 2334915,
-        "trading_value": 219131769,
-        "vol_surge": 0.4,
-        "score": 3.7352
+        "price": 93.77,
+        "change_pct": 1.03,
+        "volume": 4223806,
+        "trading_value": 396066274,
+        "vol_surge": 0.73,
+        "score": 6.4632
       },
       {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 121.92,
-        "change_pct": 0.35,
-        "volume": 8839186,
-        "trading_value": 1077673540,
-        "vol_surge": 0.91,
-        "score": 2.8909
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
         "sector": "금융",
-        "price": 506.64,
-        "change_pct": 0.62,
-        "volume": 1578308,
-        "trading_value": 799641839,
-        "vol_surge": 0.43,
-        "score": 2.3802
+        "price": 311.63,
+        "change_pct": 1.01,
+        "volume": 5202144,
+        "trading_value": 1621144160,
+        "vol_surge": 0.51,
+        "score": 4.7316
+      },
+      {
+        "ticker": "GS",
+        "name": "Goldman Sachs Grou",
+        "sector": "금융",
+        "price": 937.81,
+        "change_pct": 1.24,
+        "volume": 945645,
+        "trading_value": 886835335,
+        "vol_surge": 0.4,
+        "score": 4.4747
       },
       {
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 677.97,
-        "change_pct": 0.41,
-        "volume": 9234163,
-        "trading_value": 6260485218,
-        "vol_surge": 0.59,
-        "score": 2.3585
+        "price": 678.62,
+        "change_pct": 0.51,
+        "volume": 12763296,
+        "trading_value": 8661427869,
+        "vol_surge": 0.81,
+        "score": 4.1133
       },
       {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 185.34,
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 506.43,
+        "change_pct": 0.57,
+        "volume": 2530839,
+        "trading_value": 1281692776,
+        "vol_surge": 0.69,
+        "score": 3.5896
+      },
+      {
+        "ticker": "BRK-B",
+        "name": "Berkshire Hathaway",
+        "sector": "금융",
+        "price": 472.81,
+        "change_pct": 0.48,
+        "volume": 3812215,
+        "trading_value": 1802453364,
+        "vol_surge": 0.78,
+        "score": 3.481
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 424.82,
         "change_pct": 0.22,
-        "volume": 6425671,
-        "trading_value": 1190901777,
-        "vol_surge": 0.51,
-        "score": 1.0123
+        "volume": 30769467,
+        "trading_value": 13071485196,
+        "vol_surge": 0.82,
+        "score": 1.817
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 반도체 섹터 주도로 강한 상승세를 보이며 KOSPI +2.15% 기록, 미국은 보합권 혼조세. 반도체 단일 섹터 집중 랠리(+5.46%)로 섹터 로테이션보다는 테마 모멘텀 장세이며, IT/금융은 오히려 약세로 양극화 심화.",
-    "action": "반도체 대형주(SK하이닉스) 장초반 갭상승 시 추격매수 자제, 눌림목 3-5% 조정 시 분할 진입 고려. 한미반도체는 +26% 급등으로 단기 차익실현 매물 예상되어 신규 진입보다 관망. 상승 소외 섹터(금융/IT) 역발상 롱은 아직 시기상조.",
-    "risk": "반도체 단일 섹터 쏠림은 되돌림 시 낙폭 확대 위험, SK하이닉스 130만원선 이탈 시 손절 대응. 원/달러 1,470원대 안정적이나 글로벌 달러 강세 전환 시 외국인 이탈 주의. 미국 기술주 무반응은 추가 상승 동력 제한 요인.",
-    "watchlist": "SK하이닉스: 반도체 대장주, 130만원 지지 여부가 추세 지속 핵심\n한미반도체: 급등 후 변동성 극대화 예상, 단타 매매 기회 탐색용\n원익IPS: 장비주 동반 상승 확인, 반도체 온기 확산 수혜 2차 타겟\nAlphabet: 미국 시장 내 유일한 강세주, 한국 IT 반등 시 상관관계 참고",
-    "date": "2026년 04월 28일 04:26 KST"
+    "overview": "한국 시장은 반도체 섹터 주도로 강세 흐름이 뚜렷하며, KOSPI +2.15% 상승은 기관/외국인 순매수 동반 가능성을 시사합니다. 미국 시장은 NVIDIA 강세에도 전반적 혼조세로 마감했으나, 한국 반도체 밸류체인으로의 섹터 로테이션이 진행 중입니다. IT/플랫폼과 금융 약세는 수급이 반도체로 집중되고 있음을 보여줍니다.",
+    "action": "반도체 대형주(SK하이닉스) 장 초반 눌림목에서 롱 진입, 목표가 1,320,000원(+2.2%), 손절 1,265,000원(-2.1%) 설정합니다. 한미반도체는 +26% 급등 후 차익실현 매물 예상되어 단기 숏 또는 관망 권고하며, 원익IPS는 장비주 연속 강세 시 추격 매수보다 5일선 지지 확인 후 분할 진입이 유리합니다.",
+    "risk": "한미반도체 급등 이후 반도체 전반 차익실현 압력이 오후 장에 출현할 수 있으며, 원/달러 환율 1,470원대 안정이 외국인 수급 지속의 관건입니다. 미국 빅테크 실적 시즌 돌입으로 야간 변동성 확대 가능하니 장 마감 전 포지션 30% 이상 축소를 권고합니다.",
+    "watchlist": "SK하이닉스: 외국인 수급 핵심주, HBM 모멘텀 지속 여부 확인\n원익IPS: 반도체 장비 2차 수혜주, 거래량 증가 시 추가 상승 여력\nNVIDIA: 미국 반도체 벤치마크, 한국 장비/소부장 연동성 체크\n현대모비스: 비반도체 중 상대강도 양호, 로테이션 대비 관찰",
+    "date": "2026년 04월 28일 06:05 KST"
   },
   "consensus": {
     "kospi": {
