@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 04월 30일 04:30 KST",
+  "updated_at": "2026년 04월 30일 06:10 KST",
   "indices": {
     "kospi": {
       "value": 6690.9,
@@ -10,20 +10,20 @@
       "change_pct": 0.39
     },
     "sp500": {
-      "value": 7135.73,
-      "change_pct": -0.05
+      "value": 7135.95,
+      "change_pct": -0.04
     },
     "nasdaq": {
-      "value": 24683.35,
-      "change_pct": 0.08
+      "value": 24673.24,
+      "change_pct": 0.04
     },
     "dow": {
-      "value": 48860.64,
-      "change_pct": -0.58
+      "value": 48861.81,
+      "change_pct": -0.57
     },
     "usdkrw": {
-      "value": 1488.87,
-      "change_pct": 1.09
+      "value": 1488.6,
+      "change_pct": 1.07
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.21
+        "change_pct": 0.32
       },
       {
         "name": "금융",
-        "change_pct": -0.39
+        "change_pct": -0.38
       },
       {
         "name": "에너지",
-        "change_pct": 1.82
+        "change_pct": 2.12
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.69
+        "change_pct": -0.67
       },
       {
         "name": "산업재",
-        "change_pct": -0.86
+        "change_pct": -0.69
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.21
+        "change_pct": -0.13
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.57
+        "change_pct": -0.32
       },
       {
         "name": "소재",
-        "change_pct": -0.91
+        "change_pct": -1.01
       },
       {
         "name": "부동산",
-        "change_pct": -0.82
+        "change_pct": -0.59
       },
       {
         "name": "유틸리티",
-        "change_pct": -1.37
+        "change_pct": -1.28
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.23
+        "change_pct": -0.42
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "SBUX",
         "name": "Starbucks Corporat",
         "sector": "임의소비재",
-        "price": 105.34,
-        "change_pct": 2.59,
-        "volume": 20782756,
-        "trading_value": 2189255440,
-        "vol_surge": 2.67,
-        "score": 64.6265
+        "price": 105.5,
+        "change_pct": 2.75,
+        "volume": 25244912,
+        "trading_value": 2663338216,
+        "vol_surge": 3.24,
+        "score": 84.0981
       },
       {
         "ticker": "V",
         "name": "Visa Inc.",
         "sector": "금융",
-        "price": 335.71,
-        "change_pct": 3.3,
-        "volume": 13022030,
-        "trading_value": 4371625580,
-        "vol_surge": 1.74,
-        "score": 55.2054
+        "price": 334.86,
+        "change_pct": 3.03,
+        "volume": 16641544,
+        "trading_value": 5572587180,
+        "vol_surge": 2.22,
+        "score": 65.4803
       },
       {
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 339.74,
-        "change_pct": 4.25,
-        "volume": 36420740,
-        "trading_value": 12373764133,
-        "vol_surge": 0.94,
-        "score": 40.4157
-      },
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
-        "sector": "금융",
-        "price": 527.8,
-        "change_pct": 1.46,
-        "volume": 4149424,
-        "trading_value": 2190065936,
-        "vol_surge": 1.15,
-        "score": 15.7436
+        "price": 337.11,
+        "change_pct": 3.45,
+        "volume": 43242149,
+        "trading_value": 14577360215,
+        "vol_surge": 1.12,
+        "score": 39.226
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 127.64,
-        "change_pct": 2.65,
-        "volume": 5177553,
-        "trading_value": 660862861,
-        "vol_surge": 0.53,
-        "score": 12.36
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 262.71,
-        "change_pct": 1.17,
-        "volume": 45452704,
-        "trading_value": 11940879479,
-        "vol_surge": 0.87,
-        "score": 10.3136
+        "price": 128.25,
+        "change_pct": 3.14,
+        "volume": 9663130,
+        "trading_value": 1239296422,
+        "vol_surge": 0.99,
+        "score": 28.1796
       },
       {
         "ticker": "XOM",
         "name": "Exxon Mobil Corpor",
         "sector": "에너지",
-        "price": 154.08,
-        "change_pct": 2.2,
-        "volume": 9167430,
-        "trading_value": 1412517631,
-        "vol_surge": 0.4,
-        "score": 8.0713
+        "price": 154.67,
+        "change_pct": 2.59,
+        "volume": 14616787,
+        "trading_value": 2260778418,
+        "vol_surge": 0.64,
+        "score": 15.4884
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard Incorpo",
+        "sector": "금융",
+        "price": 525.23,
+        "change_pct": 0.97,
+        "volume": 5866444,
+        "trading_value": 3081232267,
+        "vol_surge": 1.63,
+        "score": 15.0227
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "sector": "임의소비재",
+        "price": 263.04,
+        "change_pct": 1.3,
+        "volume": 56731766,
+        "trading_value": 14922724213,
+        "vol_surge": 1.09,
+        "score": 14.4403
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 138.63,
-        "change_pct": 2.09,
-        "volume": 2043436,
-        "trading_value": 283281542,
-        "vol_surge": 0.38,
-        "score": 6.781
+        "price": 139.12,
+        "change_pct": 2.45,
+        "volume": 3096937,
+        "trading_value": 430845860,
+        "vol_surge": 0.58,
+        "score": 12.3067
       },
       {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
-        "price": 191.66,
-        "change_pct": 1.31,
-        "volume": 6200755,
-        "trading_value": 1188467665,
-        "vol_surge": 0.49,
-        "score": 5.7693
+        "price": 192.22,
+        "change_pct": 1.6,
+        "volume": 8594610,
+        "trading_value": 1652055944,
+        "vol_surge": 0.67,
+        "score": 9.9205
       },
       {
-        "ticker": "AVGO",
-        "name": "Broadcom Inc.",
-        "sector": "기술",
-        "price": 403.78,
-        "change_pct": 0.96,
-        "volume": 9021570,
-        "trading_value": 3642729523,
-        "vol_surge": 0.35,
-        "score": 3.2293
+        "ticker": "KO",
+        "name": "Coca-Cola Company ",
+        "sector": "필수소비재",
+        "price": 78.87,
+        "change_pct": 0.97,
+        "volume": 12379310,
+        "trading_value": 976356213,
+        "vol_surge": 0.72,
+        "score": 6.2653
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 코스피 강세(+0.75%) 속에 화학/에너지 섹터가 폭발적 급등을 보이며 섹터 로테이션이 뚜렷하게 진행 중. 반면 반도체·IT 플랫폼은 약세로 전환되어 가치주·소재주 중심의 순환매 장세. 원/달러 환율 1,488원대 급등(+1.09%)은 수출주에 우호적이나 외국인 수급 변동성 확대 요인.",
-    "action": "화학/에너지 섹터 모멘텀 추종 롱 포지션 유지하되, 급등 후 갭상승 종목은 장초반 10분 관망 후 눌림목 진입 권장. 반도체(삼성전자, SK하이닉스) 숏 헷지 또는 비중 축소, 장중 환율 1,490원 돌파 시 외국인 순매도 가속 대비 부분 익절.",
-    "risk": "원/달러 1,490원 심리적 저항선 돌파 시 외국인 매도 압력 급증 가능성. 화학/에너지 섹터 과열로 장중 차익실현 매물 출회 경계 필요. 손절 기준은 진입가 대비 -3% 또는 섹터 ETF 기준 전일 종가 하회 시 즉시 청산.",
-    "watchlist": "롯데케미칼: +24.87% 급등 후 단기 과열, 갭하락 시 118,000원 지지 여부 확인 후 재진입 검토\nSK이노베이션: 에너지 모멘텀 지속 시 추가 상승 여력, 150,000원 돌파 여부 주목\nAMD: 미국 기술주 중 +4.25% 강세, 반도체 글로벌 온기 전이 가능성 모니터링\n삼성전자: 국내 반도체 약세(-0.19%) 대표주, 외국인 수급 및 환율 영향 직접 반영 종목",
-    "date": "2026년 04월 30일 04:29 KST"
+    "overview": "코스피 강세(+0.75%) 속 화학/에너지 섹터 급등이 두드러지며, 미국 에너지(+2.12%) 강세와 연동된 섹터 로테이션이 진행 중. 반도체·IT 플랫폼은 소폭 약세로 기술주에서 구경제(에너지·소재)로 자금 이동이 확인되며, 원화 약세(+1.07%)가 수출 관련 종목에 우호적 환경 조성.",
+    "action": "화학/에너지 섹터 모멘텀 추종 롱 전략 유효하나, 롯데케미칼(+24.87%) 등 급등주는 갭상승 후 눌림목 확인 시 분할 진입 권장. SK이노베이션, LG화학은 전일 종가 대비 -2% 지지 확인 후 진입, 목표가 +3~5%에서 1차 익절. 반도체 숏은 섹터 약세 지속 시 소규모로만 운용.",
+    "risk": "화학/에너지 섹터 과열 조짐으로 장중 차익실현 매물 출회 가능성 높음. 원/달러 1,490원 돌파 시 외국인 매도세 확대 리스크 존재. 손절 기준은 진입가 대비 -2.5% 또는 섹터 지수 음전 시 즉시 청산.",
+    "watchlist": "SK이노베이션: 에너지 섹터 주도주, 상승 모멘텀 지속 여부 확인\nLG화학: 화학 대장주로 상대적 상승률 낮아 후발 진입 기회\n현대제철: 철강 동반 강세 시 추가 상승 여력 존재\nAMD(참고): 미국 기술주 반등 선도, 국내 반도체 섹터 방향성 가늠자",
+    "date": "2026년 04월 30일 06:09 KST"
   },
   "consensus": {
     "kospi": {
