@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 02일 11:51 KST",
+  "updated_at": "2026년 05월 02일 14:40 KST",
   "indices": {
     "kospi": {
       "value": 6598.87,
@@ -228,10 +228,10 @@
         "sector": "임의소비재",
         "price": 390.82,
         "change_pct": 2.48,
-        "volume": 64477320,
-        "trading_value": 25199026674,
-        "vol_surge": 1.02,
-        "score": 26.4246
+        "volume": 65210000,
+        "trading_value": 25485372677,
+        "vol_surge": 1.04,
+        "score": 26.7222
       },
       {
         "ticker": "AAPL",
@@ -239,10 +239,10 @@
         "sector": "기술",
         "price": 280.14,
         "change_pct": 1.3,
-        "volume": 76013740,
-        "trading_value": 21294490237,
-        "vol_surge": 1.69,
-        "score": 22.6277
+        "volume": 79844600,
+        "trading_value": 22367667413,
+        "vol_surge": 1.75,
+        "score": 23.5296
       },
       {
         "ticker": "AMD",
@@ -250,10 +250,10 @@
         "sector": "기술",
         "price": 360.54,
         "change_pct": 2.6,
-        "volume": 31628827,
-        "trading_value": 11403457556,
-        "vol_surge": 0.81,
-        "score": 21.2616
+        "volume": 34173000,
+        "trading_value": 12320733712,
+        "vol_surge": 0.88,
+        "score": 23.0931
       },
       {
         "ticker": "AMZN",
@@ -261,10 +261,10 @@
         "sector": "임의소비재",
         "price": 268.26,
         "change_pct": 1.59,
-        "volume": 48967586,
-        "trading_value": 13136045098,
-        "vol_surge": 0.92,
-        "score": 14.7963
+        "volume": 50780000,
+        "trading_value": 13622243295,
+        "vol_surge": 0.95,
+        "score": 15.3792
       },
       {
         "ticker": "MSFT",
@@ -272,10 +272,10 @@
         "sector": "기술",
         "price": 414.44,
         "change_pct": 1.42,
-        "volume": 31238861,
-        "trading_value": 12946633629,
+        "volume": 31330100,
+        "trading_value": 12984446720,
         "vol_surge": 0.86,
-        "score": 12.2946
+        "score": 12.3598
       },
       {
         "ticker": "CCI",
@@ -283,10 +283,10 @@
         "sector": "부동산",
         "price": 89.26,
         "change_pct": 1.42,
-        "volume": 2795451,
-        "trading_value": 249521962,
-        "vol_surge": 0.81,
-        "score": 9.6668
+        "volume": 3292600,
+        "trading_value": 293897483,
+        "vol_surge": 0.96,
+        "score": 11.4906
       },
       {
         "ticker": "AVGO",
@@ -294,10 +294,10 @@
         "sector": "기술",
         "price": 421.28,
         "change_pct": 1.66,
-        "volume": 11829690,
-        "trading_value": 4983611788,
-        "vol_surge": 0.46,
-        "score": 7.4779
+        "volume": 11870200,
+        "trading_value": 5000677841,
+        "vol_surge": 0.47,
+        "score": 7.5688
       },
       {
         "ticker": "SBUX",
@@ -305,10 +305,10 @@
         "sector": "임의소비재",
         "price": 105.9,
         "change_pct": 0.49,
-        "volume": 6269256,
-        "trading_value": 663914219,
-        "vol_surge": 0.79,
-        "score": 3.4292
+        "volume": 6360500,
+        "trading_value": 673576959,
+        "vol_surge": 0.81,
+        "score": 3.4924
       },
       {
         "ticker": "VZ",
@@ -316,10 +316,10 @@
         "sector": "통신서비스",
         "price": 48.11,
         "change_pct": 0.25,
-        "volume": 24092748,
-        "trading_value": 1159102120,
+        "volume": 24097700,
+        "trading_value": 1159340361,
         "vol_surge": 0.81,
-        "score": 1.839
+        "score": 1.8449
       },
       {
         "ticker": "GOOGL",
@@ -327,19 +327,19 @@
         "sector": "통신서비스",
         "price": 385.69,
         "change_pct": 0.02,
-        "volume": 29974345,
-        "trading_value": 11560805196,
+        "volume": 30075200,
+        "trading_value": 11599703961,
         "vol_surge": 0.91,
-        "score": 0.1829
+        "score": 0.1838
       }
     ]
   },
   "strategy": {
-    "overview": "미국 기술주 강세에도 불구하고 국내 증시는 KOSPI -1.38%, KOSDAQ -2.29%로 디커플링 약세장. 반도체 섹터만 유일하게 플러스를 기록하며 방어적 섹터 로테이션이 진행 중이고, 원화 강세(-0.24%)에도 외국인 매도 압력이 지속되는 혼조세.",
-    "action": "반도체 대장주 중심 선별적 롱 포지션 유지, IT/플랫폼 섹터는 추가 하락 가능성으로 숏 헤지 병행. KOSPI 6,550선 지지 여부 확인 후 오후장 진입하며, 반도체 종목은 전일 고점 돌파 시 추격 매수보다 눌림목 분할 매수 전략 권장.",
-    "risk": "KOSDAQ -2.29% 급락으로 개인 투매 가속화 리스크 존재, 연휴 앞두고 포지션 축소 압력 주의. 손절 기준은 KOSPI 6,500 이탈 시 전량 청산, 개별 종목은 -3% 손절 원칙 적용.",
-    "watchlist": "리노공업: +6.42% 거래량 동반 급등, 반도체 검사장비 모멘텀 지속 여부 확인\n한미반도체: HBM 수혜주로 기관 수급 양호, 370,000원 저항선 돌파 시 추가 상승 기대\nLG전자: 지수 약세에도 +3.76% 역행, 가전/전장 실적 기대감 반영 중\nKODEX 200선물인버스2X: 시장 추가 하락 헤지용, KOSPI 6,550 이탈 시 단기 트레이딩",
-    "date": "2026년 05월 02일 11:51 KST"
+    "overview": "한국 시장은 KOSPI -1.38%, KOSDAQ -2.29%로 뚜렷한 약세장이나, 미국 기술주 강세(NASDAQ +0.89%)와 국내 반도체 섹터(+0.67%)만 유일하게 플러스를 기록하며 디커플링 양상. 섹터 로테이션이 IT/플랫폼에서 반도체로 집중되고 있으며, 원화 소폭 강세(-0.24%)는 외국인 매도 압력 완화 가능성을 시사.",
+    "action": "반도체 섹터 내 모멘텀 종목(리노공업, 한미반도체) 중심으로 선별적 롱 포지션 진입하되, 지수 약세 감안해 포지션 사이즈 50% 축소 운영. KOSPI 6,550선 지지 확인 후 추가 매수, IT/플랫폼 및 중소형주는 반등 시 숏 헷지 또는 비중 축소 권고. 오후장 미국 선물 방향성 확인 후 청산 타이밍 결정.",
+    "risk": "KOSDAQ -2.29% 급락은 수급 악화 신호로 중소형주 추가 하락 경계 필요. 손절 기준은 개별 종목 -3%, 지수 KOSPI 6,500선 이탈 시 전량 청산. 주말 리스크와 미국 고용지표 발표 앞두고 오버나잇 포지션 최소화.",
+    "watchlist": "리노공업: +6.42% 강세, 반도체 검사장비 대장주로 모멘텀 지속 여부 관찰\n한미반도체: HBM 수혜주, 36.8만원 돌파 시 추가 상승 가능\nLG전자: IT섹터 약세 속 역행 상승, 실적 기대감 반영 여부 확인\n삼성전자: 반도체 섹터 플러스에도 불구 주도주 미포함, 수급 이상 징후 모니터링 필요",
+    "date": "2026년 05월 02일 14:39 KST"
   },
   "consensus": {
     "kospi": {
