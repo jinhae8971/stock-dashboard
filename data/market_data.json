@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 05일 01:10 KST",
+  "updated_at": "2026년 05월 05일 03:17 KST",
   "indices": {
     "kospi": {
       "value": 6936.99,
@@ -10,20 +10,20 @@
       "change_pct": 1.79
     },
     "sp500": {
-      "value": 7175.42,
-      "change_pct": -0.76
+      "value": 7206.31,
+      "change_pct": -0.33
     },
     "nasdaq": {
-      "value": 24920.13,
-      "change_pct": -0.77
+      "value": 25081.9,
+      "change_pct": -0.13
     },
     "dow": {
-      "value": 48928.33,
-      "change_pct": -1.15
+      "value": 49044.71,
+      "change_pct": -0.92
     },
     "usdkrw": {
-      "value": 1476.88,
-      "change_pct": 0.38
+      "value": 1476.59,
+      "change_pct": 0.37
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -0.53
+        "change_pct": 0.1
       },
       {
         "name": "금융",
-        "change_pct": -0.33
+        "change_pct": -0.32
       },
       {
         "name": "에너지",
-        "change_pct": 0.92
+        "change_pct": 0.75
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.77
+        "change_pct": -0.63
       },
       {
         "name": "산업재",
-        "change_pct": -1.17
+        "change_pct": -0.81
       },
       {
         "name": "임의소비재",
-        "change_pct": -1.21
+        "change_pct": -0.88
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.31
+        "change_pct": -0.68
       },
       {
         "name": "소재",
-        "change_pct": -1.31
+        "change_pct": -1.26
       },
       {
         "name": "부동산",
-        "change_pct": -0.79
+        "change_pct": -1.1
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.54
+        "change_pct": -0.73
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.51
+        "change_pct": -0.3
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "MA",
         "name": "Mastercard Incorpo",
         "sector": "금융",
-        "price": 502.95,
-        "change_pct": 1.52,
-        "volume": 1759779,
-        "trading_value": 885080869,
-        "vol_surge": 0.48,
-        "score": 6.5716
+        "price": 504.96,
+        "change_pct": 1.92,
+        "volume": 2621918,
+        "trading_value": 1323963690,
+        "vol_surge": 0.72,
+        "score": 12.6095
       },
       {
         "ticker": "EOG",
         "name": "EOG Resources, Inc",
         "sector": "에너지",
-        "price": 141.88,
-        "change_pct": 2.72,
-        "volume": 1026994,
-        "trading_value": 145715038,
-        "vol_surge": 0.2,
-        "score": 4.4343
+        "price": 141.43,
+        "change_pct": 2.39,
+        "volume": 1612416,
+        "trading_value": 228043983,
+        "vol_surge": 0.31,
+        "score": 6.2631
       },
       {
         "ticker": "COP",
         "name": "ConocoPhillips",
         "sector": "에너지",
-        "price": 124.65,
-        "change_pct": 1.33,
-        "volume": 2217998,
-        "trading_value": 276473234,
-        "vol_surge": 0.23,
-        "score": 2.5601
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 192.16,
-        "change_pct": 0.82,
-        "volume": 3660427,
-        "trading_value": 703387665,
-        "vol_surge": 0.29,
-        "score": 2.1358
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 153.78,
-        "change_pct": 0.84,
-        "volume": 5908452,
-        "trading_value": 908614723,
-        "vol_surge": 0.26,
-        "score": 1.9934
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1016.5,
-        "change_pct": 0.7,
-        "volume": 431355,
-        "trading_value": 438472357,
-        "vol_surge": 0.23,
-        "score": 1.3702
-      },
-      {
-        "ticker": "BRK-B",
-        "name": "Berkshire Hathaway",
-        "sector": "금융",
-        "price": 475.38,
-        "change_pct": 0.18,
-        "volume": 2424375,
-        "trading_value": 1152501840,
-        "vol_surge": 0.5,
-        "score": 0.8222
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 413.88,
-        "change_pct": 0.15,
-        "volume": 12686135,
-        "trading_value": 5250474123,
-        "vol_surge": 0.35,
-        "score": 0.5081
-      },
-      {
-        "ticker": "V",
-        "name": "Visa Inc.",
-        "sector": "금융",
-        "price": 328.16,
-        "change_pct": 0.13,
-        "volume": 2411583,
-        "trading_value": 791385086,
-        "vol_surge": 0.32,
-        "score": 0.3673
+        "price": 124.63,
+        "change_pct": 1.32,
+        "volume": 3572981,
+        "trading_value": 445300612,
+        "vol_surge": 0.37,
+        "score": 4.1934
       },
       {
         "ticker": "META",
         "name": "Meta Platforms, In",
         "sector": "통신서비스",
-        "price": 608.21,
-        "change_pct": -0.1,
-        "volume": 8230108,
-        "trading_value": 5005592976,
-        "vol_surge": 0.54,
-        "score": -0.1
+        "price": 612.53,
+        "change_pct": 0.61,
+        "volume": 10741053,
+        "trading_value": 6579217508,
+        "vol_surge": 0.7,
+        "score": 4.1853
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Company, I",
+        "sector": "헬스케어",
+        "price": 113.58,
+        "change_pct": 1.06,
+        "volume": 3922323,
+        "trading_value": 445497453,
+        "vol_surge": 0.36,
+        "score": 3.2677
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 966.76,
+        "change_pct": 0.6,
+        "volume": 1909618,
+        "trading_value": 1846135206,
+        "vol_surge": 0.58,
+        "score": 3.2449
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron Corporatio",
+        "sector": "에너지",
+        "price": 192.2,
+        "change_pct": 0.84,
+        "volume": 5271135,
+        "trading_value": 1013111648,
+        "vol_surge": 0.42,
+        "score": 3.2071
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon Mobil Corpor",
+        "sector": "에너지",
+        "price": 153.73,
+        "change_pct": 0.81,
+        "volume": 9012550,
+        "trading_value": 1385539841,
+        "vol_surge": 0.4,
+        "score": 2.9921
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft Corporat",
+        "sector": "기술",
+        "price": 414.62,
+        "change_pct": 0.33,
+        "volume": 17028095,
+        "trading_value": 7060188665,
+        "vol_surge": 0.47,
+        "score": 1.5203
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "sector": "기술",
+        "price": 198.64,
+        "change_pct": 0.26,
+        "volume": 91472666,
+        "trading_value": 18170140088,
+        "vol_surge": 0.52,
+        "score": 1.3936
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 반도체 섹터 주도의 강한 상승세(KOSPI +5.12%)를 보이는 반면, 미국은 기술주 약세 속 에너지 섹터로 로테이션이 진행 중인 혼조 장세입니다. SK하이닉스 +12.5% 급등이 시장을 견인하며 반도체 슈퍼사이클 기대감이 반영되고 있으나, 원/달러 환율 상승(1,476원)과 미국 기술주 약세는 경계 요인입니다.",
-    "action": "한국 반도체 대형주(SK하이닉스, 삼성전자) 롱 포지션 유지하되, 장 초반 갭상승 시 30% 물량 차익실현 후 눌림목에서 재진입을 권장합니다. SK하이닉스는 1,400,000원 지지 확인 시 추가 매수, 삼성전자는 230,000원 이탈 시 포지션 축소하세요. 미국 에너지 섹터(XLE ETF) 소규모 롱 헷지 포지션 고려.",
-    "risk": "전일 급등에 따른 차익실현 매물 출회와 외국인 선물 매도 전환 가능성에 유의하세요. 원/달러 1,480원 돌파 시 외국인 이탈 가속화 리스크가 있으며, SK하이닉스 1,380,000원(-4.6%), 삼성전자 225,000원(-3.2%) 이탈 시 손절 필수입니다.",
-    "watchlist": "SK하이닉스: HBM 수요 기대감으로 급등, 1,450,000원 저항 돌파 여부 관찰\n삼성전자: 반도체 동반 상승 지속성 및 외국인 수급 방향 확인\nPOSCO홀딩스: 철강/2차전지 소재 모멘텀, 500,000원 지지 여부 체크\nEOG Resources: 미국 에너지 강세 대표주, 유가 흐름과 연동하여 모니터링",
-    "date": "2026년 05월 05일 01:09 KST"
+    "overview": "한국 시장은 반도체 섹터 주도로 KOSPI +5.12% 급등하며 강세장 전환, 미국은 소폭 약세로 글로벌 디커플링 양상. SK하이닉스 +12.52% 폭등이 시장 전체를 견인하며 반도체-소재-금융 순으로 섹터 로테이션 진행 중. 원화 약세(1,476원대)에도 외국인 수급이 반도체에 집중된 것으로 추정.",
+    "action": "반도체 대형주 중심 롱 포지션 유지하되, 갭상승 이후 오전 9:30-10:00 사이 단기 눌림목에서 분할 진입. SK하이닉스는 1,420,000원 지지 확인 시 추가 매수, 삼성전자는 230,000원 이탈 시 절반 청산. 코스닥 상승률이 낮아 중소형주는 관망.",
+    "risk": "5% 이상 급등 후 차익실현 매물 출회 가능성 높음, 오후 2시 이후 외국인 매도 전환 여부 모니터링 필수. SK하이닉스 1,380,000원(-4.6%), 삼성전자 225,000원(-3.2%) 이탈 시 손절. 원/달러 1,480원 돌파 시 외국인 이탈 리스크 확대.",
+    "watchlist": "SK하이닉스: 반도체 대장주로 거래량과 외국인 순매수 지속 여부가 시장 방향 결정\n삼성전자: 하이닉스 대비 상승률 낮아 후행 상승 가능성, 235,000원 돌파 시 모멘텀 가속\nPOSCO홀딩스: +8.66% 급등으로 소재 섹터 동반 상승 신호, 반도체 소재 연관 테마 확인\nNH투자증권: 금융섹터 대표주로 증시 거래대금 급증 시 수혜, 36,000원 지지 여부 관찰",
+    "date": "2026년 05월 05일 03:17 KST"
   },
   "consensus": {
     "kospi": {
