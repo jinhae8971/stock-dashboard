@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 05일 07:04 KST",
+  "updated_at": "2026년 05월 05일 08:04 KST",
   "indices": {
     "kospi": {
       "value": 6936.99,
@@ -22,8 +22,8 @@
       "change_pct": -1.13
     },
     "usdkrw": {
-      "value": 1475.32,
-      "change_pct": 0.28
+      "value": 1476.15,
+      "change_pct": 0.34
     }
   },
   "kr": {
@@ -34,11 +34,11 @@
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 0.8
+        "change_pct": 0.91
       },
       {
         "name": "금융",
-        "change_pct": 0.12
+        "change_pct": 0.13
       },
       {
         "name": "자동차",
@@ -54,7 +54,7 @@
       },
       {
         "name": "철강/소재",
-        "change_pct": 1.16
+        "change_pct": 1.12
       },
       {
         "name": "통신",
@@ -190,7 +190,7 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.63
+        "change_pct": -0.21
       },
       {
         "name": "산업재",
@@ -198,11 +198,11 @@
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.91
+        "change_pct": -0.92
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.49
+        "change_pct": -0.77
       },
       {
         "name": "소재",
@@ -256,6 +256,17 @@
         "score": 10.887
       },
       {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 967.93,
+        "change_pct": 0.72,
+        "volume": 3130097,
+        "trading_value": 3029714766,
+        "vol_surge": 0.96,
+        "score": 6.5308
+      },
+      {
         "ticker": "CVX",
         "name": "Chevron Corporatio",
         "sector": "에너지",
@@ -278,15 +289,37 @@
         "score": 4.6463
       },
       {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1012.79,
-        "change_pct": 0.33,
-        "volume": 1264956,
-        "trading_value": 1281134759,
-        "vol_surge": 0.66,
-        "score": 1.9963
+        "ticker": "ABBV",
+        "name": "AbbVie Inc.",
+        "sector": "헬스케어",
+        "price": 208.16,
+        "change_pct": 0.76,
+        "volume": 4575571,
+        "trading_value": 952450876,
+        "vol_surge": 0.63,
+        "score": 4.3311
+      },
+      {
+        "ticker": "MRK",
+        "name": "Merck & Company, I",
+        "sector": "헬스케어",
+        "price": 113.11,
+        "change_pct": 0.64,
+        "volume": 5671247,
+        "trading_value": 641474751,
+        "vol_surge": 0.52,
+        "score": 2.9049
+      },
+      {
+        "ticker": "UNH",
+        "name": "UnitedHealth Group",
+        "sector": "헬스케어",
+        "price": 370.75,
+        "change_pct": 0.72,
+        "volume": 3827073,
+        "trading_value": 1418887314,
+        "vol_surge": 0.43,
+        "score": 2.8225
       },
       {
         "ticker": "NVDA",
@@ -298,48 +331,15 @@
         "trading_value": 24645389883,
         "vol_surge": 0.71,
         "score": 1.3266
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft Corporat",
-        "sector": "기술",
-        "price": 413.62,
-        "change_pct": 0.09,
-        "volume": 26572430,
-        "trading_value": 10990888366,
-        "vol_surge": 0.73,
-        "score": 0.6597
-      },
-      {
-        "ticker": "V",
-        "name": "Visa Inc.",
-        "sector": "금융",
-        "price": 326.85,
-        "change_pct": -0.27,
-        "volume": 6707099,
-        "trading_value": 2192215349,
-        "vol_surge": 0.88,
-        "score": -0.27
-      },
-      {
-        "ticker": "KO",
-        "name": "Coca-Cola Company ",
-        "sector": "필수소비재",
-        "price": 78.19,
-        "change_pct": -0.64,
-        "volume": 8487984,
-        "trading_value": 663675489,
-        "vol_surge": 0.5,
-        "score": -0.64
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 강세, 미국 시장 약보합의 디커플링 장세. KOSPI +5% 급등은 반도체 섹터(+5.31%)가 주도하며, SK하이닉스 +12.5% 폭등이 핵심 동력. 원/달러 1,475원대 약세에도 외국인 반도체 순매수 유입 추정, 섹터 로테이션은 반도체→철강/화학 소재주로 확산 중.",
-    "action": "반도체 대형주(SK하이닉스, 삼성전자) 단기 차익실현 권고, 급등 후 되돌림 리스크 존재. 철강/화학(POSCO홀딩스, LG화학) 모멘텀 추격 롱 진입 고려, 시가 대비 +2% 이상 갭업 시 진입하고 전일 종가 이탈 시 청산. 미국 에너지 섹터 강세 감안해 국내 정유/에너지주 연동 매수도 유효.",
-    "risk": "KOSPI 5% 급등 후 장중 차익매물 출회 경계 필수, 특히 오전 10시~11시 외국인 매매 방향 확인 필요. 원화 약세(1,475원) 지속 시 외국인 이탈 리스크 상존. 손절 기준은 진입가 대비 -2.5% 또는 당일 저점 이탈 시 즉시 청산.",
-    "watchlist": "SK하이닉스: 12.5% 급등 후 140만원 지지 여부 확인, 단기 과열 조정 시 재진입 기회\nPOSCO홀딩스: 철강 섹터 대장주, 50만원 돌파 후 신고가 모멘텀 지속 여부 관찰\nLG화학: 화학 섹터 동반 강세, 43만원 안착 시 추가 상승 여력 존재\n삼성전자: 반도체 대형주 후행 상승, 23.5만원 저항 돌파 여부가 추가 랠리 핵심",
-    "date": "2026년 05월 05일 07:03 KST"
+    "overview": "한국 시장 강세, 미국 시장 약보합의 디커플링 장세로 반도체 섹터가 +5.31% 급등하며 시장을 주도. KOSPI가 5% 이상 갭업 출발하여 과열 구간 진입 가능성이 있으며, 원화 약세(1,476원)에도 외국인 수급이 반도체로 집중되는 양상.",
+    "action": "SK하이닉스·삼성전자 롱 포지션은 갭업 과열로 추격 매수보다 장중 3-5% 눌림목에서 분할 진입 권장. 반도체 강세 지속 시 소부장(한미반도체, 리노공업) 순환매 대응하고, KOSPI 6,900선 이탈 시 헷지용 인버스 ETF 비중 10% 편입.",
+    "risk": "KOSPI 단일 세션 5%+ 급등은 단기 과열 시그널로 오후 차익실현 매물 출회 경계 필요. 원/달러 1,480원 돌파 시 외국인 이탈 가속화 리스크 존재하며, SK하이닉스 기준 -3%(1,403,000원) 손절라인 설정 권장.",
+    "watchlist": "SK하이닉스: 12.52% 급등 후 HBM 모멘텀 지속 여부 확인, 1,400,000원 지지선 체크\nPOSCO홀딩스: 철강 섹터 이례적 강세로 2차전지 소재 수혜 기대감 반영 여부 모니터링\n삼성전자: 반도체 랠리 후발주자로 외국인 순매수 지속 시 추가 상승 여력 존재\nLG화학: 화학/에너지 동반 강세로 배터리 섹터 연동성 확인 필요",
+    "date": "2026년 05월 05일 08:03 KST"
   },
   "consensus": {
     "kospi": {
