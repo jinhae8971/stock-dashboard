@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 05일 15:19 KST",
+  "updated_at": "2026년 05월 05일 18:08 KST",
   "indices": {
     "kospi": {
       "value": 6936.99,
@@ -22,8 +22,8 @@
       "change_pct": -1.13
     },
     "usdkrw": {
-      "value": 1475.6,
-      "change_pct": -0.04
+      "value": 1473.67,
+      "change_pct": -0.17
     }
   },
   "kr": {
@@ -178,168 +178,168 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 0.03
+        "change_pct": 0.12
       },
       {
         "name": "금융",
-        "change_pct": -0.48
+        "change_pct": -0.04
       },
       {
         "name": "에너지",
-        "change_pct": 0.83
+        "change_pct": -0.03
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.63
+        "change_pct": -0.19
       },
       {
         "name": "산업재",
-        "change_pct": -1.12
+        "change_pct": -0.01
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.91
+        "change_pct": 0.0
       },
       {
         "name": "필수소비재",
-        "change_pct": -0.49
+        "change_pct": -0.22
       },
       {
         "name": "소재",
-        "change_pct": -1.29
+        "change_pct": -0.07
       },
       {
         "name": "부동산",
-        "change_pct": -0.92
+        "change_pct": -0.25
       },
       {
         "name": "유틸리티",
-        "change_pct": -0.48
+        "change_pct": -0.2
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.53
+        "change_pct": -0.01
       }
     ],
     "top_stocks": [
-      {
-        "ticker": "MA",
-        "name": "Mastercard Incorpo",
-        "sector": "금융",
-        "price": 504.74,
-        "change_pct": 1.88,
-        "volume": 4419000,
-        "trading_value": 2230446016,
-        "vol_surge": 1.23,
-        "score": 21.6233
-      },
-      {
-        "ticker": "EOG",
-        "name": "EOG Resources, Inc",
-        "sector": "에너지",
-        "price": 141.61,
-        "change_pct": 2.52,
-        "volume": 3331600,
-        "trading_value": 471787878,
-        "vol_surge": 0.66,
-        "score": 14.3445
-      },
-      {
-        "ticker": "COP",
-        "name": "ConocoPhillips",
-        "sector": "에너지",
-        "price": 124.91,
-        "change_pct": 1.54,
-        "volume": 7792300,
-        "trading_value": 973336221,
-        "vol_surge": 0.8,
-        "score": 11.0881
-      },
-      {
-        "ticker": "CVX",
-        "name": "Chevron Corporatio",
-        "sector": "에너지",
-        "price": 192.28,
-        "change_pct": 0.89,
-        "volume": 8227200,
-        "trading_value": 1581926005,
-        "vol_surge": 0.68,
-        "score": 5.5323
-      },
-      {
-        "ticker": "XOM",
-        "name": "Exxon Mobil Corpor",
-        "sector": "에너지",
-        "price": 153.69,
-        "change_pct": 0.78,
-        "volume": 14231000,
-        "trading_value": 2187162424,
-        "vol_surge": 0.66,
-        "score": 4.7742
-      },
-      {
-        "ticker": "COST",
-        "name": "Costco Wholesale C",
-        "sector": "필수소비재",
-        "price": 1012.79,
-        "change_pct": 0.33,
-        "volume": 1479400,
-        "trading_value": 1498321493,
-        "vol_surge": 0.8,
-        "score": 2.4093
-      },
       {
         "ticker": "NVDA",
         "name": "NVIDIA Corporation",
         "sector": "기술",
         "price": 198.48,
-        "change_pct": 0.18,
+        "change_pct": 0.41,
         "volume": 125042700,
         "trading_value": 24818474561,
         "vol_surge": 0.72,
-        "score": 1.3491
+        "score": 3.0729
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc.",
+        "sector": "기술",
+        "price": 416.5,
+        "change_pct": 0.33,
+        "volume": 15118200,
+        "trading_value": 6296730300,
+        "vol_surge": 0.61,
+        "score": 1.9771
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft Corporat",
         "sector": "기술",
         "price": 413.62,
-        "change_pct": 0.09,
+        "change_pct": 0.2,
         "volume": 28033200,
         "trading_value": 11595092047,
         "vol_surge": 0.79,
-        "score": 0.7129
+        "score": 1.5841
       },
       {
-        "ticker": "V",
-        "name": "Visa Inc.",
-        "sector": "금융",
-        "price": 326.85,
-        "change_pct": -0.27,
-        "volume": 6711500,
-        "trading_value": 2193653815,
-        "vol_surge": 0.89,
-        "score": -0.27
+        "ticker": "AAPL",
+        "name": "Apple Inc.",
+        "sector": "기술",
+        "price": 276.83,
+        "change_pct": 0.12,
+        "volume": 46638000,
+        "trading_value": 12910796913,
+        "vol_surge": 1.06,
+        "score": 1.2812
       },
       {
-        "ticker": "KO",
-        "name": "Coca-Cola Company ",
-        "sector": "필수소비재",
-        "price": 78.19,
-        "change_pct": -0.64,
-        "volume": 12668800,
-        "trading_value": 990573502,
-        "vol_surge": 0.77,
-        "score": -0.64
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "sector": "임의소비재",
+        "price": 392.51,
+        "change_pct": 0.16,
+        "volume": 48673900,
+        "trading_value": 19104992964,
+        "vol_surge": 0.78,
+        "score": 1.2765
+      },
+      {
+        "ticker": "META",
+        "name": "Meta Platforms, In",
+        "sector": "통신서비스",
+        "price": 610.41,
+        "change_pct": 0.12,
+        "volume": 16171300,
+        "trading_value": 9871122798,
+        "vol_surge": 1.05,
+        "score": 1.2592
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Aerospace",
+        "sector": "산업재",
+        "price": 280.52,
+        "change_pct": 0.13,
+        "volume": 6128700,
+        "trading_value": 1719222856,
+        "vol_surge": 1.04,
+        "score": 1.244
+      },
+      {
+        "ticker": "T",
+        "name": "AT&T Inc.",
+        "sector": "통신서비스",
+        "price": 26.1,
+        "change_pct": 0.19,
+        "volume": 23430700,
+        "trading_value": 611541278,
+        "vol_surge": 0.58,
+        "score": 0.9631
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet Inc.",
+        "sector": "통신서비스",
+        "price": 383.25,
+        "change_pct": 0.09,
+        "volume": 26274100,
+        "trading_value": 10069548825,
+        "vol_surge": 0.82,
+        "score": 0.7354
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix, Inc.",
+        "sector": "통신서비스",
+        "price": 91.02,
+        "change_pct": 0.1,
+        "volume": 25881200,
+        "trading_value": 2355706737,
+        "vol_surge": 0.57,
+        "score": 0.5324
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI +5.12% 급등으로 강세장 진입, 반도체 섹터(+5.31%)가 주도하며 SK하이닉스 +12.52% 폭등이 핵심 동력. 반면 미국은 에너지 섹터만 강세이고 기술주는 보합권으로 한미 디커플링 장세가 뚜렷하며, 국내 수급 주도의 반도체·소재 로테이션이 진행 중.",
-    "action": "SK하이닉스·삼성전자 반도체 롱 포지션 유지하되, 장중 3% 이상 추가 급등 시 일부 익절 권고. POSCO홀딩스·LG화학은 갭상승 후 눌림목 매수 전략으로 전고점 대비 -2~3% 조정 시 분할 진입. 미국 에너지 섹터(XLE, COP) 단기 모멘텀 롱 고려.",
-    "risk": "급등 후 단기 과열로 KOSPI RSI 70 상회 예상되며 외국인 차익실현 매물 경계 필요. 환율 1,475원대 고착 시 외국인 이탈 리스크 존재하며, SK하이닉스 손절라인은 -5%(1,375,000원), 지수 전체는 KOSPI 6,800 이탈 시 리스크 오프 전환.",
-    "watchlist": "SK하이닉스: 반도체 대장주로 12% 급등, HBM 수요 모멘텀 지속 여부 확인\nPOSCO홀딩스: 철강·2차전지 소재 테마 부각, 거래량 동반 상승 시 추가 상승 여력\nLG화학: 배터리 소재 수혜주로 8% 급등, 분리막·양극재 뉴스플로우 모니터링\nEOG Resources: 미국 에너지 섹터 내 상대강도 최고, 유가 상승 시 추가 모멘텀 기대",
-    "date": "2026년 05월 05일 15:18 KST"
+    "overview": "한국 시장은 KOSPI +5.12% 급등으로 강한 강세장, 반도체 섹터가 +5.31%로 상승을 주도하며 SK하이닉스 +12.52% 폭등. 반면 미국 시장은 소폭 약세로 한미 디커플링 현상 뚜렷하며, 원화 강세(-0.17%)와 함께 외국인 자금 유입 신호로 해석됨.",
+    "action": "반도체·철강 중심 롱 포지션 유지하되, 급등 후 차익실현 물량 대비 분할 매도 전략 권장. SK하이닉스는 1,400,000원 지지 확인 시 추가 매수, 삼성전자는 230,000원 돌파 안착 여부 확인 후 진입. 미국 기술주 약세 지속 시 한국 반도체 상대강도 롱-숏 페어트레이드 고려.",
+    "risk": "KOSPI 5% 이상 급등 후 다음날 평균 -1.2% 되돌림 통계적 경향 존재, 오버나잇 리스크 관리 필수. 손절 기준은 SK하이닉스 1,380,000원(-4.6%), 삼성전자 220,000원(-5.4%) 이탈 시 즉시 청산. 미국 시장 추가 하락 시 야간 선물 헤지 필요.",
+    "watchlist": "SK하이닉스: 거래대금 집중, HBM 수혜 지속 여부 확인\n삼성전자: 25만원 심리적 저항 돌파 시 추가 상승 모멘텀\nPOSCO홀딩스: +8.66% 급등, 철강 섹터 로테이션 신호 확인\nLG화학: 2차전지 연계 반등, 430,000원 저항 돌파 여부 주시",
+    "date": "2026년 05월 05일 18:07 KST"
   },
   "consensus": {
     "kospi": {
