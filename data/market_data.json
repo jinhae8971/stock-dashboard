@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 06일 00:59 KST",
+  "updated_at": "2026년 05월 06일 02:28 KST",
   "indices": {
     "kospi": {
       "value": 6936.99,
@@ -10,20 +10,20 @@
       "change_pct": 1.79
     },
     "sp500": {
-      "value": 7253.6,
-      "change_pct": 0.72
+      "value": 7259.17,
+      "change_pct": 0.8
     },
     "nasdaq": {
-      "value": 25295.53,
-      "change_pct": 0.91
+      "value": 25301.93,
+      "change_pct": 0.93
     },
     "dow": {
-      "value": 49204.12,
-      "change_pct": 0.52
+      "value": 49236.79,
+      "change_pct": 0.58
     },
     "usdkrw": {
-      "value": 1469.53,
-      "change_pct": -0.45
+      "value": 1468.34,
+      "change_pct": -0.53
     }
   },
   "kr": {
@@ -34,11 +34,11 @@
       },
       {
         "name": "IT/플랫폼",
-        "change_pct": 0.91
+        "change_pct": 0.8
       },
       {
         "name": "금융",
-        "change_pct": 0.13
+        "change_pct": 0.12
       },
       {
         "name": "자동차",
@@ -54,7 +54,7 @@
       },
       {
         "name": "철강/소재",
-        "change_pct": 1.12
+        "change_pct": 1.16
       },
       {
         "name": "통신",
@@ -178,11 +178,11 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": 2.21
+        "change_pct": 2.48
       },
       {
         "name": "금융",
-        "change_pct": -0.18
+        "change_pct": -0.15
       },
       {
         "name": "에너지",
@@ -190,19 +190,19 @@
       },
       {
         "name": "헬스케어",
-        "change_pct": -0.26
+        "change_pct": -0.05
       },
       {
         "name": "산업재",
-        "change_pct": 0.94
+        "change_pct": 1.01
       },
       {
         "name": "임의소비재",
-        "change_pct": 0.76
+        "change_pct": 0.43
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.0
+        "change_pct": 0.29
       },
       {
         "name": "소재",
@@ -210,15 +210,15 @@
       },
       {
         "name": "부동산",
-        "change_pct": -0.03
+        "change_pct": -0.12
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.21
+        "change_pct": 0.7
       },
       {
         "name": "통신서비스",
-        "change_pct": -0.66
+        "change_pct": -0.74
       }
     ],
     "top_stocks": [
@@ -226,120 +226,120 @@
         "ticker": "AMD",
         "name": "Advanced Micro Dev",
         "sector": "기술",
-        "price": 354.83,
-        "change_pct": 3.4,
-        "volume": 20844936,
-        "trading_value": 7396408360,
-        "vol_surge": 0.55,
-        "score": 18.6213
-      },
-      {
-        "ticker": "CAT",
-        "name": "Caterpillar, Inc.",
-        "sector": "산업재",
-        "price": 903.65,
-        "change_pct": 3.22,
-        "volume": 1053074,
-        "trading_value": 951610345,
-        "vol_surge": 0.4,
-        "score": 11.4208
-      },
-      {
-        "ticker": "FCX",
-        "name": "Freeport-McMoRan, ",
-        "sector": "소재",
-        "price": 57.55,
+        "price": 354.31,
         "change_pct": 3.25,
-        "volume": 5374622,
-        "trading_value": 309309491,
-        "vol_surge": 0.31,
-        "score": 8.4751
-      },
-      {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "산업재",
-        "price": 286.82,
-        "change_pct": 2.38,
-        "volume": 2156949,
-        "trading_value": 618656127,
-        "vol_surge": 0.36,
-        "score": 7.6305
+        "volume": 25960471,
+        "trading_value": 9198054416,
+        "vol_surge": 0.69,
+        "score": 22.3807
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom Inc.",
         "sector": "기술",
-        "price": 426.01,
-        "change_pct": 2.62,
-        "volume": 7124930,
-        "trading_value": 3035309328,
-        "vol_surge": 0.29,
-        "score": 7.1583
+        "price": 431.6,
+        "change_pct": 3.96,
+        "volume": 9815559,
+        "trading_value": 4236365669,
+        "vol_surge": 0.4,
+        "score": 15.1329
       },
       {
-        "ticker": "AMZN",
-        "name": "Amazon.com, Inc.",
-        "sector": "임의소비재",
-        "price": 275.86,
-        "change_pct": 1.37,
-        "volume": 21225623,
-        "trading_value": 5855194465,
-        "vol_surge": 0.4,
-        "score": 5.3176
+        "ticker": "FCX",
+        "name": "Freeport-McMoRan, ",
+        "sector": "소재",
+        "price": 57.73,
+        "change_pct": 3.64,
+        "volume": 7404827,
+        "trading_value": 427480659,
+        "vol_surge": 0.42,
+        "score": 13.2941
+      },
+      {
+        "ticker": "CAT",
+        "name": "Caterpillar, Inc.",
+        "sector": "산업재",
+        "price": 901.44,
+        "change_pct": 2.97,
+        "volume": 1279163,
+        "trading_value": 1153088697,
+        "vol_surge": 0.48,
+        "score": 12.9146
       },
       {
         "ticker": "AAPL",
         "name": "Apple Inc.",
         "sector": "기술",
-        "price": 280.21,
-        "change_pct": 1.33,
-        "volume": 16342889,
-        "trading_value": 4579440787,
-        "vol_surge": 0.37,
-        "score": 4.7544
+        "price": 282.89,
+        "change_pct": 2.31,
+        "volume": 23102711,
+        "trading_value": 6535528368,
+        "vol_surge": 0.52,
+        "score": 11.8598
+      },
+      {
+        "ticker": "GE",
+        "name": "GE Aerospace",
+        "sector": "산업재",
+        "price": 287.09,
+        "change_pct": 2.48,
+        "volume": 3116175,
+        "trading_value": 894622669,
+        "vol_surge": 0.53,
+        "score": 11.6963
+      },
+      {
+        "ticker": "AEP",
+        "name": "American Electric ",
+        "sector": "유틸리티",
+        "price": 138.73,
+        "change_pct": 1.23,
+        "volume": 1854761,
+        "trading_value": 257310985,
+        "vol_surge": 0.56,
+        "score": 5.7997
       },
       {
         "ticker": "HD",
         "name": "Home Depot, Inc. (",
         "sector": "임의소비재",
-        "price": 314.95,
-        "change_pct": 0.78,
-        "volume": 2345952,
-        "trading_value": 738845869,
-        "vol_surge": 0.59,
-        "score": 4.0973
-      },
-      {
-        "ticker": "LIN",
-        "name": "Linde plc",
-        "sector": "소재",
-        "price": 500.81,
-        "change_pct": 1.53,
-        "volume": 465480,
-        "trading_value": 233117037,
-        "vol_surge": 0.18,
-        "score": 2.3261
+        "price": 314.82,
+        "change_pct": 0.75,
+        "volume": 2893223,
+        "trading_value": 910844486,
+        "vol_surge": 0.73,
+        "score": 4.9086
       },
       {
         "ticker": "APD",
         "name": "Air Products and C",
         "sector": "소재",
-        "price": 301.63,
-        "change_pct": 1.9,
-        "volume": 193006,
-        "trading_value": 58215917,
-        "vol_surge": 0.14,
-        "score": 2.1314
+        "price": 302.79,
+        "change_pct": 2.29,
+        "volume": 264301,
+        "trading_value": 80026379,
+        "vol_surge": 0.2,
+        "score": 3.5804
+      },
+      {
+        "ticker": "LIN",
+        "name": "Linde plc",
+        "sector": "소재",
+        "price": 501.57,
+        "change_pct": 1.69,
+        "volume": 601406,
+        "trading_value": 301647211,
+        "vol_surge": 0.23,
+        "score": 3.364
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장 강세장 진입, KOSPI +5.12% 급등하며 반도체 섹터가 +5.31%로 랠리 주도. SK하이닉스 +12.52% 폭등이 시장 전체를 견인하고 있으며, 미국 기술주 강세(+2.21%)와 원화 강세(-0.45%)가 외국인 자금 유입을 시사함.",
-    "action": "반도체 대형주 중심 롱 포지션 유지, SK하이닉스·삼성전자 갭상승 후 눌림목 매수 전략. 장초반 30분 관망 후 VWAP 지지 확인 시 진입, 전일 종가 대비 -3% 이탈 시 1차 청산. 과열 구간이므로 신규 진입은 전체 자금의 30% 이내로 제한.",
-    "risk": "KOSPI 5% 이상 급등은 단기 과열 시그널, 장중 차익실현 매물 출회 가능성 높음. SK하이닉스 140만원대 심리적 저항 주시, 외국인 순매도 전환 시 즉시 50% 포지션 축소. 금일 미국 FOMC 위원 발언 일정 확인 필요.",
-    "watchlist": "SK하이닉스: HBM 모멘텀 지속, 12% 급등 후 거래량 동반 여부 확인\n삼성전자: 반도체 대장주 동반 상승, 23만원 돌파 시 추가 상승 여력\nPOSCO홀딩스: +8.66% 급등, 2차전지 소재 테마 확산 수혜\nAMD: 미국 반도체 강세 연동, 한국 반도체 갭상승 지속성 판단 지표",
-    "date": "2026년 05월 06일 00:58 KST"
+    "overview": "한국 시장은 KOSPI +5.12% 급등으로 강한 리스크온 장세이며, 반도체 섹터(+5.31%)가 랠리를 주도하고 있습니다. 미국 기술주 강세와 원화 강세(-0.53%)가 외국인 순매수를 뒷받침하며, 전형적인 성장주 로테이션 국면입니다.",
+    "action": "SK하이닉스·삼성전자 중심 반도체 롱 포지션 유지하되, 갭상승 후 장중 고점 대비 2-3% 조정 시 분할 매수 접근합니다. 급등에 따른 차익실현 물량 대비, 기존 보유분의 30%는 장 초반 고점에서 일부 청산하여 리스크 관리합니다.",
+    "risk": "하루 5% 이상 급등 후 단기 과열 신호로 장중 변동성 확대 가능성이 높습니다. SK하이닉스 기준 1,390,000원(전일 종가 부근), 삼성전자 220,000원 이탈 시 손절하며, 외국인 순매도 전환 여부를 실시간 모니터링하세요.",
+    "watchlist": "SK하이닉스: 12.52% 급등 주도주, HBM 모멘텀 지속 여부 확인\nPOSCO홀딩스: 8.66% 상승으로 소재 섹터 순환매 가능성 점검\nBroadcom: 미국 반도체 강세 연동, 국내 반도체주 야간 선행지표\nLG화학: 화학/2차전지 동반 상승 시 추가 상승 여력 탐색",
+    "date": "2026년 05월 06일 02:26 KST"
   },
   "consensus": {
     "kospi": {
