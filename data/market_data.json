@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026년 05월 13일 04:57 KST",
+  "updated_at": "2026년 05월 13일 06:23 KST",
   "indices": {
     "kospi": {
       "value": 7643.15,
@@ -10,20 +10,20 @@
       "change_pct": -2.32
     },
     "sp500": {
-      "value": 7405.01,
-      "change_pct": -0.11
+      "value": 7400.96,
+      "change_pct": -0.16
     },
     "nasdaq": {
-      "value": 26081.42,
-      "change_pct": -0.73
+      "value": 26088.2,
+      "change_pct": -0.71
     },
     "dow": {
-      "value": 49815.45,
-      "change_pct": 0.22
+      "value": 49760.56,
+      "change_pct": 0.11
     },
     "usdkrw": {
-      "value": 1492.41,
-      "change_pct": 1.15
+      "value": 1492.08,
+      "change_pct": 1.13
     }
   },
   "kr": {
@@ -178,47 +178,47 @@
     "sectors": [
       {
         "name": "기술",
-        "change_pct": -1.61
+        "change_pct": -1.56
       },
       {
         "name": "금융",
-        "change_pct": 0.85
+        "change_pct": 0.72
       },
       {
         "name": "에너지",
-        "change_pct": 0.97
+        "change_pct": 0.68
       },
       {
         "name": "헬스케어",
-        "change_pct": 2.01
+        "change_pct": 1.93
       },
       {
         "name": "산업재",
-        "change_pct": -0.22
+        "change_pct": -0.46
       },
       {
         "name": "임의소비재",
-        "change_pct": -0.73
+        "change_pct": -0.81
       },
       {
         "name": "필수소비재",
-        "change_pct": 0.95
+        "change_pct": 0.76
       },
       {
         "name": "소재",
-        "change_pct": -0.32
+        "change_pct": -0.48
       },
       {
         "name": "부동산",
-        "change_pct": 0.34
+        "change_pct": 0.15
       },
       {
         "name": "유틸리티",
-        "change_pct": 0.34
+        "change_pct": 0.02
       },
       {
         "name": "통신서비스",
-        "change_pct": 0.79
+        "change_pct": 0.74
       }
     ],
     "top_stocks": [
@@ -226,67 +226,78 @@
         "ticker": "UNH",
         "name": "UnitedHealth Group",
         "sector": "헬스케어",
-        "price": 396.53,
-        "change_pct": 3.41,
-        "volume": 7727542,
-        "trading_value": 3064202219,
-        "vol_surge": 0.91,
-        "score": 29.2896
+        "price": 396.39,
+        "change_pct": 3.37,
+        "volume": 8296824,
+        "trading_value": 3288778186,
+        "vol_surge": 0.97,
+        "score": 31.1791
       },
       {
         "ticker": "COST",
         "name": "Costco Wholesale C",
         "sector": "필수소비재",
-        "price": 1023.48,
-        "change_pct": 2.6,
-        "volume": 1534691,
-        "trading_value": 1570725514,
-        "vol_surge": 0.83,
-        "score": 19.8778
+        "price": 1021.88,
+        "change_pct": 2.44,
+        "volume": 2110394,
+        "trading_value": 2156569431,
+        "vol_surge": 1.14,
+        "score": 26.0363
       },
       {
         "ticker": "NFLX",
         "name": "Netflix, Inc.",
         "sector": "통신서비스",
-        "price": 87.65,
-        "change_pct": 2.72,
-        "volume": 33234448,
-        "trading_value": 2913165498,
-        "vol_surge": 0.74,
-        "score": 18.9573
-      },
-      {
-        "ticker": "LLY",
-        "name": "Eli Lilly and Comp",
-        "sector": "헬스케어",
-        "price": 992.37,
-        "change_pct": 2.74,
-        "volume": 2090509,
-        "trading_value": 2074558406,
-        "vol_surge": 0.67,
-        "score": 17.1588
-      },
-      {
-        "ticker": "KO",
-        "name": "Coca-Cola Company ",
-        "sector": "필수소비재",
-        "price": 80.12,
-        "change_pct": 1.77,
-        "volume": 13530874,
-        "trading_value": 1084093662,
-        "vol_surge": 0.86,
-        "score": 13.8169
+        "price": 87.66,
+        "change_pct": 2.73,
+        "volume": 40139788,
+        "trading_value": 3518653963,
+        "vol_surge": 0.89,
+        "score": 23.1795
       },
       {
         "ticker": "WMT",
         "name": "Walmart Inc.",
         "sector": "필수소비재",
-        "price": 130.46,
-        "change_pct": 2.39,
-        "volume": 11690171,
-        "trading_value": 1525099787,
-        "vol_surge": 0.58,
-        "score": 12.7517
+        "price": 130.35,
+        "change_pct": 2.31,
+        "volume": 17803510,
+        "trading_value": 2320687637,
+        "vol_surge": 0.88,
+        "score": 19.1427
+      },
+      {
+        "ticker": "KO",
+        "name": "Coca-Cola Company ",
+        "sector": "필수소비재",
+        "price": 80.03,
+        "change_pct": 1.66,
+        "volume": 19153659,
+        "trading_value": 1532867306,
+        "vol_surge": 1.22,
+        "score": 18.6484
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly and Comp",
+        "sector": "헬스케어",
+        "price": 989.87,
+        "change_pct": 2.48,
+        "volume": 2222904,
+        "trading_value": 2200385971,
+        "vol_surge": 0.71,
+        "score": 16.5594
+      },
+      {
+        "ticker": "JPM",
+        "name": "JP Morgan Chase & ",
+        "sector": "금융",
+        "price": 304.88,
+        "change_pct": 1.65,
+        "volume": 9480201,
+        "trading_value": 2890323727,
+        "vol_surge": 0.99,
+        "score": 15.3982
       },
       {
         "ticker": "ABBV",
@@ -294,52 +305,41 @@
         "sector": "헬스케어",
         "price": 207.86,
         "change_pct": 2.14,
-        "volume": 4418912,
-        "trading_value": 918515051,
-        "vol_surge": 0.64,
-        "score": 12.2978
+        "volume": 4805796,
+        "trading_value": 998932759,
+        "vol_surge": 0.7,
+        "score": 13.4288
+      },
+      {
+        "ticker": "JNJ",
+        "name": "Johnson & Johnson",
+        "sector": "헬스케어",
+        "price": 224.26,
+        "change_pct": 1.34,
+        "volume": 8349434,
+        "trading_value": 1872444022,
+        "vol_surge": 1.04,
+        "score": 12.8637
       },
       {
         "ticker": "BRK-B",
         "name": "Berkshire Hathaway",
         "sector": "금융",
-        "price": 486.15,
-        "change_pct": 1.41,
-        "volume": 4246484,
-        "trading_value": 2064428170,
-        "vol_surge": 0.89,
-        "score": 11.6246
-      },
-      {
-        "ticker": "JPM",
-        "name": "JP Morgan Chase & ",
-        "sector": "금융",
-        "price": 305.4,
-        "change_pct": 1.82,
-        "volume": 6571080,
-        "trading_value": 2006807791,
-        "vol_surge": 0.68,
-        "score": 11.5756
-      },
-      {
-        "ticker": "T",
-        "name": "AT&T Inc.",
-        "sector": "통신서비스",
-        "price": 25.34,
-        "change_pct": 1.91,
-        "volume": 25003945,
-        "trading_value": 633724968,
-        "vol_surge": 0.63,
-        "score": 10.5153
+        "price": 484.96,
+        "change_pct": 1.16,
+        "volume": 5604235,
+        "trading_value": 2717829757,
+        "vol_surge": 1.17,
+        "score": 12.7831
       }
     ]
   },
   "strategy": {
-    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 -2.3% 급락하며 강한 약세장 진입. 반도체 섹터 -5.68% 폭락이 지수 하락을 주도하는 가운데, 원/달러 1,492원 급등(+1.15%)으로 외국인 이탈 압력 가중. 반면 IT/플랫폼과 통신 등 내수 방어주로 자금 로테이션 뚜렷하며, 미국은 기술주 약세 속 헬스케어·필수소비재 방어주 강세로 리스크오프 심리 확인.",
-    "action": "반도체 숏 포지션 유지하되 -7% 이상 추가 하락 시 일부 청산 고려. LG전자(+18% 급등) 갭상승 피로감 감안해 신규 진입보다 눌림목 대기, 185,000원 지지 확인 시 분할 매수. 통신주(SK텔레콤, LG유플러스)는 변동성 낮은 방어 포지션으로 3-5% 비중 유지. 장 초반 30분 관망 후 방향성 확인 필요.",
-    "risk": "원/달러 1,500원 돌파 시 외국인 추가 매도세 가속화 리스크 최대 경계. 반도체 숏은 삼성전자 기술적 반등(5일선 터치) 시 손절, LG전자 롱은 180,000원(-2.6%) 이탈 시 손절. 미국 기술주 선물 추가 하락 시 오후장 변동성 확대 대비.",
-    "watchlist": "LG전자: +18% 급등 후 갭 메우기 여부 관찰, 기관 수급 확인 필수\nSK텔레콤: 방어주 대장주로 추가 상승 모멘텀 및 외국인 순매수 지속 여부\n삼성전자: 반도체 섹터 낙폭과대 반등 트리거 역할 가능, 기술적 지지선 확인\n셀트리온: 헬스케어 방어주 성격 + 미국 헬스케어 강세 연동 가능성",
-    "date": "2026년 05월 13일 04:56 KST"
+    "overview": "한국 시장은 KOSPI/KOSDAQ 모두 -2.3%대 급락하며 약세장 진입, 특히 반도체 섹터가 -5.68%로 낙폭 주도. 미국은 상대적으로 소폭 하락에 그쳤으나 기술주 약세(-1.56%)와 원/달러 1,492원(+1.13%) 급등이 외국인 매도 압력을 시사. 방어주(통신, 필수소비재)와 개별 이슈주(LG전자 +18%)로의 뚜렷한 섹터 로테이션 진행 중.",
+    "action": "반도체/기술주 추가 하락 가능성에 대비해 숏 헤지 유지하고, 신규 롱은 보수적 접근 필요. 통신섹터(SK텔레콤, LG유플러스) 방어주 중심 소규모 롱 진입 고려하되, KOSPI 7,600선 이탈 시 전량 청산. LG전자는 갭상승 후 눌림목 10% 이내(166,000원대)에서 분할 매수 검토.",
+    "risk": "원/달러 1,500원 돌파 시 외국인 투매 가속화 리스크가 최대 변수. 반도체 대장주 추가 급락(-3% 이상) 시 시장 전반 패닉 셀링 가능성 존재. 손절 기준은 진입가 대비 -2.5%, KOSPI 7,550선 하회 시 전 포지션 정리.",
+    "watchlist": "LG전자: 실적 서프라이즈 모멘텀, +18% 급등 후 눌림목 매수 기회 탐색\nSK텔레콤: 방어주 선호 속 거래량 동반 상승, 105,000원 돌파 시 추가 상승 여력\n삼성전자: 반도체 섹터 급락의 바로미터, 저점 확인 후 반등 매매 대상\nKODEX 인버스: 시장 추가 하락 헤지용, 7,600선 이탈 시 비중 확대 고려",
+    "date": "2026년 05월 13일 06:22 KST"
   },
   "consensus": {
     "kospi": {
