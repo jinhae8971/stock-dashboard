@@ -5,6 +5,14 @@ Market Dashboard Data Fetcher
 - 결과를 data/market_data.json 에 저장
 """
 
+# === anthropic_usage_reporter (auto-injected) ===
+try:
+    from anthropic_usage_reporter import patch_anthropic_client
+    patch_anthropic_client(workflow="stock-dashboard-hourly")
+except Exception:
+    pass
+# === end auto-injection ===
+
 import os
 import sys
 import json
