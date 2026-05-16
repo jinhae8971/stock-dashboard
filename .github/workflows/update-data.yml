@@ -29,6 +29,7 @@ jobs:
       - name: Fetch market data & upload via GitHub API
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          USAGE_DISPATCH_TOKEN: ${{ secrets.USAGE_DISPATCH_TOKEN }}
           GITHUB_TOKEN:      ${{ secrets.GITHUB_TOKEN }}
           GITHUB_OWNER:      ${{ github.repository_owner }}
           GITHUB_REPO:       ${{ github.event.repository.name }}
