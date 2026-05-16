@@ -162,13 +162,15 @@ def report_usage(
         owner_repo = repo or GITHUB_REPO_ENV or "unknown/unknown"
         repo_name = owner_repo.split("/")[-1] if "/" in owner_repo else owner_repo
 
+        # NOTE: GitHub repository_dispatch limits client_payload to 10 properties.
+        # We combine cache_read + cache_create into cache_tokens, and drop run_id
+        # (not used by dashboard). This stays under the limit.
         payload = {
             "event_type": "anthropic-usage",
             "client_payload": {
                 "ts": datetime.now(timezone.utc).isoformat(),
                 "repo": repo_name,
                 "workflow": workflow or GITHUB_WORKFLOW_ENV or "(unknown)",
-                "run_id": GITHUB_RUN_ID,
                 "tag": tag or "",
                 "model": model,
                 "input_tokens": int(usage.get("input_tokens", 0)),
